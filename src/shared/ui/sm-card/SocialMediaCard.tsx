@@ -4,7 +4,7 @@ import { FC } from 'react'
 import { ISocialMediaCard } from './sm-card.interface'
 import styles from './sm-card.module.scss'
 
-const SocialMediaCard: FC<ISocialMediaCard> = ({title, alt, iconPath, link}) => {
+export const SocialMediaCard: FC<ISocialMediaCard> = ({title, alt, iconPath, link}) => {
 	return (
 		<Link className={styles.sm_card} href={link} target='_blank'>
 			<Image className={styles.sm_icon} src={iconPath} draggable={false} alt={alt} width={24} height={24} loading='eager'/>
@@ -12,5 +12,3 @@ const SocialMediaCard: FC<ISocialMediaCard> = ({title, alt, iconPath, link}) => 
 		</Link>
 	);
 };
-
-export default SocialMediaCard;	

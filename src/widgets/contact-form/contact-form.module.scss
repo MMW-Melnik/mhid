@@ -1,0 +1,23 @@
+.form_widget {
+	@apply flex gap-[30px] flex-col h-[460px]  p-5 bg-l-brown rounded-2xl max-w-[480px];
+}
+
+.text_container {
+	@apply flex flex-col gap-1
+}
+
+.heading {
+	@apply text-h18
+}
+
+.subheading {
+	@apply text-t14 text-l-grey
+}
+
+.form {
+	@apply flex flex-col justify-between gap-10
+}
+
+.form_inputs {
+	@apply flex flex-col gap-4
+}
