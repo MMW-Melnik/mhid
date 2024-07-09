@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { socialMediaData } from '../../shared/const/social-media.data'
-import SocialMediaCard from '../../shared/ui/sm-card/SocialMediaCard'
+import { SocialMediaCard } from '../../shared/ui'
 import styles from './sm-widget.module.scss'
 
 export const SMWidget = () => {
@@ -12,7 +12,7 @@ export const SMWidget = () => {
 				<h1>Social Media</h1>
 				<p>Tell us about yourself</p>
 			</div>
-			<div className={styles.sm_card_constainer}>
+			<div className={styles.sm_card_container}>
 				{socials.map(social => (
 					<SocialMediaCard
 						title={social.title}
