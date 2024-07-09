@@ -1,0 +1,23 @@
+.button {
+	@apply border border-solid border-b-grey  text-l-grey text-t14 rounded-full transition-colors duration-200 ease-in-out;
+}
+
+.button:hover {
+	@apply border-white text-white;
+}
+
+.button:focus {
+	@apply border-white;
+}
+
+.button:disabled {
+	@apply border-b-grey text-b-grey cursor-not-allowed;
+}
+
+.small {
+	@apply min-w-[6.25rem] py-2 px-4
+}
+
+.large {
+	@apply w-[27.5rem] py-2.5 px-4
+}
