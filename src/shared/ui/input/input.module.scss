@@ -1,3 +1,42 @@
-.input{
-    color: #000;
+.input_container {
+    @apply w-96 h-auto flex flex-col gap-1 px-2.5 pt-2.5  border border-solid border-transparent transition-colors duration-200 ease-in-out;
+
+    .input_label {
+        @apply text-t12;
+    }
+
+    .input_value {
+        @apply flex flex-col gap-1
+    }
+    
+    .input {
+        @apply text-white text-t14 w-full border-none;
+    }
+
+    .input::placeholder {
+        @apply text-l-grey;
+    }
+    
+}
+
+.input_container:hover {
+    .input::placeholder {
+        @apply text-white
+    }
+
+    .underline {
+        @apply bg-white
+    }
+}
+
+.input_container:focus {
+    @apply border border-solid border-d-grey;
+}
+
+.underline {
+    @apply w-full h-[1px] bg-b-grey transition-colors duration-200 ease-in-out;
+}
+
+.error_message {
+    @apply text-transparent text-t10 ;
 }
