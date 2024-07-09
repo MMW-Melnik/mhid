@@ -1,0 +1,13 @@
+.sm_card {
+	@apply flex flex-col justify-between gap-5 border border-solid border-b-grey rounded-[10px] text-l-grey text-t16 px-5 py-4 h-[120px] w-[calc((100%-40px)/3)] max-w-[233px] transition-colors duration-200 ease-in-out cursor-pointer
+}
+
+.sm_card:hover,
+.sm_card:focus {
+	@apply border-sl-brown bg-sl-brown text-white
+}	
+
+
+.sm_icon {
+	@apply w-[24px] h-[24px] bg-white rounded-full
+}
