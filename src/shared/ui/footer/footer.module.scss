@@ -1,0 +1,11 @@
+.footer {
+	@apply max-w-[780px] h-auto mt-20 flex justify-between gap-5 bg-l-brown rounded-[20px] px-[30px] py-[60px];
+}
+
+.footer_column_container {
+	@apply flex flex-wrap gap-16;
+}
+
+.footer_block {
+	@apply flex w-full max-w-[240px] max-h-[174px] p-5 bg-sl-brown text-center justify-center items-center rounded-2xl cursor-pointer;
+}

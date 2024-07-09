@@ -1,0 +1,15 @@
+.footer_column {
+	@apply flex flex-col gap-4 p-2.5 flex-wrap;
+}
+
+.item_list {
+	@apply flex flex-col gap-4;
+}
+
+.item {
+	@apply text-l-grey transition duration-200 ease-in-out;
+}
+
+.item:hover {
+	@apply text-white;
+}

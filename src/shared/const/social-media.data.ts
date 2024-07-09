@@ -1,13 +1,13 @@
 export const socialMediaData = [
 	{
 		title: 'Instagram',
-		alt: 'Instagram',
+		alt: 'InstagramIcon',
 		link: 'https://example.com/instagram',
 		iconPath: ''
 	},
 	{
 		title: 'Facebook',
-		alt: 'Facebook',
+		alt: 'FacebookIcon',
 		link: 'https://example.com/facebook',
 		iconPath: ''
 	},
@@ -19,19 +19,19 @@ export const socialMediaData = [
 	},
 	{
 		title: 'Telegram',
-		alt: 'Telegram',
+		alt: 'TelegramIcon',
 		link: 'https://example.com/telegram',
 		iconPath: ''
 	},
 	{
 		title: 'Phone',
-		alt: 'Phone',
+		alt: 'PhoneIcon',
 		link: 'https://example.com/phone',
 		iconPath: ''
 	},
 	{
 		title: 'Email',
-		alt: 'Email',
+		alt: 'EmailIcons',
 		link: 'https://example.com/email',
 		iconPath: ''
 	}
