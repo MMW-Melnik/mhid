@@ -1,12 +1,12 @@
 .input_container {
-    @apply w-96 h-auto flex flex-col gap-1 px-2.5 pt-2.5  border border-solid border-transparent transition-colors duration-200 ease-in-out;
+    @apply w-96 h-auto flex flex-col gap-1 px-2.5 pt-2.5 border border-solid border-transparent transition-colors duration-200 ease-in-out;
 
     .input_label {
         @apply text-t12;
     }
 
     .input_value {
-        @apply flex flex-col gap-1
+        @apply flex flex-col gap-1;
     }
     
     .input {
@@ -15,22 +15,23 @@
 
     .input::placeholder {
         @apply text-l-grey;
+        transition: color 0.2s ease-in-out;
     }
     
-}
-
-.input_container:hover {
-    .input::placeholder {
-        @apply text-white
+    &:hover {
+        .input::placeholder {
+            @apply text-white;
+        }
+        .underline{
+            @apply bg-white
+        }
     }
 
-    .underline {
-        @apply bg-white
+    &:focus-within {
+        .underline {
+            @apply bg-white
+        }
     }
-}
-
-.input_container:focus {
-    @apply border border-solid border-d-grey;
 }
 
 .underline {
@@ -38,5 +39,5 @@
 }
 
 .error_message {
-    @apply text-transparent text-t10 ;
+    @apply text-transparent text-t10;
 }

@@ -13,4 +13,4 @@ const SocialMediaCard: FC<ISocialMediaCard> = ({title, alt, iconPath, link}) => 
 	);
 };
 
-export default SocialMediaCard;
+export default SocialMediaCard;	
