@@ -1,14 +1,12 @@
 'use client'
 
 import '../app/styles/index.scss'
-import { Button, Input } from '../shared/ui'
-import { ButtonSize } from '../shared/ui/button/button.interface'
-import { SMWidget } from '../widgets/sm-widget/sm-widget'
+import { ContactForm } from '../widgets/contact-form/ContactForm'
 
 export default function App() {
 	return (
 		<>
-			<Button buttonText="Start Explore" buttonSize={ButtonSize.SMALL} />
+			{/* <Button buttonText="Start Explore" buttonSize={ButtonSize.SMALL} />
 			<Button buttonText="Send Message" buttonSize={ButtonSize.LARGE} />
 			<Input
 				type="text"
@@ -16,7 +14,10 @@ export default function App() {
 				inputName="Full Name"
 				inputErrorMessage="pennis"
 			/>
-			<SMWidget />
+			<SMWidget /> */}
+
+
+			<ContactForm />
 		</>
 	)
 }
