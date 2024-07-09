@@ -8,6 +8,7 @@ export const Input: FC<IInput> = ({type, placeholder, inputName, inputErrorMessa
 			<p className={styles.fieldName}>{inputName}</p>
 			<input className={styles.input} type={type} placeholder={placeholder} />
 			<p className={styles.error_message}>{inputErrorMessage}</p>
+			<p>Hello!</p>
 		</div>
 	)
 }
