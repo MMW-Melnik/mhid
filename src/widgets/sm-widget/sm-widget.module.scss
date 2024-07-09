@@ -1,0 +1,13 @@
+.text_container {
+	@apply justify-start items-center mb-4;
+
+	h1 {
+		@apply text-t16 mb-1;
+	}
+	p {
+		@apply text-t12;
+	}
+}
+.sm_card_constainer {
+	@apply w-[780px] h-auto bg-l-brown flex flex-wrap justify-center items-center gap-5 rounded-3xl p-5;
+}
