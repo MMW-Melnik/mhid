@@ -1,0 +1,1 @@
+export { socialMediaData } from './social-media.data'
