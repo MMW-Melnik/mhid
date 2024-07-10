@@ -2,6 +2,7 @@
 
 import '../app/styles/index.scss'
 import { ContactForm } from '../widgets/contact-form/ContactForm'
+import Footer from "../shared/ui/footer/Footer"
 
 export default function App() {
 	return (
@@ -16,7 +17,10 @@ export default function App() {
 			/>
 			<SMWidget /> */}
 
-			<ContactForm />
+			<div className=' flex flex-col w-full justify-center items-center'>
+				<ContactForm />
+				<Footer />
+			</div>
 		</>
 	)
 }

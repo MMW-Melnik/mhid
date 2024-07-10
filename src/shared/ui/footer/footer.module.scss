@@ -1,11 +1,10 @@
 .footer {
-	@apply max-w-[780px] h-auto mt-20 flex justify-between gap-5 bg-l-brown rounded-[20px] px-[30px] py-[60px];
+	@apply w-[580px] 2xl:w-[780px] 2xl:flex-row h-auto mt-20 flex flex-col justify-between items-center gap-6 bg-l-brown rounded-[20px] px-8 py-6 2xl:px-[30px] 2xl:py-[60px];
 }
-
 .footer_column_container {
-	@apply flex flex-wrap gap-16;
+	@apply flex w-full 2xl:w-[450px] gap-10 mr-2 justify-between;
 }
 
 .footer_block {
-	@apply flex w-full max-w-[240px] max-h-[174px] p-5 bg-sl-brown text-center justify-center items-center rounded-2xl cursor-pointer;
+	@apply flex w-full h-[120px] 2xl:w-[240px] 2xl:h-[174px] p-5 bg-sl-brown text-center justify-center items-center rounded-2xl cursor-pointer;
 }
