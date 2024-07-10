@@ -19,8 +19,8 @@ const List = () => {
       </button>
       {isOpen && (
         <ul className={styles.list}>
-          <li className={styles.listItem}><Link href="/">Sofia</Link></li>
           <li className={styles.listItem}><Link href="/">Charlotta</Link></li>
+          <li className={styles.listItem}><Link href="/">Sofia</Link></li>
           <li className={styles.listItem}><Link href="/">Andrii</Link></li>
           <li className={styles.listItem}><Link href="/">Felix</Link></li>
         </ul>
