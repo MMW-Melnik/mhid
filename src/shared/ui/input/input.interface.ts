@@ -1,9 +1,10 @@
 import { InputHTMLAttributes } from 'react'
 
+
 export interface IInputProps {
   inputName: string
-	inputErrorMessage?: string
+	inputErrorMessage?: string	
 }
 
-type TypeInputPropsFields = InputHTMLAttributes<HTMLInputElement> & IInputProps
+type TypeInputPropsFields = InputHTMLAttributes<HTMLInputElement>  & IInputProps
 export interface IInput extends TypeInputPropsFields {}

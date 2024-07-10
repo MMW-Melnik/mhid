@@ -1,0 +1,23 @@
+.toast_container {
+  .Toastify__toast-container {
+    @apply z-50;
+  }
+}
+
+.toast {
+  .Toastify__toast {
+    @apply bg-l-brown text-white rounded-full;
+  }
+  .Toastify__toast--success {
+    @apply bg-green-500 rounded-full;
+  }
+  .Toastify__toast--error {
+    @apply bg-red-500 rounded-full;
+  }
+  .Toastify__toast-body {
+    @apply flex items-center rounded-full;
+  }
+  .Toastify__close-button {
+    @apply text-white;
+  }
+}

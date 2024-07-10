@@ -1,8 +1,5 @@
-import React from 'react'
+import { FooterNavigation, FooterPapers, FooterSocialMedia } from '../../data/footer.data'
 import FooterColumn from '../footer-column/footer-column'
-import { FooterSocialMedia } from '../../const/footer.data'
-import { FooterNavigation } from '../../const/footer.data'
-import { FooterPapers } from '../../const/footer.data'
 import styles from './footer.module.scss'
 
 const Footer = () => {

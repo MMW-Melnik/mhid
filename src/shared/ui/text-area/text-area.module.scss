@@ -1,25 +1,24 @@
-.input_container {
-  @apply h-auto flex flex-col px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
+.textarea_container {
+  @apply h-auto flex flex-col gap-1 px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
 
-  .input_label {
+  .textarea_label {
     @apply text-t12 transition-colors duration-200 ease-in-out;
   }
 
-  .input_value {
-    @apply text-t14 flex flex-col gap-1;
-  }
-  
-  .input {
-    @apply text-white w-full border-none;
+  .textarea_value {
+    @apply flex flex-col gap-1;
   }
 
-  .input::placeholder {
-    @apply text-l-grey;
-    @apply transition-colors duration-200 ease-in-out;
+  .textarea {
+    @apply text-white text-t14 w-full border-none h-[66px] resize-none;
   }
-  
+
+  .textarea::placeholder {
+    @apply text-l-grey  transition-colors duration-200 ease-in-out;
+  }
+
   &:hover {
-    .input::placeholder {
+    .textarea::placeholder {
       @apply text-white;
     }
     .underline {
@@ -34,7 +33,7 @@
   }
 
   &.has-error {
-    .input_label {
+    .textarea_label {
       @apply text-red-500;
     }
 
