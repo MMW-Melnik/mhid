@@ -1,7 +1,22 @@
 {
- "extends": [
-  "next/babel",
-  "next/core-web-vitals",
-  "plugin:storybook/recommended"
- ]
+	"extends": [
+		"next/babel",
+		"next/core-web-vitals",
+		"plugin:storybook/recommended",
+		"plugin:prettier/recommended"
+	],
+	"plugins": ["prettier", "simple-import-sort"],
+	"rules": {
+		"prettier/prettier": "error",
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error"
+	},
+	"settings": {
+		"import/resolver": {
+			"alias": {
+				"map": [["@", "./src"]],
+				"extensions": [".ts", ".tsx", ".js", ".jsx", ".json"]
+			}
+		}
+	}
 }

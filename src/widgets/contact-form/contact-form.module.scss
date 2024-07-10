@@ -1,27 +1,27 @@
 .form_widget {
-  @apply flex flex-col gap-[30px] max-w-[480px] h-[460px] p-5 bg-l-brown rounded-2xl;
+	@apply flex flex-col gap-[30px] max-w-[480px] h-[460px] p-5 bg-l-brown rounded-2xl;
 }
 
 .text_container {
-  @apply flex flex-col gap-1;
+	@apply flex flex-col gap-1;
 }
 
 .heading {
-  @apply text-h18;
+	@apply text-h18;
 }
 
 .subheading {
-  @apply text-t14 text-l-grey;
+	@apply text-t14 text-l-grey;
 }
 
 .form {
-  @apply flex flex-col h-full; 
+	@apply flex flex-col h-full;
 }
 
 .form_inputs {
-  @apply flex flex-col gap-4 flex-grow; 
+	@apply flex flex-col gap-4 flex-grow;
 }
 
 .button_container {
-  @apply mt-auto; 
+	@apply mt-auto;
 }

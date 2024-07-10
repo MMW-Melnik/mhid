@@ -4,7 +4,7 @@ import { SocialMediaCard } from '../../shared/ui'
 import styles from './sm-widget.module.scss'
 
 export const SMWidget = () => {
-	const [socials, setSocials] = useState(socialMediaData)
+	const [socials] = useState(socialMediaData)
 
 	return (
 		<div>
