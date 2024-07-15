@@ -1,10 +1,10 @@
 .footer {
-	@apply w-[580px] 2xl:w-[780px] 2xl:flex-row h-auto mt-20 flex flex-col justify-between items-center gap-6 bg-l-brown rounded-[20px] px-8 py-6 2xl:px-[30px] 2xl:py-[60px];
+	@apply w-full h-auto mt-20 flex justify-between items-center gap-6 px-8 py-6  border border-solid;
 }
 .footer_column_container {
-	@apply flex w-full 2xl:w-[450px] gap-10 mr-2 justify-between;
+	@apply flex gap-10 justify-between;
 }
 
 .footer_block {
-	@apply flex w-full h-[120px] 2xl:w-[240px] 2xl:h-[174px] p-5 bg-sl-brown text-center justify-center items-center rounded-2xl cursor-pointer;
+	@apply flex w-[320px] h-[120px] p-5 text-center justify-center items-center cursor-pointer;
 }

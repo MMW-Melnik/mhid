@@ -7,10 +7,10 @@ export const SMWidget = () => {
 	const [socials] = useState(socialMediaData)
 
 	return (
-		<div>
+		<section className={styles.sm_widget}>
 			<div className={styles.text_container}>
-				<h1>Social Media</h1>
-				<p>Tell us about yourself</p>
+				<h3 className={styles.heading}>Social Media</h3>
+				<span className={styles.subheading}>Tell us about yourself</span>
 			</div>
 			<div className={styles.sm_card_container}>
 				{socials.map(social => (
@@ -22,6 +22,6 @@ export const SMWidget = () => {
 					/>
 				))}
 			</div>
-		</div>
+		</section>
 	)
 }

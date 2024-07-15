@@ -1,7 +1,5 @@
-'use client'
+import { SMWidget } from '../../../widgets'
 
 export function ContactPage() {
-	return (
-		<div>Contact</div>
-	);
-};
+	return <SMWidget />
+}

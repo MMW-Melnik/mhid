@@ -1,13 +1,19 @@
-.text_container {
-	@apply justify-start items-center mb-4;
-
-	h1 {
-		@apply text-t16 mb-1;
-	}
-	p {
-		@apply text-t12;
-	}
+.sm_widget {
+	@apply flex flex-col p-5 gap-4 rounded-[20px];
 }
+
+.text_container {
+	@apply flex flex-col gap-1;
+}
+
+.heading {
+	@apply text-t16;
+}
+
+.subheading {
+	@apply text-t12 text-l-grey;
+}
+
 .sm_card_container {
-	@apply w-[780px] h-auto bg-l-brown flex flex-wrap justify-center items-center gap-5 rounded-3xl p-5;
+	@apply flex flex-wrap gap-5;
 }
