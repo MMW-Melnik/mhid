@@ -10,8 +10,8 @@ const config: Config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				heading: ['Poppins', 'sans-serif'],
-				text: ['Poppins', 'sans-serif']
+				heading: ['Italiana', 'Times New Roman', 'sans-serif'],
+				text: ['Helvetica', 'Arial', 'sans-serif']
 			},
 			lineHeight: {
 				'130': '1.3'
