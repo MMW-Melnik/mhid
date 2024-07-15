@@ -1,5 +1,9 @@
+.contact_form_widget {
+	@apply flex justify-between gap-5 my-[200px];
+}
+
 .form_widget {
-	@apply flex flex-col gap-[30px] max-w-[480px] h-[460px] p-5 bg-l-brown rounded-2xl;
+	@apply flex flex-col gap-[30px] w-[580px] h-[440px];
 }
 
 .text_container {
@@ -24,4 +28,8 @@
 
 .button_container {
 	@apply mt-auto;
+}
+
+.contact_form_image {
+	@apply bg-white max-w-[780px] max-h-[440px];
 }

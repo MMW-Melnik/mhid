@@ -1,7 +1,7 @@
 html {
-	@apply bg-dark font-text text-white scroll-smooth text-t14;
+	@apply bg-dark font-text overflow-auto text-white scroll-smooth text-t14;
 }
 
 main {
-	@apply w-full;
+	@apply flex-1;
 }

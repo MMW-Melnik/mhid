@@ -5,9 +5,11 @@ import styles from './default.module.scss'
 
 export const DefaultLayout: FC<{ children: ReactNode }> = ({ children }) => {
 	return (
-		<div className={styles.layout}>
-			<main>{children}</main>
+		<>
+			<div className={styles.layout}>
+				<main>{children}</main>
+			</div>
 			<Footer />
-		</div>
+		</>
 	)
 }

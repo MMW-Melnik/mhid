@@ -8,13 +8,10 @@ export const SMWidget = () => {
 
 	return (
 		<section className={styles.sm_widget}>
-			<div className={styles.text_container}>
-				<h3 className={styles.heading}>Social Media</h3>
-				<span className={styles.subheading}>Tell us about yourself</span>
-			</div>
 			<div className={styles.sm_card_container}>
 				{socials.map(social => (
 					<SocialMediaCard
+						key={social.title}
 						title={social.title}
 						alt={social.alt}
 						iconPath={social.iconPath}

@@ -1,64 +1,64 @@
 .textarea_container {
-  @apply h-auto flex flex-col gap-1 px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
+	@apply h-auto flex flex-col gap-1 px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
 
-  .textarea_label {
-    @apply text-t12 transition-colors duration-200 ease-in-out;
-  }
+	.textarea_label {
+		@apply text-t12 transition-colors duration-200 ease-in-out;
+	}
 
-  .textarea_value {
-    @apply flex flex-col gap-1;
-  }
+	.textarea_value {
+		@apply flex flex-col gap-1;
+	}
 
-  .textarea {
-    @apply text-white text-t14 w-full border-none h-[66px] resize-none;
-  }
+	.textarea {
+		@apply text-white text-t14 w-full border-none h-[100px] resize-none;
+	}
 
-  .textarea::placeholder {
-    @apply text-l-grey  transition-colors duration-200 ease-in-out;
-  }
+	.textarea::placeholder {
+		@apply text-l-grey  transition-colors duration-200 ease-in-out;
+	}
 
-  &:hover {
-    .textarea::placeholder {
-      @apply text-white;
-    }
-    .underline {
-      @apply bg-white;
-    }
-  }
+	&:hover {
+		.textarea::placeholder {
+			@apply text-white;
+		}
+		.underline {
+			@apply bg-white;
+		}
+	}
 
-  &:focus-within {
-    .underline {
-      @apply bg-white;
-    }
-  }
+	&:focus-within {
+		.underline {
+			@apply bg-white;
+		}
+	}
 
-  &.has-error {
-    .textarea_label {
-      @apply text-red-500;
-    }
+	&.has-error {
+		.textarea_label {
+			@apply text-red-500;
+		}
 
-    .underline {
-      @apply bg-red-500;
-    }
+		.underline {
+			@apply bg-red-500;
+		}
 
-    .error_message {
-      @apply text-red-500 visible;
-    }
-  }
+		.error_message {
+			@apply text-red-500 visible;
+		}
+	}
 }
 
 .underline {
-  @apply w-full h-px bg-gray-500 transition-colors duration-200 ease-in-out rounded-xl;
+	@apply w-full h-px bg-gray-500 transition-colors duration-200 ease-in-out rounded-xl;
 }
 
 .error {
-  @apply h-5;
+	@apply h-5;
 }
 
 .error_message {
-  @apply text-xs mt-1 invisible;
+	@apply text-xs mt-1 invisible;
 }
 
 .has-error .error_message {
-  @apply visible;
+	@apply visible;
 }

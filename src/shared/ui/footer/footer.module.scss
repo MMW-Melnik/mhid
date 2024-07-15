@@ -1,10 +1,16 @@
 .footer {
-	@apply w-full h-auto mt-20 flex justify-between items-center gap-6 px-8 py-6  border border-solid;
-}
-.footer_column_container {
-	@apply flex gap-10 justify-between;
+	@apply sticky w-full h-auto mt-[200px] flex justify-center  items-center gap-6 px-8 py-[60px];
 }
 
-.footer_block {
-	@apply flex w-[320px] h-[120px] p-5 text-center justify-center items-center cursor-pointer;
+.footer::before {
+	content: '';
+	@apply absolute block w-screen h-[1px] bg-b-grey z-[-1];
+}
+
+.footer::before {
+	@apply top-0 left-1/2 -translate-x-1/2;
+}
+
+.footer_column_container {
+	@apply flex flex-wrap gap-40;
 }

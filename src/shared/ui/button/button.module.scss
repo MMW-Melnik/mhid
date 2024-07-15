@@ -1,5 +1,5 @@
 .button {
-	@apply border border-solid border-b-grey  text-l-grey text-t14 rounded-full transition-colors duration-200 ease-in-out;
+	@apply border border-solid border-b-grey  text-l-grey text-t14 transition-colors duration-200 ease-in-out;
 }
 
 .button:hover {
@@ -15,9 +15,9 @@
 }
 
 .small {
-	@apply min-w-[6.25rem] py-2 px-4
+	@apply min-w-[6.25rem] py-2 px-4;
 }
 
 .large {
-	@apply min-w-[440px] py-2.5 px-4
+	@apply w-full py-2.5 px-4;
 }

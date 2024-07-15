@@ -1,5 +1,11 @@
 import { SMWidget } from '../../../widgets'
+import { ContactForm } from '../../../widgets/contact-form/ContactForm'
 
 export function ContactPage() {
-	return <SMWidget />
+	return (
+		<>
+			<ContactForm />
+			<SMWidget />
+		</>
+	)
 }

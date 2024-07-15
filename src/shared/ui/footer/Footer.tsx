@@ -1,4 +1,8 @@
-import { FooterNavigation, FooterPapers, FooterSocialMedia } from '../../data/footer.data'
+import {
+	FooterNavigation,
+	FooterPapers,
+	FooterSocialMedia
+} from '../../data/footer.data'
 import FooterColumn from '../footer-column/footer-column'
 import styles from './footer.module.scss'
 
@@ -9,13 +13,6 @@ const Footer = () => {
 				<FooterColumn footerData={FooterSocialMedia} />
 				<FooterColumn footerData={FooterNavigation} />
 				<FooterColumn footerData={FooterPapers} />
-			</div>
-			<div className={styles.footer_block}>
-				<p>
-					All right reserved
-					<br />
-					Created by MDHD Team
-				</p>
 			</div>
 		</footer>
 	)
