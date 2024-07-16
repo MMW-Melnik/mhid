@@ -1,3 +1,7 @@
 .layout {
 	@apply flex flex-col items-center max-w-[1400px] p-2.5 mx-auto;
 }
+
+.main {
+	@apply w-full;
+}

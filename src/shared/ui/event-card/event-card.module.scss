@@ -1,0 +1,11 @@
+.event_card {
+	@apply flex flex-col gap-5 w-[calc((100%-40px)/3)] cursor-default;
+}
+
+.image_container {
+	@apply bg-sand;
+}
+
+.text_container {
+	@apply flex gap-2.5 items-start flex-wrap;
+}

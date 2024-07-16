@@ -1,0 +1,19 @@
+.timeline_card {
+	@apply flex justify-between items-center w-[980px] p-5 gap-5 transition-colors duration-200 ease-in-out cursor-default;
+}
+
+.timeline_card:not(:last-child) {
+	@apply border-t-0 border-l-0 border-r-0 border-b border-solid border-b-grey;
+}
+
+.content_container {
+	@apply max-w-[560px];
+}
+
+.timeline_card:hover,
+.timeline_card:focus {
+	.year {
+		@apply text-dark;
+	}
+	@apply bg-sand text-dark;
+}
