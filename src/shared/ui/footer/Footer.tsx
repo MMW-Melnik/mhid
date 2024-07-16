@@ -3,10 +3,10 @@ import {
 	FooterPapers,
 	FooterSocialMedia
 } from '../../data/footer.data'
-import FooterColumn from '../footer-column/footer-column'
+import { FooterColumn } from '../footer-column/FooterColumn'
 import styles from './footer.module.scss'
 
-const Footer = () => {
+export const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.footer_column_container}>
@@ -17,5 +17,3 @@ const Footer = () => {
 		</footer>
 	)
 }
-
-export default Footer

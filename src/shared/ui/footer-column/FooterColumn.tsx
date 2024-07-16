@@ -1,9 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
 import { IFooterColumn } from './footer-column.interface'
 import styles from './footer-column.module.scss'
-import Link from 'next/link'
 
-const FooterColumn: React.FC<IFooterColumn> = ({ footerData = [] }) => {
+export const FooterColumn: React.FC<IFooterColumn> = ({ footerData = [] }) => {
 	return (
 		<>
 			{footerData.map((category, categoryIndex) => (
@@ -21,5 +21,3 @@ const FooterColumn: React.FC<IFooterColumn> = ({ footerData = [] }) => {
 		</>
 	)
 }
-
-export default FooterColumn
