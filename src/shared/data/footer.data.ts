@@ -1,35 +1,66 @@
-export const FooterSocialMedia = [
+export const FooterData = [
 	{
-		title: 'Social Media',
-		items: [
-			{ itemName: 'Telegram', link: '#' },
-			{ itemName: 'Facebook', link: '#' },
-			{ itemName: 'WhatsApp', link: '#' },
-			{ itemName: 'Instagram', link: '#' }
-		]
-	}
-]
-
-export const FooterNavigation = [
+		language: 'en',
+		footer: {
+			socialMedia: {
+				title: 'Social Media',
+				items: {
+					telegram: 'Telegram',
+					facebook: 'Facebook',
+					whatsapp: 'WhatsApp',
+					instagram: 'Instagram'
+				}
+			},
+			navigation: {
+				title: 'Navigation',
+				items: {
+					home: 'Home',
+					about: 'About',
+					contacts: 'Contacts',
+					getStarted: 'Get Started'
+				}
+			},
+			papers: {
+				title: 'Papers',
+				items: {
+					privacyPolicy: 'Privacy Policy',
+					termsOfService: 'Terms of Service',
+					developers: 'Developers',
+					docs: 'Docs'
+				}
+			}
+		}
+	},
 	{
-		title: 'Navigation',
-		items: [
-			{ itemName: 'Home', link: '#' },
-			{ itemName: 'About', link: '#' },
-			{ itemName: 'Contacts', link: '#' },
-			{ itemName: 'Get Started', link: '#' }
-		]
-	}
-]
-
-export const FooterPapers = [
-	{
-		title: 'Papers',
-		items: [
-			{ itemName: 'Privacy Policy', link: '#' },
-			{ itemName: 'Terms of Service', link: '#' },
-			{ itemName: 'Developers', link: '#' },
-			{ itemName: 'Docs', link: '#' }
-		]
+		language: 'de',
+		footer: {
+			socialMedia: {
+				title: 'Soziale Medien',
+				items: {
+					telegram: 'Telegramm',
+					facebook: 'Facebook',
+					whatsapp: 'WhatsApp',
+					instagram: 'Instagram'
+				}
+			},
+			navigation: {
+				title: 'Navigation',
+				items: {
+					home: 'Startseite',
+					about: 'Über uns',
+					contacts: 'Kontakte',
+					getStarted: 'Loslegen'
+				}
+			},
+			papers: {
+				title: 'Dokumente',
+				items: {
+					privacyPolicy: 'Datenschutz-Bestimmungen',
+					termsOfService: 'Nutzungsbedingungen',
+					developers: 'Entwickler',
+					docs: 'Dokumente'
+				}
+			}
+		}
 	}
 ]
