@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import styles from './header.module.scss'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { NavRoute } from '../nav-route/NavRoute'
-import Language from '../language/Language'
 import { HeaderData } from '../../data/header.data'
+import Language from '../language/Language'
+import { NavRoute } from '../nav-route/NavRoute'
+import styles from './header.module.scss'
 
 export const Header = () => {
 	const { t, i18n } = useTranslation()

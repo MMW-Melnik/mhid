@@ -1,8 +1,9 @@
 import { FC, ReactNode } from 'react'
-import { Footer } from '../../../shared/ui/footer/Footer'
+
+import { Footer } from '../../../shared/ui'
+import { Header } from '../../../shared/ui/header/Header'
 import '../../styles/index.scss'
 import styles from './default.module.scss'
-import { Header } from '../../../shared/ui/header/Header'
 
 export const DefaultLayout: FC<{ children: ReactNode }> = ({ children }) => {
 	return (
