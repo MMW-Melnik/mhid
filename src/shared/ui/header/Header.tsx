@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
 import Image from 'next/image'
-import styles from './header.module.scss'
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { NavRoute } from '../nav-route/NavRoute'
+import styles from './header.module.scss'
 
 export const Header = () => {
 	const { t, i18n } = useTranslation()
@@ -11,8 +11,6 @@ export const Header = () => {
 		const lng = navigator.language
 		i18n.changeLanguage(lng)
 	}, [])
-
-	const lng = navigator.language
 
 	return (
 		<div className={styles.header}>
