@@ -1,5 +1,4 @@
 import { FC, ReactNode } from 'react'
-
 import { Footer } from '../../../shared/ui'
 import { Header } from '../../../shared/ui/header/Header'
 import '../../styles/index.scss'
