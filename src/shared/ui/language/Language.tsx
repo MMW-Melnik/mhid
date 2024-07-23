@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import styles from './language.module.scss'
 import { RiArrowDropUpFill } from 'react-icons/ri'
+import styles from './language.module.scss'
 
-const Language: React.FC = () => {
+export const Language: React.FC = () => {
 	const { t, i18n } = useTranslation()
 	const [dropdownOpen, setDropdownOpen] = useState(false)
 	const [selectedLanguage, setSelectedLanguage] = useState('en')
@@ -64,5 +64,3 @@ const Language: React.FC = () => {
 		</div>
 	)
 }
-
-export default Language

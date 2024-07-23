@@ -1,5 +1,5 @@
+import { Heading } from '@/shared/ui'
 import { FC } from 'react'
-import { Heading } from '../heading/Heading'
 import { ITimelineCard } from './timeline-card.interface'
 import styles from './timeline-card.module.scss'
 

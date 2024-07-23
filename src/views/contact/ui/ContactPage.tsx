@@ -1,5 +1,4 @@
-import { SMWidget } from '../../../widgets'
-import { ContactForm } from '../../../widgets/contact-form/ContactForm'
+import { ContactForm, SMWidget } from '@/widgets/index'
 
 export function ContactPage() {
 	return (

@@ -1,6 +1,6 @@
+import { Heading } from '@/shared/ui'
 import Image from 'next/image'
 import { FC } from 'react'
-import { Heading } from '../heading/Heading'
 import { IEventCard } from './event-card.interface'
 import styles from './event-card.module.scss'
 
