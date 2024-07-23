@@ -1,0 +1,15 @@
+.language {
+	@apply w-24 text-left py-2  text-sand font-heading relative transition-colors ease-in-out duration-300;
+
+	&:hover {
+		@apply text-white;
+	}
+	&::after {
+		@apply absolute bottom-0 left-0 w-full h-[1px] bg-white scale-x-0 origin-left transition-all ease-in-out duration-500;
+		content: '';
+	}
+
+	&:hover::after {
+		@apply scale-x-100;
+	}
+}

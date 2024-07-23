@@ -7,7 +7,6 @@ export const NavRoute: FC<INavRoute> = ({ title, link }) => {
 	return (
 		<Link key={link} href={link} className={styles.button_container}>
 			<p className={styles.text}>{title}</p>
-			<div className={styles.line}></div>
 		</Link>
 	)
 }

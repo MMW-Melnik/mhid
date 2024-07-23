@@ -8,11 +8,27 @@ export const HeaderData = [
 		}
 	},
 	{
+		language: 'fr',
+		header: {
+			home: 'Accueil',
+			about: 'A propos de',
+			contact: 'Contacter'
+		}
+	},
+	{
 		language: 'de',
 		header: {
-			home: 'SartsBruken',
-			about: 'MeinFurer',
-			contact: 'Shvaine'
+			home: 'Startseite',
+			about: 'Über',
+			contact: 'Kontakt'
+		}
+	},
+	{
+		language: 'ua',
+		header: {
+			home: 'Головна',
+			about: 'Про нас',
+			contact: 'Контакти'
 		}
 	}
 ]

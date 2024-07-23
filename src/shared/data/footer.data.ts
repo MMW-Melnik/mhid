@@ -1,4 +1,4 @@
-export const FooterData = [
+export const footerData = [
 	{
 		language: 'en',
 		footer: {

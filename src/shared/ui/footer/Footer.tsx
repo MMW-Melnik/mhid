@@ -1,4 +1,4 @@
-import { FooterData } from '../../data/footer.data'
+import { footerData } from '../../data/footer.data'
 import { FooterColumn } from '../footer-column/FooterColumn'
 import styles from './footer.module.scss'
 import React, { useEffect, useState } from 'react'
@@ -16,7 +16,7 @@ export const Footer = () => {
 		<footer className={styles.footer}>
 			<div className={styles.footer_column_container}>
 				{isMounted &&
-					FooterData.map(
+					footerData.map(
 						(data, index) =>
 							data.language === i18n.language && (
 								<React.Fragment key={index}>
