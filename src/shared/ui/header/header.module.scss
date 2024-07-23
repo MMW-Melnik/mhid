@@ -1,6 +1,7 @@
-.header{
-    @apply w-full h-20 flex items-center justify-between
+.header {
+	@apply w-full h-20 flex items-center justify-center static overflow-visible;
 }
-.nav_items{
-    @apply flex justify-between
+
+.nav_items {
+	@apply flex justify-between;
 }

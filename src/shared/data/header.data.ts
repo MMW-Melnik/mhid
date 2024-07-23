@@ -1,12 +1,18 @@
-const resources = {
-	en: {
-		home: 'Home',
-		about: 'About',
-		contact: 'Contact'
+export const HeaderData = [
+	{
+		language: 'en',
+		header: {
+			home: 'Home',
+			about: 'About',
+			contact: 'Contact'
+		}
 	},
-	fr: {
-		home: 'Accueil',
-		about: 'A propos de',
-		contact: 'Contacter'
+	{
+		language: 'de',
+		header: {
+			home: 'SartsBruken',
+			about: 'MeinFurer',
+			contact: 'Shvaine'
+		}
 	}
-}
+]

@@ -5,16 +5,16 @@ import LanguageDetector from 'i18next-browser-languagedetector'
 const resources = {
 	en: {
 		translation: {
-			Hello: 'Hello',
-			About: 'About',
-			Contacts: 'Contacts'
+			home: 'Hello',
+			about: 'About',
+			contact: 'Contacts'
 		}
 	},
 	de: {
 		translation: {
-			Hello: 'Hallo',
-			About: 'Über uns',
-			Contacts: 'Kontakte'
+			home: 'ShvaineArbaiten',
+			about: 'Über uns',
+			contact: 'Kontakte'
 		}
 	}
 }

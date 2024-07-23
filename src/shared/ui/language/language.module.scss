@@ -1,0 +1,63 @@
+.text {
+	@apply text-gray-300 font-heading text-2xl;
+}
+
+.button_container {
+	@apply relative flex items-end justify-start overflow-visible;
+}
+
+.button {
+	@apply flex justify-start items-end relative;
+}
+
+.button_arrow {
+	@apply flex justify-center items-center text-2xl cursor-pointer relative;
+}
+
+.arrow {
+	@apply transform transition-transform duration-300 ease-in-out rotate-180;
+}
+
+.arrow.open {
+	@apply rotate-0;
+}
+
+.button_line {
+	@apply h-[1px] w-full bg-white absolute bottom-0 left-0 transition-all duration-300 ease-in-out scale-x-0 origin-left;
+}
+
+.button_arrow:hover .button_line {
+	@apply scale-x-100;
+}
+
+.dropdown {
+	@apply absolute right-0 left-0 top-8 bg-transparent shadow-lg rounded mt-2 transition-all duration-300 ease-in-out z-10;
+}
+
+.list_container {
+	@apply flex flex-col justify-start items-start list-none p-0 m-0;
+}
+
+.lan1 {
+	@apply w-24 text-left py-2 text-white font-heading relative;
+}
+
+.subbutton_line1 {
+	@apply h-[1px] w-full bg-white absolute bottom-0 left-0 transition-all duration-300 ease-in-out scale-x-0 origin-left;
+}
+
+.lan1:hover .subbutton_line1 {
+	@apply scale-x-100;
+}
+
+.lan2 {
+	@apply w-24 text-left py-2 text-white font-heading relative;
+}
+
+.subbutton_line2 {
+	@apply h-[1px] w-full bg-white absolute bottom-0 left-0 transition-all duration-300 ease-in-out scale-x-0 origin-left;
+}
+
+.lan2:hover .subbutton_line2 {
+	@apply scale-x-100;
+}
