@@ -1,9 +1,8 @@
+import { HeaderData } from '@/shared/data'
+import { Language, NavRoute } from '@/shared/ui'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { HeaderData } from '../../data/header.data'
-import Language from '../../../widgets/language/Language'
-import { NavRoute } from '../nav-route/NavRoute'
 import styles from './header.module.scss'
 
 export const Header = () => {

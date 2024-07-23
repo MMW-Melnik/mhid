@@ -1,6 +1,6 @@
+import { socialMediaData } from '@/shared/data'
+import { SocialMediaCard } from '@/shared/ui'
 import { useState } from 'react'
-import { socialMediaData } from '../../shared/data/social-media.data'
-import { SocialMediaCard } from '../../shared/ui'
 import styles from './sm-widget.module.scss'
 
 export const SMWidget = () => {

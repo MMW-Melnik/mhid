@@ -1,8 +1,8 @@
-import { footerData } from '../../data/footer.data'
-import { FooterColumn } from '../footer-column/FooterColumn'
-import styles from './footer.module.scss'
+import { FooterData } from '@/shared/data'
+import { FooterColumn } from '@/shared/ui'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import styles from './footer.module.scss'
 
 export const Footer = () => {
 	const { i18n } = useTranslation()
@@ -30,5 +30,3 @@ export const Footer = () => {
 		</footer>
 	)
 }
-
-export default Footer

@@ -1,0 +1,17 @@
+.layout {
+	@apply flex relative flex-col items-center max-w-[1400px] min-h-screen p-2.5 mx-auto;
+}
+
+.layout::before,
+.layout::after {
+	@apply z-[-1000] absolute top-0 bottom-0 h-full w-[1px] bg-b-grey;
+	content: '';
+}
+
+.layout::before {
+	@apply left-[450px];
+}
+
+.layout::after {
+	@apply right-[627px];
+}
