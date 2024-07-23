@@ -1,7 +1,8 @@
 import { HeaderData } from '@/shared/data'
-import { Language, NavRoute } from '@/shared/ui'
+import { NavRoute } from '@/shared/ui'
+import { Language } from '@/widgets/index'
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './header.module.scss'
 

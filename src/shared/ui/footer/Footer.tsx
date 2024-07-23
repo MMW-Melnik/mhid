@@ -1,4 +1,4 @@
-import { FooterData } from '@/shared/data'
+import { footerData } from '@/shared/data'
 import { FooterColumn } from '@/shared/ui'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'

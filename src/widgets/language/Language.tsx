@@ -1,11 +1,11 @@
-import React, { FC } from 'react'
-import styles from './language.module.scss'
+import { useLanguage } from '@/features/change-language'
+import { languageData } from '@/shared/data'
+import { LanguageButton } from '@/shared/ui'
+import { FC } from 'react'
 import { MdKeyboardArrowDown } from 'react-icons/md'
-import { useLanguage } from '../../features'
-import { LanguageButton } from '../../shared/ui/language-button/LanguageButton'
-import { languageData } from '../../shared/data'
+import styles from './language.module.scss'
 
-const Language: FC = () => {
+export const Language: FC = () => {
 	const {
 		dropdownOpen,
 		selectedLanguage,
@@ -42,5 +42,3 @@ const Language: FC = () => {
 		</div>
 	)
 }
-
-export default Language
