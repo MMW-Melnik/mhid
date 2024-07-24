@@ -1,7 +1,6 @@
 import { HeaderData } from '@/shared/data'
-import { NavRoute } from '@/shared/ui'
+import { Logo, NavRoute } from '@/shared/ui'
 import { Language } from '@/widgets/index'
-import Image from 'next/image'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './header.module.scss'
@@ -16,13 +15,7 @@ export const Header = () => {
 
 	return (
 		<div className={styles.header}>
-			<Image
-				src={'/logo.svg'}
-				width={100}
-				height={75}
-				draggable={false}
-				alt="logo"
-			/>
+			<Logo />
 			<div className={styles.nav_items}>
 				{HeaderData.map(
 					(data, index) =>
