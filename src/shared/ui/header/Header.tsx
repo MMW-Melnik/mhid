@@ -1,17 +1,12 @@
 import { HeaderData } from '@/shared/data'
 import { Logo, NavRoute } from '@/shared/ui'
-import { Language } from '@/widgets/index'
-import React, { useEffect } from 'react'
-import { useTranslation } from 'react-i18next'
+import React, { FC } from 'react'
 import styles from './header.module.scss'
+import { Language } from '@/widgets/index'
+import { useLanguage } from '@/features/index'
 
-export const Header = () => {
-	const { t, i18n } = useTranslation()
-
-	useEffect(() => {
-		const lng = navigator.language
-		i18n.changeLanguage(lng)
-	}, [i18n])
+export const Header: FC = () => {
+	const { t, selectedLanguage } = useLanguage()
 
 	return (
 		<div className={styles.header}>
@@ -19,7 +14,7 @@ export const Header = () => {
 			<div className={styles.nav_items}>
 				{HeaderData.map(
 					(data, index) =>
-						data.language === i18n.language && (
+						data.language === selectedLanguage && (
 							<React.Fragment key={index}>
 								<NavRoute title={t(data.header.home)} link="/" />
 								<NavRoute title={t(data.header.about)} link="/" />

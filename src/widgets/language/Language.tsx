@@ -1,4 +1,4 @@
-import { useLanguage } from '@/features/change-language'
+import { useLanguage } from '@/features/index'
 import { languageData } from '@/shared/data'
 import { LanguageButton } from '@/shared/ui'
 import { FC } from 'react'
@@ -28,16 +28,16 @@ export const Language: FC = () => {
 				</div>
 			</div>
 			<div className={`${styles.dropdown} ${dropdownOpen ? styles.show : ''}`}>
-				<ul className={styles.list_container}>
+				<div className={styles.list_container}>
 					{languageData.map(language => (
 						<LanguageButton
 							key={language.title}
 							title={language.title}
 							language={language.language}
-							onClick={handleLanguageChange}
+							onClick={() => handleLanguageChange(language.language)}
 						/>
 					))}
-				</ul>
+				</div>
 			</div>
 		</div>
 	)

@@ -1,7 +1,8 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ILanguageBtn } from './language-button.interface'
 import styles from './language-button.module.scss'
+import { getCookie } from 'cookies-next'
 
 export const LanguageButton: FC<ILanguageBtn> = ({
 	title,
@@ -10,9 +11,9 @@ export const LanguageButton: FC<ILanguageBtn> = ({
 }) => {
 	const { i18n } = useTranslation()
 
-	const handleLanguageChange = (language: string): void => {
-		i18n.changeLanguage(language)
-		onClick(language)
+	const handleLanguageChange = (lng: string): void => {
+		i18n.changeLanguage(lng)
+		onClick(lng)
 	}
 
 	return (
