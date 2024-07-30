@@ -1,15 +1,13 @@
 'use client'
 
-import { useLanguage } from '@/features/index'
-import { HeaderData } from '@/shared/data'
 import { Logo, NavRoute } from '@/shared/ui'
 import { Language } from '@/widgets/index'
-import React, { FC } from 'react'
+import React, { FC, useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import styles from './header.module.scss'
 
 export const Header: FC = () => {
 	const { t } = useTranslation('header')
-
 	const [isLoaded, setIsLoaded] = useState(false)
 
 	useEffect(() => {
