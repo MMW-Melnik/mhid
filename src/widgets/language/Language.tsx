@@ -1,4 +1,5 @@
-// Language.tsx
+'use client'
+
 import { useLanguage } from '@/features/index'
 import { languageData } from '@/shared/data'
 import { LanguageButton } from '@/shared/ui'

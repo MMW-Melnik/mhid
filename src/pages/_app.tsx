@@ -1,9 +1,12 @@
 import { NextPage } from 'next'
 import { AppProps } from 'next/app'
 import { ReactElement, ReactNode } from 'react'
-import { DefaultLayout } from '../app/layouts'
 import '../../i18n.config'
+<<<<<<< HEAD
 import { appWithTranslation } from 'next-i18next'
+=======
+import { DefaultLayout } from '../app/layouts'
+>>>>>>> b158164c0ee25924ea95f59f147078aa3f3ace71
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
 	getLayout?: (page: ReactElement) => ReactNode

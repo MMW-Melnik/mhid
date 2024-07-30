@@ -1,15 +1,12 @@
 import { socialMediaData } from '@/shared/data'
 import { SocialMediaCard } from '@/shared/ui'
-import { useState } from 'react'
 import styles from './sm-widget.module.scss'
 
 export const SMWidget = () => {
-	const [socials] = useState(socialMediaData)
-
 	return (
 		<section className={styles.sm_widget}>
 			<div className={styles.sm_card_container}>
-				{socials.map(social => (
+				{socialMediaData.map(social => (
 					<SocialMediaCard
 						key={social.title}
 						title={social.title}

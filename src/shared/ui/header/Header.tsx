@@ -1,8 +1,11 @@
-import React, { FC, useEffect, useState } from 'react'
+'use client'
+
+import { useLanguage } from '@/features/index'
+import { HeaderData } from '@/shared/data'
 import { Logo, NavRoute } from '@/shared/ui'
-import styles from './header.module.scss'
 import { Language } from '@/widgets/index'
-import { useTranslation } from 'react-i18next'
+import React, { FC } from 'react'
+import styles from './header.module.scss'
 
 export const Header: FC = () => {
 	const { t } = useTranslation('header')
