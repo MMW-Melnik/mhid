@@ -13,7 +13,7 @@ export const ContactForm: FC = () => {
 
 	return (
 		<>
-			<div className={styles.contact_form_widget}>
+			<section className={styles.contact_form_widget}>
 				<form onSubmit={handleSubmit} className={styles.form_widget}>
 					<div className={styles.form}>
 						<div className={styles.form_inputs}>
@@ -43,7 +43,7 @@ export const ContactForm: FC = () => {
 							<Button
 								type="submit"
 								buttonSize={ButtonSize.LARGE}
-								buttonText={isLoading ? 'Sending...' : 'Send message'}
+								buttonText={isLoading ? 'Just a moment...' : 'Send message'}
 								disabled={isLoading}
 							/>
 						</div>
@@ -57,7 +57,7 @@ export const ContactForm: FC = () => {
 					width={780}
 					height={440}
 				/>
-			</div>
+			</section>
 		</>
 	)
 }

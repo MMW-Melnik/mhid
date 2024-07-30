@@ -5,3 +5,11 @@ html {
 main {
 	@apply flex-1 my-[200px];
 }
+
+body.loaded .content {
+	@apply opacity-100 transition-opacity duration-500 ease-in-out;
+}
+
+body .content {
+	@apply opacity-0;
+}

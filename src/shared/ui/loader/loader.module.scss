@@ -1,3 +1,12 @@
 .loader {
 	@apply flex items-center justify-center min-h-screen;
 }
+
+.progress-bar {
+	@apply absolute top-0 left-1/2 w-full h-1 bg-opacity-10;
+	transform: translateX(-50%);
+}
+
+.progress {
+	@apply bg-sand w-0 h-full;
+}

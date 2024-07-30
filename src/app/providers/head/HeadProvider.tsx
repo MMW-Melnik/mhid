@@ -21,6 +21,7 @@ export const HeadProvider: FC<PropsWithChildren> = ({ children }) => {
 			<NextTopLoader
 				color="#C2C0BA"
 				showSpinner={false}
+				height={3}
 				zIndex={9999}
 				crawlSpeed={500}
 				speed={500}

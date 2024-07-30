@@ -38,7 +38,9 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 					}
 				/>
 			)}
-			{!isLoading && getLayout(<Component {...pageProps} />)}
+			<div className="content">
+				{!isLoading && getLayout(<Component {...pageProps} />)}
+			</div>
 		</>
 	)
 }
