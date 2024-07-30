@@ -1,3 +1,5 @@
+'use client'
+
 import logoImage from '@/app/assets/favicons/favicon.ico'
 import { siteName, titleMerge } from '@/shared/config'
 import { onlyText } from '@/shared/lib'
@@ -40,6 +42,7 @@ export const Meta: FC<PropsWithChildren<ISeo>> = ({
 					<meta name="robots" content="noindex, nofollow" />
 				)}
 			</Head>
+			{children}
 		</>
 	)
 }

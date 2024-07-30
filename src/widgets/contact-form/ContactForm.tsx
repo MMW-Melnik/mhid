@@ -1,3 +1,5 @@
+'use client'
+
 import { useContactForm } from '@/features/index'
 import { formConfig } from '@/shared/config'
 import { Button, Input, TextArea } from '@/shared/ui'
@@ -6,7 +8,7 @@ import Image from 'next/image'
 import { FC } from 'react'
 import styles from './contact-form.module.scss'
 
-export const ContactForm: FC = ({}) => {
+export const ContactForm: FC = () => {
 	const { register, handleSubmit, errors, isLoading } = useContactForm()
 
 	return (

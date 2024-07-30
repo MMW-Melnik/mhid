@@ -1,9 +1,11 @@
+'use client'
+
+import { useLanguage } from '@/features/index'
 import { HeaderData } from '@/shared/data'
 import { Logo, NavRoute } from '@/shared/ui'
+import { Language } from '@/widgets/index'
 import React, { FC } from 'react'
 import styles from './header.module.scss'
-import { Language } from '@/widgets/index'
-import { useLanguage } from '@/features/index'
 
 export const Header: FC = () => {
 	const { t, selectedLanguage } = useLanguage()
