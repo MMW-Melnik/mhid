@@ -35,7 +35,7 @@
 }
 
 .list_container {
-	@apply flex flex-col justify-start items-start;
+	@apply flex flex-col justify-start items-start overflow-hidden;
 }
 
 .button {

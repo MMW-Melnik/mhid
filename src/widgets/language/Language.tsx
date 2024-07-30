@@ -1,7 +1,8 @@
+// Language.tsx
 import { useLanguage } from '@/features/index'
 import { languageData } from '@/shared/data'
 import { LanguageButton } from '@/shared/ui'
-import { FC } from 'react'
+import { FC, useEffect, useState } from 'react'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import styles from './language.module.scss'
 
@@ -29,14 +30,16 @@ export const Language: FC = () => {
 			</div>
 			<div className={`${styles.dropdown} ${dropdownOpen ? styles.show : ''}`}>
 				<div className={styles.list_container}>
-					{languageData.map(language => (
-						<LanguageButton
-							key={language.title}
-							title={language.title}
-							language={language.language}
-							onClick={() => handleLanguageChange(language.language)}
-						/>
-					))}
+					{languageData
+						.filter(language => language.language !== selectedLanguage)
+						.map(language => (
+							<LanguageButton
+								key={language.language}
+								title={language.title}
+								language={language.language}
+								onClick={() => handleLanguageChange(language.language)}
+							/>
+						))}
 				</div>
 			</div>
 		</div>

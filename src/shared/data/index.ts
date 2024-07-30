@@ -1,5 +1,5 @@
 export { languageData } from './language.data'
 export { footerData } from './footer.data'
 export { emailRegexPatterns, formMessages } from './form.data'
-export { HeaderData } from './header.data'
+export { headerData } from './header.data'
 export { socialMediaData } from './social-media.data'

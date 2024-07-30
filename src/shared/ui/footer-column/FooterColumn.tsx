@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import styles from './footer-column.module.scss'
 import { IFooterColumn } from './footer-column.interface'
-import { useTranslation } from 'react-i18next'
 
 export const FooterColumn: React.FC<IFooterColumn> = ({ footerData }) => {
 	const { t } = useTranslation()
@@ -13,7 +13,9 @@ export const FooterColumn: React.FC<IFooterColumn> = ({ footerData }) => {
 			<ul className={styles.item_list}>
 				{Object.keys(footerData.items).map((key, index) => (
 					<li className={styles.item} key={index}>
-						<Link href="#">{t(footerData.items[key])}</Link>
+						<Link href={footerData.items[key].link}>
+							{t(footerData.items[key].name)}
+						</Link>
 					</li>
 				))}
 			</ul>

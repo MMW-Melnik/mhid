@@ -2,7 +2,6 @@ import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
 import { ILanguageBtn } from './language-button.interface'
 import styles from './language-button.module.scss'
-import { getCookie } from 'cookies-next'
 
 export const LanguageButton: FC<ILanguageBtn> = ({
 	title,

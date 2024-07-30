@@ -1,27 +1,31 @@
-import { HeaderData } from '@/shared/data'
+import React, { FC, useEffect, useState } from 'react'
 import { Logo, NavRoute } from '@/shared/ui'
-import React, { FC } from 'react'
 import styles from './header.module.scss'
 import { Language } from '@/widgets/index'
-import { useLanguage } from '@/features/index'
+import { useTranslation } from 'react-i18next'
 
 export const Header: FC = () => {
-	const { t, selectedLanguage } = useLanguage()
+	const { t } = useTranslation('header')
+
+	const [isLoaded, setIsLoaded] = useState(false)
+
+	useEffect(() => {
+		setIsLoaded(true)
+	}, [])
+
+	if (!isLoaded) {
+		return null
+	}
 
 	return (
 		<div className={styles.header}>
 			<Logo />
 			<div className={styles.nav_items}>
-				{HeaderData.map(
-					(data, index) =>
-						data.language === selectedLanguage && (
-							<React.Fragment key={index}>
-								<NavRoute title={t(data.header.home)} link="/" />
-								<NavRoute title={t(data.header.about)} link="/" />
-								<NavRoute title={t(data.header.contact)} link="/contact" />
-							</React.Fragment>
-						)
-				)}
+				<React.Fragment>
+					<NavRoute title={t('home')} link="/" />
+					<NavRoute title={t('about')} link="/about" />
+					<NavRoute title={t('contact')} link="/contact" />
+				</React.Fragment>
 			</div>
 			<Language />
 		</div>

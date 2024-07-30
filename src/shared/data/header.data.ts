@@ -1,5 +1,5 @@
-export const HeaderData = [
-	{
+export const headerData = {
+	en: {
 		language: 'en',
 		header: {
 			home: 'Home',
@@ -7,7 +7,7 @@ export const HeaderData = [
 			contact: 'Contact'
 		}
 	},
-	{
+	fr: {
 		language: 'fr',
 		header: {
 			home: 'Accueil',
@@ -15,7 +15,7 @@ export const HeaderData = [
 			contact: 'Contacter'
 		}
 	},
-	{
+	de: {
 		language: 'de',
 		header: {
 			home: 'Startseite',
@@ -23,7 +23,7 @@ export const HeaderData = [
 			contact: 'Kontakt'
 		}
 	},
-	{
+	ua: {
 		language: 'ua',
 		header: {
 			home: 'Головна',
@@ -31,4 +31,4 @@ export const HeaderData = [
 			contact: 'Контакти'
 		}
 	}
-]
+}
