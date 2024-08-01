@@ -1,9 +1,9 @@
+import { footerData } from '@/shared/data/footer.data'
+import { FooterColumn } from '@/shared/ui/footer-column/FooterColumn'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { FooterColumn } from '@/shared/ui/footer-column/FooterColumn'
-import styles from './footer.module.scss'
-import { footerData } from '@/shared/data/footer.data'
 import { FooterData } from './footer.interface'
+import styles from './footer.module.scss'
 
 const typedFooterData: FooterData = footerData
 
@@ -23,14 +23,16 @@ export const Footer: React.FC = () => {
 
 	return (
 		<footer className={styles.footer}>
-			<div className={styles.footer_column_container}>
-				{footerContent && (
-					<>
-						<FooterColumn footerData={footerContent.socialMedia} />
-						<FooterColumn footerData={footerContent.navigation} />
-						<FooterColumn footerData={footerContent.papers} />
-					</>
-				)}
+			<div className={styles.container}>
+				<div className={styles.footer_column_container}>
+					{footerContent && (
+						<>
+							<FooterColumn footerData={footerContent.socialMedia} />
+							<FooterColumn footerData={footerContent.navigation} />
+							<FooterColumn footerData={footerContent.papers} />
+						</>
+					)}
+				</div>
 			</div>
 		</footer>
 	)

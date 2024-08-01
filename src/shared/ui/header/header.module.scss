@@ -1,7 +1,7 @@
 .header {
-	@apply w-full h-20 flex items-center justify-center static overflow-visible;
+	@apply mx-auto my-0 w-full h-20 flex items-center max-w-[1400px] p-4 justify-between static overflow-visible bg-dark;
 }
 
 .nav_items {
-	@apply flex justify-between;
+	@apply flex gap-10 justify-between;
 }

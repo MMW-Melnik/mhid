@@ -1,10 +1,14 @@
 .footer {
-	@apply sticky bottom-0 w-full h-auto flex justify-center items-center gap-6 px-8 py-[60px];
+	@apply sticky bottom-0 w-full h-auto py-[60px];
+}
+
+.container {
+	@apply mx-auto my-0 max-w-[1400px] flex justify-end;
 }
 
 .footer::before {
 	content: '';
-	@apply absolute block w-screen h-[1px] bg-b-grey z-[-1];
+	@apply absolute block w-screen h-[1px] bg-b-grey z-[999];
 }
 
 .footer::before {
