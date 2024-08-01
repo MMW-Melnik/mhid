@@ -7,17 +7,21 @@
 }
 
 .h2 {
-	@apply text-h42;
+	@apply text-h128;
 }
 
 .h3 {
-	@apply text-h26;
+	@apply text-h60;
 }
 
 .h4 {
-	@apply text-h18;
+	@apply text-h42;
 }
 
 .h5 {
-	@apply text-h14;
+	@apply text-h26;
+}
+
+.h6 {
+	@apply text-h18;
 }

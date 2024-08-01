@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { FooterColumn } from '@/shared/ui/footer-column/FooterColumn'
 import styles from './footer.module.scss'
-import { footerData } from '@/shared/data/footer.data'
+import { footerData } from '@/shared/data'
 import { FooterData } from './footer.interface'
 
 const typedFooterData: FooterData = footerData
