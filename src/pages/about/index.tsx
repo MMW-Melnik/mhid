@@ -1,7 +1,12 @@
 import { FC } from 'react'
+import { AboutPage } from 'views/about'
 
 const About: FC = ({}) => {
-	return <div>About</div>
+	return (
+		<>
+			<AboutPage />
+		</>
+	)
 }
 
 export default About

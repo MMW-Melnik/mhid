@@ -3,8 +3,8 @@
 import { Logo, NavRoute } from '@/shared/ui'
 import { Language } from '@/widgets/index'
 import React, { FC, useEffect, useState } from 'react'
-import { useTranslation } from 'react-i18next'
 import styles from './header.module.scss'
+import { useTranslation } from 'react-i18next'
 
 export const Header: FC = () => {
 	const { t } = useTranslation('header')

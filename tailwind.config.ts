@@ -18,6 +18,8 @@ const config: Config = {
 			},
 			fontSize: {
 				h270: '270px',
+				h128: '128px',
+				h60: '60px',
 				h42: '42px',
 				h26: '26px',
 				h18: '18px',

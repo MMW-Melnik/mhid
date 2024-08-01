@@ -3,4 +3,5 @@ export interface ISocialMediaCard {
 	alt: string
 	link: string
 	iconPath: string
+	className?: string
 }
