@@ -2,11 +2,11 @@
 
 import { Meta } from '@/app/meta/Meta'
 import { mykhailoData, yaroslavData, zhannaData } from '@/shared/data'
-import { Heading, SocialMediaCard } from '@/shared/ui'
+import { Heading, SocialMediaCard, TextContainer } from '@/shared/ui'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import styles from './aboutpage.module.scss'
+import styles from './about.module.scss'
 
 export const AboutPage = () => {
 	const { t } = useTranslation('about')
@@ -25,15 +25,23 @@ export const AboutPage = () => {
 		<>
 			<Meta title="About" description="About us page" />
 			<section className={`${styles.project_description} ${styles.section}`}>
-				<Heading level={2}>{t('headingTitle')}</Heading>
-				<p className={styles.text}>{t('headingText')}</p>
+				<TextContainer
+					headingLevel={2}
+					heading={t('headingTitle')}
+					content={t('headingText')}
+					className={styles.text_container}
+					contentClassName={styles.content}
+				/>
 			</section>
+
 			<section className={`${styles.author} ${styles.section}`}>
 				<div className={styles.text_container}>
-					<div>
-						<Heading level={3}>Zhanna Serdiuk</Heading>
-						<p className={styles.text}>{t('authorText')}</p>
-					</div>
+					<TextContainer
+						headingLevel={3}
+						heading={'Zhanna Serdiuk'}
+						content={t('authorText')}
+						className={styles.text_container}
+					/>
 					<div className={styles.links_container}>
 						{zhannaData.map(data => (
 							<SocialMediaCard
@@ -42,7 +50,7 @@ export const AboutPage = () => {
 								alt={data.alt}
 								className={styles.link}
 								link={data.link}
-								iconPath={data.iconPath}
+								icon={data.icon}
 							/>
 						))}
 					</div>
@@ -53,11 +61,12 @@ export const AboutPage = () => {
 			</section>
 
 			<section className={`${styles.developers} ${styles.section}`}>
-				<div className={styles.text_container}>
-					<Heading level={3}>{t('developersTitle')}</Heading>
-					<p className={styles.text}>{t('developersText')}</p>
-				</div>
-
+				<TextContainer
+					headingLevel={3}
+					heading={t('developersTitle')}
+					content={t('developersText')}
+					className={styles.text_container}
+				/>
 				<div className={styles.developers_container}>
 					<div className={styles.developer_container}>
 						<Heading level={4}>Yaroslav</Heading>
@@ -69,7 +78,7 @@ export const AboutPage = () => {
 									title={data.title}
 									alt={data.alt}
 									link={data.link}
-									iconPath={data.iconPath}
+									icon={data.icon}
 								/>
 							))}
 						</div>
@@ -84,7 +93,7 @@ export const AboutPage = () => {
 									alt={data.alt}
 									className={styles.link}
 									link={data.link}
-									iconPath={data.iconPath}
+									icon={data.icon}
 								/>
 							))}
 						</div>
