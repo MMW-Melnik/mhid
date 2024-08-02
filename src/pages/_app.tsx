@@ -3,10 +3,6 @@
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
 import { NextPage } from 'next'
-<<<<<<< HEAD
-import { appWithTranslation } from 'next-i18next'
-=======
->>>>>>> 1b6a12e447b30acd43419c8a8abf96b81c07c574
 import { AppProps } from 'next/app'
 import { ReactElement, ReactNode, useEffect } from 'react'
 import '../../i18n.config'
