@@ -1,19 +1,12 @@
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
 import { NextPage } from 'next'
-<<<<<<< HEAD
 import { appWithTranslation } from 'next-i18next'
 import { AppProps } from 'next/app'
 import { ReactElement, ReactNode, useEffect } from 'react'
 import '../../i18n.config'
 import { DefaultLayout } from '../app/layouts'
 import '../app/styles/index.scss'
-=======
-import { AppProps } from 'next/app'
-import { ReactElement, ReactNode } from 'react'
-import '../../i18n.config'
-import { DefaultLayout } from '../app/layouts'
->>>>>>> about
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
 	getLayout?: (page: ReactElement) => ReactNode

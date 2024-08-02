@@ -6,7 +6,7 @@ export const Logo: FC = () => {
 	return (
 		<>
 			<Link href={'/'} className={'cursor-pointer'}>
-				<Heading level={3}>MHID</Heading>
+				<Heading level={4}>MHID</Heading>
 			</Link>
 		</>
 	)

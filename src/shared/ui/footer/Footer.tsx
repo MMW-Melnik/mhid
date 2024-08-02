@@ -1,13 +1,7 @@
-import { footerData } from '@/shared/data/footer.data'
+import { footerData } from '@/shared/data/footer/footer.data'
 import { FooterColumn } from '@/shared/ui/footer-column/FooterColumn'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-<<<<<<< HEAD
-=======
-import { FooterColumn } from '@/shared/ui/footer-column/FooterColumn'
-import styles from './footer.module.scss'
-import { footerData } from '@/shared/data'
->>>>>>> about
 import { FooterData } from './footer.interface'
 import styles from './footer.module.scss'
 
