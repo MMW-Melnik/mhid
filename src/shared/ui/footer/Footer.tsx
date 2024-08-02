@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 import { footerData } from '@/shared/data/footer/footer.data'
+=======
+'use client'
+
+import { footerData } from '@/shared/data'
+>>>>>>> 1b6a12e447b30acd43419c8a8abf96b81c07c574
 import { FooterColumn } from '@/shared/ui/footer-column/FooterColumn'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'

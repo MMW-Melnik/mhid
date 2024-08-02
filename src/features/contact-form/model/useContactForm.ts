@@ -1,3 +1,5 @@
+'use client'
+
 import { formConfig } from '@/shared/config'
 import { notifyError, notifySuccess } from '@/shared/lib/toats'
 import { contactFormData } from '@/shared/types'

@@ -3,7 +3,7 @@
 import { useLanguage } from '@/features/index'
 import { languageData } from '@/shared/data'
 import { LanguageButton } from '@/shared/ui'
-import { FC, useEffect, useState } from 'react'
+import { FC } from 'react'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 import styles from './language.module.scss'
 
