@@ -1,3 +1,5 @@
+'use client'
+
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
 import { NextPage } from 'next'

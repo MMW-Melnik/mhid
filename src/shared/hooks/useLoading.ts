@@ -1,7 +1,9 @@
-import { useEffect, useState } from 'react'
+'use client'
 
-export const useLoading = () => {
-	const [isLoading, setLoading] = useState(true)
+import { Dispatch, SetStateAction, useEffect, useState } from 'react'
+
+export const useLoading = (): [boolean, Dispatch<SetStateAction<boolean>>] => {
+	const [isLoading, setLoading] = useState<boolean>(true)
 
 	useEffect(() => {
 		const handleLoad = () => {

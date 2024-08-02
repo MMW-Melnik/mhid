@@ -1,15 +1,24 @@
+import {
+	BiBookAlt,
+	BiLogoFacebook,
+	BiLogoGithub,
+	BiLogoInstagram,
+	BiLogoLinkedin,
+	BiLogoTelegram
+} from 'react-icons/bi'
+
 export const zhannaData = [
 	{
 		title: 'Research Paper',
-		alt: 'researchPaper Icon',
+		alt: 'research paper Icon',
 		link: 'https://example.com/instagram',
-		iconPath: ''
+		icon: BiBookAlt
 	},
 	{
-		title: 'FaceBook',
+		title: 'Facebook',
 		alt: 'FaceBook Icon',
-		link: 'https://example.com/facebook',
-		iconPath: ''
+		link: 'https://facebook.com',
+		icon: BiLogoFacebook
 	}
 ]
 
@@ -17,26 +26,26 @@ export const yaroslavData = [
 	{
 		title: 'GitHub',
 		alt: 'GitHub Icon',
-		link: 'https://example.com/github',
-		iconPath: ''
+		link: 'https://github.com/yaroslavmuzalevskyi',
+		icon: BiLogoGithub
 	},
 	{
 		title: 'LinkedIn',
 		alt: 'LinkedIn Icon',
-		link: 'https://example.com/linkedin',
-		iconPath: ''
+		link: 'https://www.linkedin.com/in/yaroslav-muzalevskyi/',
+		icon: BiLogoLinkedin
 	},
 	{
 		title: 'Instagram',
 		alt: 'WhatsApp Icon',
-		link: 'https://example.com/instagram',
-		iconPath: ''
+		link: 'https://instagram.com/yaroslavmuzalevskyi',
+		icon: BiLogoInstagram
 	},
 	{
 		title: 'Telegram',
 		alt: 'Telegram Icon',
-		link: 'https://example.com/telegram',
-		iconPath: ''
+		link: 'https://t.me/yaroslavmuzalevskyi',
+		icon: BiLogoTelegram
 	}
 ]
 
@@ -44,25 +53,25 @@ export const mykhailoData = [
 	{
 		title: 'GitHub',
 		alt: 'GitHub Icon',
-		link: 'https://example.com/github',
-		iconPath: ''
+		link: 'https://github.com/sozureke',
+		icon: BiLogoGithub
 	},
 	{
 		title: 'LinkedIn',
 		alt: 'LinkedIn Icon',
-		link: 'https://example.com/linkedin',
-		iconPath: ''
+		link: 'https://www.linkedin.com/in/sozureke/',
+		icon: BiLogoLinkedin
 	},
 	{
 		title: 'Instagram',
 		alt: 'WhatsApp Icon',
-		link: 'https://example.com/instagram',
-		iconPath: ''
+		link: 'https://instagram.com/sozureke',
+		icon: BiLogoInstagram
 	},
 	{
 		title: 'Telegram',
 		alt: 'Telegram Icon',
-		link: 'https://example.com/telegram',
-		iconPath: ''
+		link: 'https://t.me/yorrokobi',
+		icon: BiLogoTelegram
 	}
 ]

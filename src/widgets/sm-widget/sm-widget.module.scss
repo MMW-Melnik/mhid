@@ -1,19 +1,8 @@
-.sm_widget {
-	@apply flex flex-col gap-4;
-}
-
-.text_container {
-	@apply flex flex-col gap-1;
-}
-
-.heading {
-	@apply text-t16;
-}
-
-.subheading {
-	@apply text-t12 text-l-grey;
+.social_media {
+	@apply w-full;
 }
 
 .sm_card_container {
-	@apply flex flex-wrap gap-5;
+	@apply w-full grid gap-5;
+	grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
 }

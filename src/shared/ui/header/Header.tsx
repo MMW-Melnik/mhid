@@ -2,9 +2,9 @@
 
 import { Logo, NavRoute } from '@/shared/ui'
 import { Language } from '@/widgets/index'
-import React, { FC, useEffect, useState } from 'react'
-import styles from './header.module.scss'
+import { FC, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import styles from './header.module.scss'
 
 export const Header: FC = () => {
 	const { t } = useTranslation('header')
@@ -21,13 +21,11 @@ export const Header: FC = () => {
 	return (
 		<div className={styles.header}>
 			<Logo />
-			<div className={styles.nav_items}>
-				<React.Fragment>
-					<NavRoute title={t('home')} link="/" />
-					<NavRoute title={t('about')} link="/about" />
-					<NavRoute title={t('contact')} link="/contact" />
-				</React.Fragment>
-			</div>
+			<nav className={styles.nav_items}>
+				<NavRoute title={t('home')} href="/" />
+				<NavRoute title={t('about')} href="/about" />
+				<NavRoute title={t('contact')} href="/contact" />
+			</nav>
 			<Language />
 		</div>
 	)
