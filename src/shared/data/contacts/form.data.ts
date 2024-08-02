@@ -28,7 +28,7 @@ export const formMessages = {
 			minLength: 'Le nom complet doit comporter au moins 3 caractères'
 		},
 		email: {
-			placeholder: 'exemple@gmail.com',
+			placeholder: 'example@gmail.com',
 			required: 'Email est requis',
 			invalid: 'Adresse e-mail invalide'
 		},
@@ -49,7 +49,7 @@ export const formMessages = {
 			minLength: 'Der vollständige Name muss mindestens 3 Zeichen lang sein'
 		},
 		email: {
-			placeholder: 'beispiel@gmail.com',
+			placeholder: 'example@gmail.com',
 			required: 'E-Mail ist erforderlich',
 			invalid: 'Ungültige E-Mail-Adresse'
 		},
@@ -70,7 +70,7 @@ export const formMessages = {
 			minLength: 'Повне ім’я повинно містити щонайменше 3 символи'
 		},
 		email: {
-			placeholder: 'приклад@gmail.com',
+			placeholder: 'example@gmail.com',
 			required: 'Електронна пошта є обов’язковою',
 			invalid: 'Невірна електронна адреса'
 		},
