@@ -1,0 +1,7 @@
+.logo {
+	@apply cursor-pointer transition-colors ease-in-out duration-200;
+}
+
+.logo:hover {
+	@apply text-white !important;
+}

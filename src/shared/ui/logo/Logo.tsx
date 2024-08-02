@@ -1,12 +1,15 @@
 import { Heading } from '@/shared/ui'
 import Link from 'next/link'
 import { FC } from 'react'
+import styles from './logo.module.scss'
 
 export const Logo: FC = () => {
 	return (
 		<>
-			<Link href={'/'} className={'cursor-pointer'}>
-				<Heading level={3}>MHID</Heading>
+			<Link href={'/'}>
+				<Heading level={4} className={styles.logo}>
+					MHID
+				</Heading>
 			</Link>
 		</>
 	)

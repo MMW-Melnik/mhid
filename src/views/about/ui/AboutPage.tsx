@@ -1,10 +1,12 @@
-import { Heading } from '@/shared/ui'
-import React, { useEffect, useState } from 'react'
+'use client'
+
+import { Meta } from '@/app/meta/Meta'
+import { mykhailoData, yaroslavData, zhannaData } from '@/shared/data'
+import { Heading, SocialMediaCard } from '@/shared/ui'
 import Image from 'next/image'
-import styles from './aboutpage.module.scss'
-import { zhannaData, yaroslavData, mykhailoData } from '@/shared/data'
-import { SocialMediaCard } from '@/shared/ui'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import styles from './aboutpage.module.scss'
 
 export const AboutPage = () => {
 	const { t } = useTranslation('about')
@@ -21,6 +23,7 @@ export const AboutPage = () => {
 
 	return (
 		<>
+			<Meta title="About" description="About us page" />
 			<section className={`${styles.project_description} ${styles.section}`}>
 				<Heading level={2}>{t('headingTitle')}</Heading>
 				<p className={styles.text}>{t('headingText')}</p>

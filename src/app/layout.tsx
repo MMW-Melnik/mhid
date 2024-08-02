@@ -1,3 +1,5 @@
+'use client'
+
 import '../../i18n.config'
 import './styles/index.scss'
 

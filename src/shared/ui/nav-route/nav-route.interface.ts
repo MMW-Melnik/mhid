@@ -1,4 +1,5 @@
-export interface INavRoute{
-    title: string
-    link: string
+import { LinkProps } from 'next/link'
+
+export interface INavRoute extends LinkProps {
+	title: string
 }

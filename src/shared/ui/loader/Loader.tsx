@@ -34,7 +34,7 @@ export const Loader: FC<ILoaderProps> = ({ setLoading }) => {
 
 	return (
 		<div ref={preloaderRef} className={styles.loader}>
-			<Heading level={2}>MHID</Heading>
+			<Heading level={3}>MHID</Heading>
 			<div className={styles['progress-bar']}>
 				<div ref={progressBarRef} className={styles.progress}></div>
 			</div>

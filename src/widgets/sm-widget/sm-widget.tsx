@@ -1,3 +1,5 @@
+'use client'
+
 import { socialMediaData } from '@/shared/data'
 import { SocialMediaCard } from '@/shared/ui'
 import styles from './sm-widget.module.scss'
