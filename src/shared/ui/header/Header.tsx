@@ -1,7 +1,7 @@
 'use client'
 
 import { Logo, NavRoute } from '@/shared/ui'
-import { Language } from '@/widgets/index'
+import { Language, MobileMenu } from '@/widgets/index'
 import { FC, useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import styles from './header.module.scss'
@@ -27,6 +27,7 @@ export const Header: FC = () => {
 				<NavRoute title={t('contact')} href="/contact" />
 			</nav>
 			<Language />
+			<MobileMenu />
 		</div>
 	)
 }

@@ -1,0 +1,94 @@
+.mobile_menu {
+	@apply hidden transition-colors duration-200 ease-in-out cursor-pointer;
+}
+
+.menu {
+	@apply hidden fixed top-0 left-0 w-full h-full bg-dark justify-center items-center z-[9999];
+	animation: fadeIn 0.2s ease-in-out;
+}
+
+.mobile_menu_close {
+	@apply absolute top-4 right-4 cursor-pointer;
+}
+
+.nav {
+	@apply flex flex-col gap-3 uppercase;
+}
+
+.icon_wrapper {
+	@apply hidden cursor-pointer relative;
+}
+
+.icon {
+	@apply text-sand;
+	transition:
+		opacity 0.2s ease-in-out,
+		transform 0.2s ease-in-out;
+}
+
+.icon:active {
+	@apply text-white;
+}
+
+.menu_icon {
+	@apply opacity-100;
+}
+
+.close_icon {
+	@apply absolute top-0 left-0 opacity-0;
+	transform: rotate(-45deg);
+}
+
+.icon_wrapper.open .menu_icon {
+	@apply opacity-0;
+	transform: rotate(45deg);
+}
+
+.icon_wrapper.open .close_icon {
+	@apply hidden;
+	transform: rotate(0deg);
+}
+
+@media (max-width: 768px) {
+	.menu {
+		@apply flex;
+	}
+	.mobile_menu {
+		@apply block;
+	}
+
+	.icon_wrapper {
+		@apply inline-block;
+	}
+
+	.icon_wrapper.open .close_icon {
+		@apply opacity-100;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes rotateIn {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes rotateOut {
+	from {
+		transform: rotate(45deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}

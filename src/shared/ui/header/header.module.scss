@@ -1,7 +1,40 @@
 .header {
-	@apply mx-auto my-0 w-full h-20 flex items-center max-w-[1400px] p-4 justify-between static overflow-visible bg-dark;
+	@apply mx-auto my-0 w-full h-20 flex items-center max-w-[1400px] p-4 justify-between static bg-dark overflow-visible;
 }
 
 .nav_items {
-	@apply flex gap-10 justify-between;
+	@apply flex gap-10;
+}
+
+@media (max-width: 1400px) {
+	.header {
+		@apply max-w-[1080px];
+	}
+}
+
+@media (max-width: 1000px) {
+	.header {
+		@apply max-w-[880px];
+	}
+}
+
+@media (max-width: 768px) {
+	.header {
+		@apply max-w-[580px];
+	}
+	.nav_items {
+		@apply hidden;
+	}
+}
+
+@media (max-width: 480px) {
+	.header {
+		@apply max-w-[380px];
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		@apply max-w-[280px];
+	}
 }
