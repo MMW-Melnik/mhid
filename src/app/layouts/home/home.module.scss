@@ -36,15 +36,16 @@
 	.layout {
 		max-width: 580px;
 	}
+
+	.layout::before,
+	.layout::after {
+		display: none;
+	}
 }
 
 @media (max-width: 480px) {
 	.layout {
 		max-width: 380px;
-	}
-	.layout::before,
-	.layout::after {
-		display: none;
 	}
 }
 

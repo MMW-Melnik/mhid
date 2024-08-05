@@ -15,6 +15,30 @@
 	@apply top-0 left-1/2 -translate-x-1/2;
 }
 
-.footer_column_container {
-	@apply flex flex-wrap gap-40;
+.column_container {
+	@apply flex gap-40;
+}
+
+@media (max-width: 1000px) {
+	.column_container {
+		@apply gap-20;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		@apply justify-center;
+	}
+}
+
+@media (max-width: 480px) {
+	.column_container {
+		@apply gap-10;
+	}
+}
+
+@media (max-width: 380px) {
+	.column_container {
+		@apply flex-col text-center;
+	}
 }

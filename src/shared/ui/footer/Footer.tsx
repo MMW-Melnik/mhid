@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.container}>
-				<div className={styles.footer_column_container}>
+				<div className={styles.column_container}>
 					{footerContent && (
 						<>
 							<FooterColumn footerData={footerContent.socialMedia} />
