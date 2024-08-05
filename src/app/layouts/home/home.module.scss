@@ -9,9 +9,43 @@
 }
 
 .layout::before {
-	@apply left-[450px];
+	@apply left-[23.5%];
 }
 
 .layout::after {
-	@apply right-[627px];
+	@apply right-[47.6%];
+}
+
+@media (max-width: 1400px) {
+	.layout {
+		max-width: 1180px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.layout {
+		max-width: 880px;
+	}
+}
+
+@media (max-width: 768px) {
+	.layout {
+		max-width: 580px;
+	}
+}
+
+@media (max-width: 480px) {
+	.layout {
+		max-width: 380px;
+	}
+	.layout::before,
+	.layout::after {
+		display: none;
+	}
+}
+
+@media (max-width: 320px) {
+	.layout {
+		max-width: 280px;
+	}
 }

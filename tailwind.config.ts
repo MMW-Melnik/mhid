@@ -36,6 +36,12 @@ const config: Config = {
 				'd-grey': '#68605D',
 				'l-grey': '#CCC4C1',
 				'b-grey': '#413F3F'
+			},
+			screens: {
+				xs: '480px',
+				sm: '768px',
+				md: '1000px',
+				lg: '1400px'
 			}
 		}
 	},

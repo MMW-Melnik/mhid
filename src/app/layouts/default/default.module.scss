@@ -1,3 +1,33 @@
 .layout {
 	@apply flex relative flex-col items-center max-w-[1400px] min-h-screen px-2.5 mx-auto;
 }
+
+@media (max-width: 1400px) {
+	.layout {
+		max-width: 1180px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.layout {
+		max-width: 880px;
+	}
+}
+
+@media (max-width: 768px) {
+	.layout {
+		max-width: 580px;
+	}
+}
+
+@media (max-width: 480px) {
+	.layout {
+		max-width: 380px;
+	}
+}
+
+@media (max-width: 320px) {
+	.layout {
+		max-width: 280px;
+	}
+}
