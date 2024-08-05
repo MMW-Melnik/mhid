@@ -6,3 +6,9 @@
 	@apply w-full grid gap-5;
 	grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
 }
+
+@media (max-width: 1000px) {
+	.sm_card_container {
+		grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	}
+}

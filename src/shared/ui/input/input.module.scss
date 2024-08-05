@@ -1,65 +1,65 @@
 .input_container {
-  @apply h-auto flex flex-col px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
+	@apply w-full h-auto flex flex-col px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
 
-  .input_label {
-    @apply text-t12 transition-colors duration-200 ease-in-out;
-  }
+	.input_label {
+		@apply text-t12 transition-colors duration-200 ease-in-out;
+	}
 
-  .input_value {
-    @apply text-t14 flex flex-col gap-1;
-  }
-  
-  .input {
-    @apply text-white w-full border-none;
-  }
+	.input_value {
+		@apply text-t14 flex flex-col gap-1;
+	}
 
-  .input::placeholder {
-    @apply text-l-grey;
-    @apply transition-colors duration-200 ease-in-out;
-  }
-  
-  &:hover {
-    .input::placeholder {
-      @apply text-white;
-    }
-    .underline {
-      @apply bg-white;
-    }
-  }
+	.input {
+		@apply text-white w-full border-none;
+	}
 
-  &:focus-within {
-    .underline {
-      @apply bg-white;
-    }
-  }
+	.input::placeholder {
+		@apply text-l-grey;
+		@apply transition-colors duration-200 ease-in-out;
+	}
 
-  &.has-error {
-    .input_label {
-      @apply text-red-500;
-    }
+	&:hover {
+		.input::placeholder {
+			@apply text-white;
+		}
+		.underline {
+			@apply bg-white;
+		}
+	}
 
-    .underline {
-      @apply bg-red-500;
-    }
+	&:focus-within {
+		.underline {
+			@apply bg-white;
+		}
+	}
 
-    .error_message {
-      @apply text-red-500 visible;
-    }
-  }
+	&.has-error {
+		.input_label {
+			@apply text-red-500;
+		}
+
+		.underline {
+			@apply bg-red-500;
+		}
+
+		.error_message {
+			@apply text-red-500 visible;
+		}
+	}
 }
 
 .underline {
-  @apply w-full h-px bg-gray-500 transition-colors duration-200 ease-in-out rounded-xl;
+	@apply w-full h-px bg-gray-500 transition-colors duration-200 ease-in-out rounded-xl;
 }
 
 .error {
-  @apply h-5;
+	@apply h-5;
 }
 
 .error_message {
-  @apply text-xs mt-1 invisible;
+	@apply text-xs mt-1 invisible;
 }
 
 .has-error .error_message {
-  @apply visible;
+	@apply visible;
 }

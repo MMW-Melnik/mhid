@@ -2,6 +2,10 @@
 	@apply flex relative flex-col items-center max-w-[1400px] min-h-screen px-2.5 mx-auto;
 }
 
+.main {
+	@apply w-full;
+}
+
 @media (max-width: 1400px) {
 	.layout {
 		max-width: 1180px;

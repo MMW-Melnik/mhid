@@ -27,7 +27,8 @@
 			"@/shared/*": ["shared/*"],
 			"@/entities/*": ["entities/*"],
 			"@/styles/*": ["app/styles/*"],
-			"@/stories/*": ["stories/*"]
+			"@/stories/*": ["stories/*"],
+			"@/views/*": ["views/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

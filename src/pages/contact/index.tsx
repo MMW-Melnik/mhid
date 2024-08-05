@@ -1,8 +1,9 @@
 'use client'
 
-import { Meta } from '@/app/meta/Meta'
+import { Meta } from '@/app/meta'
+import { ContactPage } from '@/views/contact'
+
 import { FC } from 'react'
-import { ContactPage } from '../../views/contact'
 
 const Contact: FC = ({}) => {
 	return (

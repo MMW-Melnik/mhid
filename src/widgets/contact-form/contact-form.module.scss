@@ -3,7 +3,11 @@
 }
 
 .form_widget {
-	@apply flex flex-col gap-[30px] w-[580px] h-[440px];
+	@apply w-full max-w-[580px] h-[440px];
+}
+
+.form {
+	@apply w-full flex flex-col gap-[30px];
 }
 
 .text_container {
@@ -26,10 +30,22 @@
 	@apply flex flex-col gap-4 flex-grow;
 }
 
-.button_container {
-	@apply mt-auto;
+.contact_form_image {
+	@apply bg-white w-full max-w-[780px] max-h-[440px];
 }
 
-.contact_form_image {
-	@apply bg-white max-w-[780px] max-h-[440px];
+@media (max-width: 768px) {
+	.contact_form_widget {
+		@apply flex-wrap;
+	}
+	.form_widget,
+	.contact_form_image {
+		@apply max-w-full;
+	}
+}
+
+@media (max-width: 480px) {
+	.contact_form_image {
+		@apply hidden;
+	}
 }

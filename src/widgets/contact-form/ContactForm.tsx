@@ -43,40 +43,42 @@ export const ContactForm: FC = () => {
 
 	return (
 		<section className={styles.contact_form_widget}>
-			<form onSubmit={handleSubmit} className={styles.form_widget}>
-				<div className={styles.form}>
-					<div className={styles.form_inputs}>
-						<Input
-							type="text"
-							placeholder={t('name.placeholder')}
-							inputName={t('name.fullName')}
-							inputErrorMessage={errors.fullName?.message}
-							{...register('fullName', formConfig.validation.name)}
-						/>
-						<Input
-							type="email"
-							placeholder={t('email.placeholder')}
-							inputName="Email"
-							inputErrorMessage={errors.email?.message}
-							{...register('email', formConfig.validation.email)}
-						/>
-						<TextArea
-							placeholder={t('message.placeholder')}
-							textAreaName={t('message.fullName')}
-							textAreaErrorMessage={errors.message?.message}
-							{...register('message', formConfig.validation.message)}
-						/>
+			<div className={styles.form_widget}>
+				<form onSubmit={handleSubmit} className={styles.form}>
+					<div className={styles.form}>
+						<div className={styles.form_inputs}>
+							<Input
+								type="text"
+								placeholder={t('name.placeholder')}
+								inputName={t('name.fullName')}
+								inputErrorMessage={errors.fullName?.message}
+								{...register('fullName', formConfig.validation.name)}
+							/>
+							<Input
+								type="email"
+								placeholder={t('email.placeholder')}
+								inputName="Email"
+								inputErrorMessage={errors.email?.message}
+								{...register('email', formConfig.validation.email)}
+							/>
+							<TextArea
+								placeholder={t('message.placeholder')}
+								textAreaName={t('message.fullName')}
+								textAreaErrorMessage={errors.message?.message}
+								{...register('message', formConfig.validation.message)}
+							/>
+						</div>
+						<div className={styles.button_container}>
+							<Button
+								type="submit"
+								buttonSize={ButtonSize.LARGE}
+								buttonText={isLoading ? t('button.name') : t('button.name')}
+								disabled={isLoading}
+							/>
+						</div>
 					</div>
-					<div className={styles.button_container}>
-						<Button
-							type="submit"
-							buttonSize={ButtonSize.LARGE}
-							buttonText={isLoading ? t('button.name') : t('button.name')}
-							disabled={isLoading}
-						/>
-					</div>
-				</div>
-			</form>
+				</form>
+			</div>
 			<Image
 				src={'./contact-form.svg'}
 				alt={t('formImageAlt', { defaultValue: 'contact form image' })}
