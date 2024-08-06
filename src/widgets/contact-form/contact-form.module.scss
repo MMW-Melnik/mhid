@@ -31,7 +31,7 @@
 }
 
 .contact_form_image {
-	@apply bg-white w-full max-w-[780px] max-h-[440px];
+	@apply bg-white w-full max-w-[780px] max-h-[440px] object-cover;
 }
 
 @media (max-width: 768px) {
