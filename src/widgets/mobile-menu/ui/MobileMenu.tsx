@@ -1,42 +1,14 @@
-import { useClickOutside } from '@/shared/hooks/useClickOutside'
 import { NavRoute } from '@/shared/ui'
-import { useRouter } from 'next/router'
-import { FC, useEffect, useRef, useState } from 'react'
+import { FC, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { IoMdClose, IoMdMenu } from 'react-icons/io'
 import { useMobileMenu } from '../model/useMobileMenu'
 import styles from './mobile-menu.module.scss'
 
 export const MobileMenu: FC = () => {
-	const { isOpen, toggleMenu } = useMobileMenu()
+	const { isOpen, toggleMenu, isLoaded, menuRef } = useMobileMenu()
 	const { t } = useTranslation('header')
-	const [isLoaded, setIsLoaded] = useState(false)
-	const menuRef = useRef<HTMLDivElement>(null)
-	const router = useRouter()
-
-	useClickOutside(menuRef, () => {
-		if (isOpen) {
-			toggleMenu()
-		}
-	})
-
-	useEffect(() => {
-		setIsLoaded(true)
-	}, [])
-
-	useEffect(() => {
-		const handleRouteChange = () => {
-			if (isOpen) {
-				toggleMenu()
-			}
-		}
-
-		router.events.on('routeChangeStart', handleRouteChange)
-
-		return () => {
-			router.events.off('routeChangeStart', handleRouteChange)
-		}
-	}, [isOpen, router.events, toggleMenu])
+	const overlayRef = useRef<HTMLDivElement>(null)
 
 	if (!isLoaded) {
 		return null
@@ -45,29 +17,54 @@ export const MobileMenu: FC = () => {
 	return (
 		<>
 			<div
-				className={`${styles.icon_wrapper} ${isOpen ? styles.open : ''}`}
+				className={`${styles.iconWrapper} ${isOpen ? styles.open : ''}`}
 				onClick={toggleMenu}
+				aria-expanded={isOpen}
+				aria-controls="mobile-menu"
 			>
-				<IoMdMenu size={30} className={`${styles.icon} ${styles.menu_icon}`} />
+				<IoMdMenu
+					size={30}
+					className={`${styles.icon} ${styles.menuIcon}`}
+					aria-hidden={!isOpen}
+					aria-label="open menu"
+				/>
 				<IoMdClose
 					size={30}
-					className={`${styles.icon} ${styles.close_icon}`}
+					className={`${styles.icon} ${styles.closeIcon}`}
+					aria-hidden={isOpen}
+					aria-label="close menu"
 				/>
 			</div>
 
 			{isOpen && (
-				<div className={styles.menu} ref={menuRef}>
-					<IoMdClose
-						size={30}
-						className={styles.mobile_menu_close}
+				<>
+					<div
+						className={styles.overlay}
+						ref={overlayRef}
 						onClick={toggleMenu}
-					/>
-					<nav className={styles.nav}>
-						<NavRoute title={t('home')} href="/" />
-						<NavRoute title={t('about')} href="/about" />
-						<NavRoute title={t('contact')} href="/contact" />
-					</nav>
-				</div>
+						aria-hidden="true"
+					></div>
+					<div className={styles.menu} ref={menuRef} id="mobile-menu">
+						<IoMdClose
+							size={30}
+							className={styles.mobileMenuClose}
+							onClick={toggleMenu}
+						/>
+						<nav className={styles.nav}>
+							<NavRoute className={styles.route} title={t('home')} href="/" />
+							<NavRoute
+								className={styles.route}
+								title={t('about')}
+								href="/about"
+							/>
+							<NavRoute
+								className={styles.route}
+								title={t('contact')}
+								href="/contact"
+							/>
+						</nav>
+					</div>
+				</>
 			)}
 		</>
 	)

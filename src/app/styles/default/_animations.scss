@@ -1,0 +1,26 @@
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes rotateIn {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(45deg);
+	}
+}
+
+@keyframes rotateOut {
+	from {
+		transform: rotate(45deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}

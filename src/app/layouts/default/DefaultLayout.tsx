@@ -2,10 +2,10 @@ import { MainProvider } from '@/app/providers'
 import { Footer } from '@/shared/ui'
 import { Header } from '@/shared/ui/header/Header'
 import '@/styles/index.scss'
-import { FC, ReactNode } from 'react'
+import { FC, PropsWithChildren } from 'react'
 import styles from './default.module.scss'
 
-export const DefaultLayout: FC<{ children: ReactNode }> = ({ children }) => {
+export const DefaultLayout: FC<PropsWithChildren> = ({ children }) => {
 	return (
 		<>
 			<MainProvider>

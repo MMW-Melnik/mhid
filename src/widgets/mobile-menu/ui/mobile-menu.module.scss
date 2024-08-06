@@ -1,4 +1,4 @@
-.mobile_menu {
+.mobileMenu {
 	@apply hidden transition-colors duration-200 ease-in-out cursor-pointer;
 }
 
@@ -7,15 +7,19 @@
 	animation: fadeIn 0.2s ease-in-out;
 }
 
-.mobile_menu_close {
-	@apply absolute top-4 right-4 cursor-pointer;
+.mobileMenuClose {
+	@apply absolute top-5 right-8 cursor-pointer;
 }
 
 .nav {
-	@apply flex flex-col gap-3 uppercase;
+	@apply flex flex-col gap-20;
 }
 
-.icon_wrapper {
+.route {
+	@apply text-h42 uppercase;
+}
+
+.iconWrapper {
 	@apply hidden cursor-pointer relative;
 }
 
@@ -25,27 +29,22 @@
 		opacity 0.2s ease-in-out,
 		transform 0.2s ease-in-out;
 }
-
-.icon:active {
-	@apply text-white;
-}
-
-.menu_icon {
+.menuIcon {
 	@apply opacity-100;
 }
 
-.close_icon {
+.closeIcon {
 	@apply absolute top-0 left-0 opacity-0;
 	transform: rotate(-45deg);
 }
 
-.icon_wrapper.open .menu_icon {
+.iconWrapper.open .menuIcon {
 	@apply opacity-0;
 	transform: rotate(45deg);
 }
 
-.icon_wrapper.open .close_icon {
-	@apply hidden;
+.iconWrapper.open .closeIcon {
+	@apply opacity-100;
 	transform: rotate(0deg);
 }
 
@@ -53,42 +52,11 @@
 	.menu {
 		@apply flex;
 	}
-	.mobile_menu {
+	.mobileMenu {
 		@apply block;
 	}
 
-	.icon_wrapper {
+	.iconWrapper {
 		@apply inline-block;
-	}
-
-	.icon_wrapper.open .close_icon {
-		@apply opacity-100;
-	}
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes rotateIn {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(45deg);
-	}
-}
-
-@keyframes rotateOut {
-	from {
-		transform: rotate(45deg);
-	}
-	to {
-		transform: rotate(0deg);
 	}
 }
