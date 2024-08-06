@@ -1,0 +1,12 @@
+.content_block {
+	@apply w-full flex items-center justify-between;
+}
+.aside {
+	@apply w-full static origin-right;
+}
+.aside_heading {
+	@apply fixed ml-[5%];
+}
+.content {
+	@apply ml-[380px];
+}
