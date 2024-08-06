@@ -1,5 +1,6 @@
 'use client'
 
+import ContactFormImage from '@/app/assets/images/contact/contact_form.jpg'
 import { useContactForm } from '@/features/index'
 import { Button, Input, TextArea } from '@/shared/ui'
 import { ButtonSize } from '@/shared/ui/button/button.interface'
@@ -80,10 +81,12 @@ export const ContactForm: FC = () => {
 				</form>
 			</div>
 			<Image
-				src={'./contact-form.svg'}
+				src={ContactFormImage.src}
 				alt={t('formImageAlt', { defaultValue: 'contact form image' })}
-				draggable={false}
 				className={styles.contact_form_image}
+				draggable={false}
+				loading="eager"
+				aria-label="contact form image"
 				width={780}
 				height={440}
 			/>
