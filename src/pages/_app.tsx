@@ -23,12 +23,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	const [isLoading, setLoading] = useLoading()
 
 	useEffect(() => {
-		if (!isLoading) {
-			document.body.classList.add('loaded')
-		}
-	}, [isLoading])
-
-	useEffect(() => {
 		const lenis = new Lenis()
 
 		function raf(time: any) {
@@ -37,7 +31,10 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 		}
 
 		requestAnimationFrame(raf)
-	}, [isLoading])
+		if (!isLoading) {
+			document.body.classList.add('loaded')
+		}
+	})
 
 	const getLayout =
 		Component.getLayout ??
@@ -52,8 +49,9 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 					}
 				/>
 			)}
-
-			{!isLoading && getLayout(<Component {...pageProps} />)}
+			<div className="content">
+				{!isLoading && getLayout(<Component {...pageProps} />)}
+			</div>
 		</>
 	)
 }
