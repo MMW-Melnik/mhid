@@ -2,11 +2,11 @@
 
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
-import { NextPage } from 'next'
-import { AppProps } from 'next/app'
-import { ReactElement, ReactNode, useEffect, useRef } from 'react'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
+import { NextPage } from 'next'
+import { AppProps } from 'next/app'
+import { ReactElement, ReactNode, useEffect } from 'react'
 import '../../i18n.config'
 import { DefaultLayout } from '../app/layouts'
 import '../app/styles/index.scss'
@@ -23,12 +23,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	const [isLoading, setLoading] = useLoading()
 
 	useEffect(() => {
-		if (!isLoading) {
-			document.body.classList.add('loaded')
-		}
-	}, [isLoading])
-
-	useEffect(() => {
 		const lenis = new Lenis()
 
 		function raf(time: any) {
@@ -37,7 +31,10 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 		}
 
 		requestAnimationFrame(raf)
-	}, [isLoading])
+		if (!isLoading) {
+			document.body.classList.add('loaded')
+		}
+	})
 
 	const getLayout =
 		Component.getLayout ??
@@ -52,7 +49,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 					}
 				/>
 			)}
-
 			{!isLoading && getLayout(<Component {...pageProps} />)}
 		</>
 	)
