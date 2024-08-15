@@ -1,16 +1,16 @@
 export const aboutTextData = {
 	en: {
-		headingTitle: 'Project',
+		headingTitle: 'MHID PROJECT',
 		headingText:
 			'This project is an innovative platform designed to streamline and enhance communication within educational institutions. By integrating various tools and features, it aims to create a seamless experience for students, teachers, and administrators. The platform offers real-time messaging, resource sharing, and collaborative spaces, all aimed at fostering a more connected and efficient learning environment.',
 		authorText:
-			'Zhanna Mykolaivna Serdiuk, Head of the Circle, Odesa Regional Humanitarian Center for Extracurricular Education and Upbringing. Dissertation Title: "The Formation of Women." Specialization Code and Title: 07.00.01 History of Ukraine. Specialized Academic Council D 41.051.08 of Odesa I.I. Mechnikov National University.,',
-		developersTitle: 'Product Developers',
+			"Zhanna Serdіuk studied World History, History of Ukraine and Pedagogy at Odessa I.I. Mechnikov National University. Her research interests include education, women's education, gender history, regional history and the history of everyday life. Her interest in the relations between Luxembourg and Ukraine in the 20th century led her to initiate a research project on a well-known Ukrainian couple living in exile in Luxembourg and to shed light on their activities and networks, especially from Fedak's perspective.",
+		developersTitle: 'Developers',
 		developersText:
 			'Our development team consists of seasoned professionals with extensive experience in educational technology. John Doe leads the team with his expertise in software engineering and project management. Jane Smith, our lead designer, ensures the platform is user-friendly and visually appealing. Together, they bring a wealth of knowledge and dedication to making this project a success.'
 	},
 	fr: {
-		headingTitle: 'Projet',
+		headingTitle: 'MHID PROJET',
 		headingText:
 			'Ce projet est une plateforme innovante conçue pour rationaliser et améliorer la communication au sein des établissements éducatifs. En intégrant divers outils et fonctionnalités, il vise à créer une expérience fluide pour les étudiants, les enseignants et les administrateurs. La plateforme propose une messagerie en temps réel, le partage de ressources et des espaces de collaboration, le tout visant à favoriser un environnement',
 		authorText:
@@ -20,7 +20,7 @@ export const aboutTextData = {
 			'Notre équipe de développement se compose de professionnels expérimentés ayant une vaste expérience dans la technologie éducative. John Doe dirige léquipe avec son expertise en ingénierie logicielle et en gestion de projet. Jane Smith, notre designer en chef, veille à ce que la plateforme soit conviviale et visuellement attrayante. Ensemble, ils apportent une richesse de connaissances et de dévouement pour faire de ce projet un succès.'
 	},
 	de: {
-		headingTitle: 'Projek',
+		headingTitle: 'MHID PROJEK',
 		headingText:
 			'Dieses Projekt ist eine innovative Plattform, die darauf abzielt, die Kommunikation innerhalb von Bildungseinrichtungen zu optimieren und zu verbessern. Durch die Integration verschiedener Werkzeuge und Funktionen soll eine nahtlose Erfahrung für Schüler, Lehrer und Administratoren geschaffen werden. Die Plattform bietet Echtzeit-Messaging, Ressourcenaustausch und Kollaborationsräume, die alle darauf abzielen, eine stärker vernetzte und effizientere Lernumgebung zu fördern.',
 		authorText:
@@ -30,7 +30,7 @@ export const aboutTextData = {
 			'Unser Entwicklungsteam besteht aus erfahrenen Fachleuten mit umfangreicher Erfahrung in der Bildungstechnologie. John Doe leitet das Team mit seiner Expertise in Softwareentwicklung und Projektmanagement. Jane Smith, unsere leitende Designerin, sorgt dafür, dass die Plattform benutzerfreundlich und optisch ansprechend ist. Gemeinsam bringen sie ein umfangreiches Wissen und Engagement mit, um dieses Projekt zum Erfolg zu führen.'
 	},
 	ua: {
-		headingTitle: 'Проект',
+		headingTitle: 'MHID ПРОЕКТ',
 		headingText:
 			'Цей проект є інноваційною платформою, розробленою для оптимізації та покращення комунікації в освітніх установах. Інтегруючи різноманітні інструменти та функції, він має на меті створити безперебійну взаємодію між студентами, викладачами та адміністраторами. Платформа пропонує обмін повідомленнями в реальному часі, спільний доступ до ресурсів і простори для співпраці, все це спрямоване на сприяння більш звязаному та ефективному навчальному середовищу.',
 		authorText:

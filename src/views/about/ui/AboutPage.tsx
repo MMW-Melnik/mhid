@@ -1,5 +1,6 @@
 'use client'
 
+import authorImage from '@/app/assets/images/about/author.jpeg'
 import { Meta } from '@/app/meta/Meta'
 import { mykhailoData, yaroslavData, zhannaData } from '@/shared/data'
 import { Heading, SocialMediaCard, TextContainer } from '@/shared/ui'
@@ -56,7 +57,13 @@ export const AboutPage = () => {
 					</div>
 				</div>
 				<div className={styles.image_container}>
-					<Image src={''} width={580} height={400} alt="Zhanna Serdiuk" />
+					<Image
+						src={authorImage.src}
+						width={580}
+						height={400}
+						draggable={false}
+						alt="Zhanna Serdiuk"
+					/>
 				</div>
 			</section>
 
