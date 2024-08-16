@@ -1,31 +1,39 @@
-import React, { FC, ReactNode, useEffect, useRef } from 'react'
+import React, { FC, useEffect, useRef } from 'react'
 import { Heading } from '@/shared/ui'
 import styles from './content-block.module.scss'
 import Image from 'next/image'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
+import FirstImage from '../../app/assets/images/home/familyWiskey.jpg'
 
 if (typeof window !== 'undefined') {
 	gsap.registerPlugin(ScrollTrigger)
 }
 
 interface ContentBlockProps {
-	children: ReactNode
+	text1: string
+	text2: string
 	heading: string
 }
 
-export const ContentBlock: FC<ContentBlockProps> = ({ heading, children }) => {
+export const ContentBlock: FC<ContentBlockProps> = ({
+	heading,
+	text1,
+	text2
+}) => {
 	const blockRef = useRef<HTMLDivElement | null>(null)
 	const headingRef = useRef<HTMLDivElement | null>(null)
 	const imgRef = useRef<HTMLDivElement | null>(null)
-	const contentRef = useRef<HTMLDivElement | null>(null)
+	const contentRef1 = useRef<HTMLDivElement | null>(null)
+	const contentRef2 = useRef<HTMLDivElement | null>(null)
 
 	useEffect(() => {
 		if (
 			!blockRef.current ||
 			!headingRef.current ||
 			!imgRef.current ||
-			!contentRef.current
+			!contentRef1.current ||
+			!contentRef2.current
 		)
 			return
 
@@ -35,7 +43,7 @@ export const ContentBlock: FC<ContentBlockProps> = ({ heading, children }) => {
 			{
 				opacity: 1,
 				x: 0,
-				duration: 3,
+				duration: 2.5,
 				ease: 'power4.out',
 				scrollTrigger: {
 					trigger: blockRef.current,
@@ -47,12 +55,12 @@ export const ContentBlock: FC<ContentBlockProps> = ({ heading, children }) => {
 		)
 
 		gsap.fromTo(
-			contentRef.current,
+			[contentRef1.current, contentRef2.current],
 			{ opacity: 0, x: 100 },
 			{
 				opacity: 1,
 				x: 0,
-				duration: 3,
+				duration: 2.5,
 				ease: 'power4.out',
 				scrollTrigger: {
 					trigger: blockRef.current,
@@ -65,25 +73,30 @@ export const ContentBlock: FC<ContentBlockProps> = ({ heading, children }) => {
 	}, [])
 
 	return (
-		<div ref={blockRef} className={styles.content_block}>
-			<div ref={headingRef} className={styles.block_heading}>
+		<div ref={blockRef} className={styles.block_content}>
+			<div ref={headingRef} className={styles.heading_block}>
 				<Heading className={styles.heading} level={3}>
 					{heading}
 				</Heading>
 			</div>
-			<div className={styles.block_content}>
-				<div ref={imgRef} className={styles.block_img}>
-					<Image
-						className={styles.img}
-						width={300}
-						height={500}
-						src={'/path/to/your/image.jpg'}
-						alt="Image description"
-					/>
-				</div>
-				<div ref={contentRef} className={styles.content}>
-					{children}
-				</div>
+			<div ref={contentRef1} className={styles.content}>
+				{text1}
+			</div>
+			<div ref={imgRef} className={styles.img_block}>
+				<Image
+					className={styles.img}
+					width={780}
+					height={400}
+					src={FirstImage.src}
+					alt="Grand Duke William IV of Luxembourg and his wife Maria Anna of Portugals"
+				/>
+				<p className={styles.img_text}>
+					Grand Duke William IV of Luxembourg and his wife Maria Anna of
+					Portugals
+				</p>
+			</div>
+			<div ref={contentRef2} className={styles.content}>
+				{text2}
 			</div>
 		</div>
 	)

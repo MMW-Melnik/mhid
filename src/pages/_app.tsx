@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use client'
 
 import { DefaultLayout } from '@/app/layouts'
@@ -6,10 +7,20 @@ import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
+=======
+import { useLoading } from '@/shared/hooks'
+import { Loader } from '@/shared/ui'
+>>>>>>> home
 import { NextPage } from 'next'
 import { AppProps } from 'next/app'
 import { ReactElement, ReactNode, useEffect } from 'react'
 import '../../i18n.config'
+<<<<<<< HEAD
+=======
+import { DefaultLayout } from '../app/layouts'
+import Lenis from 'lenis'
+import 'lenis/dist/lenis.css'
+>>>>>>> home
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
 	getLayout?: (page: ReactElement) => ReactNode
@@ -35,6 +46,12 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 			document.body.classList.add('loaded')
 		}
 	})
+
+	useEffect(() => {
+		if (!isLoading) {
+			document.body.classList.add('loaded')
+		}
+	}, [isLoading])
 
 	const getLayout =
 		Component.getLayout ??

@@ -11,7 +11,8 @@ const config: Config = {
 		extend: {
 			fontFamily: {
 				heading: ['Italiana', 'Times New Roman', 'sans-serif'],
-				text: ['Helvetica', 'Arial', 'sans-serif']
+				text: ['Helvetica', 'Arial', 'sans-serif'],
+				imgtext: ['Helvetica-Oblique', 'Arial Italic', 'sans-serif']
 			},
 			lineHeight: {
 				'130': '1.3'
