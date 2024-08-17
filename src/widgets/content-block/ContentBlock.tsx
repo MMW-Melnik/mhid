@@ -5,21 +5,19 @@ import Image from 'next/image'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import FirstImage from '../../app/assets/images/home/familyWiskey.jpg'
+import { IContentBlockProps } from './content-block.interface'
 
 if (typeof window !== 'undefined') {
 	gsap.registerPlugin(ScrollTrigger)
 }
 
-interface ContentBlockProps {
-	text1: string
-	text2: string
-	heading: string
-}
-
-export const ContentBlock: FC<ContentBlockProps> = ({
+export const ContentBlock: FC<IContentBlockProps> = ({
 	heading,
 	text1,
-	text2
+	text2,
+	image,
+	alt,
+	p
 }) => {
 	const blockRef = useRef<HTMLDivElement | null>(null)
 	const headingRef = useRef<HTMLDivElement | null>(null)
@@ -88,12 +86,9 @@ export const ContentBlock: FC<ContentBlockProps> = ({
 					width={780}
 					height={400}
 					src={FirstImage.src}
-					alt="Grand Duke William IV of Luxembourg and his wife Maria Anna of Portugals"
+					alt={alt}
 				/>
-				<p className={styles.img_text}>
-					Grand Duke William IV of Luxembourg and his wife Maria Anna of
-					Portugals
-				</p>
+				<p className={styles.img_text}>{p}</p>
 			</div>
 			<div ref={contentRef2} className={styles.content}>
 				{text2}
