@@ -7,6 +7,8 @@ import '../../i18n.config'
 import { DefaultLayout } from '../app/layouts'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
 	getLayout?: (page: ReactElement) => ReactNode
@@ -22,16 +24,14 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	useEffect(() => {
 		const lenis = new Lenis()
 
-		function raf(time: any) {
-			lenis.raf(time)
-			requestAnimationFrame(raf)
-		}
+		lenis.on('scroll', ScrollTrigger.update)
 
-		requestAnimationFrame(raf)
-		if (!isLoading) {
-			document.body.classList.add('loaded')
-		}
-	})
+		gsap.ticker.add(time => {
+			lenis.raf(time * 1000)
+		})
+
+		gsap.ticker.lagSmoothing(0)
+	}, [isLoading])
 
 	useEffect(() => {
 		if (!isLoading) {

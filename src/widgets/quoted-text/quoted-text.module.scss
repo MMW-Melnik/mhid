@@ -1,0 +1,11 @@
+.quotedText {
+	@apply inline-block overflow-hidden w-[780px] text-center text-white font-heading text-xl;
+}
+
+.author {
+	@apply w-full text-sand font-text text-right mr-[800px] mt-[20px];
+}
+
+.word {
+	@apply inline-block opacity-25;
+}
