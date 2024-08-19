@@ -11,7 +11,7 @@ export const QuotedText: FC<IQuotedText> = ({ children, author }) => {
 			const words = textRef.current.querySelectorAll('span')
 			gsap.fromTo(
 				words,
-				{ opacity: 0 },
+				{ opacity: 25 },
 				{
 					opacity: 1,
 					stagger: 0.1,

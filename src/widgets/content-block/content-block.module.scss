@@ -1,14 +1,6 @@
-.block_content {
-	@apply min-w-[780px] w-full flex flex-col items-center my-64 left-96;
-}
-.heading_block {
-	@apply w-[780px] flex text-left;
+.content_block {
+	@apply w-full flex flex-col items-end mt-[100px];
 }
 .content {
-	@apply font-text text-sand my-12 w-[780px];
-}
-.img_block {
-}
-.img_text {
-	@apply font-thin text-sand font-imgtext mt-5;
+	@apply max-w-[780px] text-sand font-text;
 }
