@@ -3,38 +3,29 @@ import gsap from 'gsap'
 import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 import styles from './paragraph.module.scss'
 
-gsap.registerPlugin(ScrollTrigger)
-
 const Paragraph: FC<{ children: React.ReactNode }> = ({ children }) => {
 	const headingRef = useRef<HTMLHeadingElement>(null)
-
 	useEffect(() => {
 		if (!headingRef.current) return
 
-		const tl = gsap.timeline({
+		const headingElement = headingRef.current
+		let tl = gsap.timeline({
 			scrollTrigger: {
-				trigger: headingRef.current,
-				start: 'top 10%',
-				end: '+=700px',
-				pin: headingRef.current,
+				trigger: headingElement,
+				start: 'center 90%',
+				end: 'center 20%',
+				markers: true,
 				toggleActions: 'play none reverse none',
-				scrub: 2
+				scrub: 1
 			}
 		})
-
 		tl.fromTo(
-			headingRef.current,
-			{ opacity: 0, yPercent: -10 },
-			{ opacity: 1, yPercent: 0, duration: 1 }
-		).to(headingRef.current, { opacity: 0, yPercent: -10, duration: 1 })
-
-		return () => {
-			if (ScrollTrigger.getAll().length > 0) {
-				ScrollTrigger.getAll().forEach(trigger => trigger.kill())
-			}
-		}
-	}, [])
-
+			headingElement,
+			{ opacity: 0, yPercent: 0 },
+			{ opacity: 1, yPercent: -10 }
+		)
+		tl.to(headingElement, { opacity: 0, yPercent: -10 })
+	})
 	return (
 		<section className={styles.section}>
 			<div className={styles.content}>
