@@ -1,0 +1,9 @@
+.section {
+	@apply relative h-[100vh];
+}
+.content {
+	@apply block h-[100vh];
+}
+.heading {
+	@apply sticky top-[50vh] max-w-[700px] ml-auto mr-auto text-center text-sand text-h128 font-heading opacity-0;
+}

@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
 
-export interface IRightText {
+export interface IParagraph {
 	children: ReactNode
 }
