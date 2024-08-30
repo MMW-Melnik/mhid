@@ -1,6 +1,7 @@
-export * from './chapter-block'
 export { ContactForm } from './contact-form/ContactForm'
+export * from './content-block'
 export { Language } from './language/Language'
 export * from './mobile-menu'
+export * from './paragraph/'
 export { Quote } from './quote/Quote'
 export { SMWidget } from './sm-widget/SMWidget'

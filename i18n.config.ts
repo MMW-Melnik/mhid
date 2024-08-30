@@ -1,10 +1,11 @@
 import {
 	aboutTextData,
 	footerData,
+	formMessages,
 	headerData,
-	formMessages
+	homeContentData
 } from '@/shared/data'
-import { Button } from '@/shared/ui'
+
 import { getCookie } from 'cookies-next'
 import i18n from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
@@ -19,25 +20,29 @@ i18n
 				header: headerData.en.header,
 				footer: footerData.en.footer,
 				about: aboutTextData.en,
-				form: formMessages.en
+				form: formMessages.en,
+				home: homeContentData.en
 			},
 			fr: {
 				header: headerData.fr.header,
 				footer: footerData.fr.footer,
 				about: aboutTextData.fr,
-				form: formMessages.fr
+				form: formMessages.fr,
+				home: homeContentData.fr
 			},
 			de: {
 				header: headerData.de.header,
 				footer: footerData.de.footer,
 				about: aboutTextData.de,
-				form: formMessages.de
+				form: formMessages.de,
+				home: homeContentData.de
 			},
 			ua: {
 				header: headerData.ua.header,
 				footer: footerData.ua.footer,
 				about: aboutTextData.ua,
-				form: formMessages.ua
+				form: formMessages.ua,
+				home: homeContentData.ua
 			}
 		},
 		lng: getCookie('i18next') || 'en',
