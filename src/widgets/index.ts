@@ -1,3 +1,4 @@
+export * from './chapter-block'
 export { ContactForm } from './contact-form/ContactForm'
 export { Language } from './language/Language'
 export * from './mobile-menu'

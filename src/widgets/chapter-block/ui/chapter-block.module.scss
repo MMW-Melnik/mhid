@@ -1,0 +1,7 @@
+.chapter_block {
+	@apply bg-dark flex flex-col gap-5 items-center justify-center h-screen text-white;
+}
+
+.quote {
+	@apply text-sand text-t16;
+}
