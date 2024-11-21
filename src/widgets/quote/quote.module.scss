@@ -1,9 +1,9 @@
 .quote_container {
-	@apply flex flex-col gap-5 max-w-[980px] mx-auto transition-transform duration-500 ease-in-out my-[100px];
+	@apply flex flex-col gap-5 max-w-[980px] mx-auto transition-transform duration-500 ease-in-out my-[50px];
 }
 
 .quote {
-	@apply text-t26 text-center inline-block italic overflow-hidden;
+	@apply text-t16 text-center inline-block italic overflow-hidden;
 }
 
 .quote span {

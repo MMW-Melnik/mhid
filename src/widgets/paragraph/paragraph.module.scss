@@ -1,9 +1,49 @@
 .section {
-	@apply relative h-screen w-full;
+	@apply flex justify-center items-center relative h-[150vh] w-full;
 }
+
 .content {
-	@apply block h-screen;
+	@apply flex flex-col items-center h-full;
 }
+
+.headingContainer {
+	@apply sticky top-[30vh] overflow-visible;
+}
+
 .heading {
-	@apply sticky top-[50vh] max-w-[700px] ml-auto mr-auto text-center text-sand text-h128 font-heading opacity-0;
+	@apply text-center text-sand text-h128 font-heading;
+}
+
+.quote {
+	@apply text-center text-sand;
+}
+
+.image {
+	position: absolute;
+	top: -250px;
+	width: 50vh;
+	height: 30vh;
+	object-fit: cover;
+	opacity: 0.1;
+	z-index: -1;
+}
+.imagee {
+	position: absolute;
+	top: 200px;
+	left: 100px;
+	width: 50vh;
+	height: 30vh;
+	object-fit: cover;
+	opacity: 0.1;
+	z-index: -1;
+}
+.imageee {
+	position: absolute;
+	top: -150px;
+	left: 600px;
+	width: 50vh;
+	height: 30vh;
+	object-fit: cover;
+	opacity: 0.1;
+	z-index: -1;
 }

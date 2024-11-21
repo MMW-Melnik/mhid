@@ -18,11 +18,6 @@ export const HomePage = () => {
 					&laquo;Yesterday&rsquo;s World&raquo;, which can be safely
 					extrapolated to&nbsp;the modern world, leaves no&nbsp;illusions:
 				</ContentBlock>
-				<Quote
-					quote={t('introduction.quote')}
-					author="Stefan Zweig. Yesterday's World"
-					cite=""
-				/>
 				<ContentBlock>
 					It&nbsp;was at&nbsp;this time that the protagonists of&nbsp;this
 					project were born in&nbsp;the centre of&nbsp;Europe, albeit

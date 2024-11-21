@@ -1,29 +1,33 @@
 import gsap from 'gsap'
 import { FC, PropsWithChildren, useLayoutEffect, useRef } from 'react'
+import Image from 'next/image'
+import { Quote } from '../quote/Quote'
 import styles from './paragraph.module.scss'
+import { useTranslation } from 'react-i18next'
+import bgImage from '@/app/assets/images/home/bg.jpg'
 
 export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
-	const headingRef = useRef<HTMLHeadingElement>(null)
+	const headingContainerRef = useRef<HTMLDivElement>(null)
+	const { t } = useTranslation('home')
 
 	useLayoutEffect(() => {
-		const headingElement = headingRef.current
-		if (!headingElement) return
+		const headingContainer = headingContainerRef.current
+		if (!headingContainer) return
 
 		const tl = gsap.timeline({
 			scrollTrigger: {
-				trigger: headingElement,
-				start: 'center 90%',
-				end: 'center 20%',
-				toggleActions: 'play none reverse none',
-				scrub: 1
+				trigger: headingContainer,
+				start: 'top bottom',
+				end: '+=2000',
+				scrub: true
 			}
 		})
 
 		tl.fromTo(
-			headingElement,
-			{ opacity: 0, yPercent: 0 },
-			{ opacity: 1, yPercent: -10 }
-		).to(headingElement, { opacity: 0, yPercent: -10 })
+			headingContainer,
+			{ opacity: 0, yPercent: 25 },
+			{ opacity: 1, yPercent: 50, duration: 2 }
+		).to(headingContainer, { opacity: 0, yPercent: 50, duration: 2 })
 
 		return () => {
 			tl.kill()
@@ -32,11 +36,43 @@ export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 
 	return (
 		<section className={styles.section}>
-			<div className={styles.content}>
-				<h1 ref={headingRef} className={styles.heading}>
-					{children}
-				</h1>
+			<div ref={headingContainerRef} className={styles.headingContainer}>
+				<Image
+					className={styles.image}
+					src={bgImage.src}
+					alt="bg"
+					draggable={false}
+					width={100}
+					height={100}
+				/>
+				<Image
+					className={styles.imagee}
+					src={bgImage.src}
+					alt="bg"
+					draggable={false}
+					width={100}
+					height={100}
+				/>
+				<Image
+					className={styles.imageee}
+					src={bgImage.src}
+					alt="bg"
+					draggable={false}
+					width={100}
+					height={100}
+				/>
+				<div className={styles.content}>
+					<h1 className={styles.heading}>{children}</h1>
+					<div className={styles.quote}>
+						<Quote
+							quote={t('introduction.quote')}
+							author="Stefan Zweig. Yesterday's World"
+							cite=""
+						/>
+					</div>
+				</div>
 			</div>
+			<div className={styles.nwBlock}></div>
 		</section>
 	)
 }
