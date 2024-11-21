@@ -8,7 +8,7 @@
 
 .quote span {
 	@apply text-d-grey;
-	animation: colorChange 1.5s forwards;
+	animation: colorChange 1s forwards;
 	animation-delay: calc(var(--i) * 0.2s);
 }
 

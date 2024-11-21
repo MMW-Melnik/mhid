@@ -1,6 +1,6 @@
 .content_block {
-	@apply w-full flex flex-col items-end mt-[100px];
+	@apply w-full flex flex-col items-end mt-[100px] text-t16;
 }
 .content {
-	@apply max-w-[780px] text-sand font-text;
+	@apply max-w-[780px] w-full text-sand font-text;
 }

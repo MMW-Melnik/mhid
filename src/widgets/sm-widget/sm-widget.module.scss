@@ -5,6 +5,10 @@
 .sm_card_container {
 	@apply w-full grid gap-5;
 	grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+
+	.link {
+		@apply h-[140px] flex-col items-start justify-between;
+	}
 }
 
 @media (max-width: 1000px) {
