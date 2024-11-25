@@ -1,18 +1,21 @@
-import React, { FC, useEffect, useRef } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
-import { IContentBlockProps } from './content-block.interface'
+import { FC, PropsWithChildren, useEffect, useRef } from 'react'
+import { IContentBlock } from './content-block.interface'
 import styles from './content-block.module.scss'
 
 if (typeof window !== 'undefined') {
 	gsap.registerPlugin(ScrollTrigger)
 }
 
-export const ContentBlock: FC<IContentBlockProps> = ({ children }) => {
+export const ContentBlock: FC<PropsWithChildren<IContentBlock>> = ({
+	children,
+	isAnimated = true
+}) => {
 	const contentRef = useRef<HTMLDivElement>(null)
 
 	useEffect(() => {
-		if (contentRef.current) {
+		if (isAnimated && contentRef.current) {
 			gsap.fromTo(
 				contentRef.current,
 				{
@@ -29,8 +32,10 @@ export const ContentBlock: FC<IContentBlockProps> = ({ children }) => {
 					}
 				}
 			)
+		} else if (contentRef.current) {
+			gsap.set(contentRef.current, { opacity: 1 })
 		}
-	}, [])
+	}, [isAnimated])
 
 	return (
 		<div ref={contentRef} className={styles.content_block}>

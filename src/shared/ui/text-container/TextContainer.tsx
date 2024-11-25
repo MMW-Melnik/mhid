@@ -12,7 +12,9 @@ export const TextContainer: FC<PropsWithChildren<ITextContainer>> = ({
 }) => {
 	return (
 		<div className={`${styles.text_container} ${className}`}>
-			<Heading level={headingLevel}>{heading}</Heading>
+			<div className={styles.heading_container}>
+				<Heading level={headingLevel}>{heading}</Heading>
+			</div>
 			<p className={`${styles.text} ${contentClassName}`}>{content}</p>
 		</div>
 	)

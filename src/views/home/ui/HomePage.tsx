@@ -1,5 +1,5 @@
 'use client'
-import { ContentBlock, Paragraph, Quote } from '@/widgets/index'
+import { ContentBlock, Paragraph } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
 
 export const HomePage = () => {

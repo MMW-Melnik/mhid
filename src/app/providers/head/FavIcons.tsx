@@ -9,7 +9,10 @@ export const FavIcons = () => {
 		<>
 			<Head>
 				<link rel="shortcut icon" href={favIcon.src} type="image/x-icon" />
-				<link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
+				<link
+					rel="apple-touch-icon"
+					href="src/app/assets/favicons/apple-touch-icon.png"
+				/>
 				<link
 					rel="apple-touch-icon"
 					sizes="57x57"
