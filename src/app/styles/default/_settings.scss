@@ -1,12 +1,12 @@
 html {
-	@apply bg-dark font-text overflow-auto text-white scroll-smooth text-t16 leading-130;
+	@apply bg-dark font-text  text-white scroll-smooth text-t16 leading-130 overflow-hidden;
 }
 
 main {
 	@apply flex-1 my-[200px];
 
 	section:not(:first-child) {
-		@apply mt-[200px];
+		@apply pt-[200px];
 	}
 }
 

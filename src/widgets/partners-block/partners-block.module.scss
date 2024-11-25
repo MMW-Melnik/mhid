@@ -1,0 +1,13 @@
+.partners {
+	@apply flex flex-col items-center gap-8;
+}
+
+.partners_list {
+	@apply grid gap-5 grid-cols-1 xl:grid-cols-5 w-full justify-items-center items-center;
+}
+
+@media (max-width: 1400px) {
+	.partners_list {
+		@apply grid-cols-3;
+	}
+}

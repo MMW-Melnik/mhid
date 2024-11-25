@@ -1,3 +1,4 @@
+export { partnersData } from './about/about.partners.data'
 export * from './about/about.socials.data'
 export { aboutTextData } from './about/about.text.data'
 export { emailRegexPatterns, formMessages } from './contacts/form.data'
