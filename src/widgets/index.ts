@@ -1,6 +1,7 @@
 export { AuthorBlock } from './author-block/AuthorBlock'
 export { ContactForm } from './contact-form/ContactForm'
 export * from './content-block'
+export { DeveloperCard } from './developer-card/DeveloperCard'
 export { DevelopersBlock } from './developers-block/DevelopersBlock'
 export { Language } from './language/Language'
 export * from './mobile-menu'

@@ -23,7 +23,9 @@ export const AuthorBlock: FC = ({}) => {
 				</div>
 				<div className={styles.text_container}>
 					<div className={styles.heading_container}>
-						<Heading level={3}>{t('authorTitle')}</Heading>
+						<Heading level={3} className={styles.author_title}>
+							{t('authorTitle')}
+						</Heading>
 						<p className={styles.subheading}>{t('authorSubheading')}</p>
 					</div>
 					<ContentBlock isAnimated={false}>

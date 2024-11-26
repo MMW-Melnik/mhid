@@ -1,5 +1,5 @@
 .partner_card {
-	@apply flex flex-col justify-between items-center text-center gap-4 p-4 h-auto border-solid border-d-grey transition-all duration-200 ease-in-out w-full rounded-[12px] text-t18;
+	@apply flex flex-col justify-between items-center text-center gap-4 p-4 h-auto border-solid border-d-grey transition-all duration-200 ease-in-out w-full text-t18;
 
 	&:hover {
 		@apply border-sand;

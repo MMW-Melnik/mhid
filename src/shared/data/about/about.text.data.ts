@@ -9,7 +9,7 @@ export const aboutTextData = {
 			"Zhanna Serdіuk studied World History, History of Ukraine and Pedagogy at Odessa I.I. Mechnikov National University. Her research interests include education, women's education, gender history, regional history and the history of everyday life. \n\n Her interest in the relations between Luxembourg and Ukraine in the 20th century led her to initiate a research project on a well-known Ukrainian couple living in exile in Luxembourg and to shed light on their activities and networks, especially from Fedak's perspective.",
 		developersTitle: 'Developers',
 		developersText:
-			'Our development team consists of seasoned professionals with extensive experience in educational technology. John Doe leads the team with his expertise in software engineering and project management. Jane Smith, our lead designer, ensures the platform is user-friendly and visually appealing. Together, they bring a wealth of knowledge and dedication to making this project a success.'
+			'Our development team consists of seasoned professionals with extensive experience in educational technology. John Doe leads the team with his expertise in software engineering and project management.\n\n Jane Smith, our lead designer, ensures the platform is user-friendly and visually appealing. Together, they bring a wealth of knowledge and dedication to making this project a success.'
 	},
 	fr: {
 		headingTitle: 'MHID PROJET',

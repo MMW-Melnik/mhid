@@ -1,3 +1,3 @@
 .text_container {
-	@apply flex flex-col gap-4 text-t16;
+	@apply flex flex-col gap-4 w-full max-w-[780px];
 }
