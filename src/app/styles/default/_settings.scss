@@ -3,7 +3,7 @@ html {
 }
 
 main {
-	@apply flex-1 my-[200px];
+	@apply flex-1 my-[200px] overflow-hidden;
 
 	section:not(:first-child) {
 		@apply pt-[200px];
