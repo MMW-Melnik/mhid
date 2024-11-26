@@ -26,6 +26,7 @@ const config: Config = {
 				h18: '18px',
 				h14: '14px',
 				t26: '26px',
+				t18: '18px',
 				t16: '16px',
 				t14: '14px',
 				t12: '12px',

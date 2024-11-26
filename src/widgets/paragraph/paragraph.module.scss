@@ -1,12 +1,12 @@
 .section {
-	@apply flex justify-center items-center relative h-[150vh] w-full;
+	@apply flex justify-center items-center relative h-[100vh] w-full;
 }
 
 .content {
-	@apply flex flex-col items-center h-full;
+	@apply flex flex-col gap-4 items-center h-full;
 }
 
-.headingContainer {
+.heading_container {
 	@apply sticky top-[30vh] overflow-visible;
 }
 

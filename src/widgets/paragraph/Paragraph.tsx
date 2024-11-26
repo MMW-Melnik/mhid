@@ -1,9 +1,9 @@
+import bgImage from '@/app/assets/images/home/bg.jpg'
+import { Heading } from '@/shared/ui'
 import { FC, PropsWithChildren, useLayoutEffect, useRef } from 'react'
-import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 import { Quote } from '../quote/Quote'
 import styles from './paragraph.module.scss'
-import { useTranslation } from 'react-i18next'
-import bgImage from '@/app/assets/images/home/bg.jpg'
 
 export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 	const headingContainerRef = useRef<HTMLDivElement>(null)
@@ -88,7 +88,7 @@ export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 
 	return (
 		<section className={styles.section}>
-			<div ref={headingContainerRef} className={styles.headingContainer}>
+			<div ref={headingContainerRef} className={styles.heading_container}>
 				<img
 					ref={image1Ref}
 					className={styles.image}
@@ -111,7 +111,7 @@ export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 					draggable={false}
 				/>
 				<div className={styles.content}>
-					<h1 className={styles.heading}>{children}</h1>
+					<Heading level={2}>{children}</Heading>
 					<div className={styles.quote}>
 						<Quote
 							quote={t('introduction.quote')}

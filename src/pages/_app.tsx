@@ -1,14 +1,14 @@
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/dist/ScrollTrigger'
+import Lenis from 'lenis'
+import 'lenis/dist/lenis.css'
 import { NextPage } from 'next'
 import { AppProps } from 'next/app'
 import { ReactElement, ReactNode, useEffect } from 'react'
 import '../../i18n.config'
 import { DefaultLayout } from '../app/layouts'
-import Lenis from 'lenis'
-import 'lenis/dist/lenis.css'
-import gsap from 'gsap'
-import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
 	getLayout?: (page: ReactElement) => ReactNode
