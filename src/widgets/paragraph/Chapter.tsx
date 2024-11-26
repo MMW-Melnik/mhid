@@ -1,11 +1,18 @@
-import bgImage from '@/app/assets/images/home/bg.jpg'
 import { Heading } from '@/shared/ui'
 import { FC, PropsWithChildren, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Quote } from '../quote/Quote'
-import styles from './paragraph.module.scss'
+import styles from './chapter.module.scss'
+import { IChapter } from './chapter.interface'
 
-export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
+export const Chapter: FC<PropsWithChildren<IChapter>> = ({
+	children,
+	quote,
+	author,
+	img1,
+	img2,
+	img3
+}) => {
 	const headingContainerRef = useRef<HTMLDivElement>(null)
 	const image1Ref = useRef<HTMLImageElement>(null)
 	const image2Ref = useRef<HTMLImageElement>(null)
@@ -87,37 +94,35 @@ export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 	}, [])
 
 	return (
-		<section className={styles.section}>
+		<section className={styles.chapter}>
 			<div ref={headingContainerRef} className={styles.heading_container}>
 				<img
 					ref={image1Ref}
-					className={styles.image}
-					src={bgImage.src}
+					className={styles.image1}
+					src={img1}
 					alt="bg"
 					draggable={false}
 				/>
 				<img
 					ref={image2Ref}
-					className={styles.imagee}
-					src={bgImage.src}
+					className={styles.image2}
+					src={img2}
 					alt="bg"
 					draggable={false}
 				/>
 				<img
 					ref={image3Ref}
-					className={styles.imageee}
-					src={bgImage.src}
+					className={styles.image3}
+					src={img3}
 					alt="bg"
 					draggable={false}
 				/>
 				<div className={styles.content}>
-					<Heading level={2}>{children}</Heading>
+					<Heading level={2} className={styles.content_heading}>
+						{children}
+					</Heading>
 					<div className={styles.quote}>
-						<Quote
-							quote={t('introduction.quote')}
-							author="Stefan Zweig. Yesterday's World"
-							cite=""
-						/>
+						<Quote quote={t(quote)} author={author} cite="" />
 					</div>
 				</div>
 			</div>
