@@ -7,8 +7,8 @@ export const Logo: FC = () => {
 	return (
 		<>
 			<Link href={'/'}>
-				<Heading level={4} className={styles.logo}>
-					MHID
+				<Heading level={5} className={styles.logo}>
+					The Luxembourg Dream
 				</Heading>
 			</Link>
 		</>
