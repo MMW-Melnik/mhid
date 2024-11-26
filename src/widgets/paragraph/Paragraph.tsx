@@ -102,8 +102,6 @@ export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 					src={bgImage.src}
 					alt="bg"
 					draggable={false}
-					width={100}
-					height={100}
 				/>
 				<img
 					ref={image3Ref}
@@ -111,8 +109,6 @@ export const Paragraph: FC<PropsWithChildren> = ({ children }) => {
 					src={bgImage.src}
 					alt="bg"
 					draggable={false}
-					width={100}
-					height={100}
 				/>
 				<div className={styles.content}>
 					<h1 className={styles.heading}>{children}</h1>
