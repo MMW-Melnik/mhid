@@ -49,7 +49,7 @@ export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 
 				tl.fromTo(
 					headingContainer,
-					{ opacity: 0, yPercent: 25 },
+					{ opacity: 0, yPercent: -25 },
 					{ opacity: 1, yPercent: 50, duration: 2 }
 				).to(headingContainer, { opacity: 0, yPercent: 50, duration: 2 })
 
@@ -94,7 +94,7 @@ export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 	}, [])
 
 	return (
-		<section className={styles.chapter}>
+		<div className={styles.chapter}>
 			<div ref={headingContainerRef} className={styles.heading_container}>
 				<img
 					ref={image1Ref}
@@ -127,6 +127,6 @@ export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 				</div>
 			</div>
 			<div className={styles.nwBlock}></div>
-		</section>
+		</div>
 	)
 }
