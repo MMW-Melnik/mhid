@@ -1,44 +1,29 @@
 export const aboutTextData = {
 	en: {
-		headingTitle: 'MHID PROJECT',
-		headingText:
-			'This project is an innovative platform designed to streamline and enhance communication within educational institutions. By integrating various tools and features, it aims to create a seamless experience for students, teachers, and administrators. The platform offers real-time messaging, resource sharing, and collaborative spaces, all aimed at fostering a more connected and efficient learning environment.',
-		authorTitle: 'Zhanna Serdіuk',
-		authorSubheading: 'Project Author',
-		authorText:
-			"Zhanna Serdіuk studied World History, History of Ukraine and Pedagogy at Odessa I.I. Mechnikov National University. Her research interests include education, women's education, gender history, regional history and the history of everyday life. \n\n Her interest in the relations between Luxembourg and Ukraine in the 20th century led her to initiate a research project on a well-known Ukrainian couple living in exile in Luxembourg and to shed light on their activities and networks, especially from Fedak's perspective.",
-		developersTitle: 'Developers',
-		developersText:
-			'Our development team consists of seasoned professionals with extensive experience in educational technology. John Doe leads the team with his expertise in software engineering and project management.\n\n Jane Smith, our lead designer, ensures the platform is user-friendly and visually appealing. Together, they bring a wealth of knowledge and dedication to making this project a success.'
-	},
-	fr: {
-		headingTitle: 'MHID PROJET',
-		headingText:
-			'Ce projet est une plateforme innovante conçue pour rationaliser et améliorer la communication au sein des établissements éducatifs. En intégrant divers outils et fonctionnalités, il vise à créer une expérience fluide pour les étudiants, les enseignants et les administrateurs. La plateforme propose une messagerie en temps réel, le partage de ressources et des espaces de collaboration, le tout visant à favoriser un environnement',
-		authorText:
-			'Zhanna Mykolaivna Serdiuk, Responsable de&nbsp;Cercle, Centre Humanitaire R&eacute;gional d&rsquo;Odesa pour l&rsquo;&Eacute;ducation Extrascolaire et&nbsp;l&rsquo;&Eacute;ducation. Titre de&nbsp;la&nbsp;Th&egrave;se : &quot; La&nbsp;Formation de&nbsp;l&rsquo;&Eacute;ducation Secondaire F&eacute;minine &agrave;&nbsp;Odesa (exemple du&nbsp;Gymnase Mariinsky 1869-1920) &quot;. Code et&nbsp;Titre de&nbsp;la&nbsp;Sp&eacute;cialisation : 07.00.01 Histoire de&nbsp;l&rsquo;Ukraine. Conseil Acad&eacute;mique Sp&eacute;cialis&eacute; D&nbsp;41.051.08&nbsp;de l&rsquo;Universit&eacute; Nationale I.I. Mechnikov d&rsquo;Odesa.',
-		developersTitle: 'Développeurs de Produits',
-		developersText:
-			'Notre équipe de développement se compose de professionnels expérimentés ayant une vaste expérience dans la technologie éducative. John Doe dirige léquipe avec son expertise en ingénierie logicielle et en gestion de projet. Jane Smith, notre designer en chef, veille à ce que la plateforme soit conviviale et visuellement attrayante. Ensemble, ils apportent une richesse de connaissances et de dévouement pour faire de ce projet un succès.'
-	},
-	de: {
-		headingTitle: 'MHID PROJEK',
-		headingText:
-			'Dieses Projekt ist eine innovative Plattform, die darauf abzielt, die Kommunikation innerhalb von Bildungseinrichtungen zu optimieren und zu verbessern. Durch die Integration verschiedener Werkzeuge und Funktionen soll eine nahtlose Erfahrung für Schüler, Lehrer und Administratoren geschaffen werden. Die Plattform bietet Echtzeit-Messaging, Ressourcenaustausch und Kollaborationsräume, die alle darauf abzielen, eine stärker vernetzte und effizientere Lernumgebung zu fördern.',
-		authorText:
-			'Zhanna Mykolaivna Serdiuk, Leiterin des Kreises, Regionales Humanitäres Zentrum Odesa für außerschulische Bildung und Erziehung. Titel der Dissertation: „Die Entstehung der weiblichen Sekundarbildung in Odesa (am Beispiel des Mariinsky Mädchengymnasiums 1869-1920)“. Spezialisierungscode und Titel: 07.00.01 Geschichte der Ukraine. Spezialisierter Wissenschaftlicher Rat D 41.051.08 der Nationalen I.I. Mechnikov Universität Odesa.',
-		developersTitle: 'Produktentwickler',
-		developersText:
-			'Unser Entwicklungsteam besteht aus erfahrenen Fachleuten mit umfangreicher Erfahrung in der Bildungstechnologie. John Doe leitet das Team mit seiner Expertise in Softwareentwicklung und Projektmanagement. Jane Smith, unsere leitende Designerin, sorgt dafür, dass die Plattform benutzerfreundlich und optisch ansprechend ist. Gemeinsam bringen sie ein umfangreiches Wissen und Engagement mit, um dieses Projekt zum Erfolg zu führen.'
-	},
-	ua: {
-		headingTitle: 'MHID ПРОЕКТ',
-		headingText:
-			'Цей проект є інноваційною платформою, розробленою для оптимізації та покращення комунікації в освітніх установах. Інтегруючи різноманітні інструменти та функції, він має на меті створити безперебійну взаємодію між студентами, викладачами та адміністраторами. Платформа пропонує обмін повідомленнями в реальному часі, спільний доступ до ресурсів і простори для співпраці, все це спрямоване на сприяння більш звязаному та ефективному навчальному середовищу.',
-		authorText:
-			'Сердюк Жанна Миколаївна, керівник гуртка, Одеський обласний гуманітарний центр позашкільної освіти та виховання. Назва дисертації: «Становлення жіночої середньої освіти в Одесі (на прикладі Маріїнської жіночої гімназії 1869-1920 рр.)». Шифр та назва спеціальності 07.00.01 історія України. Спецрада Д 41.051.08 Одеського національного університету імені І.І.Мечникова.',
-		developersTitle: 'Розробники Продукту',
-		developersText:
-			'Наша команда розробників складається з досвідчених професіоналів з великим досвідом у галузі освітніх технологій. Джон Доу очолює команду завдяки своїй експертизі в галузі програмної інженерії та управління проектами. Джейн Сміт, наш провідний дизайнер, забезпечує зручність та привабливий вигляд платформи. Разом вони приносять багатий досвід і відданість, щоб зробити цей проект успішним.'
+		project: {
+			title: 'Project Overview',
+			text: [
+				"The war initiated by Russia against Ukraine in 2014 posed a challenge for all European countries. Nations not directly affected by the aggression faced a massive influx of Ukrainian migrants fleeing the war. This became a unique and further test for the democratic institutions of civilized countries. Luxembourg, with its tradition of peaceful coexistence among representatives of different cultures, once again hospitably welcomed thousands of migrants from Ukraine—a country unfamiliar to most of its residents. At the same time, for many Ukrainians, the Grand Duchy of Luxembourg also remained a terra incognita.\n\nIn this context, there arose a need to introduce Ukrainians to Luxembourgish society through the prism of historical events. It was equally important to draw attention to Luxembourg's historical traditions of supporting political migrants and refugees, including those from Ukraine.\n\n",
+
+				'This project, as an act of memorialization, honors women who devoted their lives to noble causes—serving their people, overcoming difficulties, and supporting their families. It focuses on two women from different countries, representatives of the same generation that survived two world wars. By exploring their life stories against the backdrop of global historical events, we can trace parallels and highlight key differences.\n\nOne of them is Charlotte, born a princess and later becoming the Grand Duchess of Luxembourg. The other is Sophia, a native of Ukrainian Galicia in the Austro-Hungarian Empire. Charlotte, always in the public eye, was a global figure until the end of her life. In contrast, Sophia, despite being born into a wealthy and influential Lviv family and raised in Ukrainian traditions, avoided publicity for most of her life. Yet, history has a way of illuminating even the most shadowed corners.\n\n',
+
+				'The crossing perspectives of the histories of the countries where these two women lived deserve special attention. Common intersections include the long struggles for independence, territorial losses, debates over governance, linguistic issues, periods of occupation, resistance against enslavement, and collaborationism. Both countries also experienced the creation of myths around notable historical figures.\n\nFor a long time, Ukraine was an unknown country, obscured by the totalitarian Soviet regime. Even after independence, its history remained largely unnoticed in the European context. Luxembourg, on the other hand, was open to the world but unknown to Ukraine. Today, this situation has changed: Ukraine is now recognized globally, and Ukrainians are learning more about Luxembourg while experiencing its strong support.\n\n',
+
+				"Luxembourg's history shares parallels with Ukraine's. For instance, Duke Adolphe's brief marriage to a Russian princess nearly cost his descendants the throne. Both countries faced cultural expansion from their neighbors but preserved folk traditions and languages. Luxembourg remained deeply agrarian for much of its history and fought hard for its independence. It emerged as a modern state at the Congress of Vienna in 1815, with its borders finalized in 1839 after the Belgian Revolution. The German occupation during both world wars tested the nation, but its resistance movement demonstrated a strong spirit of defiance. The words of the national anthem, 'Ons Heemet' (Our Fatherland), reflect this spirit: 'Let the sun of freedom shine.'\n\nUkraine's history, by contrast, is a tale of nearly continuous struggle—for land, freedom, language, faith, autonomy, and independence. Often deprived of statehood, divided among neighboring empires, and subjected to brutal regimes, Ukrainians have endured Mongol-Tatar invasions, Russian imperial serfdom, exploitation under the Polish-Lithuanian Commonwealth, Nazi atrocities during World War II, and genocide under the Soviet totalitarian regime.\n\nShort periods of hard-won independence serve as guiding lights in Ukraine's history, inspiring new generations of patriots. Known for their hard work, sincerity, and hospitality, Ukrainians have also become renowned for their will to freedom and resilience against oppression.\n\n"
+			]
+		},
+		author: {
+			title: 'Zhanna Serdіuk',
+			subtitle: 'Project Author',
+			text: [
+				"Zhanna Serdіuk studied World History, History of Ukraine and Pedagogy at Odessa I.I. Mechnikov National University. Her research interests include education, women's education, gender history, regional history and the history of everyday life. \n\nHer interest in the relations between Luxembourg and Ukraine in the 20th century led her to initiate a research project on a well-known Ukrainian couple living in exile in Luxembourg and to shed light on their activities and networks, especially from Fedak's perspective."
+			]
+		},
+		developers: {
+			title: 'Developers',
+			text: [
+				'Our development team consists of seasoned professionals with extensive experience in educational technology. John Doe leads the team with his expertise in software engineering and project management.\n\nJane Smith, our lead designer, ensures the platform is user-friendly and visually appealing. Together, they bring a wealth of knowledge and dedication to making this project a success.'
+			]
+		}
 	}
 }

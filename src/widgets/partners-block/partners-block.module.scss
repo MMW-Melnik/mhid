@@ -2,12 +2,22 @@
 	@apply flex flex-col items-center gap-8;
 }
 
-.partners_list {
-	@apply grid gap-5 grid-cols-1 xl:grid-cols-5 w-full justify-items-center items-center;
+.partners_content {
+	@apply flex flex-col gap-8;
 }
 
-@media (max-width: 1400px) {
+.partners_list {
+	@apply grid gap-5 grid-cols-2 xl:grid-cols-2 w-full;
+}
+
+@media (max-width: 600px) {
 	.partners_list {
-		@apply grid-cols-3;
+		@apply grid-cols-1;
+	}
+}
+
+@media (max-width: 480px) {
+	.partners_title {
+		@apply text-h42;
 	}
 }

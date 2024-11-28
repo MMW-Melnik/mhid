@@ -8,4 +8,5 @@ export interface IDeveloperCard {
 		link: string
 		icon: IconType
 	}>
+	className?: string
 }

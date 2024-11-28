@@ -10,6 +10,7 @@ if (typeof window !== 'undefined') {
 
 export const ContentBlock: FC<PropsWithChildren<IContentBlock>> = ({
 	children,
+	className,
 	isAnimated = true
 }) => {
 	const contentRef = useRef<HTMLDivElement>(null)
@@ -39,7 +40,7 @@ export const ContentBlock: FC<PropsWithChildren<IContentBlock>> = ({
 
 	return (
 		<div ref={contentRef} className={styles.content_block}>
-			<div className={styles.content}>{children}</div>
+			<div className={`${styles.content} ${className}`}>{children}</div>
 		</div>
 	)
 }

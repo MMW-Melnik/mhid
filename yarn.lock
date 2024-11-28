@@ -8320,6 +8320,11 @@ typescript@^5:
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.5.3.tgz"
   integrity sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==
 
+typograf@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/typograf/-/typograf-7.4.1.tgz#fa274b9dc39ab0f107e00af366e0d2e88bb65b08"
+  integrity sha512-V+1jqkv574pzPTW/JcqkhXQzmA7U3B2xVKc6QMzNxmN+1eecVn164Z8Wm8xM6ArKSk/sUjKvOPoT0U3G6zOMjQ==
+
 ufo@^1.5.3:
   version "1.5.3"
   resolved "https://registry.npmjs.org/ufo/-/ufo-1.5.3.tgz"

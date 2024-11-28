@@ -1,11 +1,25 @@
 .developers {
-	@apply flex flex-col gap-[60px] justify-center w-full items-center text-center;
+	@apply flex flex-col;
+
+	.developers_content {
+		@apply flex flex-col w-full gap-16;
+	}
+
+	.text_container {
+		@apply flex flex-col gap-4;
+	}
+
+	.developers_container {
+		@apply flex w-full flex-col gap-8;
+	}
 }
 
-.text_container {
-	@apply max-w-[780px] mt-6 w-full;
-}
+@media (max-width: 480px) {
+	.developers_title {
+		@apply text-h42;
+	}
 
-.developers_container {
-	@apply w-full flex justify-center items-center gap-6;
+	.developer_title {
+		@apply text-[32px];
+	}
 }

@@ -1,11 +1,11 @@
-import React from 'react'
+import { FC, PropsWithChildren } from 'react'
 import styles from './Heading.module.scss'
 import { IHeadingProps } from './heading.interface'
 
-export const Heading: React.FC<IHeadingProps> = ({
+export const Heading: FC<PropsWithChildren<IHeadingProps>> = ({
 	level,
 	children,
-	className
+	className = ''
 }) => {
 	const HeadingTag = `h${level}` as keyof JSX.IntrinsicElements
 	return (

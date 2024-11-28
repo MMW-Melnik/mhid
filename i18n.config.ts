@@ -26,21 +26,18 @@ i18n
 			fr: {
 				header: headerData.fr.header,
 				footer: footerData.fr.footer,
-				about: aboutTextData.fr,
 				form: formMessages.fr,
 				home: homeContentData.fr
 			},
 			de: {
 				header: headerData.de.header,
 				footer: footerData.de.footer,
-				about: aboutTextData.de,
 				form: formMessages.de,
 				home: homeContentData.de
 			},
 			ua: {
 				header: headerData.ua.header,
 				footer: footerData.ua.footer,
-				about: aboutTextData.ua,
 				form: formMessages.ua,
 				home: homeContentData.ua
 			}

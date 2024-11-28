@@ -1,2 +1,4 @@
-export const siteName = 'MHID'
-export const titleMerge = (title: string) => `${title} | ${siteName}`
+export const siteName = 'TLD'
+export const titleMerge = (title: string) => {
+	return title ? `${title} | ${siteName}` : siteName
+}

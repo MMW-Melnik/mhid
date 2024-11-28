@@ -1,3 +1,4 @@
+import { PageTransitionProvider } from '@/app/providers'
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
 import gsap from 'gsap'
@@ -41,7 +42,11 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 
 	const getLayout =
 		Component.getLayout ??
-		((page: ReactElement) => <DefaultLayout>{page}</DefaultLayout>)
+		((page: ReactElement) => (
+			<DefaultLayout>
+				<PageTransitionProvider>{page}</PageTransitionProvider>
+			</DefaultLayout>
+		))
 
 	return (
 		<>

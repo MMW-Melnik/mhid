@@ -17,10 +17,10 @@ export const PartnerCard: FC<IPartnerCard> = ({
 					src={image}
 					alt={imageAlt}
 					width={200}
+					priority
 					height={38}
 					draggable={false}
 				/>
-				<p className={styles.partner_name}>{title}</p>
 			</div>
 		</>
 	)

@@ -1,11 +1,12 @@
 .partner_card {
-	@apply flex flex-col justify-between items-center text-center gap-4 p-4 h-auto border-solid border-d-grey transition-all duration-200 ease-in-out w-full text-t18;
+	@apply flex flex-col w-full h-auto justify-between items-center  p-4  border border-solid border-d-grey transition-colors duration-200 ease-in-out;
 
-	&:hover {
-		@apply border-sand;
+	&:hover,
+	&:focus {
+		@apply border-white;
 	}
+}
 
-	.partner_logo {
-		@apply max-w-[100px] h-auto w-full object-contain;
-	}
+.partner_logo {
+	@apply max-w-[90px] h-auto w-full object-cover;
 }

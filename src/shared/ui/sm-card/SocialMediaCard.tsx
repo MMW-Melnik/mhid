@@ -8,7 +8,7 @@ export const SocialMediaCard: FC<ISocialMediaCard> = ({
 	alt,
 	icon: Icon,
 	link,
-	className
+	className = ''
 }) => {
 	return (
 		<Link
