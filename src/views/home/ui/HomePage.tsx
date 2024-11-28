@@ -1,6 +1,7 @@
 'use client'
-import { ContentBlock, Paragraph } from '@/widgets/index'
+import { ContentBlock, Chapter } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
+import bgImage from '@/app/assets/images/home/bg.jpg'
 
 export const HomePage = () => {
 	const { t } = useTranslation('home')
@@ -25,7 +26,15 @@ export const HomePage = () => {
 				</ContentBlock>
 			</section>
 
-			<Paragraph>World War 2</Paragraph>
+			<Chapter
+				quote="introduction.quote"
+				author="Stefan Zweig. Yesterday's World"
+				img1={bgImage.src}
+				img2={bgImage.src}
+				img3={bgImage.src}
+			>
+				World War 2
+			</Chapter>
 			<ContentBlock>
 				It is worth looking at the era in which our heroines lived through the
 				eyes of a contemporary. For example, a writer. It is known that people

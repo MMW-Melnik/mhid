@@ -1,5 +1,5 @@
 .quote_container {
-	@apply flex flex-col gap-5 max-w-[980px] mx-auto transition-transform duration-500 ease-in-out;
+	@apply flex flex-col justify-center items-center gap-5 max-w-[980px] mx-auto transition-transform duration-500 ease-in-out;
 }
 
 .quote {
@@ -13,7 +13,7 @@
 }
 
 .quote_author {
-	@apply flex text-sand w-[580px] ml-auto transition-colors duration-200 ease-in-out;
+	@apply flex justify-center text-sand w-[580px] ml-auto transition-colors duration-200 ease-in-out;
 
 	&:hover {
 		@apply text-white;
@@ -23,5 +23,38 @@
 @keyframes colorChange {
 	to {
 		@apply text-white;
+	}
+}
+
+@media (max-width: 1000px) {
+	.quote {
+		@apply text-t14;
+	}
+	.quote_author {
+		@apply text-t14 max-w-[768px];
+	}
+}
+
+@media (max-width: 768px) {
+	.quote_container {
+		@apply max-w-[480px];
+	}
+	.quote {
+		@apply text-t12;
+	}
+	.quote_author {
+		@apply text-t12 max-w-[480px];
+	}
+}
+
+@media (max-width: 480px) {
+	.quote_container {
+		@apply max-w-[350px];
+	}
+	.quote {
+		@apply text-t10;
+	}
+	.quote_author {
+		@apply text-t10 max-w-[350px];
 	}
 }
