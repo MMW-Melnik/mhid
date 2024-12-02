@@ -3,12 +3,21 @@ import { ContentBlock, Chapter } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
 import bgImage from '@/app/assets/images/home/bg.jpg'
 
+import { ImageWithSource } from '@/shared/ui/image-with-source/ImageWithSource'
+import { Intro } from '@/shared/ui'
+
 export const HomePage = () => {
 	const { t } = useTranslation('home')
 
 	return (
 		<>
 			<section>
+				<Intro imageText="source" text="The Luxembourg Dream" />
+				<ImageWithSource
+					sourceImage={bgImage.src}
+					sourceText="source"
+					alt="alt"
+				/>
 				<ContentBlock>
 					It&nbsp;is&nbsp;worth looking at&nbsp;the era in&nbsp;which our
 					heroines lived through the eyes of&nbsp;a&nbsp;contemporary. For

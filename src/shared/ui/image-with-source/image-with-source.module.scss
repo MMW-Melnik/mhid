@@ -1,0 +1,11 @@
+.image_with_source {
+	@apply w-[600px] h-auto m-12;
+}
+
+.image {
+	@apply object-cover w-full h-auto opacity-50;
+}
+
+.text {
+	@apply absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
+}

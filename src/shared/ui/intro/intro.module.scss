@@ -1,0 +1,19 @@
+.image_with_source {
+	@apply relative w-full h-[500px] flex flex-col justify-end items-end mb-52;
+	background-image: url('../../../app/assets/images/home/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.image_with_source::before {
+	content: '';
+	@apply absolute inset-0 bg-black opacity-50;
+}
+
+.main_text {
+	@apply relative top-6 w-full h-full flex justify-center items-center font-heading text-h60 text-white;
+}
+
+.image_text {
+	@apply relative w-full h-auto flex justify-end items-center m-4 text-sand text-xs;
+}
