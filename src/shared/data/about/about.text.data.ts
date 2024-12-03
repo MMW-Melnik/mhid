@@ -22,7 +22,7 @@ export const aboutTextData = {
 		developers: {
 			title: 'Developers',
 			text: [
-				'Our development team consists of seasoned professionals with extensive experience in educational technology. John Doe leads the team with his expertise in software engineering and project management.\n\nJane Smith, our lead designer, ensures the platform is user-friendly and visually appealing. Together, they bring a wealth of knowledge and dedication to making this project a success.'
+				'Two developers worked together on the creation of this website from start to finish. Every stage — from planning and designing to implementation and testing — was carried out with attention to detail.\n\nThe goal was to create a user-friendly, aesthetic, and interactive website that would allow you to dive deeper into the story, while also enjoying every element of design and functionality.'
 			]
 		}
 	}

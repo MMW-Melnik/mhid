@@ -1,5 +1,7 @@
 export const formMessages = {
 	en: {
+		formText:
+			'We welcome your feedback and suggestions! If you have any thoughts on how we can improve or want to share your experience with the website, feel free to reach out. Your opinion is important to us and will help shape future improvements.',
 		name: {
 			placeholder: 'Person Name',
 			fullName: 'Full Name',
@@ -17,7 +19,8 @@ export const formMessages = {
 			minLength: 'Message must be at least 10 characters'
 		},
 		button: {
-			name: 'Send message'
+			name: 'Send message',
+			sending: 'Sending...'
 		}
 	},
 	fr: {

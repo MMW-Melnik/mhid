@@ -7,7 +7,7 @@
 	grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
 
 	.link {
-		@apply h-[140px] flex-col items-start justify-between;
+		@apply h-auto flex-col items-start justify-between;
 	}
 }
 

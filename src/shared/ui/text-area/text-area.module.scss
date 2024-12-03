@@ -1,5 +1,5 @@
 .textarea_container {
-	@apply h-auto flex flex-col gap-1 px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
+	@apply h-auto flex flex-col gap-1 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
 
 	.textarea_label {
 		@apply text-t12 transition-colors duration-200 ease-in-out;

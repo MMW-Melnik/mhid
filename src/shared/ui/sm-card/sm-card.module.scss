@@ -1,5 +1,5 @@
 .sm_card {
-	@apply flex items-center w-full max-h-[80px] h-full gap-5 border border-solid border-b-grey text-l-grey text-t16 p-5 transition-colors duration-200 ease-in-out cursor-pointer;
+	@apply flex items-center w-full h-auto gap-5 border border-solid border-b-grey text-l-grey text-t16 p-5 transition-colors duration-200 ease-in-out cursor-pointer;
 
 	&:hover,
 	&:focus {
