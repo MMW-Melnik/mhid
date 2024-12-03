@@ -1,11 +1,30 @@
 .image_with_source {
-	@apply w-[600px] h-auto m-12;
+	@apply w-1/2 h-auto m-12 relative flex justify-center items-center;
+	transition: transform 0.3s ease-in-out;
+	transform-origin: center;
 }
 
-.image {
-	@apply object-cover w-full h-auto opacity-50;
+.image_with_source:hover {
+	transform: scale(1.05);
+}
+
+.image_with_source:hover .image {
+	opacity: 1;
+}
+.image_with_source_zoomed {
+	@apply w-3/4 h-auto m-12;
+}
+
+.image_zoomed {
+	@apply object-cover w-full h-auto;
 }
 
 .text {
-	@apply absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
+	@apply w-full flex absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
+}
+
+.overlay {
+	@apply fixed top-0 left-0 w-full h-full flex justify-center items-center;
+	background-color: rgba(0, 0, 0, 0.8);
+	animation: fadeIn 0.3s;
 }
