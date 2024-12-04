@@ -1,5 +1,5 @@
 .header {
-	@apply mx-auto my-0 w-full h-20 flex items-center max-w-[1400px] py-4 px-2.5 justify-between static bg-dark overflow-visible;
+	@apply mx-auto my-0 h-20 flex items-center max-w-[1400px] w-full py-4 px-2.5 justify-between static bg-dark overflow-visible;
 }
 
 .nav_items {
@@ -14,16 +14,17 @@
 
 @media (max-width: 1000px) {
 	.header {
-		@apply max-w-[880px];
+		@apply w-full;
+	}
+
+	.nav_items {
+		@apply hidden;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
 	.header {
 		@apply max-w-[580px];
-	}
-	.nav_items {
-		@apply hidden;
 	}
 }
 

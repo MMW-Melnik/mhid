@@ -1,29 +1,21 @@
 .contact_form_widget {
-	@apply flex justify-between gap-5 mb-[200px];
+	@apply flex gap-5;
+}
+
+.contact_form_container {
+	@apply flex justify-end;
+}
+
+.contact_form_text_container {
+	@apply flex flex-col gap-2 mb-10;
 }
 
 .form_widget {
-	@apply w-full max-w-[580px] h-[440px];
+	@apply w-full max-w-[780px] h-auto;
 }
 
 .form {
 	@apply w-full flex flex-col gap-[30px];
-}
-
-.text_container {
-	@apply flex flex-col gap-1;
-}
-
-.heading {
-	@apply text-h18;
-}
-
-.subheading {
-	@apply text-t14 text-l-grey;
-}
-
-.form {
-	@apply flex flex-col h-full;
 }
 
 .form_inputs {
@@ -31,7 +23,7 @@
 }
 
 .contact_form_image {
-	@apply bg-white w-full max-w-[780px] max-h-[440px] object-cover;
+	@apply bg-white w-full max-w-[580px] h-auto object-cover;
 }
 
 @media (max-width: 768px) {

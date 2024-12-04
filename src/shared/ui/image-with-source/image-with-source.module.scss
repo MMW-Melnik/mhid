@@ -1,12 +1,19 @@
 .image_with_source {
 	@apply w-1/2 h-auto m-12 relative flex justify-center items-center cursor-pointer;
+<<<<<<< HEAD
 	transition: transform 0.3s ease-in-out;
+=======
+	transition: transform 0.2s ease-in-out;
+>>>>>>> cdd4ac236439f4c895011d78fce867aae635499d
 	transform-origin: center;
 }
 
 .image_with_source:hover {
 	transform: scale(1.02);
+<<<<<<< HEAD
 	transition: all 0.3s ease-in-out;
+=======
+>>>>>>> cdd4ac236439f4c895011d78fce867aae635499d
 }
 
 .image_with_source:hover .image {

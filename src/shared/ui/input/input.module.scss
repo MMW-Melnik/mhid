@@ -1,5 +1,5 @@
 .input_container {
-	@apply w-full h-auto flex flex-col px-2.5 pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
+	@apply w-full h-auto flex flex-col pt-2.5 border border-transparent transition-colors duration-200 ease-in-out;
 
 	.input_label {
 		@apply text-t12 transition-colors duration-200 ease-in-out;

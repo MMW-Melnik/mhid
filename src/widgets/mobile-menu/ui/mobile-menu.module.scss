@@ -1,5 +1,5 @@
 .mobileMenu {
-	@apply hidden transition-colors duration-200 ease-in-out cursor-pointer;
+	@apply hidden transition-colors duration-200 ease-in-out cursor-pointer w-full;
 }
 
 .menu {
@@ -20,7 +20,7 @@
 }
 
 .iconWrapper {
-	@apply hidden cursor-pointer relative;
+	@apply hidden cursor-pointer relative overflow-hidden;
 }
 
 .icon {
@@ -30,11 +30,11 @@
 		transform 0.2s ease-in-out;
 }
 .menuIcon {
-	@apply opacity-100;
+	@apply opacity-100 w-full;
 }
 
 .closeIcon {
-	@apply absolute top-0 left-0 opacity-0;
+	@apply absolute top-0 left-0 opacity-0 w-full;
 	transform: rotate(-45deg);
 }
 
