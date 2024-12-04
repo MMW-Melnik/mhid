@@ -1,11 +1,12 @@
 .image_with_source {
-	@apply w-1/2 h-auto m-12 relative flex justify-center items-center;
+	@apply w-1/2 h-auto m-12 relative flex justify-center items-center cursor-pointer;
 	transition: transform 0.3s ease-in-out;
 	transform-origin: center;
 }
 
 .image_with_source:hover {
-	transform: scale(1.05);
+	transform: scale(1.02);
+	transition: all 0.3s ease-in-out;
 }
 
 .image_with_source:hover .image {
@@ -20,11 +21,11 @@
 }
 
 .text {
-	@apply w-full flex absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
+	@apply w-full flex absolute justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
 }
 
 .overlay {
 	@apply fixed top-0 left-0 w-full h-full flex justify-center items-center;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.95);
 	animation: fadeIn 0.3s;
 }
