@@ -23,9 +23,8 @@ type AppPropsWithLayout = AppProps & {
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	const [isLoading, setLoading] = useLoading()
-	const [isInitialLoading, setIsInitialLoading] = useState(true) // State to control progress bar mode
+	const [isInitialLoading, setIsInitialLoading] = useState(true)
 
-	// Motion values for scroll progress
 	const scrollYProgress = useMotionValue(0)
 	const scaleX = useSpring(scrollYProgress, {
 		stiffness: 100,
@@ -33,7 +32,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 		restDelta: 0.001
 	})
 
-	// Motion value for initial loading animation
 	const initialProgress = useMotionValue(0)
 	const initialScaleX = useSpring(initialProgress, {
 		stiffness: 100,
@@ -41,16 +39,14 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 		restDelta: 0.001
 	})
 
-	// Effect to handle initial loading animation
 	useEffect(() => {
 		if (isInitialLoading) {
-			// Animate the progress bar from 0% to 100% over 3 seconds
 			gsap.to(initialProgress, {
 				duration: 3,
 				value: 1,
 				ease: 'linear',
 				onComplete: () => {
-					setIsInitialLoading(false) // Switch to scroll tracking mode
+					setIsInitialLoading(false)
 				}
 			})
 		}
@@ -99,7 +95,6 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 					}
 				/>
 			)}
-			{/* Use the appropriate scaleX based on the loading state */}
 			<motion.div
 				className={styles.progress_bar}
 				style={{ scaleX: isInitialLoading ? initialScaleX : scaleX }}
