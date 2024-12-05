@@ -1,74 +1,17 @@
-.image_with_source {
-	@apply w-1/2 h-auto m-12 relative cursor-pointer;
-	transition: all 0.3s ease-in-out;
+.overlay {
 }
 
-.image_with_source:hover {
-	transform: scale(1.1);
+.image_with_source {
+	@apply w-1/2 h-auto m-12 relative;
 	transition: all 0.3s ease-in-out;
 }
 
 .image {
 	@apply object-cover w-full h-auto opacity-50;
-	transition:
-		transform 1s ease,
-		opacity 1s ease;
+	transition: all 0.3s ease-in-out;
 	transform-origin: center;
-	will-change: transform, opacity;
 }
 
 .text {
 	@apply absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
-}
-
-.overlay {
-	@apply fixed top-0 left-0 w-full h-full flex justify-center items-center;
-	background-color: rgba(0, 0, 0, 0.8);
-	animation: fadeIn 0.3s;
-	cursor: pointer;
-}
-
-.img_container {
-	max-width: 300px;
-	transition: 0.5s;
-	position: relative;
-}
-
-.wrapper {
-	width: 100vw;
-	min-height: 100vh;
-	height: 100%;
-}
-
-.image-wrapper {
-	position: absolute;
-	left: 0;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	transition: 0.5s;
-}
-
-.image-wrapper.active .img_container {
-	max-width: 100vw;
-}
-
-.image-overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: transparent;
-	opacity: 0.7;
-	transition: background-color 0.3s ease;
-	cursor: pointer;
-}
-
-.image-overlay:hover {
-	background-color: #000000;
 }
