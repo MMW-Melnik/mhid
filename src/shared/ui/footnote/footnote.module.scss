@@ -1,0 +1,11 @@
+.footnoteContainer {
+	@apply relative inline-block cursor-pointer px-3 bg-sand rounded-full;
+}
+
+.footnoteNumber {
+	@apply text-dark transition-colors duration-200 ease-in-out;
+
+	&:hover {
+		@apply text-white;
+	}
+}

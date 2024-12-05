@@ -1,26 +1,15 @@
 export const homeContentData = {
 	en: {
-		introduction: {
+		chapter_1: {
+			title: 'LATE NINETEENTH - EARLY TWENTIETH CENTURY. A PREMONITION OF WAR',
+			text: "Any era is subtly reflected in its literature. People of creative professions perceive the world in a special way, and determine their own place in it. For example, the famous Austrian writer Stefan Zweig described the events of the early and mid-twentieth century quite vividly. His “Yesterday's World,” which can be easily extrapolated to the modern world, leaves no illusions. The book is largely autobiographical, but it is rather a biography of an entire generation that had to survive two world wars; it is a kind of hymn to Europe written while in exile on another continent [^source1][^source2]"
+		},
+		chapter_2: {
+			title: 'WORLD WAR II ',
 			quote:
-				'“Before the First World War, the Austrian monarchy was characterised by a sense of stability and reliability, where rights were fixed and duties were regulated. People believed that the world was on the way to a better future, where wars and conflicts     would gradually disappear, giving way to peace and security.”'
-		}
-	},
-	fr: {
-		introduction: {
-			quote:
-				"“Avant la Première Guerre mondiale, la monarchie autrichienne se caractérisait par un sentiment de stabilité et de fiabilité, où les droits étaient fixés et les devoirs réglementés. Les gens croyaient que le monde était sur la voie d'un avenir meilleur, où les guerres et les conflits disparaîtraient progressivement pour laisser place à la paix et à la sécurité”"
-		}
-	},
-	de: {
-		introduction: {
-			quote:
-				'„Vor dem Ersten Weltkrieg war die österreichische Monarchie durch ein Gefühl von Stabilität und Zuverlässigkeit gekennzeichnet, in der Rechte festgelegt und Pflichten geregelt waren. Die Menschen glaubten, dass die Welt auf dem Weg zu einer besseren Zukunft war, in der Kriege und Konflikte allmählich verschwinden und Frieden und Sicherheit Platz machen würden.“'
-		}
-	},
-	ua: {
-		introduction: {
-			quote:
-				'«Перед Першою світовою війною австрійська монархія характеризувалася відчуттям стабільності і надійності, де права були закріплені, а обов’язки регулювалися. Люди вірили, що світ на шляху до кращого майбутнього, де війни і конфлікти поступово зникнуть, уступивши місце миру і безпеці»'
+				'“Before the First World War, the Austrian monarchy was characterised by a sense of stability and reliability, where rights were fixed and duties were regulated. People believed that the world was on the way to a better future, where wars and conflicts would gradually disappear, giving way to peace and security.”',
+
+			text: "Any era is subtly reflected in its literature. People of creative professions perceive the world in a special way, and determine their own place in it. For example, the famous Austrian writer Stefan Zweig described the events of the early and mid-twentieth century quite vividly. His “Yesterday's World,” which can be easily extrapolated to the modern world, leaves no illusions. The book is largely autobiographical, but it is rather a biography of an entire generation that had to survive two world wars; it is a kind of hymn to Europe written while in exile on another continent [^source1]"
 		}
 	}
 }

@@ -18,6 +18,7 @@ export const TypographyProvider: FC<PropsWithChildren> = ({ children }) => {
 		</TypographyContext.Provider>
 	)
 }
+
 export const useTypography = (): TypographyContextType => {
 	const context = useContext(TypographyContext)
 	if (!context) {
