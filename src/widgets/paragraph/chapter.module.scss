@@ -1,5 +1,5 @@
 .chapter {
-	@apply flex justify-center items-center relative h-[150vh] w-full;
+	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden;
 }
 
 .content {

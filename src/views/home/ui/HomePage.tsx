@@ -3,8 +3,7 @@ import bgImage from '@/app/assets/images/home/bg.jpg'
 import { Chapter, ContentBlock } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
 
-import { FormattedText, Intro } from '@/shared/ui'
-import { ImageWithSource } from '@/shared/ui/image-with-source/ImageWithSource'
+import { FormattedText } from '@/shared/ui'
 
 export const HomePage = () => {
 	const { t } = useTranslation('home')
@@ -12,12 +11,6 @@ export const HomePage = () => {
 	return (
 		<>
 			<section>
-				<Intro imageText="source" text="The Luxembourg Dream" />
-				<ImageWithSource
-					sourceImage={bgImage.src}
-					sourceText="source"
-					alt="alt"
-				/>
 				<ContentBlock>
 					<FormattedText text={t('chapter_1.text')} />
 				</ContentBlock>

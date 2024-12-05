@@ -7,3 +7,8 @@
 @import './default/_mixins';
 @import './default/settings';
 @import './default/animations';
+@import './default//_tippy-custom';
+
+@import 'tippy.js/animations/scale.css';
+@import 'tippy.js/dist/tippy.css';
+@import 'lenis/dist/lenis.css';

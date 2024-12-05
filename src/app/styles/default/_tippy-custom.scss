@@ -1,0 +1,7 @@
+.tippy-box[data-theme='custom'] {
+	@apply bg-sand text-dark text-t14 rounded-full;
+}
+
+.tippy-box[data-theme='custom'] .tippy-content {
+	@apply p-3;
+}
