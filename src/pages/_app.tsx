@@ -7,9 +7,11 @@ import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
 import { NextPage } from 'next'
 import { AppProps } from 'next/app'
-import { ReactElement, ReactNode, useEffect } from 'react'
+import { ReactElement, ReactNode, useEffect, useState } from 'react'
 import '../../i18n.config'
 import { DefaultLayout } from '../app/layouts'
+import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
+import styles from './_app.module.scss'
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
 	getLayout?: (page: ReactElement) => ReactNode
@@ -21,18 +23,58 @@ type AppPropsWithLayout = AppProps & {
 
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	const [isLoading, setLoading] = useLoading()
+	const [isInitialLoading, setIsInitialLoading] = useState(true) // State to control progress bar mode
+
+	// Motion values for scroll progress
+	const scrollYProgress = useMotionValue(0)
+	const scaleX = useSpring(scrollYProgress, {
+		stiffness: 100,
+		damping: 30,
+		restDelta: 0.001
+	})
+
+	// Motion value for initial loading animation
+	const initialProgress = useMotionValue(0)
+	const initialScaleX = useSpring(initialProgress, {
+		stiffness: 100,
+		damping: 30,
+		restDelta: 0.001
+	})
+
+	// Effect to handle initial loading animation
+	useEffect(() => {
+		if (isInitialLoading) {
+			// Animate the progress bar from 0% to 100% over 3 seconds
+			gsap.to(initialProgress, {
+				duration: 3,
+				value: 1,
+				ease: 'linear',
+				onComplete: () => {
+					setIsInitialLoading(false) // Switch to scroll tracking mode
+				}
+			})
+		}
+	}, [isInitialLoading, initialProgress])
 
 	useEffect(() => {
 		const lenis = new Lenis()
 
-		lenis.on('scroll', ScrollTrigger.update)
-
-		gsap.ticker.add(time => {
-			lenis.raf(time * 1000)
+		lenis.on('scroll', ({ scroll, limit }) => {
+			const progress = scroll / limit
+			scrollYProgress.set(progress)
 		})
 
-		gsap.ticker.lagSmoothing(0)
-	}, [isLoading])
+		function raf(time: number) {
+			lenis.raf(time)
+			requestAnimationFrame(raf)
+		}
+
+		requestAnimationFrame(raf)
+
+		return () => {
+			lenis.destroy()
+		}
+	}, [scrollYProgress])
 
 	useEffect(() => {
 		if (!isLoading) {
@@ -57,6 +99,11 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 					}
 				/>
 			)}
+			{/* Use the appropriate scaleX based on the loading state */}
+			<motion.div
+				className={styles.progress_bar}
+				style={{ scaleX: isInitialLoading ? initialScaleX : scaleX }}
+			/>
 			<div className="content">
 				{!isLoading && getLayout(<Component {...pageProps} />)}
 			</div>
