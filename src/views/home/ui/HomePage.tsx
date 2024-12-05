@@ -1,10 +1,10 @@
 'use client'
-import { ContentBlock, Chapter } from '@/widgets/index'
-import { useTranslation } from 'react-i18next'
 import bgImage from '@/app/assets/images/home/bg.jpg'
+import { Chapter, ContentBlock } from '@/widgets/index'
+import { useTranslation } from 'react-i18next'
 
+import { FormattedText, Intro } from '@/shared/ui'
 import { ImageWithSource } from '@/shared/ui/image-with-source/ImageWithSource'
-import { Intro } from '@/shared/ui'
 
 export const HomePage = () => {
 	const { t } = useTranslation('home')
@@ -19,14 +19,7 @@ export const HomePage = () => {
 					alt="alt"
 				/>
 				<ContentBlock>
-					It&nbsp;is&nbsp;worth looking at&nbsp;the era in&nbsp;which our
-					heroines lived through the eyes of&nbsp;a&nbsp;contemporary. For
-					example, a&nbsp;writer. It&nbsp;is&nbsp;known that people
-					in&nbsp;professions perceive the world in&nbsp;a&nbsp;special way and
-					determine their own place in&nbsp;it. Stefan Zweig described the
-					events of&nbsp;the early twentieth century quite vividly. His
-					&laquo;Yesterday&rsquo;s World&raquo;, which can be safely
-					extrapolated to&nbsp;the modern world, leaves no&nbsp;illusions:
+					<FormattedText text={t('chapter_1.text')} />
 				</ContentBlock>
 				<ContentBlock>
 					It&nbsp;was at&nbsp;this time that the protagonists of&nbsp;this
@@ -36,13 +29,13 @@ export const HomePage = () => {
 			</section>
 
 			<Chapter
-				quote="introduction.quote"
+				quote="chapter_2.quote"
 				author="Stefan Zweig. Yesterday's World"
 				img1={bgImage.src}
 				img2={bgImage.src}
 				img3={bgImage.src}
 			>
-				World War 2
+				{t('chapter_2.title')}
 			</Chapter>
 			<ContentBlock>
 				It is worth looking at the era in which our heroines lived through the

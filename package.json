@@ -33,6 +33,7 @@
 		"react-parallax-tilt": "^1.7.258",
 		"react-tilt": "^1.0.2",
 		"react-toastify": "^10.0.5",
+		"react-tooltip": "^5.28.0",
 		"sass": "^1.77.6",
 		"typograf": "^7.4.1"
 	},

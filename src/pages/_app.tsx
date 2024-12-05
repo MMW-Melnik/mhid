@@ -1,8 +1,8 @@
 import { PageTransitionProvider } from '@/app/providers'
 import { useLoading } from '@/shared/hooks'
 import { Loader } from '@/shared/ui'
+import { motion, useMotionValue, useSpring } from 'framer-motion'
 import gsap from 'gsap'
-import ScrollTrigger from 'gsap/dist/ScrollTrigger'
 import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
 import { NextPage } from 'next'
@@ -10,7 +10,6 @@ import { AppProps } from 'next/app'
 import { ReactElement, ReactNode, useEffect, useState } from 'react'
 import '../../i18n.config'
 import { DefaultLayout } from '../app/layouts'
-import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import styles from './_app.module.scss'
 
 type NextPageWithLayout<P = {}> = NextPage<P> & {
@@ -24,7 +23,6 @@ type AppPropsWithLayout = AppProps & {
 function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	const [isLoading, setLoading] = useLoading()
 	const [isInitialLoading, setIsInitialLoading] = useState(true)
-
 	const scrollYProgress = useMotionValue(0)
 	const scaleX = useSpring(scrollYProgress, {
 		stiffness: 100,
@@ -55,10 +53,13 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
 	useEffect(() => {
 		const lenis = new Lenis()
 
-		lenis.on('scroll', ({ scroll, limit }) => {
-			const progress = scroll / limit
-			scrollYProgress.set(progress)
-		})
+		lenis.on(
+			'scroll',
+			({ scroll, limit }: { scroll: number; limit: number }) => {
+				const progress = scroll / limit
+				scrollYProgress.set(progress)
+			}
+		)
 
 		function raf(time: number) {
 			lenis.raf(time)
