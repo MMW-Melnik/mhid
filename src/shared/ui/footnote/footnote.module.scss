@@ -1,11 +1,15 @@
 .footnoteContainer {
-	@apply relative inline-block cursor-pointer px-3 bg-sand rounded-full;
+	@apply inline-flex items-center justify-center cursor-pointer px-3 bg-sand rounded-full overflow-visible transition-colors duration-200 ease-in-out;
+
+	&:not(:last-child) {
+		@apply mx-2;
+	}
 }
 
 .footnoteNumber {
-	@apply text-dark transition-colors duration-200 ease-in-out;
+	@apply text-dark;
+}
 
-	&:hover {
-		@apply text-white;
-	}
+.tooltipLink {
+	@apply text-dark underline;
 }
