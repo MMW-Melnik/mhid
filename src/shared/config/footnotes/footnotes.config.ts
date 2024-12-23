@@ -94,5 +94,50 @@ export const footnotesConfig: Record<string, { source: string; url: string }> =
 			source:
 				'Olga Kuzmovych. This and That. A collection of short stories and essays. New York. 2000. P. 25',
 			url: '/'
+		},
+		source44: {
+			source:
+				'History of Ukraine and its Statehood. A course of lectures: Study guide / L.E. Deshchynskyi et al. Lviv: Lviv Polytechnic National University Press, 2009. С. 345',
+			url: '/'
+		},
+		source45: {
+			source:
+				'Serhii Plokhy. The Gates of Europe. History of Ukraine from the Scythian Wars to Independence. 2015. С. 83',
+			url: '/'
+		},
+		source46: {
+			source:
+				'Serhiy Plohiy. The Gates of Europe. History of Ukraine from the Scythian Wars to Independence. 2015. С. 84',
+			url: 'https://readukrainianbooks.com/page-84-1490-brama-yevropi-istorija-ukrayini-vid-skifskih-voyen-do-nezalezhnosti-sergij-mikolajovich-poganij.html'
+		},
+		source47: {
+			source: 'book',
+			url: 'https://elibrary.ivinas.gov.ua/478/1/Entsyklopedia_verska-279-293.pdf'
+		},
+		source48: {
+			source: 'Paul Lafontaine. Unsere Dynastie.',
+			url: '/'
+		},
+		source49: {
+			source: 'Charlotte A Royal At War.',
+			url: 'https://www.youtube.com/watch?v=Emye7Ku6ho8'
+		},
+		source50: {
+			source: 'Paul Weitz. Charlotte von Luxembourg: ein Lebensbild. 1990',
+			url: '/'
+		},
+		source51: {
+			source:
+				"Paul Schmit 'Mon cœur dit oui, mais ma tête dit.' Une décision difficile mais nécessaire : l'exil luxembourgeois de 1940.",
+			url: '/'
+		},
+		source52: {
+			source:
+				'Charlotte, Großherzogin von Luxemburg, kehrt 1945 aus dem Exil zurück',
+			url: 'https://www.youtube.com/watch?v=OBKdr9ts-x0'
+		},
+		source53: {
+			source: 'video',
+			url: 'https://www.forum.lu/issue/onst-charlotte/'
 		}
 	}
