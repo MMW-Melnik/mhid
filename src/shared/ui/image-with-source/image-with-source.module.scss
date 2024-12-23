@@ -1,8 +1,5 @@
-.overlay {
-}
-
 .image_with_source {
-	@apply w-1/2 h-auto m-12 relative;
+	@apply w-full h-auto relative;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -13,5 +10,5 @@
 }
 
 .text {
-	@apply absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-xs;
+	@apply absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-t14;
 }

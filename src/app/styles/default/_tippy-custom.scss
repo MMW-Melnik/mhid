@@ -3,5 +3,5 @@
 }
 
 .tippy-box[data-theme='custom'] .tippy-content {
-	@apply p-3 overflow-hidden  w-[200px];
+	@apply flex items-center justify-center p-3 overflow-hidden w-[200px] h-12;
 }
