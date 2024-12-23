@@ -1,1 +1,1 @@
-export { ChapterBlock } from './ui/ChapterBlock'
+export { Chapter } from './Chapter'

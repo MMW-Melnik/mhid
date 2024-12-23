@@ -1,5 +1,4 @@
-import React from 'react'
-import { Chapter } from '@/widgets/paragraph'
+import { Chapter } from '@/widgets/chapter-block'
 
 const InterwarPeriod = () => {
 	return (

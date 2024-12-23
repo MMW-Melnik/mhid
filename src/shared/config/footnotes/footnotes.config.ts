@@ -1,7 +1,7 @@
 export const footnotesConfig: Record<string, { source: string; url: string }> =
 	{
 		source1: {
-			source: 'Источник 1',
+			source: 'Stefan Zweig. Die Welt von Gestern; Stockholm, 1942',
 			url: 'https://example.com/source1'
 		},
 		source2: {
