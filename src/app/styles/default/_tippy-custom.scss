@@ -1,7 +1,7 @@
 .tippy-box[data-theme='custom'] {
-	@apply bg-sand text-dark text-t12 rounded-full;
+	@apply bg-sand text-dark text-t12 rounded-md;
 }
 
 .tippy-box[data-theme='custom'] .tippy-content {
-	@apply p-3 overflow-hidden  w-[200px];
+	@apply flex items-center justify-center p-3 overflow-hidden  w-full h-auto;
 }
