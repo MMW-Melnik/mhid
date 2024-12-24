@@ -37,7 +37,7 @@ export const Footnote: FC<IFootnote> = ({ source, url }) => {
 			interactive={true}
 			delay={[100, 100]}
 			appendTo={() => document.body}
-			maxWidth="200px"
+			maxWidth="300px"
 		>
 			<span
 				className={styles.footnoteContainer}

@@ -1,5 +1,5 @@
 .formatted_text {
-	@apply w-full h-auto;
+	@apply w-full h-auto text-sand;
 
 	&:not(:first-child) {
 		@apply my-[2.5rem];

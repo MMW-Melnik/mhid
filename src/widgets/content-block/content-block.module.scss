@@ -2,7 +2,7 @@
 	@apply w-full flex flex-col items-end text-t16 text-left;
 }
 .content {
-	@apply max-w-[780px] w-full text-white font-text;
+	@apply max-w-[780px] w-full font-text;
 	p:not(:last-child) {
 		@apply mb-[1.25rem];
 	}

@@ -1,5 +1,5 @@
 .image_with_source {
-	@apply w-full h-auto relative;
+	@apply h-auto p-3 relative;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -10,5 +10,5 @@
 }
 
 .text {
-	@apply absolute flex justify-end items-center bottom-1 right-1 m-4 text-sand text-t14;
+	@apply absolute flex justify-end items-center bottom-8 right-8 text-sand text-t14;
 }
