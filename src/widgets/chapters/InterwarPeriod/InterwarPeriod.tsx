@@ -1,11 +1,7 @@
 import img1 from '@/app/assets/images/home/INTERWAR-PERIOD/building.jpg'
-import {
-	default as img2,
-	default as img3
-} from '@/app/assets/images/home/INTERWAR-PERIOD/street1.jpg'
-
+import img2 from '@/app/assets/images/home/INTERWAR-PERIOD/street1.jpg'
+import img3 from '@/app/assets/images/home/INTERWAR-PERIOD/village.jpg'
 import { FormattedText, Heading } from '@/shared/ui'
-import ImageWithSource from '@/shared/ui/image-with-source/ImageWithSource'
 import { ContentBlock } from '@/widgets/content-block'
 import { Chapter } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
@@ -27,19 +23,14 @@ const InterwarPeriod = () => {
 			<ContentBlock>
 				<FormattedText text={t('chapter_3.text_main')} />
 			</ContentBlock>
-			<Heading level={3}>{t('chapter_3.subtitles.charlotte')}</Heading>
 			<ContentBlock>
+				<Heading level={3}>{t('chapter_3.subtitles.charlotte')}</Heading>
 				<FormattedText text={t('chapter_3.text_charlotte')} />
 			</ContentBlock>
-			<Heading level={3}>{t('chapter_3.subtitles.sofia')}</Heading>
 			<ContentBlock>
+				<Heading level={3}>{t('chapter_3.subtitles.sofia')}</Heading>
 				<FormattedText text={t('chapter_3.text_sofia')} />
 			</ContentBlock>
-			<ImageWithSource
-				sourceImage={img1.src}
-				sourceText="helloekfs fdwef wefwefwe"
-				alt="hi"
-			/>
 		</>
 	)
 }
