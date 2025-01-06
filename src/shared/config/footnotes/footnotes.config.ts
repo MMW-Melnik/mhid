@@ -139,5 +139,17 @@ export const footnotesConfig: Record<string, { source: string; url: string }> =
 		source53: {
 			source: 'video',
 			url: 'https://www.forum.lu/issue/onst-charlotte/'
+		},
+		source54: {
+			source: 'website',
+			url: 'https://www.virgule.lu/luxembourg/stephane-bern-tourne-secrets-d-histoire-au-luxembourg/130154.html'
+		},
+		source55: {
+			source: 'website',
+			url: 'https://www.virgule.lu/luxembourg/stephane-bern-tourne-secrets-d-histoire-au-luxembourg/130154.html'
+		},
+		source56: {
+			source: 'website',
+			url: 'https://www.secretsdhistoire.tv/content/la-grande-duchesse-charlotte-de-luxembourg'
 		}
 	}
