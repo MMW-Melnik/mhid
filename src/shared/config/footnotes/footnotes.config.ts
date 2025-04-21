@@ -11,17 +11,17 @@ export const footnotesConfig: Record<string, { source: string; url: string }> =
 		},
 		source3: {
 			source:
-				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912-1919)',
+				'Paul Lafontaine. Unsere Dynastie: Die Ursprünge der Nassauer und die Herrschaft der Nassau-Weilburger im Großherzogtum Luxemburg (1890-1990), 1990',
 			url: 'https://example.com/source2'
 		},
 		source4: {
 			source:
-				'Arthur Klein. Zum Ableben von Großherzog Wilhelm IV: Ein Beitrag zur 150-Jahrfeier der Luxemburger Eisenbahnen. (2009)',
+				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912-1919)',
 			url: 'https://example.com/source2'
 		},
 		source5: {
 			source:
-				'Savchuk B. Public Activity of Stepan Fedak (1861-1937): PhD thesis: 07.00.01 - History of Ukraine / V. Stefanyk Precarpathian National University. Ivano-Frankivsk, 2019. 276 p.',
+				'Arthur Klein. Zum Ableben von Großherzog Wilhelm IV: Ein Beitrag zur 150-Jahrfeier der Luxemburger Eisenbahnen. (2009)',
 			url: 'https://example.com/source2'
 		},
 		source6: {
@@ -57,6 +57,64 @@ export const footnotesConfig: Record<string, { source: string; url: string }> =
 		source12: {
 			source:
 				"Olha Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after SZ Grzycki. Vol. 17, No. 4 (64), 2015. С. 369",
+			url: 'https://example.com/source2'
+		},
+		source13: {
+			source:
+				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912-1919)',
+			url: 'https://example.com/source2'
+		},
+		source14: {
+			source:
+				"Zoya Baran, 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century,' Lwów: miasto - spoіeczeсstwo - kultura 9. (2014). C. 117",
+			url: 'https://example.com/source2'
+		},
+		source15: {
+			source:
+				"Olga Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after SZ Gzhytsky. Vol. 17, No. 4 (64), 2015. P. 371",
+			url: 'https://example.com/source2'
+		},
+		source16: {
+			source: 'Olga Kuzmovych. About This and That. New York, 2000. P. 12',
+			url: 'https://example.com/source2'
+		},
+		source17: {
+			source: 'Olga Kuzmovych. About This and That. New York, 2000. P. 146',
+			url: 'https://example.com/source2'
+		},
+		source18: {
+			source:
+				'Savchuk B. Public Activity of Stepan Fedak (1861-1937): Candidate of Historical Sciences (07.00.01 - History of Ukraine) / V. Stefanyk Precarpathian National University. Ivano-Frankivsk, 2019. C. 136',
+			url: 'https://example.com/source2'
+		},
+		source19: {
+			source:
+				'Savchuk B. Public Activity of Stepan Fedak (1861-1937): PhD thesis: 07.00.01 - History of Ukraine / V. Stefanyk Precarpathian National University. Ivano-Frankivsk, 2019. C. 136',
+			url: 'https://example.com/source2'
+		},
+		source20: {
+			source:
+				'Olena Kuzmovych. This and That. A Collection of Stories and Essays. New York. 2000. P. 23',
+			url: 'https://example.com/source2'
+		},
+		source21: {
+			source:
+				'Savchuk B. Public Activity of Stepan Fedak (1861-1937): Candidate of Historical Sciences (07.00.01 - History of Ukraine) / V. Stefanyk Precarpathian National University. Ivano-Frankivsk, 2019. C. 144',
+			url: 'https://example.com/source2'
+		},
+		source22: {
+			source:
+				'Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. Kyiv: Olena Teliha Publishing House, 2011. С. 48',
+			url: 'https://example.com/source2'
+		},
+		source23: {
+			source:
+				'Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. Kyiv: Olena Teliha Publishing House, 2011. С. 51',
+			url: 'https://example.com/source2'
+		},
+		source24: {
+			source:
+				"Olena Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after SZ Gzycki. Vol. 17, No. 4 (64), 2015. С. 372",
 			url: 'https://example.com/source2'
 		},
 		source26: {

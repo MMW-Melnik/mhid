@@ -13,15 +13,18 @@ const FootnoteContext = createContext<IFootnoteContextType | undefined>(
 )
 
 export const FootnoteProvider: FC<PropsWithChildren> = ({ children }) => {
-	const countRef = useRef(0)
+	const footnotesRef = useRef<Map<string, number>>(new Map())
 
-	const getNextNumber = useCallback((): number => {
-		countRef.current += 1
-		return countRef.current
+	const getFootnoteNumber = useCallback((id: string) => {
+		if (!footnotesRef.current.has(id)) {
+			const newNumber = footnotesRef.current.size + 1
+			footnotesRef.current.set(id, newNumber)
+		}
+		return footnotesRef.current.get(id)!
 	}, [])
 
 	return (
-		<FootnoteContext.Provider value={{ getNextNumber }}>
+		<FootnoteContext.Provider value={{ getFootnoteNumber }}>
 			{children}
 		</FootnoteContext.Provider>
 	)

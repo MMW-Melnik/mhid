@@ -6,7 +6,7 @@ import { ContentBlock } from '@/widgets/content-block'
 import { Chapter } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
 
-const InterwarPeriod = () => {
+export const InterwarPeriod = () => {
 	const { t } = useTranslation('home')
 
 	return (

@@ -2,8 +2,8 @@ import { Heading } from '@/shared/ui'
 import { FC, PropsWithChildren, useLayoutEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Quote } from '../quote/Quote'
-import styles from './chapter.module.scss'
 import { IChapter } from './chapter.interface'
+import styles from './chapter.module.scss'
 
 export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 	children,
@@ -37,7 +37,6 @@ export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 			if (!headingContainer || !image1 || !image2 || !image3) return
 
 			ctx = gsap.context(() => {
-				// Existing heading animation
 				const tl = gsap.timeline({
 					scrollTrigger: {
 						trigger: headingContainer,

@@ -1,12 +1,16 @@
 'use client'
-import InterwarPeriod from '@/widgets/chapters/InterwarPeriod/InterwarPeriod'
-import { PremonitionOfWarChapter } from '@/widgets/chapters/premonition-of-war/PremonitionOfWarChapter'
-import WorldWar2 from '@/widgets/chapters/ww2/worldWar2'
+import {
+	InterwarPeriod,
+	PremonitionOfWarChapter,
+	WorldWar2,
+	WorldWarOneChapter
+} from '@/widgets/chapters'
 
 export const HomePage = () => {
 	return (
 		<>
 			<PremonitionOfWarChapter />
+			<WorldWarOneChapter />
 			<InterwarPeriod />
 			<WorldWar2 />
 		</>

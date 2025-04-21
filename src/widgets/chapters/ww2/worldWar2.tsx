@@ -1,13 +1,12 @@
-import React from 'react'
-import { Chapter } from '@/widgets/chapter-block'
-import { useTranslation } from 'react-i18next'
 import img1 from '@/app/assets/images/home/THE SECOND WORLD WAR. LIFE IN EXILE/bebe.jpg'
 import img2 from '@/app/assets/images/home/THE SECOND WORLD WAR. LIFE IN EXILE/refugees.jpg'
 import img3 from '@/app/assets/images/home/THE SECOND WORLD WAR. LIFE IN EXILE/street2.jpg'
-import { ContentBlock } from '@/widgets/content-block'
 import { FormattedText, Heading } from '@/shared/ui'
+import { Chapter } from '@/widgets/chapter-block'
+import { ContentBlock } from '@/widgets/content-block'
+import { useTranslation } from 'react-i18next'
 
-const WorldWar2 = () => {
+export const WorldWar2 = () => {
 	const { t } = useTranslation('home')
 
 	return (

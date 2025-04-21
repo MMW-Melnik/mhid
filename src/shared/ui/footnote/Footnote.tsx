@@ -1,4 +1,3 @@
-// components/Footnote.tsx
 import { useFootnoteContext } from '@/app/context'
 import '@/app/styles/index.scss'
 import Tippy from '@tippyjs/react'
@@ -8,17 +7,18 @@ import { IFootnote } from './footnote.interface'
 import styles from './footnote.module.scss'
 
 export const Footnote: FC<IFootnote> = ({ source, url }) => {
-	const { getNextNumber } = useFootnoteContext()
+	const { getFootnoteNumber } = useFootnoteContext()
 	const [footnoteNumber, setFootnoteNumber] = useState<number>(-1)
 	const hasNumber = useRef(false)
+	const footnoteId = `${source}-${url}`
 
 	useEffect(() => {
 		if (!hasNumber.current) {
-			const number = getNextNumber()
+			const number = getFootnoteNumber(footnoteId)
 			setFootnoteNumber(number)
 			hasNumber.current = true
 		}
-	}, [getNextNumber])
+	}, [getFootnoteNumber, footnoteId])
 
 	const tooltipContent = (
 		<div className="px-4 py-2 bg-sand text-dark text-sm rounded-md shadow-lg">

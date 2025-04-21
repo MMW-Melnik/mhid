@@ -1,3 +1,3 @@
 export interface IFootnoteContextType {
-	getNextNumber: () => number
+	getFootnoteNumber: (id: string) => number
 }
