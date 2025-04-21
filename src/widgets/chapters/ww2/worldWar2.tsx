@@ -27,6 +27,10 @@ export const WorldWar2 = () => {
 				<Heading level={3}>{t('chapter_4.subtitles.charlotte')}</Heading>
 				<FormattedText text={t('chapter_4.text_charlotte')} />
 			</ContentBlock>
+			<ContentBlock>
+				<Heading level={3}>{t('chapter_4.subtitles.sofia')}</Heading>
+				<FormattedText text={t('chapter_4.text_sofia')} />
+			</ContentBlock>
 		</>
 	)
 }
