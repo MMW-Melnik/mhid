@@ -23,48 +23,48 @@ export const formMessages = {
 			sending: 'Sending...'
 		}
 	},
-	fr: {
-		name: {
-			placeholder: 'Nom',
-			fullName: 'Nom complet',
-			required: 'Le nom complet est requis',
-			minLength: 'Le nom complet doit comporter au moins 3 caractères'
-		},
-		email: {
-			placeholder: 'example@gmail.com',
-			required: 'Email est requis',
-			invalid: 'Adresse e-mail invalide'
-		},
-		message: {
-			fullName: 'Le message',
-			placeholder: 'Le message va ici...',
-			minLength: 'Le message doit comporter au moins 10 caractères'
-		},
-		button: {
-			name: 'Envoyer le message'
-		}
-	},
-	de: {
-		name: {
-			placeholder: 'Name',
-			fullName: 'Vollständiger Name',
-			required: 'Vollständiger Name ist erforderlich',
-			minLength: 'Der vollständige Name muss mindestens 3 Zeichen lang sein'
-		},
-		email: {
-			placeholder: 'example@gmail.com',
-			required: 'E-Mail ist erforderlich',
-			invalid: 'Ungültige E-Mail-Adresse'
-		},
-		message: {
-			fullName: 'Nachricht',
-			placeholder: 'Nachricht hier einfügen...',
-			minLength: 'Die Nachricht muss mindestens 10 Zeichen lang sein'
-		},
-		button: {
-			name: 'Nachricht senden'
-		}
-	},
+	// fr: {
+	// 	name: {
+	// 		placeholder: 'Nom',
+	// 		fullName: 'Nom complet',
+	// 		required: 'Le nom complet est requis',
+	// 		minLength: 'Le nom complet doit comporter au moins 3 caractères'
+	// 	},
+	// 	email: {
+	// 		placeholder: 'example@gmail.com',
+	// 		required: 'Email est requis',
+	// 		invalid: 'Adresse e-mail invalide'
+	// 	},
+	// 	message: {
+	// 		fullName: 'Le message',
+	// 		placeholder: 'Le message va ici...',
+	// 		minLength: 'Le message doit comporter au moins 10 caractères'
+	// 	},
+	// 	button: {
+	// 		name: 'Envoyer le message'
+	// 	}
+	// },
+	// de: {
+	// 	name: {
+	// 		placeholder: 'Name',
+	// 		fullName: 'Vollständiger Name',
+	// 		required: 'Vollständiger Name ist erforderlich',
+	// 		minLength: 'Der vollständige Name muss mindestens 3 Zeichen lang sein'
+	// 	},
+	// 	email: {
+	// 		placeholder: 'example@gmail.com',
+	// 		required: 'E-Mail ist erforderlich',
+	// 		invalid: 'Ungültige E-Mail-Adresse'
+	// 	},
+	// 	message: {
+	// 		fullName: 'Nachricht',
+	// 		placeholder: 'Nachricht hier einfügen...',
+	// 		minLength: 'Die Nachricht muss mindestens 10 Zeichen lang sein'
+	// 	},
+	// 	button: {
+	// 		name: 'Nachricht senden'
+	// 	}
+	// },
 	ua: {
 		name: {
 			placeholder: 'Ім’я',

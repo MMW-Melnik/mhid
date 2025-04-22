@@ -12,16 +12,16 @@ const LastLife = () => {
 	return (
 		<>
 			<Chapter
-				quote={t('chapter_6.quote')}
+				quote={t('CHAPTER')}
 				author="Stefan Zweig"
 				img1={img1.src}
 				img2={img2.src}
 				img3={img3.src}
 			>
-				{t('chapter_6.title')}
+				{t('CHAPTER.TITLE')}
 			</Chapter>
 			<ContentBlock>
-				<FormattedText text={t('chapter_6.text_main')} />
+				<FormattedText text={t('CHAPTER.INTRODUCTION')} />
 			</ContentBlock>
 		</>
 	)

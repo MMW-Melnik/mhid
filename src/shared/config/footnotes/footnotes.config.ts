@@ -1,5 +1,27 @@
 export const footnotesConfig: Record<string, { source: string; url: string }> =
 	{
+		cefisStudy: {
+			source: 'CEFiS. Étude sur le racisme.',
+			url: 'https://cefis.lu/etude-racsime/'
+		},
+		luxHistory: {
+			source:
+				'Ministère d’État du Grand-Duché de Luxembourg. A propos de l’histoire.',
+			url: 'https://sip.gouvernement.lu/fr/publications/minist-etat/sip/brochure/a_propos/A_propos_Histoire.html'
+		},
+		jstor20027443: {
+			source:
+				'Roman Szporluk. “Ukraine: From an Imperial Periphery to a Sovereign State.” Daedalus, vol. 126, no. 3, 1997.',
+			url: 'http://www.jstor.org/stable/20027443'
+		},
+		orbiluPaper: {
+			source: 'Université du Luxembourg. “Luxembourg and Ukraine during WWII.”',
+			url: 'https://orbilu.uni.lu/handle/10993/2052'
+		},
+		charlotteVideo: {
+			source: 'Charlotte A Royal At War.',
+			url: 'https://www.youtube.com/watch?v=Emye7Ku6ho8'
+		},
 		source1: {
 			source: 'Stefan Zweig. Die Welt von Gestern; Stockholm, 1942',
 			url: 'https://example.com/source1'

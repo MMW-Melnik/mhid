@@ -23,18 +23,18 @@ i18n
 				form: formMessages.en,
 				home: homeContentData.en
 			},
-			fr: {
-				header: headerData.fr.header,
-				footer: footerData.fr.footer,
-				form: formMessages.fr,
-				home: homeContentData.fr
-			},
-			de: {
-				header: headerData.de.header,
-				footer: footerData.de.footer,
-				form: formMessages.de,
-				home: homeContentData.de
-			},
+			// fr: {
+			// 	header: headerData.fr.header,
+			// 	footer: footerData.fr.footer,
+			// 	form: formMessages.fr,
+			// 	home: homeContentData.fr
+			// },
+			// de: {
+			// 	header: headerData.de.header,
+			// 	footer: footerData.de.footer,
+			// 	form: formMessages.de,
+			// 	home: homeContentData.de
+			// },
 			ua: {
 				header: headerData.ua.header,
 				footer: footerData.ua.footer,

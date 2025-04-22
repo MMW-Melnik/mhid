@@ -7,22 +7,6 @@ export const headerData = {
 			contact: 'Contact'
 		}
 	},
-	fr: {
-		language: 'fr',
-		header: {
-			home: 'Accueil',
-			about: 'A propos de',
-			contact: 'Contacter'
-		}
-	},
-	de: {
-		language: 'de',
-		header: {
-			home: 'Startseite',
-			about: 'Über',
-			contact: 'Kontakt'
-		}
-	},
 	ua: {
 		language: 'ua',
 		header: {
