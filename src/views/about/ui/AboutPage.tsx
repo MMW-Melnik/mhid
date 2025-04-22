@@ -5,7 +5,8 @@ import {
 	AuthorBlock,
 	DevelopersBlock,
 	PartnersBlock,
-	ProjectBlock
+	ProjectBlock,
+	SupportBlock
 } from '@/widgets/index'
 
 export const AboutPage = () => {
@@ -15,6 +16,7 @@ export const AboutPage = () => {
 			<ProjectBlock />
 			<PartnersBlock />
 			<AuthorBlock />
+			<SupportBlock />
 			<DevelopersBlock />
 		</>
 	)

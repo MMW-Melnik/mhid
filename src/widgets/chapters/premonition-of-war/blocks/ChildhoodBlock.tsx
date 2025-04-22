@@ -1,17 +1,13 @@
-import CrownPrinceImage from '@/app/assets/images/home/LATE NINETEENTH - EARLY TWENTIETH CENTURY. A PREMONITION OF WAR/CHARLOTTE/crown-prince-wife.jpg'
-import ResidenceBergImage from '@/app/assets/images/home/LATE NINETEENTH - EARLY TWENTIETH CENTURY. A PREMONITION OF WAR/CHARLOTTE/residence-berg-palace.jpg'
-import SistersImage from '@/app/assets/images/home/LATE NINETEENTH - EARLY TWENTIETH CENTURY. A PREMONITION OF WAR/CHARLOTTE/sisters-together.jpg'
-
-import { useFormattedTexts } from '@/shared/hooks/useTexts'
-import { FormattedText, Heading, RenderTextArray } from '@/shared/ui'
-import ImageWithSource from '@/shared/ui/image-with-source/ImageWithSource'
-import { ContentBlock } from '@/widgets/content-block'
-import { Quote } from '@/widgets/quote/Quote'
+import { childhoodCharlotteImages } from '@/entities/index'
+import { useFormattedTexts } from '@/shared/hooks'
+import { FormattedText, Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
+import { ContentBlock, Quote } from '@/widgets/index'
 import { FC } from 'react'
 import styles from '../premonition-war-chapter.module.scss'
 
 export const ChildhoodBlock: FC = () => {
 	const texts = useFormattedTexts()
+	const { crownPrince, sisters, residence } = childhoodCharlotteImages
 
 	return (
 		<div className={styles.childhood_and_youth}>
@@ -22,9 +18,9 @@ export const ChildhoodBlock: FC = () => {
 					<RenderTextArray textArray={texts.rawIntroductionText} />
 
 					<ImageWithSource
-						sourceImage={CrownPrinceImage.src}
-						sourceText="Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna"
-						alt="Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna"
+						sourceImage={crownPrince.src}
+						sourceText={crownPrince.caption}
+						alt={crownPrince.alt}
 					/>
 
 					<RenderTextArray textArray={texts.rawSistersText} />
@@ -32,9 +28,9 @@ export const ChildhoodBlock: FC = () => {
 			</ContentBlock>
 
 			<ImageWithSource
-				sourceImage={SistersImage.src}
-				sourceText="Princess Charlotte (second from right) with her sisters"
-				alt="Princess Charlotte (second from right) with her sisters"
+				sourceImage={sisters.src}
+				sourceText={sisters.caption}
+				alt={sisters.alt}
 			/>
 
 			<ContentBlock>
@@ -58,9 +54,9 @@ export const ChildhoodBlock: FC = () => {
 					<FormattedText key={index} text={item} />
 				))}
 				<ImageWithSource
-					sourceImage={ResidenceBergImage.src}
-					sourceText="Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg)"
-					alt="Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg)"
+					sourceImage={residence.src}
+					sourceText={residence.caption}
+					alt={residence.alt}
 				/>
 			</ContentBlock>
 

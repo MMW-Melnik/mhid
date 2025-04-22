@@ -1,7 +1,6 @@
-import { useFormattedTexts } from '@/shared/hooks/useTexts'
+import { useFormattedTexts } from '@/shared/hooks'
 import { RenderTextArray } from '@/shared/ui'
-import { ContentBlock } from '@/widgets/content-block'
-import { Quote } from '@/widgets/quote/Quote'
+import { ContentBlock, Quote } from '@/widgets/index'
 import { FC } from 'react'
 import styles from '../premonition-war-chapter.module.scss'
 

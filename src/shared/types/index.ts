@@ -1,1 +1,3 @@
-export type { contactFormData } from './contact-form-data/contactFormData'
+export type { contactFormData } from './contact-form-data'
+export type { ImageConfig } from './image-config'
+

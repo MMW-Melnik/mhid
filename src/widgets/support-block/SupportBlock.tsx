@@ -1,38 +1,41 @@
-import AuthorImage from '@/app/assets/images/about/author.jpeg'
+import SupportImage from '@/app/assets/images/about/author-support.jpg'
+import { useTranslation } from 'react-i18next'
+import styles from './support-block.module.scss'
+
+
 import { useTypography } from '@/app/context'
 import { FormattedText, Heading } from '@/shared/ui'
 import Image from 'next/image'
 import { FC } from 'react'
-import { useTranslation } from 'react-i18next'
 import { ContentBlock } from '../content-block'
-import styles from './author-block.module.scss'
 
-export const AuthorBlock: FC = () => {
+
+export const SupportBlock: FC = () => {
 	const { t } = useTranslation('about')
-	const rawText: string[] = t('author.text', { returnObjects: true })
-
+	const rawText: string[] = t('support.text', {returnObjects: true})
 	const { formatTextArray } = useTypography()
 	const formattedText = formatTextArray(rawText)
+
 	return (
-		<>
-			<section className={styles.author}>
-				<div className={styles.image_container}>
-					<Image
-						src={AuthorImage.src}
+		<section className={styles.support}>
+			<div className={styles.image_container}>
+			<Image
+						src={SupportImage.src}
 						className={styles.image}
-						height={AuthorImage.height}
-						width={AuthorImage.width}
+						height={SupportImage.height}
+						width={SupportImage.width}
 						draggable={false}
 						priority
-						alt="Zhanna Serdіuk"
+						alt="Sonja Kmec"
 					/>
-				</div>
-				<div className={styles.text_container}>
+			</div>
+
+			<div className={styles.text_container}>
 					<div className={styles.heading_container}>
 						<Heading level={3} className={styles.author_title}>
-							{t('author.title')}
+							{t('support.title')}
 						</Heading>
-						<p className={styles.subheading}>{t('author.subtitle')}</p>
+						<p className={styles.subheading}>{t('support.subtitle')}</p>
 					</div>
 					<ContentBlock isAnimated={false}>
 						{formattedText.map((text, index) => (
@@ -44,7 +47,7 @@ export const AuthorBlock: FC = () => {
 						))}
 					</ContentBlock>
 				</div>
-			</section>
-		</>
+
+		</section>
 	)
 }

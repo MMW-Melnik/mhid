@@ -1,0 +1,29 @@
+.support {
+	@apply flex flex-col-reverse justify-end items-end gap-8 w-full;
+	.image_container {
+		@apply flex max-w-[780px] h-auto w-full;
+		.image {
+			@apply w-full h-[45vh] object-contain;
+		}
+	}
+
+	.text_container {
+		@apply flex flex-col gap-8 max-w-[780px] w-full;
+	}
+
+	.heading_container {
+		@apply flex flex-col;
+
+		.author_title {
+			@apply w-full;
+
+			@media (max-width: 480px) {
+				@apply text-h42;
+			}
+		}
+
+		.subheading {
+			@apply text-t26;
+		}
+	}
+}

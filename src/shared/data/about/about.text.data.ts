@@ -3,7 +3,7 @@ export const aboutTextData = {
 		project: {
 			title: 'Project Overview',
 			text: [
-				"The war initiated by Russia against Ukraine in 2014 posed a challenge for all European countries. Nations not directly affected by the aggression faced a massive influx of Ukrainian migrants fleeing the war. This became a unique and further test for the democratic institutions of civilized countries. Luxembourg, with its tradition of peaceful coexistence among representatives of different cultures, once again hospitably welcomed thousands of migrants from Ukraine—a country unfamiliar to most of its residents. At the same time, for many Ukrainians, the Grand Duchy of Luxembourg also remained a terra incognita.\n\nIn this context, there arose a need to introduce Ukrainians to Luxembourgish society through the prism of historical events. It was equally important to draw attention to Luxembourg's historical traditions of supporting political migrants and refugees, including those from Ukraine.\n\n",
+				"The war initiated by Russia against Ukraine in 2014 posed a challenge for all European countries. Nations not directly affected by the aggression faced a massive influx of Ukrainian migrants fleeing the war. This became a unique and further test for the democratic institutions of civilized countries. Luxembourg, with its tradition of peaceful coexistence among representatives of different cultures, once again hospitably welcomed thousands of migrants from Ukraine—a country unfamiliar to most of its residents. At the same time, for many Ukrainians, the Grand Duchy of Luxembourg also remained a terra incognita.\n\nIn this context, there arose a need to introduce Ukrainians to Luxembourgish society through the prism of historical events. It was equally important to draw attention to Luxembourg's historical traditions of supporting political migrants and refugees, including those from Ukraine",
 
 				'This project, as an act of memorialization, honors women who devoted their lives to noble causes—serving their people, overcoming difficulties, and supporting their families. It focuses on two women from different countries, representatives of the same generation that survived two world wars. By exploring their life stories against the backdrop of global historical events, we can trace parallels and highlight key differences.\n\nOne of them is Charlotte, born a princess and later becoming the Grand Duchess of Luxembourg. The other is Sophia, a native of Ukrainian Galicia in the Austro-Hungarian Empire. Charlotte, always in the public eye, was a global figure until the end of her life. In contrast, Sophia, despite being born into a wealthy and influential Lviv family and raised in Ukrainian traditions, avoided publicity for most of her life. Yet, history has a way of illuminating even the most shadowed corners.\n\n',
 
@@ -18,6 +18,11 @@ export const aboutTextData = {
 			text: [
 				"Zhanna Serdіuk studied World History, History of Ukraine and Pedagogy at Odessa I.I. Mechnikov National University. Her research interests include education, women's education, gender history, regional history and the history of everyday life. \n\nHer interest in the relations between Luxembourg and Ukraine in the 20th century led her to initiate a research project on a well-known Ukrainian couple living in exile in Luxembourg and to shed light on their activities and networks, especially from Fedak's perspective."
 			]
+		},
+		support: {
+			title: "Sonja Kmec",
+			subtitle: "Project Support",
+			text: ["Sonja Kmec is associate professor at the Institute of History, Department of Humanities (University of Luxembourg). She has supervised Dr Serdiuk's project, which fits well with her research interest in memory politics and gender studies. Currently, she leads projects on Music and Gender in Luxembourg (mugi.lu), Supraconfessional Cemeteries and the History of Diplomacy and International Relations."]
 		},
 		developers: {
 			title: 'Developers',
