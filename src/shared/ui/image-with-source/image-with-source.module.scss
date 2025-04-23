@@ -1,10 +1,11 @@
+/* image-with-source.module.scss */
 .image_with_source {
-	@apply h-auto p-3 relative;
+	@apply h-auto p-3 relative block;
 	transition: all 0.3s ease-in-out;
 }
 
 .image {
-	@apply object-cover w-full h-auto opacity-50;
+	@apply object-cover w-full h-auto opacity-50 block;
 	transition: all 0.3s ease-in-out;
 	transform-origin: center;
 }

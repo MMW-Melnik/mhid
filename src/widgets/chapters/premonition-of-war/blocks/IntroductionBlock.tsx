@@ -11,14 +11,8 @@ export const IntroductionBlock: FC = ({}) => {
 		<>
 			<div className={styles.introduction}>
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawChapterIntroductionText} />
+					<RenderTextArray textArray={texts.rawIntroductionText} />
 				</ContentBlock>
-
-				<Quote
-					quote={texts.rawChapterIntroductionQuote[0]}
-					cite=""
-					author="Stefan Zweig"
-				/>
 			</div>
 		</>
 	)

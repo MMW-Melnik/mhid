@@ -3,4 +3,7 @@ export interface IImage {
 	sourceText: string
 	alt: string
 	className?: string
+	width?: number
+	height?: number
+	align?: 'left' | 'center' | 'right'
 }

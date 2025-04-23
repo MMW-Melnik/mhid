@@ -11,10 +11,10 @@ export const HomePage = () => {
 	return (
 		<>
 			<PremonitionOfWarChapter />
-			<WorldWarOneChapter />
+			{/* <WorldWarOneChapter />
 			<InterwarPeriod />
 			<WorldWar2 />
-			<LastLife />
+			<LastLife /> */}
 		</>
 	)
 }

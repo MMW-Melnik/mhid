@@ -1,106 +1,144 @@
 export const translationKeys = [
-	{
-		key: 'rawChapterIntroductionText',
-		path: 'A PREMONITION OF WAR.INTRODUCTION.CONTENT'
-	},
-	{
-		key: 'rawChapterIntroductionQuote',
-		path: 'A PREMONITION OF WAR.INTRODUCTION.QUOTE'
-	},
+	// CHAPTER 1
 	{
 		key: 'rawIntroductionText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.INTRODUCTION'
+		path: 'Growing up in the Belle Epoque.CHAPTER1.INTRODUCTION'
 	},
 	{
-		key: 'rawSistersText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.SISTERS'
+		key: 'rawIntroductionQuote',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.QUOTE.CONTENT'
+	},
+
+	// CHARLOTTE
+	{
+		key: 'rawCharlotteText1',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_1'
 	},
 	{
-		key: 'rawInheritanceText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.INHERITANCE'
+		key: 'rawCharlotteText2',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_2'
 	},
 	{
-		key: 'rawDifficultiesText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.DIFFICULTIES'
+		key: 'rawCharlotteText3',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_3'
 	},
 	{
-		key: 'rawSpeculationText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.SPECULATIONS'
+		key: 'rawCharlotteText4',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_4'
 	},
 	{
-		key: 'rawActivityText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.ACTIVITY.CONTENT'
+		key: 'rawCharlotteText5',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_5'
 	},
 	{
-		key: 'rawActivityQuote',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.CHARLOTTE LUXEMBOURG.ACTIVITY.QUOTE'
+		key: 'rawCharlotteText6',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_6'
 	},
 	{
-		key: 'rawChildhoodText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.CHILDHOOD'
+		key: 'rawCharlotteText7',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_7'
 	},
 	{
-		key: 'rawMovementText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.MOVEMENT.CONTENT'
+		key: 'rawCharlotteText8',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_8'
 	},
 	{
-		key: 'rawMovementQuote',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.MOVEMENT.QUOTE'
+		key: 'rawCharlotteText9',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_9'
+	},
+
+	// SOFIA
+	{
+		key: 'rawSofiaText1',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_1'
 	},
 	{
-		key: 'rawMarriageText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.MARRIAGE.CONTENT'
+		key: 'rawSofiaText2',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_2'
 	},
 	{
-		key: 'rawMarriageQuote',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.MARRIAGE.QUOTE'
+		key: 'rawSofiaText3',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_3'
 	},
 	{
-		key: 'rawEqualityText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.EQUALITY'
+		key: 'rawSofiaText4',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_4'
 	},
 	{
-		key: 'rawTensionsText',
-		path: 'A PREMONITION OF WAR.CHILDHOOD AND YOUTH.SOFIA FEDAK.TENSION'
+		key: 'rawSofiaText5',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_5'
 	},
 	{
-		key: 'rawWW1IntroductionText',
-		path: 'WORLD WAR I.INTRODUCTION'
+		key: 'rawSofiaText6',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_6'
 	},
 	{
-		key: 'rawWW1CharlotteText',
-		path: 'WORLD WAR I.CHARLOTTE'
+		key: 'rawSofiaText7',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_7'
 	},
 	{
-		key: 'rawWW1SofiaGaliciaBattlefieldText',
-		path: 'WORLD WAR I.SOFIA.GALICIA_BATTLEFIELD'
+		key: 'rawSofiaText8',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_8'
 	},
 	{
-		key: 'rawWW1SofiaSistersEducationText',
-		path: 'WORLD WAR I.SOFIA.SISTERS_EDUCATION'
+		key: 'rawSofiaText9',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_9'
+	},
+
+	//CHAPTER 2
+
+	{
+		key: 'rawIntroductionText',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.INTRODUCTION'
 	},
 	{
-		key: 'rawWW1SofiaSpecialOlgaText',
-		path: 'WORLD WAR I.SOFIA.SPECIAL_OLGA'
+		key: 'rawIntroductionQuote',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.QUOTE.CONTENT'
+	},
+
+	// CHARLOTTE
+
+	{
+		key: 'rawCharlotteText1',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_1'
 	},
 	{
-		key: 'rawWW1SofiaPrimarySoloText',
-		path: 'WORLD WAR I.SOFIA.PRIMARY_SOLO'
+		key: 'rawCharlotteText2',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_2'
 	},
 	{
-		key: 'rawWW1SofiaStepanFedakText',
-		path: 'WORLD WAR I.SOFIA.STEPAN_FEDAK'
+		key: 'rawCharlotteText3',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_3'
 	},
 	{
-		key: 'rawWW1SofiaLegionAndriyText',
-		path: 'WORLD WAR I.SOFIA.LEGION_ANDRIY'
+		key: 'rawCharlotteText4',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_4'
+	},
+
+	// SOFIA
+
+	{
+		key: 'rawCharlotteText1',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_1'
 	},
 	{
-		key: 'rawWW1SofiaNovemberUprisingText',
-		path: 'WORLD WAR I.SOFIA.NOVEMBER_UPRISING'
+		key: 'rawCharlotteText2',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_2'
 	},
 	{
-		key: 'rawWW1SofiaQuotes',
-		path: 'WORLD WAR I.SOFIA.QUOTES'
+		key: 'rawCharlotteText3',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_3'
+	},
+	{
+		key: 'rawCharlotteText4',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_4'
+	},
+	{
+		key: 'rawCharlotteText5',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_5'
+	},
+	{
+		key: 'rawCharlotteText6',
+		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_6'
 	}
 ]

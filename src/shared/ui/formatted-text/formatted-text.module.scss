@@ -9,7 +9,5 @@
 .paragraph {
 	@apply text-t16 leading-[130%];
 
-	&::not(:last-child) {
-		@apply mb-8;
-	}
+	@apply mb-4;
 }

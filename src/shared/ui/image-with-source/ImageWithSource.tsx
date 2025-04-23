@@ -3,16 +3,20 @@ import { FC } from 'react'
 import Tilt from 'react-parallax-tilt'
 import { IImage } from './image-with-source.interface'
 import styles from './image-with-source.module.scss'
+import cn from 'classnames'
 
 export const ImageWithSource: FC<IImage> = ({
 	sourceImage,
 	sourceText,
 	className,
-	alt
+	alt,
+	width,
+	height
 }) => {
 	return (
 		<Tilt
 			className={styles.image_with_source}
+			style={width ? { width } : undefined}
 			tiltReverse={false}
 			tiltMaxAngleX={15}
 			tiltMaxAngleY={15}
@@ -24,11 +28,11 @@ export const ImageWithSource: FC<IImage> = ({
 		>
 			<Image
 				src={sourceImage}
-				width={1024}
-				height={1024}
+				width={width ?? 1024}
+				height={height ?? 1024}
 				draggable={false}
 				alt={alt}
-				className={`${styles.image} ${className}`}
+				className={styles.image}
 			/>
 			<span className={styles.text}>{sourceText}</span>
 		</Tilt>

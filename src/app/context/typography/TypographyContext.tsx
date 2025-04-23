@@ -4,8 +4,10 @@ import { TypographyContextType } from './typography.interface'
 
 const tp = new Typograf({ locale: ['en-US', 'ru'] })
 const formatText = (text: string): string => tp.execute(text)
-const formatTextArray = (texts: string[]): string[] =>
-	texts.map(text => tp.execute(text))
+const formatTextArray = (texts: string | string[]): string[] => {
+	const arr = Array.isArray(texts) ? texts : [texts]
+	return arr.map(text => tp.execute(text))
+}
 
 const TypographyContext = createContext<TypographyContextType | undefined>(
 	undefined

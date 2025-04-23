@@ -1,25 +1,35 @@
-import CrownPrinceImage from '@/app/assets/images/home/premonition-of-war/charlotte/crown-prince-wife.jpg'
-import ResidenceBergImage from '@/app/assets/images/home/premonition-of-war/charlotte/residence-berg-palace.jpg'
-import SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/sisters-together.jpg'
+import CoupleImage from '@/app/assets/images/home/premonition-of-war/charlotte/couple.jpg'
+import HouseImage from '@/app/assets/images/home/premonition-of-war/charlotte/house.jpg'
+import RiderImage from '@/app/assets/images/home/premonition-of-war/charlotte/rider.jpg'
+import SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/sisters.jpg'
+
 import { ImageConfig } from '@/shared/types'
 
 export const childhoodCharlotteImages: Record<
-  'crownPrince' | 'sisters' | 'residence',
-  ImageConfig
+	'Couple' | 'House' | 'Rider' | 'Sisters',
+	ImageConfig
 > = {
-  crownPrince: {
-    src: CrownPrinceImage.src,
-    alt: 'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna',
-    caption: 'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna',
-  },
-  sisters: {
-    src: SistersImage.src,
-    alt: 'Princess Charlotte (second from right) with her sisters',
-    caption: 'Princess Charlotte (second from right) with her sisters',
-  },
-  residence: {
-    src: ResidenceBergImage.src,
-    alt: "Princess Charlotte's home is the Berg Palace (ColmarBerg, Luxembourg)",
-    caption: "Princess Charlotte's home is the Berg Palace (ColmarBerg, Luxembourg)",
-  },
+	Couple: {
+		src: CoupleImage.src,
+		alt: 'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna',
+		caption:
+			'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna'
+	},
+	House: {
+		src: HouseImage.src,
+		alt: "Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). (Photo from open sources)",
+		caption:
+			"Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). (Photo from open sources)"
+	},
+	Rider: {
+		src: RiderImage.src,
+		alt: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574] ',
+		caption:
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574] '
+	},
+	Sisters: {
+		src: SistersImage.src,
+		alt: 'Princess Charlotte (second from right) with her sisters',
+		caption: 'Princess Charlotte (second from right) with her sisters'
+	}
 }
