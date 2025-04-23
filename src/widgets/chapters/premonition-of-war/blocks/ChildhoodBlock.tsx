@@ -25,15 +25,15 @@ export const ChildhoodBlock: FC = () => {
 			<ContentBlock>
 				{/* <Heading level={3}>Growing up in the Belle Epoque</Heading> */}
 
-				<RenderTextArray textArray={texts.rawIntroductionText} />
+				<RenderTextArray textArray={texts.rawChapter1IntroductionText} />
 				<ImageWithSource
 					sourceImage={Field.src}
 					sourceText={Field.caption}
 					alt={Field.alt}
 				/>
 				<Heading level={4}>Charlotte</Heading>
-				<RenderTextArray textArray={texts.rawCharlotteText1} />
-				<RenderTextArray textArray={texts.rawCharlotteText2} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText1} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText2} />
 				<ContentBlock>
 					<ImageWithSource
 						sourceImage={Couple.src}
@@ -43,14 +43,14 @@ export const ChildhoodBlock: FC = () => {
 						height={600}
 					/>
 				</ContentBlock>
-				<RenderTextArray textArray={texts.rawCharlotteText3} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText3} />
 				<ImageWithSource
 					sourceImage={Sisters.src}
 					sourceText={Sisters.caption}
 					alt={Sisters.alt}
 				/>
-				<RenderTextArray textArray={texts.rawCharlotteText4} />
-				<RenderTextArray textArray={texts.rawCharlotteText5} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText4} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText5} />
 			</ContentBlock>
 
 			<ContentBlock>
@@ -64,7 +64,7 @@ export const ChildhoodBlock: FC = () => {
 			</ContentBlock>
 
 			<ContentBlock>
-				<RenderTextArray textArray={texts.rawCharlotteText6} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText6} />
 			</ContentBlock>
 
 			<ContentBlock>
@@ -78,10 +78,10 @@ export const ChildhoodBlock: FC = () => {
 			</ContentBlock>
 
 			<ContentBlock>
-				<RenderTextArray textArray={texts.rawCharlotteText7} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText7} />
 			</ContentBlock>
 
-			{texts.rawCharlotteText8.map((item, index) => (
+			{texts.rawChapter1CharlotteText8.map((item, index) => (
 				<Quote
 					key={index}
 					quote={item}
@@ -91,13 +91,13 @@ export const ChildhoodBlock: FC = () => {
 			))}
 
 			<ContentBlock>
-				<RenderTextArray textArray={texts.rawCharlotteText9} />
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText9} />
 			</ContentBlock>
 
 			<div className={styles.sofia}>
 				<ContentBlock>
 					<Heading level={3}>SOFIA FEDAK</Heading>
-					<RenderTextArray textArray={texts.rawSofiaText1} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText1} />
 				</ContentBlock>
 
 				<ContentBlock>
@@ -111,11 +111,11 @@ export const ChildhoodBlock: FC = () => {
 				</ContentBlock>
 
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawSofiaText2} />
-					<RenderTextArray textArray={texts.rawSofiaText3} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText2} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText3} />
 				</ContentBlock>
 
-				{texts.rawSofiaText4.map((item, index) => (
+				{texts.rawChapter1SofiaText4.map((item, index) => (
 					<Quote
 						key={index}
 						quote={item}
@@ -125,8 +125,8 @@ export const ChildhoodBlock: FC = () => {
 				))}
 
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawSofiaText5} />
-					<RenderTextArray textArray={texts.rawSofiaText6} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText5} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText6} />
 				</ContentBlock>
 
 				<ContentBlock>
@@ -140,9 +140,9 @@ export const ChildhoodBlock: FC = () => {
 				</ContentBlock>
 
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawSofiaText7} />
-					<RenderTextArray textArray={texts.rawSofiaText8} />
-					<RenderTextArray textArray={texts.rawSofiaText9} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText7} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText8} />
+					<RenderTextArray textArray={texts.rawChapter1SofiaText9} />
 				</ContentBlock>
 			</div>
 		</div>

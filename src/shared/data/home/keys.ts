@@ -1,87 +1,87 @@
 export const translationKeys = [
 	// CHAPTER 1
 	{
-		key: 'rawIntroductionText',
+		key: 'rawChapter1IntroductionText',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.INTRODUCTION'
 	},
 	{
-		key: 'rawIntroductionQuote',
+		key: 'rawChapter1IntroductionQuote',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.QUOTE.CONTENT'
 	},
 
 	// CHARLOTTE
 	{
-		key: 'rawCharlotteText1',
+		key: 'rawChapter1CharlotteText1',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_1'
 	},
 	{
-		key: 'rawCharlotteText2',
+		key: 'rawChapter1CharlotteText2',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_2'
 	},
 	{
-		key: 'rawCharlotteText3',
+		key: 'rawChapter1CharlotteText3',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_3'
 	},
 	{
-		key: 'rawCharlotteText4',
+		key: 'rawChapter1CharlotteText4',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_4'
 	},
 	{
-		key: 'rawCharlotteText5',
+		key: 'rawChapter1CharlotteText5',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_5'
 	},
 	{
-		key: 'rawCharlotteText6',
+		key: 'rawChapter1CharlotteText6',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_6'
 	},
 	{
-		key: 'rawCharlotteText7',
+		key: 'rawChapter1CharlotteText7',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_7'
 	},
 	{
-		key: 'rawCharlotteText8',
+		key: 'rawChapter1CharlotteText8',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_8'
 	},
 	{
-		key: 'rawCharlotteText9',
+		key: 'rawChapter1CharlotteText9',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_9'
 	},
 
 	// SOFIA
 	{
-		key: 'rawSofiaText1',
+		key: 'rawChapter1SofiaText1',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_1'
 	},
 	{
-		key: 'rawSofiaText2',
+		key: 'rawChapter1SofiaText2',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_2'
 	},
 	{
-		key: 'rawSofiaText3',
+		key: 'rawChapter1SofiaText3',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_3'
 	},
 	{
-		key: 'rawSofiaText4',
+		key: 'rawChapter1SofiaText4',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_4'
 	},
 	{
-		key: 'rawSofiaText5',
+		key: 'rawChapter1SofiaText5',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_5'
 	},
 	{
-		key: 'rawSofiaText6',
+		key: 'rawChapter1SofiaText6',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_6'
 	},
 	{
-		key: 'rawSofiaText7',
+		key: 'rawChapter1SofiaText7',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_7'
 	},
 	{
-		key: 'rawSofiaText8',
+		key: 'rawChapter1SofiaText8',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_8'
 	},
 	{
-		key: 'rawSofiaText9',
+		key: 'rawChapter1SofiaText9',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.SOFIA.PARAGRAPH_9'
 	},
 
