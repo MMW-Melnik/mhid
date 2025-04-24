@@ -5,6 +5,7 @@ import {
 	WorldWarOneChapter,
 	InterwarPeriod
 } from '@/widgets/chapters'
+import LastLife from '@/widgets/chapters/epilog/Epilog'
 import { Intro } from '@/shared/ui'
 
 export const HomePage = () => {
