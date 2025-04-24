@@ -1,7 +1,13 @@
-import CoupleImage from '@/app/assets/images/home/premonition-of-war/charlotte/couple.jpg'
-import HouseImage from '@/app/assets/images/home/premonition-of-war/charlotte/house.jpg'
-import RiderImage from '@/app/assets/images/home/premonition-of-war/charlotte/rider.jpg'
-import SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/sisters.jpg'
+import Chapter1CoupleImage from '@/app/assets/images/home/premonition-of-war/charlotte/couple.jpg'
+import Chapter1HouseImage from '@/app/assets/images/home/premonition-of-war/charlotte/house.jpg'
+import Chapter1RiderImage from '@/app/assets/images/home/premonition-of-war/charlotte/rider.jpg'
+import Chapter1SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/sisters.jpg'
+import Chapter2WomenImage from '@/app/assets/images/home/ww1/charlotte/image7.png'
+import Chapter2PrinceImage from '@/app/assets/images/home/ww1/charlotte/image2.jpg'
+import Chpter3PrincessImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image1.jpg'
+import Chpter3WeddingImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image38.jpg'
+import Chpter3BabyImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image35.jpg'
+import Chpter3FamilyImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image16.jpg'
 
 import Family from '@/app/assets/images/home/ww2/charlotte-family-image.jpg'
 import Grande from '@/app/assets/images/home/ww2/charlotte-grande-dusche.jpg'
@@ -9,31 +15,76 @@ import Grande from '@/app/assets/images/home/ww2/charlotte-grande-dusche.jpg'
 import { ImageConfig } from '@/shared/types'
 
 export const childhoodCharlotteImages: Record<
-	'Couple' | 'House' | 'Rider' | 'Sisters',
+	| 'Couple'
+	| 'House'
+	| 'Rider'
+	| 'Sisters'
+	| 'Women'
+	| 'Prince'
+	| 'Princess'
+	| 'Wedding'
+	| 'Baby'
+	| 'Family',
 	ImageConfig
 > = {
 	Couple: {
-		src: CoupleImage.src,
+		src: Chapter1CoupleImage.src,
 		alt: 'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna',
 		caption:
 			'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna'
 	},
 	House: {
-		src: HouseImage.src,
+		src: Chapter1HouseImage.src,
 		alt: "Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). (Photo from open sources)",
 		caption:
 			"Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). (Photo from open sources)"
 	},
 	Rider: {
-		src: RiderImage.src,
-		alt: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574] ',
+		src: Chapter1RiderImage.src,
+		alt: 'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574',
 		caption:
-			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574] '
+			'Bibliothèque nationale de Luxembourg, Luxemburgensia online,\nCollection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574'
 	},
 	Sisters: {
-		src: SistersImage.src,
+		src: Chapter1SistersImage.src,
 		alt: 'Princess Charlotte (second from right) with her sisters',
 		caption: 'Princess Charlotte (second from right) with her sisters'
+	},
+	Women: {
+		src: Chapter2WomenImage.src,
+		alt: 'Duchess Maria Anna of Portugal with her daughters (1918) [Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : LL.AA.RR. les Princesses de Luxembourg - Carte numéro 7194] ',
+		caption:
+			'Duchess Maria Anna of Portugal with her daughters (1918) [Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : LL.AA.RR. les Princesses de Luxembourg - Carte numéro 7194] '
+	},
+	Prince: {
+		src: Chapter2PrinceImage.src,
+		alt: 'Prince Felix Bourbon-Parma[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. le Prince Félix - Carte numéro 7166] ',
+		caption:
+			'Prince Felix Bourbon-Parma[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. le Prince Félix - Carte numéro 7166] '
+	},
+	Princess: {
+		src: Chpter3PrincessImage.src,
+		alt: 'Grand Duchess Charlotte[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 12797] ',
+		caption:
+			'Grand Duchess Charlotte[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 12797] '
+	},
+	Wedding: {
+		src: Chpter3WeddingImage.src,
+		alt: 'Wedding of the Grand Duchess Charlotte and Prince Felix of Luxembourg[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte et S.A.R. le Prince Félix - Carte numéro 6259]',
+		caption:
+			'Wedding of the Grand Duchess Charlotte and Prince Felix of Luxembourg[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte et S.A.R. le Prince Félix - Carte numéro 6259] '
+	},
+	Baby: {
+		src: Chpter3BabyImage.src,
+		alt: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte -Carte numéro 6202] ',
+		caption:
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte - [Carte numéro 6202] '
+	},
+	Family: {
+		src: Chpter3FamilyImage.src,
+		alt: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte - [Carte numéro 6275] ',
+		caption:
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte - [Carte numéro 6275] '
 	}
 }
 

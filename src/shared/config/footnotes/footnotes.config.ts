@@ -1,5 +1,132 @@
 export const footnotesConfig: Record<string, { source: string; url?: string }> =
 	{
+		// CHAPTER 1
+		lafontaine_unsere_dynastie_1990_p78: {
+			source:
+				'Paul Lafontaine. Unsere Dynastie: die Ursprünge der Nassauer und die Herrschaft der Nassau-Weilburger im Grossherzogtum Luxemburg (1890-1990), Sankt-Paulus-Druckerei, 1990, p. 78',
+			url: ''
+		},
+		history_uni_lu_research: {
+			source: 'https://history.uni.lu/research-luxembourg-4d/',
+			url: 'https://history.uni.lu/research-luxembourg-4d/'
+		},
+		weber_marie_adelheid_bio_2019_p94: {
+			source:
+				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912–1919), Éditions Guy Binsfeld, 2019, S. 94',
+			url: ''
+		},
+		weber_marie_adelheid_bio_2019_pages_75_81_96_99: {
+			source:
+				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912–1919), S. 75–81, 96–99',
+			url: ''
+		},
+		savchuk_fedak_thesis_2019: {
+			source:
+				'Bogdan Savchuk. Public Activity of Stepan Fedak (1861–1937): PhD thesis, V. Stefanyk Precarpathian National University, 2019',
+			url: ''
+		},
+		baran_sheparovych_memoirs_2014_p119: {
+			source:
+				"Zoya Baran. 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century', Lwów: miasto - społeczeństwo - kultura 9, 2014, p. 119",
+			url: ''
+		},
+		bezhuk_womens_stories_2015_p368: {
+			source:
+				"Olga Bezhuk. Women's stories of S. Fedak's family. Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology, Vol. 17, No. 4 (64), 2015, p. 368",
+			url: ''
+		},
+		bezhuk_womens_stories_2015_p369: {
+			source:
+				"Olga Bezhuk. Women's stories of S. Fedak's family. Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology, Vol. 17, No. 4 (64), 2015, p. 369",
+			url: ''
+		},
+		kuzmowycz_this_and_that_2000_p14: {
+			source:
+				'Olga Kuzmowycz. This and That. Collected Short Stories and Essays, New York, 2000, p. 14',
+			url: ''
+		},
+		savchuk_fedak_thesis_2019_p130: {
+			source:
+				'Bogdan Savchuk. Public Activity of Stepan Fedak (1861–1937): PhD thesis, V. Stefanyk Precarpathian National University, 2019, p. 130',
+			url: ''
+		},
+
+		// CHAPTER 2
+		plokhy_gates_of_europe_2016: {
+			source:
+				'Serhii Plokhy. The Gates of Europe. A History of Ukraine from the Scythian Wars to Independence. KSD, 2016, pp. 66–67',
+			url: 'https://readukrainianbooks.com/'
+		},
+		hdl_10993_48662: {
+			source: 'https://hdl.handle.net/10993/48662',
+			url: 'https://hdl.handle.net/10993/48662'
+		},
+		weitz_charlotte_von_luxemburg_1990_p212_213: {
+			source:
+				'Pol Weitz. Charlotte von Luxemburg: ein Lebensbild. Druckerei J.M. Watgen, 1990, S. 212–213',
+			url: ''
+		},
+		sonnabend_geburt_des_krieges_2024_p163_164: {
+			source:
+				'Gaby Sonnabend. Eine Geburt des Krieges. Das Luxemburger Rote Kreuz, in: Guerre(s) au Luxembourg 1914–1918, Capybara Books, 2024, p. 163–164',
+			url: ''
+		},
+		melchers_unvergessene_gestalten_1998: {
+			source:
+				'E.T. Melchers und U.Melchers-Schmol. Unvergessene Gestalten unserer Dynastie. Band II. Charlotte und Felix. Sankt-Paulus-Druckerei, 1998',
+			url: ''
+		},
+		melchers_unvergessene_gestalten_1998_p56_145: {
+			source:
+				'E.T. Melchers und U.Melchers-Schmol. Unvergessene Gestalten unserer Dynastie. Band II. Charlotte und Felix. Sankt-Paulus-Druckerei, 1998, p. 56–145',
+			url: ''
+		},
+		savchuk_fedak_thesis_2019_p136: {
+			source:
+				'Bogdan Savchuk. Public Activity of Stepan Fedak (1861–1937): PhD thesis, V. Stefanyk Precarpathian National University, 2019, p. 136',
+			url: ''
+		},
+		melnyk_memoirs_2011_p48: {
+			source:
+				'Andriy Melnyk. 1890–1964. Memoirs. Documents. Correspondence, Kyiv: Olena Teliha Publishing House, 2011, p. 48',
+			url: ''
+		},
+		melnyk_memoirs_2011_p51: {
+			source:
+				'Andriy Melnyk. 1890–1964. Memoirs. Documents. Correspondence, Kyiv: Olena Teliha Publishing House, 2011, p. 51',
+			url: ''
+		},
+
+		// CHAPTER 3
+		deshchynskyi_history_ukraine_2009: {
+			source:
+				'Deshchynskyi L.E. et al. History of Ukraine and its Statehood. A course of lectures, Lviv Polytechnic National University Press, 2009',
+			url: ''
+		},
+		pauly_krisenjahr_2019_p8_11: {
+			source:
+				'Michel Pauly. „1918–1919 - ein Krisenjahr mit langfristigen Folgen“, Ons Stad. 120 (2019), p. 8–11',
+			url: 'https://onsstad.vdl.lu/'
+		},
+		weber_public_conference: {
+			source: "Josiane Weber's public conference (in Luxembourgish)",
+			url: 'https://www.youtube.com/watch?v=zOwo5WA4EGQ'
+		},
+		hellinghause_hat_grossherzogin_2007_p5_18: {
+			source:
+				'Georges Hellinghause. Hat Großherzogin Charlotte zweimal geheiratet?, Hémecht 59/1 (2007), p. 5–18',
+			url: 'https://persist.lu/ark:70795/z0r1k4j8t/pages/7/articles/DTL903'
+		},
+		zhdanovych_memoirs_2011_p53: {
+			source:
+				'From the memoirs of Oleg Zhdanovych / Andriy Melnyk. 1890–1964. Memoirs. Documents. Correspondence, Kyiv, 2011, p. 53',
+			url: ''
+		},
+		kuzmovych_this_and_that_2000_p25: {
+			source:
+				'Olga Kuzmovych. This and That. A collection of short stories and essays, New York, 2000, p. 25',
+			url: ''
+		},
 		cefis_lu_etude_racisme: {
 			source: 'https://cefis.lu/etude-racsime/',
 			url: 'https://cefis.lu/etude-racsime/'
@@ -55,16 +182,6 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 		weber_marie_adelheid_bio_2019_page_94: {
 			source:
 				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912–1919). Éditions Guy Binsfeld, Luxemburg, 2019, S. 94.',
-			url: ''
-		},
-		weber_marie_adelheid_bio_2019_pages_75_81_96_99: {
-			source:
-				'Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912–1919), S. 75–81, 96–99.',
-			url: ''
-		},
-		savchuk_fedak_thesis_2019: {
-			source:
-				'Bogdan Savchuk. Public Activity of Stepan Fedak (1861–1937): PhD thesis, V. Stefanyk Precarpathian National University, Ivano‑Frankivsk, 2019, 276 p.',
 			url: ''
 		},
 		baran_sheparovych_memoirs_2014: {
