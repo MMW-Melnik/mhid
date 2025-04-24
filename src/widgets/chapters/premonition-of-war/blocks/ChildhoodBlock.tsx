@@ -31,7 +31,7 @@ export const ChildhoodBlock: FC = () => {
 					sourceText={Field.caption}
 					alt={Field.alt}
 				/>
-				<Heading level={4}>Charlotte</Heading>
+				<Heading level={3}>CHARLOTTE</Heading>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText1} />
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText2} />
 				<ContentBlock>
@@ -72,8 +72,8 @@ export const ChildhoodBlock: FC = () => {
 					sourceImage={Rider.src}
 					sourceText={Rider.caption}
 					alt={Rider.alt}
-					width={500}
-					height={500}
+					width={600}
+					height={600}
 				/>
 			</ContentBlock>
 
@@ -96,7 +96,7 @@ export const ChildhoodBlock: FC = () => {
 
 			<div className={styles.sofia}>
 				<ContentBlock>
-					<Heading level={3}>SOFIA FEDAK</Heading>
+					<Heading level={3}>SOFIA</Heading>
 					<RenderTextArray textArray={texts.rawChapter1SofiaText1} />
 				</ContentBlock>
 

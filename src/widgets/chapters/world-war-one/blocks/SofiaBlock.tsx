@@ -12,44 +12,26 @@ export const SofiaBlock: FC = () => {
 		<>
 			<div className={styles.sofia}>
 				<ContentBlock>
-					<Heading level={3}>SOFIA FEDAK</Heading>
-					<RenderTextArray
-						textArray={texts.rawWW1SofiaGaliciaBattlefieldText}
-					/>
-
-					<RenderTextArray textArray={texts.rawWW1SofiaSistersEducationText} />
-					<RenderTextArray textArray={texts.rawWW1SofiaSpecialOlgaText} />
-					<RenderTextArray textArray={texts.rawWW1SofiaPrimarySoloText} />
-
-					<FormattedText text={texts.rawWW1SofiaStepanFedakText[0]} />
+					<Heading level={3}>SOFIA</Heading>
+					<RenderTextArray textArray={texts.rawChapter2CharlotteText1} />
 				</ContentBlock>
 
-				<Quote
-					quote={texts.rawWW1SofiaQuotes[0]}
-					author="Olena Kuzmovych. This and That. A Collection of Stories and Essays. New York. 2000. P. 23"
-					cite=""
-				/>
-
+				{texts.rawChapter2CharlotteText2.map((item, index) => (
+					<Quote
+						key={index}
+						quote={item}
+						author="Zoya Baran, 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century,' Lwów: miasto - spoіeczeсstwo - kultura 9. (2014), p. 117"
+						cite=""
+					/>
+				))}
 				<ContentBlock>
-					<RenderTextArray
-						textArray={texts.rawWW1SofiaStepanFedakText.slice(1)}
-					/>
-					<RenderTextArray
-						textArray={texts.rawWW1SofiaLegionAndriyText.slice(0, 1)}
-					/>
+					<RenderTextArray textArray={texts.rawChapter2CharlotteText3} />
+					<RenderTextArray textArray={texts.rawChapter2CharlotteText4} />
 				</ContentBlock>
 
-				<Quote
-					quote={texts.rawWW1SofiaQuotes[1]}
-					author="Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. Kyiv: Olena Teliha Publishing House, 2011. С. 48"
-					cite=""
-				/>
-
 				<ContentBlock>
-					<RenderTextArray
-						textArray={texts.rawWW1SofiaLegionAndriyText.slice(2)}
-					/>
-					<RenderTextArray textArray={texts.rawWW1SofiaNovemberUprisingText} />
+					<RenderTextArray textArray={texts.rawChapter2CharlotteText5} />
+					<RenderTextArray textArray={texts.rawChapter2CharlotteText6} />
 				</ContentBlock>
 			</div>
 		</>

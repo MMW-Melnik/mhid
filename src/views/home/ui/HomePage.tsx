@@ -6,15 +6,16 @@ import {
 	WorldWarOneChapter
 } from '@/widgets/chapters'
 import LastLife from '@/widgets/chapters/epilog/Epilog'
+import { Intro } from '@/shared/ui'
 
 export const HomePage = () => {
 	return (
 		<>
 			<PremonitionOfWarChapter />
-			{/* <WorldWarOneChapter />
+			<WorldWarOneChapter />
 			<InterwarPeriod />
-			<WorldWar2 />
-			<LastLife /> */}
+			{/* <WorldWar2 />
+			<LastLife />  */}
 		</>
 	)
 }

@@ -11,5 +11,5 @@
 }
 
 .text {
-	@apply absolute flex justify-end items-center bottom-8 right-8 text-sand text-t14;
+	@apply absolute flex justify-end items-start bottom-8 right-8 left-8 text-sand text-t14;
 }

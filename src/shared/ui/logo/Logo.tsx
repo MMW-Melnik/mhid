@@ -7,8 +7,9 @@ export const Logo: FC = () => {
 	return (
 		<>
 			<Link href={'/'}>
-				<Heading level={5} className={styles.logo}>
-					The Luxembourg Dream
+				<Heading level={6} className={styles.logo}>
+					Between friendship and politics: little-known aspects <br />
+					of the history of Ukrainian-Luxembourgish relations
 				</Heading>
 			</Link>
 		</>
