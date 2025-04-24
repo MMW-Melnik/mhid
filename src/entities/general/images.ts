@@ -1,7 +1,7 @@
+import Chapter3Map from '@/app/assets/images/home/after-war/image10.png'
+import Chapter3Spike from '@/app/assets/images/home/after-war/image6.jpg'
 import Chapter1Field from '@/app/assets/images/home/premonition-of-war/field.jpg'
 import Chapter2Poppy from '@/app/assets/images/home/ww1/image32.jpg'
-import Chapter3Map from '@/app/assets/images/home/INTERWAR-PERIOD/image10.png'
-import Chapter3Spike from '@/app/assets/images/home/INTERWAR-PERIOD/image6.jpg'
 
 import { ImageConfig } from '@/shared/types'
 

@@ -229,7 +229,7 @@ export const translationKeys = [
 	{
 		key: 'rawChapter3SofiaText10',
 		path: 'INTERWAR PERIOD.CHAPTER3.SOFIA.PARAGRAPH_10'
-	}
+	},
 	{
 		key: 'rawCharlotteText6',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_6'
@@ -381,5 +381,12 @@ export const translationKeys = [
 	key: 'rawCHAPTER5SofiaText8',
 	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_8'
 },
+
+// EPILOGUE
+
+{
+	key: "rawChapterEpilogueText1",
+	path: "EPILOGUE.PARAGRAPH_1"
+}
 ]
 	

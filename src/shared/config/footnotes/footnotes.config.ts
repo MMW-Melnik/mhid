@@ -355,5 +355,21 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 		},
 		source68: {
 			source: "Olga Kuzmowycz. This and That. A Collection of Stories and Essays. New York. 2000, p. 58-59."
-		}		
+		},
+		source69: {
+			source: "Loi du 24 février 1984 sur le régime des langues au Grand-Duché de Luxembourg.",
+			url:  "https://legilux.public.lu/eli/etat/leg/loi/1984/02/24/n1/jo"
+		},
+		source70: {
+			source: "Official portal of the Grand Duchy of Luxembourg – Demographics overview (accessed 2025).",
+			url:  "https://luxembourg.public.lu/en/society-and-culture/population/demographics.html"
+		},
+		source71: {
+			source: "UK House of Commons Library. Briefing CBP-9477: ‘Ukraine: measures following Russia’s 2022 invasion’, 2024.",
+			url:  "https://commonslibrary.parliament.uk/research-briefings/cbp-9477/"
+		},
+		source72: {
+			source: "Security and long-term support agreement between Luxembourg and Ukraine, Presidential press release, 21 Mar 2024.",
+			url:  "https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-ta-dovgostrokovu-p-92057"
+		}
 	}

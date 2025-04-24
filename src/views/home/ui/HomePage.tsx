@@ -6,6 +6,7 @@ import {
 	WorldWar2,
 	WorldWarOneChapter
 } from '@/widgets/chapters'
+import LastLife from '@/widgets/chapters/epilog/Epilog'
 
 export const HomePage = () => {
 	return (
@@ -15,6 +16,7 @@ export const HomePage = () => {
 			<InterwarPeriod />
 			<WorldWar2 />
 			<AfterWar />
+			<LastLife />
 		</>
 	)
 }

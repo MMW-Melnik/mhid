@@ -187,7 +187,6 @@ export const homeContentData = {
 					]
 				}
 			}
-		}
 		},
 	'WORLD WAR TWO': {
   	CHAPTER4: {
@@ -364,8 +363,26 @@ export const homeContentData = {
 
 				],
 				PARAGRAPH_8: ["Perhaps this was her wish. But it is also possible to explain this fact by the absence of Sofia's close relatives who could have perpetuated her memory. Information about the burial place of anyone is not available to outsiders. The Grand Duchy of Luxembourg protects the personal data of its citizens even after their death. In any case, Sofia Fedak/Melnyk has earned the right to keep her name in the collective memory of Ukrainians."]
-			}
+			},
 		}
+	},
+	"EPILOGUE": {
+		TITLE: 'EPILOGUE',
+		QUOTE: {
+			CONTENT: '"This is our land, marked by language, June grass, winter path,\nA warm carol like a flower!\nWe know who we are and we know where we come from!"',
+			AUTHOR: "Serhiy Zhadan, Ukrainian writer. ‘Bird"
+		},
+		PARAGRAPH_1: [
+			"Despite all the difficulties, the project's protagonists, like their peoples, withstood all the trials of the twentieth century. The Grand Duchy of Luxembourg has developed into a powerful state with significant economic capital and political influence. Luxembourg became a founding member of the Benelux Union, European Union (EU), the Organization for Economic Cooperation and Development (OECD), the United Nations (UN), and the North Atlantic Alliance (NATO), which confirms its key role in international relations.",
+		
+			"While not denying their complex history, Luxembourgers tend to defend their own identity. This may be exemplified by the language policy: the laws used to be bilingual (German-French) but are now solely in French; German remains an official administrative language too, but the “national language” is Luxembourgish.[^source69]",
+		
+			"In addition, many residents of the Grand Duchy are fluent in English, which is particularly popular in the capital. In the south of the country, where the Portuguese community is well represented, Portuguese has gained additional popularity. Bosnian/Croatian/Serbian (BCS) is sometimes used on official flyers and many other languages can be heard in the streets. At the same time, Luxembourgish dominates in pre-school and primary education as a “language of inclusion”. To obtain citizenship, applicants must pass an exam in Luxembourgish. This is the uniqueness of Luxembourg, which defines itself as “open and cosmopolitan”.[^source70]",
+		
+			"Since 1991 Ukraine has been developing as an independent state. The process has been complicated by the legacy of totalitarianism. While Ukrainians were re-examining distorted pages of their history, Russia — unwilling to accept the collapse of the USSR — launched hybrid attacks and in 2014 moved to annex Ukrainian territory openly. Today Ukrainians again defend their independence, identity and future. The defence of the Ukrainian language, long subject to Russification, is especially acute — yet this time Ukraine is backed by democracies worldwide under the UN Charter right of self-defence.[^source71]",
+		
+			"The Grand Duchy of Luxembourg is, within the EU, at the forefront of this coalition.[^source72] Luxembourg’s motto is “Mir wëlle bleiwe wat mir sinn” (“We wish to remain as we are”). It is precisely this right to remain oneself that the Ukrainian people are defending today."
+		]
 	}
 
 	},
