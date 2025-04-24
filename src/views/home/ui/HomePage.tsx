@@ -1,5 +1,6 @@
 'use client'
 import {
+	AfterWar,
 	PremonitionOfWarChapter,
 	WorldWar2
 } from '@/widgets/chapters'
@@ -11,7 +12,7 @@ export const HomePage = () => {
 			{/* <WorldWarOneChapter /> */}
 			{/* <InterwarPeriod /> */}
 			<WorldWar2 />
-			{/* <LastLife /> */}
+			<AfterWar />
 		</>
 	)
 }

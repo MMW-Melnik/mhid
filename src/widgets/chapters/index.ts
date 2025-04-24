@@ -3,3 +3,4 @@ export { PremonitionOfWarChapter } from './premonition-of-war/PremonitionOfWarCh
 export { WorldWarOneChapter } from './world-war-one/WorldWarOneChapter'
 export { WorldWar2 } from './ww2/worldWar2'
 
+export { AfterWar } from './after-war/AfterWar'

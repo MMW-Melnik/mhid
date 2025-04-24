@@ -8,6 +8,20 @@ import ReviewImage from '@/app/assets/images/home/ww2/sofia-melnik-review.png'
 import ReportImage from '@/app/assets/images/home/ww2/sofia-melnyk-income-report.jpg'
 import MemoirImage from '@/app/assets/images/home/ww2/sofia-memoirs-of-yevhen-malaniuk.png'
 
+import SofiaImage1 from '@/app/assets/images/home/after-war/sofia-1.png'
+import SofiaImage2 from '@/app/assets/images/home/after-war/sofia-2.png'
+import SofiaImage3 from '@/app/assets/images/home/after-war/sofia-3.png'
+import SofiaImage4 from '@/app/assets/images/home/after-war/sofia-4.png'
+
+import Andrey1 from '@/app/assets/images/home/after-war/andrey-1.png'
+import Andrey2 from '@/app/assets/images/home/after-war/andrey-2.png'
+import Andrey3 from '@/app/assets/images/home/after-war/andrey-3.png'
+
+import CemeteryImage from '@/app/assets/images/home/after-war/sofia-cemetery.png'
+import DocImage from '@/app/assets/images/home/after-war/sofia-doc.jpg'
+import HouseImage from "@/app/assets/images/home/after-war/sofia-house.png"
+import ObituaryImage from '@/app/assets/images/home/after-war/sofia-obituary-image.png'
+
 import { ImageConfig } from '@/shared/types'
 
 export const childhoodSofiaImages: Record<'Man' | 'Home', ImageConfig> = {
@@ -68,4 +82,72 @@ export const worldWarTwoSofiaImages: Record<'Memoir' | 'Review' | 'Dispatch' | '
 		caption: "ANLux, Police des Etrangers, Cote I-108-0454952,  № 180, Report of the Brigadier of the Esperange commune police to the Luxembourg Attorney General, 1946, (extract)"
 	}
 
+}
+
+
+export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia4' | 'Andrey1'| 'Andrey2' | 'Andrey3' | 'Doc' | 'Obituary' | 'House' | 'Cemetery', ImageConfig> = {
+	Sofia1: {
+		src: SofiaImage1.src,
+		alt: 'Source : ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)',
+		caption: 'Source : ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)'
+	},
+	Sofia2: {
+		src: SofiaImage2.src,
+		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1959, (extract)',
+		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1959, (extract)'
+	},
+	Sofia3: {
+		src: SofiaImage3.src,
+		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1963, (extract)',
+		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1963, (extract)'
+	},
+	Sofia4: {
+		src: SofiaImage4.src,
+		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1965, (extract)',
+		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1965, (extract)'
+	},
+	Andrey1: {
+		src: Andrey1.src,
+		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)',
+		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)'
+	},
+	Andrey2: {
+		src: Andrey2.src,
+		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1958, (extract)',
+		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1958, (extract)'
+	},
+	Andrey3: {
+		src: Andrey3.src,
+		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1961, (extract)',
+		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1961, (extract)'
+	},
+
+	Doc: {
+		src: DocImage.src,
+		alt: "ANLux, Police des Etrangers, Cote I-108-0454952,  № 3825, Letter from the Minister of Justice to Mr. Corbert Prussen, Lieutenant-Adjutant of the Grand Duke's Palace, 1946",
+		caption: "ANLux, Police des Etrangers, Cote I-108-0454952,  № 3825, Letter from the Minister of Justice to Mr. Corbert Prussen, Lieutenant-Adjutant of the Grand Duke's Palace, 1946"
+	},
+
+	Obituary: {
+		src: ObituaryImage.src,
+		alt: "Andriy Melnyk. Obituary",
+		caption: "Andriy Melnyk. Obituary. Luxemburger Wort, Wednesday, 11 November, 1964 (extract)"
+	},
+
+	House: {
+		src: HouseImage.src,
+		alt: "The house of Stepan Fedak's family in Luxembourg. (Modern photo from open sources)",
+		caption:
+			"The house of Stepan Fedak's family in Luxembourg.Photo from open sources"
+	},
+
+	Cemetery: {
+		src: CemeteryImage.src,
+		alt: "Monument to A. Melnyk at the cemetery of Bonnevoie, Luxembourg",
+		caption:
+			"Monument to A. Melnyk at the cemetery of Bonnevoie, Luxembourg. [Photo from open sources]"
+	}
+
+	
+	
 }

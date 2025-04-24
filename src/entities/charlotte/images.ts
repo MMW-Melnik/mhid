@@ -6,6 +6,11 @@ import SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/
 import Family from '@/app/assets/images/home/ww2/charlotte-family-image.jpg'
 import Grande from '@/app/assets/images/home/ww2/charlotte-grande-dusche.jpg'
 
+import GrandImage from '@/app/assets/images/home/after-war/charlotte-grand-duche.png'
+import MonumentImage from '@/app/assets/images/home/after-war/charlotte-monument.png'
+import YoungImage from '@/app/assets/images/home/after-war/charlotte-young-photo.jpg'
+
+
 import { ImageConfig } from '@/shared/types'
 
 export const childhoodCharlotteImages: Record<
@@ -49,5 +54,23 @@ export const charlotteWorldWarTwoImages: Record<'Family' | 'Grande', ImageConfig
 		src: Grande.src,
 		alt: "Grande-Duchesse Charlotte Portrait",
 		caption: "Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117"
+	}
+}
+
+export const charlotteAfterWarImages: Record<'Grand' | 'Young' | 'Monument', ImageConfig> = {
+	Grand: {
+		src: GrandImage.src,
+		alt: "Grande-Duchesse Charlotte Portrait",
+		caption: "Grand Duchess Charlotte. November, 1969 [Photo from open sources]"
+	},
+	Young: {
+		src: YoungImage.src,
+		alt: "Grande-Duchesse Charlotte Portrait",
+		caption: "Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3119"
+	},
+	Monument: {
+		src: MonumentImage.src,
+		alt: "Monument to the Grand Duchess Charlotte in Luxembourg City",
+		caption: "A statue of the Grand Duchess of Luxembourg has stood in the middle of Luxembourg City's Place de Clairefontaine since 1990. [Photo from open sources]"
 	}
 }

@@ -226,6 +226,67 @@ export const translationKeys = [
 {
 	key: 'rawCHAPTER4SofiaText13',
 	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_13'
-}
+},
+
+// AFTER WAR CHARLOTTE
+
+{
+	key: 'rawCHAPTER5CharlotteText1',
+	path: 'AFTER WAR.CHAPTER5.CHARLOTTE.PARAGRAPH_1'
+},
+{
+	key: 'rawCHAPTER5CharlotteText2',
+	path: 'AFTER WAR.CHAPTER5.CHARLOTTE.PARAGRAPH_2'
+},
+{
+	key: 'rawCHAPTER5CharlotteText3',
+	path: 'AFTER WAR.CHAPTER5.CHARLOTTE.PARAGRAPH_3'
+},
+{
+	key: 'rawCHAPTER5CharlotteText4',
+	path: 'AFTER WAR.CHAPTER5.CHARLOTTE.PARAGRAPH_4'
+},  
+{
+	key: 'rawCHAPTER5CharlotteText5',
+	path: 'AFTER WAR.CHAPTER5.CHARLOTTE.PARAGRAPH_5'
+},
+{
+	key: 'rawCHAPTER5CharlotteText6',
+	path: 'AFTER WAR.CHAPTER5.CHARLOTTE.PARAGRAPH_6'
+},
+
+// AFTER WAR SOFIA
+{
+	key: 'rawCHAPTER5SofiaText1',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_1'
+},
+{
+	key: 'rawCHAPTER5SofiaText2',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_2'
+},
+{
+	key: 'rawCHAPTER5SofiaText3',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_3'
+},
+{
+	key: 'rawCHAPTER5SofiaText4',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_4'
+},
+{
+	key: 'rawCHAPTER5SofiaText5',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_5'
+},
+{
+	key: 'rawCHAPTER5SofiaText6',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_6'
+},
+{
+	key: 'rawCHAPTER5SofiaText7',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_7'
+},
+{
+	key: 'rawCHAPTER5SofiaText8',
+	path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_8'
+},
 ]
 	

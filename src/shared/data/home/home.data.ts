@@ -220,7 +220,82 @@ export const homeContentData = {
 			]
     }
   }
-}
+},
+	'AFTER WAR': {
+		CHAPTER5: {
+			TITLE: 'AFTER 1945: CONTSINUING TO CARE',
+			QUOTE: {
+				CONTENT: '“All the pale horses  of the apocalypse have stormed through my life: revolution and famine, currency depreciation and terror, epidemics and emigration; I have seen great mass ideologies grow before my eyes and spread, Fascism in Italy, National Socialism in Germany, Bolshevism in Russia, and above all the ultimate pestilence that has poisoned the flower of our European culture, nationalism in general. I have been a defenseless, helpless witness of the unimaginable relapse of mankind into what was believed to be long-forgotten barbarism, with its deliberate programme of inhuman dogma.”',
+
+				AUTHOR: "Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from the German by Anthea Bell. Pushkin Press Classics, London, 2009, p. 20"
+			},
+			CHARLOTTE: {
+				PARAGRAPH_1: ["Charlotte spent the last period of her life in her homeland, living in her beloved Fischbach Palace. Respected by her countrymen, she enjoyed her retirement surrounded by her large family as a happy mother and grandmother. She abdicated on November 12, 1964, after 45 years of rule in favor of Jean, her eldest son. She died on July 9, 1985, leaving a huge void in the hearts of Luxembourgers. She was buried in the crypt of the Luxembourg Cathedral of Notre Dame."],
+
+				PARAGRAPH_2: [
+					"The famous French-Luxembourgish TV journalist Stéphane Bern dedicated one of his popular programs Secrets d'Histoire to the Grand Duchess Charlotte. He frankly admits that he put a lot more love into this episode of the program:  '...I had an ecstatic vision of Grand Duchess Charlotte. My grandparents raised me with the burden of war. And yet, in addition to being a sovereign, she was such a symbolic figure for the people of Luxembourg who lived in that period!' ...", 
+					
+					"Stéphane Bern once again emphasized that 'only by knowing history, knowing what happened and understanding it, we can avoid repeating the same mistakes. I have a duty to remember. It is important to remember the heroic deeds of the Luxembourgers...' [^source48]"
+				],
+				PARAGRAPH_3: ["The program intertwines Luxembourgers' memories of the Grand Duchess as a monarch at the head of state with her grandchildren's memories of their own grandmother.",
+				
+				" 'In preparing this program, I learned a lot through personal stories. Her grandchildren told me what a wonderful grandmother she was. I also learned that every day around 17:00 she smoked a cigarette and had a beer and played the accordion to relax. That she not only loved flowers, but also planted trees and flowers herself in the gardens of Fischbach Castle - she had a real talent for landscape design! She was a very modern woman, she did everything herself: she worked, she raised her six children, she decided everything, never going beyond her sovereign or institutional functions.' ,And she had the simplicity that I love about Luxembourgers. She was the embodiment of simplicity. She also had a sense of empathy, like the members of the grand royal family, accepting the problems of others as her own.. [^source48]",
+
+				"His Royal Highness Henri, Grand Duke of Luxembourg, grandson of Grand Duchess Charlotte, opens the doors of his private residence in Colmar Berg, the Grand Ducal Palace and many of the houses where his grandmother lived. Set in Luxembourg, the United States, Portugal, and France, with testimonies from several of her 27 grandchildren and the participation of the current ruling family of Luxembourg, 'Secrets d Histoire' traces the life of this exceptional sovereign. [^source49]",
+
+				"A mother, wife, and head of state, this elegant woman of strong character is remembered by her contemporaries as one of the most famous European monarchs of the twentieth century, the Grand Duchess Charlotte of Luxembourg."
+			]
+			},
+			SOFIA: {
+				PARAGRAPH_1: [
+					"It is worth tracing the Melnyk couple's journey to Luxembourg to understand that when fleeing Germany, they could not do it without the help of friends, acquaintances, and sometimes even strangers. It is also interesting from the point of view of understanding the difficulty of access to a small, war-torn country at that time. Mychajlo Seleshko took the couple to the border with Germany. A former confidant of Yevhen Konovalets. Seleshko served as Melnyk's personal secretary. Due to the lack of railroad connections, they had to cross the Moselle River by boat. There, they borrowed a small cart from the owners of the nearest house to put their luggage on. Then they walked to the Wasserbillig train station, where they took a train to Luxembourg. Sofia briefly described their arrival: '...Here, after the first few days of formalities, the emigration routine began: looking for accommodation, learning languages, looking for work. My husband left, with some difficulties, either for Germany or France. I, bound by my work, had to stay in place, and thus from afar of all Ukrainian life.' [^source50]",
+
+					"In Luxembourg, Melnyk and his family settled at Hesperange, rue de Thionville, 216. The registration book of the Luxembourg commune of Hesperange contains a corresponding entry for July 7, 1946. [^source51] Olha Kuzmovych characterized her aunt as an extremely modest and hardworking person, kind-hearted and very organized. She also recalled that Sofia always wanted to be financially independent, so “she worked in a bank in Luxembourg as a financier”. [^source52] However, Sofia did not manage to find a job quickly. When she first applied for the position of a stenographer at the Luxembourg Creditbank, she was not accepted [^source53]. But already in 1952, in her next questionnaire, she indicated that she was working at the Creditbank and received 3500 francs net per month. In 1954, she was already earning 5000 francs per month. In 1964, her income rose to 6400 francs, and in 1965 she received 7000 francs per month.  [^source54]. At the same time, A. Melnyk was not fully dependent on his wife. In particular, in 1957, one of the police reports stated that Melnyk's income from journalistic work for a Canadian publication was about 500 francs per month. [^source55]",
+					
+					"The questionnaire forms were usually accompanied by standardized photographs for documents. Sofia diligently updated her photos almost every time she filled out a questionnaire to renew her residence permit. Andriy, on the other hand, submitted the same photo several times. These photos allow us to trace the changes that have taken place with the couple over the decades of their life in Luxembourg. Most of them, especially Sofia's photos, are published for the first time."
+				],
+				PARAGRAPH_2: [
+					"Despite her own employment, according to the memoirs of her contemporaries, Sofia helped her husband in fulfilling his duties as the leader of the OUN: 'And at the same time, during her husband's life, with his heavy load of affairs and responsibilities, she constantly helped him with her voluntary secretarial work.'",
+				 
+					
+					"When she returned from work, after completing her household chores, she would sit down at the typewriter and meticulously take care of organizing her husband's correspondence and other tasks, helping him not only with her own guidance as a kind and caring wife, but also with her actual cooperation. [^source64] Sofia also took care of her mother, who lived with them.  It is not known exactly when she arrived in the Grand Duchy. However, one of the archival documents dated 17 April 1948 indicates that Andrii Melnyk, his wife, and his mother-in-law, Maria Sichynska, were granted a one-year extension of their residence permit. [^source65]",
+	
+					"Maria Fedak supported her children financially and morally until the end of her life (December 9, 1952). They reciprocated, fulfilling the will of their father, Stepan Fedak: 'I ask you, children, to love each other and help yourselves, to love and honor your mother.' Maria Fedak-Sichynska was buried in the capital of the Grand Duchy of Luxembourg, at the Bonnevoie  cemetery. [^source65]",
+					  
+					
+					"Melnyk was thus successfully hiding in Luxembourg, although he was registered then under his real name. The Luxembourg police regularly received requests from the Prosecutor General to report on the current activities of Mr. Melnyk, the availability of means of living, the moral behavior of his family members, etc. Analysis of numerous police reports allows us to explain the reason for such requests.",
+					 
+					"According to the  Luxembourg legislation, the grounds for extending the residence permit (foreigner's card) were a stable source of income sufficient to rent housing and official registration of this housing. But in order  to rent an apartment, one had to have an officially declared income. By  not having a transparent income to begin with and possibly concealing some of their savings, Melnyk's family faced difficulties renting a home and, consequently, official registration and, as a result, a refusal to renew their foreigner's card. To resolve this dilemma, Melnyk tried to officially rent a 10-12 hectare farm for farming. Despite having the appropriate educational background, he was unable to conclude a lease agreement due to the lack of official registration. [^source65]", 
+					
+					"Perhaps it was in this difficult situation that Melnyk again turned to Prince Felix for help. This assumption is indirectly confirmed by the correspondence between some officials of the Duchy, from which it can be learned that 3 months after arriving in Luxembourg, the residence permit for Colonel Andre Melnyk, his wife, Sofia Fedak, and mother-in-law, Maria Sichynska, was extended for another 6 months. At the same time, the Ministry of Justice sent a message about the positive decision on this issue directly to the Ducal Palace as a response to a previous request."
+				],
+				PARAGRAPH_3: [
+					"Excessive police scrutiny, the need to comply with the rules of secrecy, or nother reasons prompted the Melnyk family to change addresses, even in Luxembourg. It is known that in December 1957 they moved to 2, Boulevard de Verdun in the posher neighbourhood of Belair. [Extract from the registration book of the commune of Hesperange, № 19079, Certificate of family composition and change of residence] After the war, A. Melnyk focused his activities on consolidating the Ukrainian emigration in order to preserve and develop Ukrainian culture and prepare a new stage of the struggle for Ukrainian independence.", 
+					
+					"During this period, the OUN, led by Melnyk, took various initiatives to draw the world's attention to the situation of Ukrainians in the USSR. In May 1957, while in the United States and Canada, Melnyk initiated the convening of the World Congress of Free Ukrainians. The territory of Ukraine occupied by the totalitarian communist regime was not left out of the attention of Ukrainian political emigrants. 'We are fighting for the final destruction of the occupier with its imperialism, for its removal from Ukraine forever. That is why our underground is fighting for the soul of the Ukrainian person first and foremost...' [^source62]. "
+				],
+				PARAGRAPH_4: ["When the disease worsened, Sofia quit her job and rented an apartment near the clinic to be near her husband. Olga Konovalets arrived from Rome. Both women carefully cared for and supported Andriy for several months. He died on November 1, 1964, in a Cologne clinic after undergoing surgery. "],
+				PARAGRAPH_5: ["His death came as a heavy blow to Sofia. Her photographs in the years that followed captured it especially clearly."],
+
+				PARAGRAPH_6: [
+					"Despite her heavy loss, Sofia found the strength to continue her active life. In her retirement, she kept in touch with relatives who had settled around the world, performed community service in cooperation with other OUN members, and wrote her memoirs. In 1967, Sofia  and her sister Olga Konovalets, at the invitation of the Ukrainian diaspora in the United States, attended the First World Congress of Free Ukrainians in New York, where they were honored guests as 'worthy widows.' [^source63] They were also taken care of by Yakiv Makovetsky, an OUN member close to Melnyk. In addition to the circle of friends from the OUN, the 'widows of the Leaders' were taken care of by the Ukrainian Golden Cross, a public organization founded in the United States in 1931 as a women's department of the Organization for the State Revival of Ukraine.", 
+					
+					"Both women received regular financial assistance from the organization's special fund. [Wives of the Leaders / Women's Society named after Olha Basarab and Olena Teliha, Organization of Ukrainian Nationalists; compiled by Nadiya Buhay. Nadiia Buhay; ed. Nadiia Strinzenets. Kyiv: Ukrainian Culture Publishing House LLC, 2019, p. 12] In 1975. Sofia was naturalized, i.e. became a citizen of Luxembourg. She is registered in the national registry under her maiden name Fedak. [^source65]",
+					
+					"In the center of the photo is the house at: 36, rue Guillaume Schneider (in the district of Limpertsberg), where Sofia lived after her husband's death. She moved there in December 1973 from another address: 42, Av. Berchem, in the Howald suburb of the capital."
+				],
+				PARAGRAPH_7: [
+					"However, it has not yet been possible to find out when the couple settled there. The registration book of the Luxembourg City Hall contains some inaccuracies and has gaps in the records of their moves. Indirectly confirming their residence at this address is the fact that t Maria Sichynska and later Andriy Melnyk were buried at the cemetery of Bonnevoie – close to Howald. Official sources say that Sofia lived at 36, rue Guillaume Schneider until December 12, 1989. From December 13, 1989 until her death on July 29, 1990 she was registered at 2, rue Englebert Neveu, where she lived. [^source66] The last address of her registration  is the Hospice de Hamm, one of the geriatric institutions in Luxembourg  under the care of the Red Cross. According to the register, she spent only six months there, but Sofia was seriously ill for the last 8 years of her life, 'the disease deprived her of the ability to move and act freely.'. [^source64]",
+
+					"It is possible that she was living in the Hospice much longer. In 1987  Olga Kuzmovych wrote an essay reflecting on loneliness in old age and may have referred to Sofia : '...who knows today how the wife of a well-known political leader feels in a retirement home? Who tries to ease the fate of a lonely old woman who once helped others so much'  [^source67] Another of her essays describes a scene in a geriatric home after the Christmas holidays. The nurses, who speak only German, are discussing a romantic story involving a resident of room 216, who has just received a visitor. The girls whisper among themselves, saying that this woman is a foreigner, from Ukraine.", 
+					
+					"She understands German but does not speak it. She was brought from the hospital several years ago in a semi-conscious state. All this time, she has been lying still and only whispering quietly. She has no family here. She is rarely visited by anyone. Only one elegant gray-haired man comes every week, brings flowers and stays for half an hour at the patient's bedside, holding her hand... [^source68] It is known that Olga Kuzmovych described scenes from real life and her reflections on them in her short essays and feuilletons. Thus, the story mentioned above may be directly related to her aunt Sofia.According to oral testimonies, Sofia was buried next to her husband, but for some unknown reason, her name is missing from the monument."
+
+				],
+				PARAGRAPH_8: ["Perhaps this was her wish. But it is also possible to explain this fact by the absence of Sofia's close relatives who could have perpetuated her memory. Information about the burial place of anyone is not available to outsiders. The Grand Duchy of Luxembourg protects the personal data of its citizens even after their death. In any case, Sofia Fedak/Melnyk has earned the right to keep her name in the collective memory of Ukrainians."]
+			}
+		}
+	}
 
 	},
 	ua: { text: [''] }
