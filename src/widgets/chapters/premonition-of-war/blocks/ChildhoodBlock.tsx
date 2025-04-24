@@ -5,7 +5,6 @@ import {
 } from '@/entities/index'
 import { useFormattedTexts } from '@/shared/hooks'
 import {
-	FormattedText,
 	Heading,
 	ImageWithSource,
 	RenderTextArray

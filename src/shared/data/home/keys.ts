@@ -140,5 +140,92 @@ export const translationKeys = [
 	{
 		key: 'rawCharlotteText6',
 		path: 'Growing up in the Belle Epoque.CHAPTER1.CHARLOTTE.PARAGRAPH_6'
-	}
+	},
+
+	// CHAPTER 4
+{
+	key: 'rawCHAPTER4IntroductionText',
+	path: 'WORLD WAR TWO.CHAPTER4.INTRODUCTION'
+},
+{
+	key: 'rawCHAPTER4IntroductionQuote',
+	path: 'WORLD WAR TWO.CHAPTER4.QUOTE.CONTENT'
+},
+
+// CHARLOTTE
+{
+	key: 'rawCHAPTER4CharlotteText1',
+	path: 'WORLD WAR TWO.CHAPTER4.CHARLOTTE.PARAGRAPH_1'
+},
+{
+	key: 'rawCHAPTER4CharlotteText2',
+	path: 'WORLD WAR TWO.CHAPTER4.CHARLOTTE.PARAGRAPH_2'
+},
+{
+	key: 'rawCHAPTER4CharlotteText3',
+	path: 'WORLD WAR TWO.CHAPTER4.CHARLOTTE.PARAGRAPH_3'
+},
+{
+	key: 'rawCHAPTER4CharlotteText4',
+	path: 'WORLD WAR TWO.CHAPTER4.CHARLOTTE.PARAGRAPH_4'
+},
+{
+	key: 'rawCHAPTER4CharlotteText5',
+	path: 'WORLD WAR TWO.CHAPTER4.CHARLOTTE.PARAGRAPH_5'
+},
+
+// SOFIA
+{
+	key: 'rawCHAPTER4SofiaText1',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_1'
+},
+{
+	key: 'rawCHAPTER4SofiaText2',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_2'
+},
+{
+	key: 'rawCHAPTER4SofiaText3',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_3'
+},
+{
+	key: 'rawCHAPTER4SofiaText4',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_4'
+},
+{
+	key: 'rawCHAPTER4SofiaText5',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_5'
+},
+{
+	key: 'rawCHAPTER4SofiaText6',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_6'
+},
+{
+	key: 'rawCHAPTER4SofiaText7',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_7'
+},
+{
+	key: 'rawCHAPTER4SofiaText8',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_8'
+},
+{
+	key: 'rawCHAPTER4SofiaText9',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_9'
+},
+{
+	key: 'rawCHAPTER4SofiaText10',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_10'
+},
+{
+	key: 'rawCHAPTER4SofiaText11',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_11'
+},
+{
+	key: 'rawCHAPTER4SofiaText12',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_12'
+},
+{
+	key: 'rawCHAPTER4SofiaText13',
+	path: 'WORLD WAR TWO.CHAPTER4.SOFIA.PARAGRAPH_13'
+}
 ]
+	

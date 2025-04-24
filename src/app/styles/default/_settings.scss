@@ -1,5 +1,5 @@
 html {
-	@apply bg-dark font-text  text-white scroll-smooth text-t16 leading-130;
+	@apply bg-dark font-text  text-white scroll-smooth text-t16 leading-130 overflow-x-hidden;
 }
 
 main {

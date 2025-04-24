@@ -1,4 +1,4 @@
-export const footnotesConfig: Record<string, { source: string; url: string }> =
+export const footnotesConfig: Record<string, { source: string; url?: string }> =
 	{
 		cefis_lu_etude_racisme: {
 			source: 'https://cefis.lu/etude-racsime/',
@@ -91,5 +91,82 @@ export const footnotesConfig: Record<string, { source: string; url: string }> =
 			source:
 				'Bogdan Savchuk. Public Activity of Stepan Fedak (1861–1937): PhD thesis, V. Stefanyk Precarpathian National University, Ivano‑Frankivsk, 2019, p. 130.',
 			url: ''
+		},
+
+		source30: {
+			source: "Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from German by Anthea Bell. Pushkin Press Classics, London, 2009, p. 17-18"
+		},
+
+		source31: {
+			source: "Benoit Majerus and Elisabeth Hoffmann. Nation branding' avant la lettre. Le 10 octobre 1941 dans la mémoire collective luxembourgeoise // Luxemburger Wort. Die Warte, 2016, p. 2-4.",
+			url: "https://hdl.handle.net/10993/28582"
+		},
+
+		source32: {
+			source: "Trausch, Gilbert. Du particularisme à la nation  : essais sur l’histoire du Luxembourg de la fin de l’Ancien Régime à la Seconde guerre mondiale  = Vom Sonderbewusstsein zur Nation  : Beiträge zur Geschichte Luxemburgs vom Ende des “Ancien Régime” bis zum Zweiten Weltkrieg. [Réimpr.]. Luxembourg: Impr. Saint-Paul, 1989"
+		},
+
+		source33: {
+			source: "History of Ukraine and its Statehood. A course of lectures: Study guide / L.E. Deshchynskyi et al. Lviv: Lviv Polytechnic National University Press, 2009, p. 345"
+		},
+
+		source34: {
+			source: "Serhii Plokhy. The Gates of Europe. History of Ukraine from the Scythian Wars to Independence. 2015, p. 84",
+			url: "https://readukrainianbooks.com/page-84-1490-brama-yevropi-istorija-ukrayini-vid-skifskih-voyen-do-nezalezhnosti-sergij-mikolajovich-poganij.html"
+		},
+
+		source35: {
+			source: "Quoted by Pol Weitz. Charlotte von Luxemburg: ein Lebensbild. Druckerei J.M. Watgen, Luxemburg, 1990, S. 82."
+		},
+
+		source36: {
+			source: "Charlotte A Royal At War. Youtube Video",
+			url: "https://www.youtube.com/watch?v=Emye7Ku6ho8"
+		},
+
+		source37: {
+			source: "Quoted by Pol Weitz. Charlotte von Luxemburg: ein Lebensbild. Druckerei J.M. Watgen, Luxemburg, 1990,  S. 87, 93, 125-126"
+		},
+
+		source38: {
+			source: "Charlotte, Großherzogin von Luxemburg, kehrt 1945 aus dem Exil zurück. Youtube Video",
+			url: "https://www.youtube.com/watch?v=OBKdr9ts-x0"
+		},
+
+		source39: {
+			source: "Kucheruk O., Cherchenko Y., Kovalchuk M. Yevhen Konovalets. The story of an unsolved murder. - K.: Vihola, 2024, p. 65.]"
+		},
+
+		source40: {
+			source: "Sofia Melnyk. Memories of Our Departure Abroad in 1938 and Life in Emigration. 1890-1964. Memoirs. Documents. Correspondence / compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011. 568 p., illus, p. 313, (translated with the help of DeepL)"
+		},
+
+		source41: {
+			source: "Oleksandr Skrypnyk. Ukrainian Intelligence. 100 years of struggle, confrontations, achievements. - Kyiv. “ADEF-Ukraine”, 2020, p. 162-163"
+		},
+
+		source42: {
+			source: "Kucheruk O., Cherchenko Y., Kovalchuk M. Yevhen Konovalets. The Story of an Unsolved Murder. - K.: Vihola, 2024, p. 64."
+		},
+
+		source43: {
+			source: "Viktor Emil Frankl. Man in Search of True Meaning. A Psychologist in a Concentration Camp. Vienna, 1992, p. 22."
+		},
+
+		source44: {
+			source: "Branch State Archive of the Foreign Intelligence Service of Ukraine. - F. 1. - Case No. 11332. - T 2. - Art. 8",
+			url: "https://szru.gov.ua/history/stories andrii-melnyk-pid-shchilnoyu-opikoyu-nkdb-ursr?"
+		},
+
+		source45: {
+			source: "Memoirs of Sofia / Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011. P. 320"
+		},
+
+		source46: {
+			source: "Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011. 568 p., illus, p. 430"
+		},
+
+		source47: {
+			source: "ANLux, Police des Etrangers, Cote I-108-0454952, No. 4828, Report of the Brigadier of the Public Security Service in Luxembourg, 1945"
 		}
 	}

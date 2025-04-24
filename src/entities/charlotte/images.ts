@@ -3,6 +3,9 @@ import HouseImage from '@/app/assets/images/home/premonition-of-war/charlotte/ho
 import RiderImage from '@/app/assets/images/home/premonition-of-war/charlotte/rider.jpg'
 import SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/sisters.jpg'
 
+import Family from '@/app/assets/images/home/ww2/charlotte-family-image.jpg'
+import Grande from '@/app/assets/images/home/ww2/charlotte-grande-dusche.jpg'
+
 import { ImageConfig } from '@/shared/types'
 
 export const childhoodCharlotteImages: Record<
@@ -31,5 +34,20 @@ export const childhoodCharlotteImages: Record<
 		src: SistersImage.src,
 		alt: 'Princess Charlotte (second from right) with her sisters',
 		caption: 'Princess Charlotte (second from right) with her sisters'
+	}
+}
+
+
+export const charlotteWorldWarTwoImages: Record<'Family' | 'Grande', ImageConfig> = {
+	Family: {
+		src: Family.src,
+		alt: 'Charlotte with her family',
+		caption: 'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : La Famille grand-ducale et S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 8154'
+	},
+
+	Grande: {
+		src: Grande.src,
+		alt: "Grande-Duchesse Charlotte Portrait",
+		caption: "Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117"
 	}
 }

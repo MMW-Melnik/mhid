@@ -1,5 +1,5 @@
 .content_block {
-	@apply w-full flex flex-col items-end text-t16 text-left;
+	@apply w-full flex flex-col items-end text-t16 text-left overflow-x-hidden;
 }
 .content {
 	@apply max-w-[780px] w-full font-text;

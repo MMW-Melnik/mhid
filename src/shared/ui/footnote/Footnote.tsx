@@ -1,52 +1,48 @@
+// components/footnote/Footnote.tsx
 import { useFootnoteContext } from '@/app/context'
 import '@/app/styles/index.scss'
 import Tippy from '@tippyjs/react'
 import Link from 'next/link'
 import { FC, useEffect, useRef, useState } from 'react'
-import { IFootnote } from './footnote.interface'
 import styles from './footnote.module.scss'
 
-export const Footnote: FC<IFootnote> = ({ source, url }) => {
+interface FootnoteProps {
+	source: string
+	url?: string
+}
+
+export const Footnote: FC<FootnoteProps> = ({ source, url }) => {
 	const { getFootnoteNumber } = useFootnoteContext()
-	const [footnoteNumber, setFootnoteNumber] = useState<number>(-1)
-	const hasNumber = useRef(false)
-	const footnoteId = `${source}-${url}`
+
+	const [num, setNum] = useState<number>(-1)
+	const once = useRef(false)
+	const id = `${source}-${url ?? 'no-url'}`
 
 	useEffect(() => {
-		if (!hasNumber.current) {
-			const number = getFootnoteNumber(footnoteId)
-			setFootnoteNumber(number)
-			hasNumber.current = true
+		if (!once.current) {
+			setNum(getFootnoteNumber(id))
+			once.current = true
 		}
-	}, [getFootnoteNumber, footnoteId])
+	}, [getFootnoteNumber, id])
 
-	const tooltipContent = (
-		<div className="px-4 py-2 bg-sand text-dark text-sm rounded-md shadow-lg">
-			<Link target="_blank" href={url} className="tooltipLink">
-				<strong>Source:</strong> {source}
-			</Link>
+	/** Всплывающая подсказка */
+	const tooltip = (
+		<div className="px-4 py-2 bg-sand text-dark text-sm rounded-md shadow-lg max-w-[300px]">
+			<strong>Source:</strong>{' '}
+			{url ? (
+				<Link href={url} target="_blank" rel="noopener noreferrer" className="tooltipLink">
+					{source}
+				</Link>
+			) : (
+				source
+			)}
 		</div>
 	)
 
 	return (
-		<Tippy
-			content={tooltipContent}
-			placement="top"
-			animation="fade"
-			theme="custom"
-			interactive={true}
-			delay={[100, 100]}
-			appendTo={() => document.body}
-			maxWidth="300px"
-		>
-			<span
-				className={styles.footnoteContainer}
-				tabIndex={0}
-				aria-describedby={`footnote-tooltip-${footnoteNumber}`}
-			>
-				<span className={styles.footnoteNumber}>
-					[{footnoteNumber >= 0 ? footnoteNumber : '?'}]
-				</span>
+		<Tippy content={tooltip} placement="top" animation="fade" theme="custom" interactive delay={[100, 100]}>
+			<span className={styles.footnoteContainer} tabIndex={0}>
+				<span className={styles.footnoteNumber}>[{num >= 0 ? num : '?'}]</span>
 			</span>
 		</Tippy>
 	)

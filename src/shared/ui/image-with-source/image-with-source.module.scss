@@ -1,15 +1,14 @@
-/* image-with-source.module.scss */
 .image_with_source {
-	@apply h-auto p-3 relative block;
+	@apply p-3 relative block object-cover;
 	transition: all 0.3s ease-in-out;
 }
 
 .image {
-	@apply object-cover w-full h-auto opacity-50 block;
+	@apply object-cover w-full opacity-50 block;
 	transition: all 0.3s ease-in-out;
 	transform-origin: center;
 }
 
 .text {
-	@apply absolute flex justify-end items-center bottom-8 right-8 text-sand text-t14;
+	@apply absolute px-8 flex justify-end items-center bottom-8 right-8 text-white text-t14 text-right opacity-50;
 }

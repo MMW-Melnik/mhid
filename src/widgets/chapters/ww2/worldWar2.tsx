@@ -1,10 +1,12 @@
-import img1 from '@/app/assets/images/home/THE SECOND WORLD WAR. LIFE IN EXILE/bebe.jpg'
-import img2 from '@/app/assets/images/home/THE SECOND WORLD WAR. LIFE IN EXILE/refugees.jpg'
-import img3 from '@/app/assets/images/home/THE SECOND WORLD WAR. LIFE IN EXILE/street2.jpg'
-import { FormattedText, Heading } from '@/shared/ui'
+import img1 from '@/app/assets/images/home/ww2/bebe.jpg'
+import img2 from '@/app/assets/images/home/ww2/refugees.jpg'
+import img3 from '@/app/assets/images/home/ww2/street2.jpg'
+
 import { Chapter } from '@/widgets/chapter-block'
-import { ContentBlock } from '@/widgets/content-block'
 import { useTranslation } from 'react-i18next'
+import { Charlotte } from './blocks/Charlotte'
+import { Introduction } from './blocks/Introduction'
+import { Sofia } from './blocks/Sofia'
 
 export const WorldWar2 = () => {
 	const { t } = useTranslation('home')
@@ -12,25 +14,17 @@ export const WorldWar2 = () => {
 	return (
 		<>
 			<Chapter
-				quote={t('chapter_4.quote')}
-				author="Stefan Zweig."
+				quote={t('WORLD WAR TWO.CHAPTER4.QUOTE.CONTENT')}
+				author={t('WORLD WAR TWO.CHAPTER4.QUOTE.AUTHOR')}
 				img1={img1.src}
 				img2={img2.src}
 				img3={img3.src}
 			>
-				The second world war. Life in exile
+				{"The second world war. Life in exile".toUpperCase()}
 			</Chapter>
-			<ContentBlock>
-				<FormattedText text={t('chapter_4.text_main')} />
-			</ContentBlock>
-			<ContentBlock>
-				<Heading level={3}>{t('chapter_4.subtitles.charlotte')}</Heading>
-				<FormattedText text={t('chapter_4.text_charlotte')} />
-			</ContentBlock>
-			<ContentBlock>
-				<Heading level={3}>{t('chapter_4.subtitles.sofia')}</Heading>
-				<FormattedText text={t('chapter_4.text_sofia')} />
-			</ContentBlock>
+			<Introduction />
+			<Charlotte />
+			<Sofia />
 		</>
 	)
 }

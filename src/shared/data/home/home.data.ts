@@ -117,7 +117,111 @@ export const homeContentData = {
 					]
 				}
 			}
-		}
+		},
+	'WORLD WAR TWO': {
+  	CHAPTER4: {
+    TITLE: 'WORLD WAR II',
+    INTRODUCTION: [
+      'When the Wehrmacht troops occupied Luxembourg on May 10, 1940, the Grand Duchess and members of the government fled to France, and after its surrender they created a government in exile, first in London and then in Montreal. From exile, Grand Duchess Charlotte called on citizens to disobey the new regime. During the war many Luxembourgers joined the French Resistance or formed underground movements in occupied Luxembourg.In October 1941 a census was organized by the Gauleiter to prove that the population’s citizenship, ethnicity and mother tongue were German. The resistance encouraged people to reply “three times Luxembourgish” and the census was cancelled.[^source31]',
+
+      'Unlike the occupation during the First World War, Nazi Germany pursued a policy of total assimilation, banning the French language, dissolving political parties and abolishing the Luxembourg state. Although Luxembourg was not formally annexed to the Reich, young men were drafted into the Wehrmacht in August 1942; this fuelled resistance and led to strikes in industry and schools. In September 1944 Allied forces liberated Luxembourg and the government was able to return from exile. During the Ardennes offensive the north of the country was recaptured by German troops and was finally liberated only in January 1945. The policy of denying the very existence of Luxembourgers as a nation ultimately strengthened national identity.[^source32]',
+			
+      'During the Second World War Ukraine once again found itself in the epicentre of hostilities. Its territory, already divided among four neighbouring states, was also coveted by fascist Hungary and Germany, while the Soviet regime aimed to expand its borders by annexing western Ukraine. Ukrainians were again forced into a fratricidal war, fighting each other in the armies of opposing sides.',
+
+      'In the Soviet army mostly inhabitants of eastern, central and southern Ukraine fought; one in five soldiers of the Polish army at the beginning of the war was Ukrainian; the advancing Nazi army even had a separate Ukrainian military unit. [^source33] The war triggered a new wave of the Ukrainian national-liberation movement, whose goal was the creation of an independent state. Émigré nationalist centres also prepared for a new stage of struggle.',
+      'Desperate for support from the former Entente powers, which had ignored the Ukrainian question after the First World War, nationalist organisations sought assistance from reactionary circles of the Nazi government. Ideological similarities did not hide the fact that the two sides pursued different goals and tried to use each other; cooperation proved short-lived and led to the split of the OUN in 1940.',
+
+      'The leaders of both factions, Andriy Melnyk and Stepan Bandera, were imprisoned by the Nazis and hundreds of OUN members were executed. Nazi occupation of Ukraine brought the Holocaust, blurring the line between resistance and collaboration. As historian Serhii Plokhy observed, “Ukraine under German occupation became a large-scale model of a concentration camp. As in the camps, the line between resistance and cooperation, the role of victim and complicity in the regime is crimes became blurred and invisible. Everyone made a personal choice, and the survivors had to live with their decisions after the war, some in harmony and some in pangs of conscience. But almost everyone suffered from guilt for surviving.” [^source34]'
+    ],
+
+    QUOTE: {
+      CONTENT:
+        '"… But that in itself was no great cause for complaint; the homeless, more than anyone, are free in a new way, and only those with no more ties can afford to cast consideration to the winds. So I hope that I can fulfil at least one of the main requirements of every proper account of a certain era, and look at it with honest impartiality… For I have indeed been torn from all my roots, even from the earth that nourished them, more entirely than most in our times… So I belong nowhere now, I am a stranger or at the most a quest everywhere… Against my will, I have witnessed the most terrible defeat of reason and the most savage triumph of brutality in the chronicles of time. Never – and I say so not with pride but with shame – has a generation fallen from such intellectual heights as ours to such moral depths….\"',
+      AUTHOR: 'Stefan Zweig'
+    },
+
+    CHARLOTTE: {
+      PARAGRAPH_1: [
+        'According to some sources, international events on the eve of the war prompted Prince Felix to plan the possible emigration of the grand-ducal family. He established the first contacts with U.S. President Franklin D. Roosevelt and prepared to set up a Luxembourg mission in Washington. When the Wehrmacht violated Luxembourg’s neutrality and invaded on 10 May 1940 the Grand Duchess, accompanied by her family and government, left for France. The Nazis offered her the chance to stay, promising to preserve her status, but she refused, replying, “My heart says yes, but my mind says no.”[^source35]'
+      ],
+      PARAGRAPH_2: [
+        'After the surrender of France in June 1940 the grand-ducal family fled to Portugal and then, via the United Kingdom, to the United States, finally settling in Canada. The Grand Duchess stayed in London for a time before re-joining her family in October. Her decision was driven by concern for her family’s safety, the reputation of the monarchy and the lessons learned during the reign of her sister Maria-Adelaide.'
+      ],
+      PARAGRAPH_3: [
+        'Nevertheless, throughout her exile, Charlotte continued to fulfil her duties as head of state. In 1941 she visited Luxembourg émigré communities in the United States and over the next two years undertook “Goodwill Tours” across the country. In 1943 she settled in London, from where she addressed her people via BBC radio, beginning each broadcast with “Léif Lëtzebuerger” (“Dear Luxembourgers”). These speeches strengthened patriotic feeling and unity against the occupiers. [^source36]'
+      ],
+      PARAGRAPH_4: [
+        'Charlotte embodied a beautiful, elegant and maternal figure as well as a source of hope; she became, in the words of contemporaries, “the symbol of the Luxembourg Resistance.” [^source37]'
+      ],
+      PARAGRAPH_5: [
+        'A key decision taken by the government in exile was to join the anti-Hitler coalition from the outset. Many former Luxembourg officers fought alongside the Allies. In 1942 Prince Felix and Crown Prince Jean enlisted in the British Army; Jean later took part in the Normandy landings. Charlotte returned to Luxembourg on 14 April 1945, weeks before the war officially ended, and the grand-ducal family was welcomed home with enthusiastic celebrations. [^source38]'
+      ]
+    },
+
+    SOFIA: {
+      PARAGRAPH_1: [
+        "The Melnyks were caught up in the war in Berlin. On the eve of the war, at the end of August 1939, the Second Great Assembly of Ukrainian Nationalists took place in Rome, which approved A. Melnyk as the head of the OUN leadership.", "It is worth mentioning here that Yevhen Konovalets left behind a significant legacy. In the mid-1930s, OUN cells operated in many countries, including overseas. The organization had 17 separate press organs in 6 countries. However, there were also serious problems. [^source39]"
+      ],
+      PARAGRAPH_2: [
+        'Sofia accompanied and supported her husband everywhere, sharing with him the difficulties of emigrant life and often acting as his personal secretary. In her memoirs Sofia later recalled that "...it was not an easy decision for us, and especially for me, to voluntarily emigrate, to leave our family, our somewhat orderly life and work. No one was thinking seriously about the war at that time, although a year later emigration became a sad necessity for Western Ukraine. [^source40]'
+      ],
+      PARAGRAPH_3: [
+        "Being in the various European capitals on the eve of World War ІІ, Andriy Melnyk was well aware of the current political situation. With this in mind, the OUN, under his leadership, began to develop plans for the restoration of an independent Ukrainian state in the face of the inevitable coming war.",
+
+				'One of the former Sich Riflemen, a centurion in the UPR army, Yevhen Malaniuk, who had known Melnyk since the Ukrainian National Liberation Revolution, recalled how in the summer of 1941 he received a phone call from colonel Melnyk in his Warsaw apartment: "It has begun. Mr. Centurion, your place is in Kyiv." However, Malaniuk did not respond to the call. During the twenty years of emigration, his life had changed.',
+
+				'He had a family, earned his living by writing, and did not want to return to Kyiv with a foreign army whose goals he did not share. At the same time, he later noted in his memoirs that "...when Andriy Melnyk became the head of a revolutionary organization after the murder of Yevhen Konovalets, it was not because he felt like a revolutionary or a politician. In my opinion, the decisive factor here was a purely military sense of duty: to replace a fallen comrade and former commander... And if it were not for the regiment. Andriy Melnyk, maybe today there would not be the name of the Organization of Ukrainian Nationalists."'
+      ],
+      PARAGRAPH_4: [
+        'According to Oleksandr Skrypnyk, a researcher of the history of Ukrainian intelligence, as early as 1923, the leaders of the UVO (i.e., Y. Konovalets, A. Melnyk, and others) signed a cooperation agreement with the leaders of German counterintelligence. Members of the UVO conducted intelligence activities on the territory of Poland in favor of the Reichswehr, and in return, the organization received monthly financial assistance and assistance in training covert warfare personnel.', 'As a result, an effective and extensive intelligence network was created, which was eventually inherited by the OUN. The OUN leadership, headed by A. Melnyk, had a special intelligence group for relations with the German special services. O. Skrypnyk believes that "intelligence activities were considered by the OUN leaders as one of the important prerequisites for the armed overthrow of the occupation authorities and the restoration of the Ukrainian state. [^source41]'
+      ],
+      PARAGRAPH_5: [
+        "Melnyk's personal attitude toward the Nazis remains unknown. He could not have been unaware of the discussion that took place at the Berlin conference of the OUN in 1933, a few months after they came to power in Germany. At the conference, Yevhen Konovalets spoke out against establishing ties with the National Socialists, citing their negative attitude toward the peoples of Eastern Europe. He argued his conclusions sharply but convincingly, quoting Hitler's book 'Mein Kampf.' [^source42]", 
+				
+				"However, despite Konovalets' outspoken position, Melnyk faced difficult challenges during the war and decided on a different course. The German Nazis were the only ones who agreed to arm Ukrainians, and this was the most important thing for the OUN at the time, which was preparing for a new stage of the struggle for an independent Ukraine. At the end of July 1941, on the order of Gestapo chief Heinrich Müller, Melnyk and his wife were placed under house arrest in Berlin."
+      ],
+      PARAGRAPH_6: [
+        "In January 1942, along with other well-known Ukrainian activists, Melnyk signed a memorandum to Adolf Hitler demanding that he stop his destructive policy on the territory of Ukraine. The OUN leader probably foresaw the possible consequences of active political activity that contradicted the Nazis' plans. Therefore, for security reasons, the Melnyk/Fedak couple secretly left Berlin in January 1944 and settled in Vienna. But later they were arrested for the second time and transported to a remote area in the Austrian Alps. There, in the town of Hirschegg  (Kleinwalsertal), various political prisoners were held under house arrest in the Hotel Ifen.", 
+				
+				"The most famous among them was the former French ambassador to Berlin, André François-Poncet. He had a hard time with his imprisonment, entrusting his feelings to his diary, which was rescued from the guards and partially published after the war. In the conditions of isolation from the world, various prohibitions and restrictions, the only entertainment for the prisoners was walking, reading books sent by relatives from the outside, and communicating with each other. Therefore, the new arrivals were surrounded by excessive attention. In particular, on Friday, March 3, 1944. Poncet shared with his diary his impression of meeting a Ukrainian colonel and his wife who arrived that day: 'This Melnyk is graceful, noble, very polite, and well-mannered; his wife, small and black-haired, with sharp features and a keen look of lively eyes from under her glasses.'"
+      ],
+      PARAGRAPH_7: [
+        "Because of his refusal to meet the Nazis' demands, Andriy and Sofia Melnyk  were transferred to the Nazi concentration camp Oranienburg-Sachsenhausen (north of Berlin) on July 27, 1944. There was a separate room for 'special' prisoners called Zellenbau, where Hitler's 'personal enemies,' high-ranking officials, and activists of the Ukrainian national liberation movement were held.",
+				
+				"During this difficult period in the life of the Melnyk/Fedak couple, a story happened that deserves special attention. One of the declassified documents of the CIA archive from 1960 reports information that at Sachsenhausen, Melnyk saved the life of the brother of the Luxembourg prince consort Felix Bourbon-Parma. The dispatch  mentions the provision of any assistance to A. Melnyk and his family in the event of a 'threat to their personal safety'."
+      ],
+      PARAGRAPH_8: [
+        "Perhaps that is why, after the release from the concentration camp, Melnyk's family found refuge in the Grand Duchy of Luxembourg with the assistance of Prince Felix. According to psychologist Viktor Frankl, who had been interned himself, this was not uncommon: 'We don't like to talk about our experiences. Those who were in the camps don't need to explain anything, and others will not understand either what we felt then or what we feel now.' [^source43]",
+
+				'Andriy and Sofia Melnyk also never mentioned the rescue of a member of the royal family. This can be explained by a conscious and concerted decision by all involved to hide this fact from the public for various reasons. On the other hand, this event could have been completely invented by Prince Felix of Luxembourg specifically for the American intelligence services as a justification for his support of the Melnyk family. If we assume that the rescue actually took place, then we can only hope that new documents will eventually appear that will confirm or refute this historical mystery. "Res porro tractatur" (Latin for "the case is not yet closed")...',
+
+				"Ironically, by imprisoning Melnyk's family, the Nazis saved the life of the leader of the Ukrainian nationalists. The Sectoral State Archive of the Foreign Intelligence Service of Ukraine has published a collection of documents of the GPU-NKVD-MGB-KGB of the Ukrainian SSR on the liquidation of prominent figures of the Ukrainian national liberation movement. The book contains a number of documents confirming the sabotage work of the Soviet special services among the OUN. Among the declassified materials are those that confirm the development of plans by the Soviet special services for the physical destruction of Andriy Melnyk. For example, one of the references states: '...in order to decompose the Ukrainian nationalist underground... and to organize special measures to eliminate Andriy Melnyk... in the near future, a special group 'Vulcan' will be sent abroad to Berlin [^source44]",
+
+				"On October 17, 1944, the Nazis released the leaders of Ukrainian organizations, including members of the OUN. This became possible due to a change in their strategy of using Ukrainian nationalists to continue the war in Europe. A. Melnyk was authorized to negotiate with representatives of the Nazi government on the establishment of the Ukrainian National Committee to represent Ukrainians in Germany. Sofia described further changes in their lives over time as follows: '...the general tendency at the time was to get out of Germany as soon as possible in order to contact our emigration in America and Canada. Onatsky was the first to do so, to Rome and Andrievsky to Belgium. Through Andrievsky, my husband sent a letter (because the post office was not yet running) to Prince Felix of Luxembourg, whom he knew from his visits to the metropolitan's hunting grounds. From Bad Godesberg we went to the Luxembourg consul in Wiesbaden, and later to Cologne, where we received permission to enter Luxembourg.' [^source45]",
+
+				"Confirmation of the latter fact can be found in one of Andriy Melnyk's letters to Dmytro Andrievsky, written on July 3, 1945, in Bad Kissingen. Among other things, he stated that '...there is not a word from Felix; I am afraid that the letter did not reach him.' [^source46]",
+			],
+			PARAGRAPH_9: [
+				'Indeed, the process of waiting for a permit to enter Luxembourg for the Melnyk/Fedak couple lasted more than a year. For some time, there was correspondence between officials of various organizations regarding the granting of such a permit. Then their identities were checked by the Public Security Service[Pr1]  of the Grand Duchy. The information that this service managed to collect contains contradictory data about A. Melnyk, but also confirms some facts from the memories of his entourage. In particular, according to one of the documents, A. Melnyk is described as: "A colonel of the American army, an engineer by profession, he was a Belarusian officer, and before the war he was a large landowner in Poland... Members of the Grand Ducal House visited his estate, and Prince Felix is also a good friend of his, and he invited Melnyk to visit him." On the basis of this document, the Melnyk couple was to be granted an entry visa and a residence permit for a period of 3 months. [^source47]',
+
+				"Documents in the Melnyk/Fedak family file, which is kept in the National Archives of Luxembourg, show that on June 7, 1946, Andriy and Sofia answered a questionnaire at the Grand Duchy's immigration police. According to this questionnaire, the former colonel arrived in Luxembourg as an engineer and journalist, carrying a German issued passport for stateless persons dated December 9, 1941."
+			],
+			PARAGRAPH_10: [
+				"His wife had the same passport and stated in her application form that she was born in Galicia, but for reasons known only to her, she concealed all of her father's information from the police except for his name. "
+			],
+			PARAGRAPH_11: [
+				"At the request of the Prosecutor General, the Esperanza  police brigadier prepared a report in early July with information on newly arrived foreigners. In addition to general information, the report stated that Melnyk spoke French but was not fluent."
+			],
+			PARAGRAPH_12: [
+				"The police were particularly interested in the couple's means to sustain their livelihood. In response, Melnyk explained that he had some savings and planned to work as a journalist. He could also turn to his friends in Luxembourg for help if necessary. The policeman concluded that Melnyk usually traveled to Luxembourg City every morning. And that during the short period of his stay in the Duchy, 'it was not possible to find out anything about his business'."
+			],
+			PARAGRAPH_13: [
+				"It can be concluded here that the Luxembourg Security Service may have had some information about Melnyk's true activities, but the police failed to find conclusive evidence. So, apparently, Prince Felix of Luxembourg helped the Melnyk family to obtain asylum  in the Grand Duchy. It would be interesting to find the letter that was so eagerly awaited in Bad Kissingen. It would shed more light on the relationship between the two former Austrian army officers, who met in the interwar period while hunting in Galicia and whose relationship probably went beyond a casual acquaintance."
+			]
+    }
+  }
+}
+
 	},
 	ua: { text: [''] }
 }
