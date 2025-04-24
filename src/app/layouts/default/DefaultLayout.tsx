@@ -12,12 +12,6 @@ export const DefaultLayout: FC<PropsWithChildren> = ({ children }) => {
 		<>
 			<MainProvider>
 				<Header />
-				<Intro
-					imageSrc={Bridge}
-					imageAlt="Roud Breck 2023"
-					text="Between friendship and politics: little-known aspects of the history of Ukrainian-Luxembourgish relations"
-					imageText="Roud Breck 2023"
-				/>
 				<div className={styles.layout}>
 					<main className={styles.main}>{children}</main>
 				</div>

@@ -10,6 +10,7 @@ import { RenderTextArray } from '@/shared/ui'
 import { Quote } from '@/widgets/quote/Quote'
 import { generalImages, childhoodCharlotteImages } from '@/entities/index'
 import { ImageWithSource } from '@/shared/ui'
+import spike from '@/app/assets/images/home/INTERWAR-PERIOD/image6.jpg'
 
 export const InterwarPeriod = () => {
 	const { t } = useTranslation('home')
@@ -20,20 +21,14 @@ export const InterwarPeriod = () => {
 	return (
 		<>
 			<Chapter
+				bgImage={spike}
+				imageText="Vyacheslav Mishchenko, Ukrainian photographer. (Photo from open sources)"
 				quote={t('INTERWAR PERIOD.CHAPTER3.QUOTE.CONTENT')}
 				author={t('INTERWAR PERIOD.CHAPTER3.QUOTE.AUTHOR')}
-				img1={img1.src}
-				img2={img2.src}
-				img3={img3.src}
 			>
 				{t('INTERWAR PERIOD.CHAPTER3.TITLE')}
 			</Chapter>
 			<ContentBlock>
-				<ImageWithSource
-					sourceImage={Spike.src}
-					sourceText={Spike.caption}
-					alt={Spike.alt}
-				/>
 				<RenderTextArray textArray={texts.rawChapter3IntroductionText1} />
 				<ImageWithSource
 					sourceImage={Map.src}

@@ -88,17 +88,21 @@ export const childhoodCharlotteImages: Record<
 	}
 }
 
-
-export const charlotteWorldWarTwoImages: Record<'Family' | 'Grande', ImageConfig> = {
+export const charlotteWorldWarTwoImages: Record<
+	'Family' | 'Grande',
+	ImageConfig
+> = {
 	Family: {
 		src: Family.src,
 		alt: 'Charlotte with her family',
-		caption: 'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : La Famille grand-ducale et S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 8154'
+		caption:
+			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : La Famille grand-ducale et S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 8154'
 	},
 
 	Grande: {
 		src: Grande.src,
-		alt: "Grande-Duchesse Charlotte Portrait",
-		caption: "Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117"
+		alt: 'Grande-Duchesse Charlotte Portrait',
+		caption:
+			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117'
 	}
 }

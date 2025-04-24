@@ -8,20 +8,31 @@
 }
 
 .Image {
-	@apply opacity-35;
+	@apply opacity-50;
 }
 
 .overlay {
 	@apply absolute inset-0 z-10;
-	background: linear-gradient(
-		to bottom,
-		rgba(20, 20, 20, 1) 0%,
-		rgba(20, 20, 20, 0.75) 20%,
-		rgba(20, 20, 20, 0) 40%,
-		rgba(20, 20, 20, 0) 60%,
-		rgba(20, 20, 20, 0.75) 80%,
-		rgba(20, 20, 20, 1) 100%
-	);
+
+	background-image: linear-gradient(
+			to bottom,
+			rgba(20, 20, 20, 1) 0%,
+			rgba(20, 20, 20, 0.75) 20%,
+			rgba(20, 20, 20, 0) 40%,
+			rgba(20, 20, 20, 0) 60%,
+			rgba(20, 20, 20, 0.75) 80%,
+			rgba(20, 20, 20, 1) 100%
+		),
+		linear-gradient(
+			to right,
+			rgba(20, 20, 20, 1) 0%,
+			rgba(20, 20, 20, 0.75) 20%,
+			rgba(20, 20, 20, 0) 40%,
+			rgba(20, 20, 20, 0) 60%,
+			rgba(20, 20, 20, 0.75) 80%,
+			rgba(20, 20, 20, 1) 100%
+		);
+	pointer-events: none;
 }
 
 .mainText {
