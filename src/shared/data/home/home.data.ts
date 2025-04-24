@@ -4,7 +4,7 @@ export const homeContentData = {
 			CHAPTER1: {
 				TITLE: 'GROWING UP IN BELLE EPOQUE',
 				INTRODUCTION: [
-					'Any era is subtly reflected in its literature. People in creative professions have a special way of perceiving the world and defining their own place in it. For example, the famous Austrian writer Stefan Zweig described the events of the early and mid-twentieth century quite vividly. His Yesterdays World, which can be easily extrapolated to the modern world, leaves no illusions. The book is largely autobiographical, but it is also an account of an entire generation that saw their world crumble; it is a kind of hymn to Europe written by an exile on another continent, sent to his publisher in February 1942 – two days before his suicide.'
+					"Any era is subtly reflected in its literature. People in creative professions have a special way of perceiving the world and defining their own place in it. For example, the famous Austrian writer Stefan Zweig described the events of the early and mid-twentieth century quite vividly. His Yesterday's World, which can be easily extrapolated to the modern world, leaves no illusions. The book is largely autobiographical, but it is also an account of an entire generation that saw their world crumble; it is a kind of hymn to Europe written by an exile on another continent, sent to his publisher in February 1942 – two days before his suicide."
 				],
 				QUOTE: {
 					CONTENT:
@@ -22,36 +22,36 @@ export const homeContentData = {
 						'The girl had an older sister, Maria Adelaide, and younger sisters, Hilda, Antoinette, Elizabeth, and Sophia.'
 					],
 					PARAGRAPH_4: [
-						"The country was ruled by her grandfather Adolphe I. After his death in 1905, the princesses' father inherited the Luxembourg throne. Grand Duke Wilhelm was worried that in the absence of a male heir, his family might lose not only power but also their home. Therefore, he managed to agree with the government on changes to the Nassau-Weilburg family charter. This meant that the Luxembourg princesses would have a preemptive right to the throne of the Grand Duchy in order of birth. It is worth noting that the Duke's worries were not in vain. Unexpectedly, a contender of Russian descent, Count Georg von Merenberg, a descendant of the Grand Duke's brother Adolf by a morganatic marriage with the daughter of the Russian poet Alexander Pushkin, declared his right to the throne. However, after a heated debate, the Luxembourg Chamber of Deputies approved a law changing the succession to the throne in favor of princesses. [Paul Lafontaine. Unsere Dynastie: die Ursprünge der Nassauer und die Herrschaft der Nassau-Weilburger im Grossherzogtum Luxemburg (1890-1990), Sankt-Paulus-Druckerei, 1990, p. 78.] Meanwhile, Count von Merenberg managed to have his claims silenced with a substantial annual pension. "
+						"The country was ruled by her grandfather Adolphe I. After his death in 1905, the princesses' father inherited the Luxembourg throne. Grand Duke Wilhelm was worried that in the absence of a male heir, his family might lose not only power but also their home. Therefore, he managed to agree with the government on changes to the Nassau-Weilburg family charter. This meant that the Luxembourg princesses would have a preemptive right to the throne of the Grand Duchy in order of birth. It is worth noting that the Duke's worries were not in vain. Unexpectedly, a contender of Russian descent, Count Georg von Merenberg, a descendant of the Grand Duke's brother Adolf by a morganatic marriage with the daughter of the Russian poet Alexander Pushkin, declared his right to the throne. However, after a heated debate, the Luxembourg Chamber of Deputies approved a law changing the succession to the throne in favor of princesses. [^lafontaine_unsere_dynastie_1990_p78] Meanwhile, Count von Merenberg managed to have his claims silenced with a substantial annual pension. "
 					],
 					PARAGRAPH_5: [
-						"Grand Duke William IV was seriously ill from the moment he inherited the throne until the end of his life. His wife, Regent Maria-Anna, took care of her seriously ill husband herself, so Charlotte and her sisters' childhood was not very happy. For example, the family was forced to move frequently because most of the existing residences were unsuitable for a comfortable life and their father's health. The lives of the princesses were strictly regulated and controlled, accompanied by various restrictions. Parliament, the government, church officials, and the press were closely monitoring all events in the life of the monarch’s family, taking into account his health. Meanwhile, the government and the general public were dissatisfied with the monarch's long absence from the country. Researchers noted the 'alienation' of the ruling family, which eventually had critical consequences for the dynasty. [https://history.uni.lu/research-luxembourg-4d/]"
+						"Grand Duke William IV was seriously ill from the moment he inherited the throne until the end of his life. His wife, Regent Maria-Anna, took care of her seriously ill husband herself, so Charlotte and her sisters' childhood was not very happy. For example, the family was forced to move frequently because most of the existing residences were unsuitable for a comfortable life and their father's health. The lives of the princesses were strictly regulated and controlled, accompanied by various restrictions. Parliament, the government, church officials, and the press were closely monitoring all events in the life of the monarch’s family, taking into account his health. Meanwhile, the government and the general public were dissatisfied with the monarch's long absence from the country. Researchers noted the 'alienation' of the ruling family, which eventually had critical consequences for the dynasty. [^history_uni_lu_research]"
 					],
 					PARAGRAPH_6: [
 						"Princesses Mary Adelaide and Charlotte began their representative duties early on, given their difficult family circumstances. At her mother's request, Charlotte accompanied her sister everywhere, preparing to take over the monarch's duties if necessary. The sisters attracted attention by their opposites. Mary Adelaide was characterized by restraint, shyness, and piety. Charlotte, on the other hand, was cheerful and open. "
 					],
 					PARAGRAPH_7: [
-						'The German ambassador to Luxembourg, Count Schwerin described Charlotte in his report: [Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912-1919), Éditions Guy Binsfeld, Luxemburg, 2019, S. 94]'
+						'The German ambassador to Luxembourg, Count Schwerin described Charlotte in his report:'
 					],
 					PARAGRAPH_8: [
-						'"The princess is as gifted as her older sister, but fortunately does not suffer from such embarrassment. She makes every effort to fulfill her official duties. But she feels much more comfortable in a private circle, where her lively, cheerful temperament comes through. Everyone praises her for her special, cordial kindness... this friendliness is the main feature of her character, and her very elegant appearance is in perfect harmony with it...". '
+						'"The princess is as gifted as her older sister, but fortunately does not suffer from such embarrassment. She makes every effort to fulfill her official duties. But she feels much more comfortable in a private circle, where her lively, cheerful temperament comes through. Everyone praises her for her special, cordial kindness... this friendliness is the main feature of her character, and her very elegant appearance is in perfect harmony with it...". [^weber_marie_adelheid_bio_2019_p94]'
 					],
 					PARAGRAPH_9: [
-						'According to her biographers, Princess Mary Adelaide was not ready for the role of Grand Duchess. First of all, because she was too young and inexperienced when she lost her father and inherited the throne. At the same time, Charlotte, being close to her sister, gained valuable experience that helped her in the future. [Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biographie (1912-1919), S. 75-81, 96-99'
+						'According to her biographers, Princess Mary Adelaide was not ready for the role of Grand Duchess. First of all, because she was too young and inexperienced when she lost her father and inherited the throne. At the same time, Charlotte, being close to her sister, gained valuable experience that helped her in the future. [^weber_marie_adelheid_bio_2019_pages_75_81_96_99]'
 					]
 				},
 				SOFIA: {
 					PARAGRAPH_1: [
-						"In contrast, the childhood of the other protagonist of our project, Sofia Fedak, was calm and carefree. She was born in Lviv (at that time part of Austria-Hungary) on October 30, 1901 as third of eight children.  Her father, Stepan Fedak, was a prominent Lviv jurist, lawyer, and one of the richest Ukrainians in Eastern Galicia. Some contemporary Ukrainian researchers call him “one of the then oligarchs of Austria-Hungary” [Bogdan Savchuk. Public Activity of Stepan Fedak (1861-1937): PhD thesis: 07.00.01 - History of Ukraine / V. Stefanyk Precarpathian National University. Ivano-Frankivsk, 2019. 276 p.]. His eldest daughter jokingly called herself “the daughter of a wealthy Lviv patrician” [Zoya Baran, “Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century', Lwów: miasto - spoіeczeсstwo - kultura 9. 2014. p. 119]."
+						'In contrast, the childhood of the other protagonist of our project, Sofia Fedak, was calm and carefree. She was born in Lviv (at that time part of Austria-Hungary) on October 30, 1901 as third of eight children.  Her father, Stepan Fedak, was a prominent Lviv jurist, lawyer, and one of the richest Ukrainians in Eastern Galicia. Some contemporary Ukrainian researchers call him “one of the then oligarchs of Austria-Hungary” [Bogdan Savchuk. Public Activity of Stepan Fedak (1861-1937): PhD thesis: 07.00.01 - History of Ukraine / V. Stefanyk Precarpathian National University. Ivano-Frankivsk, 2019. 276 p.]. His eldest daughter jokingly called herself “the daughter of a wealthy Lviv patrician” [^baran_sheparovych_memoirs_2014_p119].'
 					],
 					PARAGRAPH_2: [
 						'Being a strong and even authoritarian man in any matters related to his professional interests, Stepan Fedak left the house and upbringing of his children entirely to his wife Maria Fedak-Sichynska, who was the daughter of a Greek Catholic priest, Father Lukian Sichynskіy, a cousin of one of the most famous Ukrainian politicians, Oleksandr Barvinskіy. Maria’s mother, Natalia Brylynska, was the sister of the famous lawyer Yevhen Olesnytskіy.'
 					],
 					PARAGRAPH_3: [
-						"Maria Fedak-Sichynska was active in the women's educational movement in Galicia. According to the historian Olga Bezhuk, [Olga Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after SZ Gzycki. Vol. 17, No. 4 (64), 2015, p. 368]."
+						"Maria Fedak-Sichynska was active in the women's educational movement in Galicia. According to the historian Olga Bezhuk:."
 					],
 					PARAGRAPH_4: [
-						'“Mrs. Maria, a small woman, always calm, unspoken, kept the house on Sykstuska Street in Lviv in exemplary order with a strong hand and took care of the decent upbringing of all eight children. And the children were brought up as conscious Ukrainians, participating in the political life of their land...”'
+						"'Mrs. Maria, a small woman, always calm, unspoken, kept the house on Sykstuska Street in Lviv in exemplary order with a strong hand and took care of the decent upbringing of all eight children. And the children were brought up as conscious Ukrainians, participating in the political life of their land...” [Olga Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after SZ Gzycki. Vol. 17, No. 4 (64), 2015, p. 368]'"
 					],
 					PARAGRAPH_5: [
 						"Maria was one of the first to focus on the role of women in society. According to archival data, Maria Fedak had the right to participate (together with her husband) in the election of deputies to the Lviv City Council for the period from 1913-1914. [Olga Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after SZ Gzycki. Vol. 17, №No. 4 (64), 2015, p. 369]. This detail shows the equality of Stepan Fedak's wife not only in the home but also in public affairs. It is not surprising that their children were brought up as “conscious” Ukrainians, taking an active part in the political life of their land. There are two memoirs written by members of the Fedak family: Sophia’s oldest sister Olena and her niece Olga Kuzmowycz."
@@ -98,10 +98,10 @@ export const homeContentData = {
 				},
 				SOFIA: {
 					PARAGRAPH_1: [
-						"When the war started, Sofia was just a child. She was brought up at home, where she received her primary education. Then she followed the path of her sisters, who attended: a prestigious women's gymnasium and completed their  education at the Przemyśl Institute or at universities in Austria-Hungary or Germany. For example, her older sister Olena first studied at a private Polish women's gymnasium in Lviv, where -  she recalled [Zoya Baran, 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century,' Lwów: miasto - spoіeczeсstwo - kultura 9. (2014), p. 117]"
+						"When the war started, Sofia was just a child. She was brought up at home, where she received her primary education. Then she followed the path of her sisters, who attended: a prestigious women's gymnasium and completed their  education at the Przemyśl Institute or at universities in Austria-Hungary or Germany. For example, her older sister Olena first studied at a private Polish women's gymnasium in Lviv, where -  she recalled:"
 					],
 					PARAGRAPH_2: [
-						'"the monthly tuition fee was equal to the monthly salary of an average government official, and most subjects were taught by university professors."'
+						"'the monthly tuition fee was equal to the monthly salary of an average government official, and most subjects were taught by university professors.' [Zoya Baran, 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century,' Lwów: miasto - spoіeczeсstwo - kultura 9. (2014), p. 117]'"
 					],
 					PARAGRAPH_3: [
 						"Sofia had a special relationship with her other sister, Olga, who studied violin in Lviv, and graduated in 1915 with honors from the Vienna Conservatory. Olga was predicted to become an outstanding violinist, but her musical career ended after her first solo concert in Vienna. Olga was said to be no longer able to perform in public because of a painful incurable 'tremor'. Only much later, Olga told her niece that at that concert, while performing Paganini's variations, a string broke on her violin. The panic and fear that literally paralyzed her at that moment endured for the rest of her life. [Olga Kuzmovych. About This and That. New York, 2000, p. 146]."
@@ -117,6 +117,77 @@ export const homeContentData = {
 					]
 				}
 			}
+		},
+		'INTERWAR PERIOD': {
+			CHAPTER3: {
+				TITLE: 'INTERWAR PERIOD',
+				INTRODUCTION1: [
+					'In the interwar period, the territory of Ukraine was divided between 4 neighboring states.'
+				],
+				INTRODUCTION2: [
+					"The situation of Ukrainians was complicated by the fact that the central and eastern Ukrainian lands were part of Soviet Russia and experienced all the consequences of the totalitarian Bolshevik regime. While the western Ukrainian territories, divided between Poland, Czechoslovakia, and Romania, had a different experience. This solution to the 'Ukrainian question'  had severe consequences for the Ukrainian people. While for most European countries, this short period meant a return to peaceful life, it remains in the collective memory of Ukrainians as a period characterized by repression and genocide by the Soviet regime, and by the Polish government's harsh chauvinistic assimilation policy, which was accompanied by deportations of the population and oppression of the Ukrainian language and church. A similar anti-Ukrainian policy, albeit in a somewhat milder form, was pursued by the governments of Romania and Czechoslovakia, respectively, in relation to Bukovyna and Zakarpattia. Such a rigid and sometimes brutal policy made Ukrainians perceive the new governments as occupying powers and provoked active resistance. Residents of the western part of Ukraine resisted especially hard fiercely, using both legal and underground methods of struggle. This included terror as strategy. Throughout the stateless period, the interests of Ukrainians in the world were represented by Ukrainian emigrants."
+				],
+				INTRODUCTION3: [
+					"The main flow of political emigration occurred in the early 1920s. In 1921, the number of Ukrainian immigrants in Western European countries reached almost 100. 000 people. [Deshchynskyi L.E. et al. History of Ukraine and its Statehood. A course of lectures: Study guide / L.E. Deshchynskyi, S.V. Terskyi, I.Y. Khoma, V.M. Taraban, R.D. Zinkevych, Y.Y. Denisov, I.O. Havryliv, I.V. Bukovskyi, A.Y. Nahirniak - Lviv: Lviv Polytechnic National University Press, 2009, 476 p.] A significant part of the emigrants were members of the national liberation movement who did not want to accept defeat and continued to fight for Ukraine's independence.The end of the war did not bring peace to Luxembourg either. After the signing of the Armistice of Compiègne, the country was gripped by revolutionary fever. The workers' and peasants' council, supported by the crowd, demanded the overthrow of the monarchy and the proclamation of a republic. The newly formed French League also wanted to establish a republic in Luxembourg under the protection of France. Belgium put forward its own territorial claims. The fate of the dynasty hung in the balance. At this difficult time, the Minister of State Emil Reute  proposed a referendum in which the people would choose the form of government. [Michel Pauly,  „1918-1919 - ein Krisenjahr mit langfristigen Folgen“ // Ons Stad. 120 (2019), p. 8-11 (Online at https://onsstad.vdl.lu/)]Maria-Adelaide accepted to abdicate in favor of her sister. The short, but eventful and rather tragical biography of Grand Duchess Maria Adelaide is thoroughly reflected in the work of Dr. Josiane Weber. Her research, based on historical sources, balances the bias of  her foes and her supporters and reassesses her importance in the history of Luxembourg.  [Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912–1919), Édittions Guy Binsfeld, Luxemburg, 2019] A summary of her research results is presented in  Weber’s public conference (in Luxembourgish).[https://www.youtube.com/watch?v=zOwo5WA4EGQ]."
+				],
+				QUOTE: {
+					CONTENT: "'The past is never dead. It's not even past.'",
+					AUTHOR: 'Stefan Zweig.'
+				},
+				CHARLOTTE: {
+					PARAGRAPH_1: [
+						'Princess Charlotte became the head of state on January 15, 1919. '
+					],
+					PARAGRAPH_2: [
+						'The diplomatic situation remained strained and threatened Charlotte with the loss of her throne and the state with the loss of independence. The referendum ensured internal stability. On September 28, 1919, almost 80% of the population of Luxembourg voted in favor of preserving the monarchy, headed by the Grand Duchess Charlotte. At the same time, a new constitution was adopted that declared the nation sovereign and clearly regulated the powers of the monarch. It is often assumed that the monarchy had been saved by women, who were granted the right to vote for the first time on the eve of the referendum – the actual voting pattern according to gender is not known, but it is clear that the industrial south was much less in favor of the monarchy than the rest of the country.  [Quoted by Pol Weitz. Charlotte von Luxemburg: ein Lebensbild. Druckerei J.M. Watgen, Luxemburg, 1990, S 64.].'
+					],
+					PARAGRAPH_3: [
+						'In that context, the marriage of the Grand Duchess Charlotte and Felix of Bourbon-Parma deserves special attention. From the memoirs of the American-born Papal Privy Counselor (Chamberlain) Francis Augustus MacNutt, it emerges that this marriage was concluded by proxy and out of the public eye on March 24, 1919 in Switzerland at the Wartegg Castle. '
+					],
+					PARAGRAPH_4: [
+						"A marriage between relatives required special permission from the Pope, which Prince Felix managed to obtain. Difficulties, however, arose in Charlotte's homeland. The Luxembourgers were wary of the future prince, who had fought in an enemy coalition. [Georges Hellinghause, Hat Großherzogin Charlotte zweimal geheiratet?, in: Hémecht 59/1 (2007), p. 5-18, [Digitised by the National Library of Luxembourg. Available online :https://persist.lu/ark:70795/z0r1k4j8t/pages/7/articles/DTL903] "
+					],
+					PARAGRAPH_5: [
+						'However, the young couple overcame all obstacles. In the following years the couple had six children: Jean, Elizabeth, Marie-Adelaide, Marie-Gabrielle, Charles, and Alix. The whole country celebrated the birth of their first child, the heir to the throne.'
+					],
+					PARAGRAPH_6: [
+						"It is worth noting that by giving birth to a son and choosing the name Jean for him – a reference to the national hero John the Blind, king of Bohemia, the Grand Duchess won the symbolic 'battle' with the opponents of the monarchy, significantly strengthening the throne. Prince Jean became the first male heir to the throne born on Luxembourg's soil. The dynastic crisis had been overcome. However, a new war was looming."
+					]
+				},
+				SOFIA: {
+					PARAGRAPH_1: [
+						"The Riga Peace Treaty of 1921 recognized Poland's right to Eastern Galicia. This decision of the Entente countries, aggravated by various types of discrimination by the restored Polish state, caused active resistance among Western Ukrainians. They tried to get rid of this occupation by any means, using both legal and underground methods of struggle that included terror."
+					],
+					PARAGRAPH_2: [
+						"The participants of the national liberation struggle who survived the hell of war, refusing to accept the defeat of their idea.  Many left their homeland to continue the fight from abroad. During this difficult period for the family, Sofia studied at the Trade Academy in Vienna. After graduating in 1923, she worked at the Audit Union of Ukrainian Cooperatives in Lviv. In 1924, she got engaged to Andriy Melnyk. It is likely that Andriy Melnyk was introduced to the Fedak family, similar to Metropolitan Sheptytsky, by another well-known Ukrainian politician and public figure, Yevhen Olesnytskiy,  Maria Fedak's uncle. Olesnytskiy had taken care of Andriy from the time he studied at the Striy  Gymnasium. In 1924, Melnyk was sentenced by the Polish authorities to four years in prison for underground pro-Ukrainian activities."
+					],
+					PARAGRAPH_3: [
+						"Sofia went to the prison with packages to her fiancé every day for four years. It is also known that it was thanks to Andriy Melnyk that Yevhen Konovalets met and later married Olga Fedak. As the leader of an underground pro-Ukrainian organization (UVO), it was dangerous for Konovalets to remain in Ukraine. In December 1922, his wife and him emigrated to the West. They lived in exile in various European countries until the end of their lives, but never stopped fighting for Ukraine's independence (see below). After the end of his imprisonment, Andriy was able to marry Sofia. The wedding took place on February 28, 1929, in the chapel of the Theological Seminary in Lviv. The couple had no children. Perhaps this was the result of the torture he suffered in Russian and Polish captivity. Melnyk later recalled his time in the Polish prison: 'they beat me so much that it reached the League of Nations' [Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / compiled by O. Kucheruk, Y. Cherchenko. К., 2011, p. 158]"
+					],
+					PARAGRAPH_4: [
+						'After his release, Sofia and Andriy stayed in Galicia. Sofia continued her work at the Audit Union and, together with her mother and sisters, initiated the creation of the Ukrainian Society of Women with Higher Education, which promoted feminist ideas.  Andriy, who had the military rank of who held the rank of colonel in the UPR army during the liberation struggle of 1918-1920, [Andrii Melnyk 130. Collection of materials of the All-Ukrainian Scientific and Practical Conference dedicated to the famous Ukrainian statesman, politician, and military figure - Colonel Andrii Melnyk. 20 - 21 November 2019, Truskavets.  p. 68] first completed his education in Vienna and then started to work as a forestry engineer in the estates of the Metropolitan Andrey Sheptytsky.'
+					],
+					PARAGRAPH_5: [
+						"hese forests were famous far beyond the borders of Galicia. It is known that at the turn of the nineteenth and twentieth centuries European aristocrats came to the Carpathians to hunt deers. This tradition continued after the war. Melnyk, who had a university degree and spoke foreign languages, met 'high' guests with whom he could easily communicate. The memoirs of one of Melnyk's future political associates reveal an interesting detail, possibly heard from the colonel himself, about his acquaintance with Prince Felix, the Consort of Luxembourg. [From the memoirs of Oleg Zhdanovych / Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / compiled by O. Kucheruk, Y. Cherchenko. К. 2011, p. 53]"
+					],
+					PARAGRAPH_6: [
+						"'Felix Bourbon-Parma, the brother of the Emperor's wife Zita, and thus a Habsburg relative, served in Przemysl. From the garrison he knew Ukrainians and the Ukrainian problem. As a relative of the Habsburgs and having memories of his youth in Galicia, he often came to Lviv and to Berehynia Forest for hunting. It was here that he initiated the acquaintance and friendship with Mr. Melnyk. That is why Colonel Melnyk was able to settle in Luxembourg so easily after the war ended.'"
+					],
+					PARAGRAPH_7: [
+						"Meanwhile, Sofia's family faced new challenges. On January 6, 1937, her father, Stepan Fedak, suddenly died. A year before his death, he had prepared a will, according to which his wife, Maria Fedak born Sichynsky, was appointed the 'universal heiress' of all the family's property. The lawyer appointed his daughter Sofia as the second main heir, provided that"
+					],
+					PARAGRAPH_8: [
+						"'she would not keep the property for herself, but would give it to those in her family who would need it when they needed it.' [Olga  Kuzmovych. This and That. A Collection of Stories and Essays. New York. 2000, p. 20]"
+					],
+					PARAGRAPH_9: [
+						"In May 1938, Olena’s husband Yevhen Konovalets was assassinated in Rotterdam by a Soviet secret service agent. Since February 1929, he had been the head of the Organization of Ukrainian Nationalists (OUN), an underground movement founded in Vienna to unite pro-Ukrainian groups that had been scattered after the war. Andriy Melnyk had joined when completing his education in Vienna, and from the beginning of 1937 he was the organization's treasurer. In his will, Colonel Konovalets appointed Colonel Melnyk, as his successor as head of the organization in the event of his death. This heavy responsibility had an impact on the Melnyks, who left for Berlin in September 1938 - Austria having been incorporated into the Reich in March that year. They didn’t know that they would never return to their homeland. Looking back at the interwar years,  Sofia’s niece, who was born in 1917 and spent a lot of time in the care of her grandmother, wrote:"
+					],
+					PARAGRAPH_10: [
+						"'My childhood in the Fedak family was neither cheerful nor simple... It was constantly associated with some kind of danger, cowards, arrests, escapes abroad, and political trials in which our family members were also defendants, and my grandfather, Dr. Stepan Fedak, was the defense attorney...' [Olga Kuzmovych. This and That. A collection of short stories and essays. New York. 2000,  p. 25]."
+					]
+				}
+			}
+		}
 		},
 	'WORLD WAR TWO': {
   	CHAPTER4: {

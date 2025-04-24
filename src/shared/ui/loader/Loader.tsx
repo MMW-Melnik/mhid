@@ -34,7 +34,10 @@ export const Loader: FC<ILoaderProps> = ({ setLoading }) => {
 
 	return (
 		<div ref={preloaderRef} className={styles.loader}>
-			<Heading level={3}>The Luxembourg Dream</Heading>
+			<Heading level={3}>
+				Between friendship and politics: little-known aspects <br />
+				of the history of Ukrainian-Luxembourgish relations
+			</Heading>
 			<div className={styles['progress-bar']}>
 				<div ref={progressBarRef} className={styles.progress}></div>
 			</div>

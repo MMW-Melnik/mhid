@@ -3,7 +3,7 @@
 	.image_container {
 		@apply flex max-w-[780px] h-auto w-full;
 		.image {
-			@apply w-full h-[45vh] object-contain;
+			@apply w-auto h-[45vh] object-contain;
 		}
 	}
 

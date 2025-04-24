@@ -1,16 +1,18 @@
 'use client'
 import {
 	AfterWar,
+	InterwarPeriod,
 	PremonitionOfWarChapter,
-	WorldWar2
+	WorldWar2,
+	WorldWarOneChapter
 } from '@/widgets/chapters'
 
 export const HomePage = () => {
 	return (
 		<>
 			<PremonitionOfWarChapter />
-			{/* <WorldWarOneChapter /> */}
-			{/* <InterwarPeriod /> */}
+			<WorldWarOneChapter />
+			<InterwarPeriod />
 			<WorldWar2 />
 			<AfterWar />
 		</>

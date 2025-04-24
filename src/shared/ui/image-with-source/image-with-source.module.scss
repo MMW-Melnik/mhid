@@ -15,5 +15,5 @@
 }
 
 .text {
-	@apply absolute px-8 flex justify-end items-center bottom-8 right-8 text-white text-t14 text-right opacity-50;
+	@apply absolute flex justify-end items-start bottom-8 right-8 left-8 text-sand text-t14;
 }
