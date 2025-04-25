@@ -15,7 +15,7 @@ export const Charlotte: FC = () => {
 		<>
 		<section>
 			<ContentBlock>
-				<Heading level={3}>Charlotte</Heading>
+				<Heading level={3}>CHARLOTTE</Heading>
 				<RenderTextArray textArray={texts.rawCHAPTER4CharlotteText1}/>
 				<RenderTextArray textArray={texts.rawCHAPTER4CharlotteText2}/>
 

@@ -8,7 +8,7 @@ import { ContentBlock } from '@/widgets/content-block'
 import { Chapter } from '@/widgets/index'
 import { useTranslation } from 'react-i18next'
 
-const LastLife = () => {
+export const LastLife = () => {
 	const { t } = useTranslation('home')
 	const texts = useFormattedTexts()
 
@@ -31,4 +31,3 @@ const LastLife = () => {
 	)
 }
 
-export default LastLife

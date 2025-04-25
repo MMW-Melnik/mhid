@@ -12,7 +12,7 @@ export const Sofia: FC = () => {
 	return (
 		<section>
 			<ContentBlock>
-				<Heading level={3}>Sofia</Heading>
+				<Heading level={3}>SOFIA</Heading>
 				<RenderTextArray textArray={texts.rawCHAPTER5SofiaText1} />
 			</ContentBlock>
 			<div className={styles.gallery}>

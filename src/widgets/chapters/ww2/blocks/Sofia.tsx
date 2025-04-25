@@ -24,7 +24,7 @@ export const Sofia: FC = () => {
   } = worldWarTwoSofiaImages
 
    const flow = [
-    { type: 'title', text: 'Sofia' },
+    { type: 'title', text: 'SOFIA' },
     { type: 'p', id: 0 },
     { type: 'p', id: 1 },
     { type: 'p', id: 2 },

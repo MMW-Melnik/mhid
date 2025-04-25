@@ -2,11 +2,11 @@
 import {
 	AfterWar,
 	InterwarPeriod,
+	LastLife,
 	PremonitionOfWarChapter,
 	WorldWar2,
 	WorldWarOneChapter
 } from '@/widgets/chapters'
-import LastLife from '@/widgets/chapters/epilog/Epilog'
 
 export const HomePage = () => {
 	return (

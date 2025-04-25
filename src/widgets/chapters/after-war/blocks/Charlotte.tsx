@@ -26,7 +26,7 @@ export const Charlotte: FC = () => {
 	return (
 		<section>
 			<ContentBlock>
-				<Heading level={3}>Charlotte</Heading>
+				<Heading level={3}>CHARLOTTE</Heading>
 				{flow.map((block, i) => {
 					if (block.type === 'p') {
 						return <RenderTextArray key={i} textArray={paragraphs[block.id]} />
