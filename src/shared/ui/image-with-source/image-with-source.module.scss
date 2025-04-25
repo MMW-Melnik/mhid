@@ -1,7 +1,12 @@
 .image_with_source {
-	@apply p-3 relative block object-cover;
-	transition: all 0.3s ease-in-out;
+	@apply p-3 relative;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+
 
 .image {
 	@apply object-cover w-full opacity-50 block;

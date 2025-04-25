@@ -1,9 +1,10 @@
 'use client'
 import {
+	AfterWar,
+	InterwarPeriod,
 	PremonitionOfWarChapter,
 	WorldWar2,
-	WorldWarOneChapter,
-	InterwarPeriod
+	WorldWarOneChapter
 } from '@/widgets/chapters'
 import LastLife from '@/widgets/chapters/epilog/Epilog'
 import { Intro } from '@/shared/ui'
@@ -22,7 +23,8 @@ export const HomePage = () => {
 			<WorldWarOneChapter />
 			<InterwarPeriod />
 			<WorldWar2 />
-			{/* <LastLife /> */}
+			<AfterWar />
+			<LastLife />
 		</>
 	)
 }

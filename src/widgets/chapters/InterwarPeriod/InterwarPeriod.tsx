@@ -1,16 +1,15 @@
-import img1 from '@/app/assets/images/home/interwar-period/other/building.jpg'
-import img2 from '@/app/assets/images/home/interwar-period/other/street1.jpg'
-import img3 from '@/app/assets/images/home/interwar-period/other/village.jpg'
-import { FormattedText, Heading } from '@/shared/ui'
+import img1 from '@/app/assets/images/home/after-war/building.jpg'
+import img2 from '@/app/assets/images/home/after-war/street1.jpg'
+import img3 from '@/app/assets/images/home/after-war/village.jpg'
+
+import { childhoodCharlotteImages, generalImages } from '@/entities/index'
+import { useFormattedTexts } from '@/shared/hooks/useTexts'
+import { Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
 import { ContentBlock } from '@/widgets/content-block'
 import { Chapter } from '@/widgets/index'
-import { useTranslation } from 'react-i18next'
-import { useFormattedTexts } from '@/shared/hooks/useTexts'
-import { RenderTextArray } from '@/shared/ui'
 import { Quote } from '@/widgets/quote/Quote'
-import { generalImages, childhoodCharlotteImages } from '@/entities/index'
-import { ImageWithSource } from '@/shared/ui'
 import spike from '@/app/assets/images/home/INTERWAR-PERIOD/image6.jpg'
+import { useTranslation } from 'react-i18next'
 
 export const InterwarPeriod = () => {
 	const { t } = useTranslation('home')

@@ -1,16 +1,20 @@
+import Chpter3PrincessImage from '@/app/assets/images/home/interwar-period/charlotte/image1.jpg'
+import Chpter3FamilyImage from '@/app/assets/images/home/interwar-period/charlotte/image16.jpg'
+import Chpter3BabyImage from '@/app/assets/images/home/interwar-period/charlotte/image35.jpg'
+import Chpter3WeddingImage from '@/app/assets/images/home/interwar-period/charlotte/image38.jpg'
 import Chapter1CoupleImage from '@/app/assets/images/home/premonition-of-war/charlotte/couple.jpg'
 import Chapter1HouseImage from '@/app/assets/images/home/premonition-of-war/charlotte/house.jpg'
 import Chapter1RiderImage from '@/app/assets/images/home/premonition-of-war/charlotte/rider.jpg'
 import Chapter1SistersImage from '@/app/assets/images/home/premonition-of-war/charlotte/sisters.jpg'
-import Chapter2WomenImage from '@/app/assets/images/home/ww1/charlotte/image7.png'
 import Chapter2PrinceImage from '@/app/assets/images/home/ww1/charlotte/image2.jpg'
-import Chpter3PrincessImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image1.jpg'
-import Chpter3WeddingImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image38.jpg'
-import Chpter3BabyImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image35.jpg'
-import Chpter3FamilyImage from '@/app/assets/images/home/INTERWAR-PERIOD/charlotte/image16.jpg'
+import Chapter2WomenImage from '@/app/assets/images/home/ww1/charlotte/image7.png'
 
 import Family from '@/app/assets/images/home/ww2/charlotte-family-image.jpg'
 import Grande from '@/app/assets/images/home/ww2/charlotte-grande-dusche.jpg'
+
+import GrandImage from '@/app/assets/images/home/after-war/charlotte-grand-duche.png'
+import MonumentImage from '@/app/assets/images/home/after-war/charlotte-monument.png'
+import YoungImage from '@/app/assets/images/home/after-war/charlotte-young-photo.jpg'
 
 import { ImageConfig } from '@/shared/types'
 
@@ -104,5 +108,28 @@ export const charlotteWorldWarTwoImages: Record<
 		alt: 'Grande-Duchesse Charlotte Portrait',
 		caption:
 			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117'
+	}
+}
+
+export const charlotteAfterWarImages: Record<
+	'Grand' | 'Young' | 'Monument',
+	ImageConfig
+> = {
+	Grand: {
+		src: GrandImage.src,
+		alt: 'Grande-Duchesse Charlotte Portrait',
+		caption: 'Grand Duchess Charlotte. November, 1969 [Photo from open sources]'
+	},
+	Young: {
+		src: YoungImage.src,
+		alt: 'Grande-Duchesse Charlotte Portrait',
+		caption:
+			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3119'
+	},
+	Monument: {
+		src: MonumentImage.src,
+		alt: 'Monument to the Grand Duchess Charlotte in Luxembourg City',
+		caption:
+			"A statue of the Grand Duchess of Luxembourg has stood in the middle of Luxembourg City's Place de Clairefontaine since 1990. [Photo from open sources]"
 	}
 }

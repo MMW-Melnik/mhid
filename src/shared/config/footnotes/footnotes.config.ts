@@ -338,5 +338,111 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 		source47: {
 			source:
 				'ANLux, Police des Etrangers, Cote I-108-0454952, No. 4828, Report of the Brigadier of the Public Security Service in Luxembourg, 1945'
+		},
+
+		source48: {
+			source: "AStéphane Bern tourne Secrets d'Histoire au Luxembourg",
+			url: 'https://www.virgule.lu/luxembourg/stephane-bern-tourne-secrets-d-histoire-au-luxembourg/130154.html'
+		},
+		source49: {
+			source: 'La Grande-Duchesse Charlotte de Luxembourg',
+			url: 'https://www.secretsdhistoire.tv/content/la-grande-duchesse-charlotte-de-luxembourg'
+		},
+
+		// CURRENT
+
+		source50: {
+			source:
+				'Memoirs of Sofia / Andriy Melnyk. 1890–1964. Memoirs. Documents. Correspondence / compiled by O. Kucheruk, Y. Cherchenko. – Kyiv: Olena Teliha Publishing House, 2011, p. 320.'
+		},
+		source51: {
+			source:
+				'Extract from the registration book of the commune of Hesperange, no. 260/46, Certificate of family composition and change of residence, 1946.'
+		},
+		source52: {
+			source:
+				"Wives of the Leaders / Women's Society named after Olha Basarab and Olena Teliha, Organization of Ukrainian Nationalists; compiled by Nadiya Buhay; under the editorship of Nadiya Strinzenets. – Kyiv: Ukrainian Culture Publishing House LLC, 2019, p. 11."
+		},
+		source53: {
+			source:
+				'ANLux, Police des Etrangers, Cote I-108-0454952, № 12196, Certificate from the Ministry of Labor, 1951.'
+		},
+		source54: {
+			source: 'ANLux, Police des Etrangers, Cote I-108-0454952, № 308119.'
+		},
+		source55: {
+			source:
+				'ANLux, Police des Etrangers, Cote I-108-0454952, № 308119, Police Report, 1957.'
+		},
+		source56: {
+			source:
+				"Wives of Leaders / Women's Society named after Olha Basarab and Olena Teliha, Organization of Ukrainian Nationalists; compiled by Nadiia Buhay; under the editorship of Nadiya Strinzenets. Kyiv: Ukrainian Culture Publishing House LLC, 2019, p. 11."
+		},
+		source57: {
+			source:
+				'ANLux, Police des Etrangers, Cote I-108-0454952, № 3825, Letter from a government advisor to A. Melnyk, 1948.'
+		},
+		source58: {
+			source:
+				"Olga Bezhuk. Women's stories of S. Fedak's family // Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology named after S.Z. Grzycki. Vol. 17 No. 4 (64), 2015, p. 366-376."
+		},
+		source59: {
+			source:
+				'ANLux, Police des Etrangers, Cote I-108-0454952, № 79, Report of the Police Brigadier to the Prosecutor General, 1946.'
+		},
+		source60: {
+			source:
+				"Justice to Mr. Corbert Prussen, Lieutenant-Adjutant of the Grand Duke's Palace, 1946."
+		},
+		source61: {
+			source:
+				'Extract from the registration book of the commune of Hesperange, № 19079, Certificate of family composition and change of residence.'
+		},
+		source62: {
+			source:
+				'Interview with Colonel Andriy Melnyk, Leader of the Ukrainian Nationalist Movement. Paris, 1950, p. 4.'
+		},
+		source63: {
+			source:
+				'Olga Kuzmowycz. This and That. Collected Short Stories and Essays. New York. 2000, p. 29.'
+		},
+		source64: {
+			source:
+				"Wives of the Leaders / Women's Society named after Olha Basarab and Olena Teliha, Organization of Ukrainian Nationalists; compiled by Nadiya Buhay; ed. Nadiia Strinzenets. Kyiv: Ukrainian Culture Publishing House LLC, 2019, p. 12."
+		},
+		source65: {
+			source: 'Memorial A no. 46 de 1975.'
+		},
+		source66: {
+			source:
+				"Ville de Luxembourg, Centre des technologies de l'information de l'État, Registre National des Personnes Physique, 1922."
+		},
+		source67: {
+			source:
+				'Olga Kuzmowycz. This and That. A Collection of Stories and Essays. New York. 2000, p. 25.'
+		},
+		source68: {
+			source:
+				'Olga Kuzmowycz. This and That. A Collection of Stories and Essays. New York. 2000, p. 58-59.'
+		},
+		source69: {
+			source:
+				'Loi du 24 février 1984 sur le régime des langues au Grand-Duché de Luxembourg.',
+			url: 'https://legilux.public.lu/eli/etat/leg/loi/1984/02/24/n1/jo'
+		},
+		source70: {
+			source:
+				'Official portal of the Grand Duchy of Luxembourg – Demographics overview (accessed 2025).',
+			url: 'https://luxembourg.public.lu/en/society-and-culture/population/demographics.html'
+		},
+		source71: {
+			source:
+				'UK House of Commons Library. Briefing CBP-9477: ‘Ukraine: measures following Russia’s 2022 invasion’, 2024.',
+			url: 'https://commonslibrary.parliament.uk/research-briefings/cbp-9477/'
+		},
+		source72: {
+			source:
+				'Security and long-term support agreement between Luxembourg and Ukraine, Presidential press release, 21 Mar 2024.',
+			url: 'https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-ta-dovgostrokovu-p-92057'
 		}
 	}
