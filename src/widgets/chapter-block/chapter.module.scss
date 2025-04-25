@@ -1,63 +1,68 @@
 .chapter {
-	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden;
-}
-
-.content {
-	@apply relative flex flex-col gap-4 items-center justify-center h-full top-[-8rem];
+	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden mt-96;
 }
 
 .heading_container {
-	@apply sticky overflow-visible;
+	@apply sticky overflow-visible w-full h-screen;
+}
+
+.imageContainer {
+	@apply relative w-full h-full overflow-hidden;
+}
+
+.bgImage {
+	@apply object-cover opacity-50;
+}
+
+.overlay {
+	@apply absolute inset-0 z-10;
+
+	background-image: linear-gradient(
+			to bottom,
+			rgba(20, 20, 20, 1) 0%,
+			rgba(20, 20, 20, 0.75) 20%,
+			rgba(20, 20, 20, 0) 40%,
+			rgba(20, 20, 20, 0) 60%,
+			rgba(20, 20, 20, 0.75) 80%,
+			rgba(20, 20, 20, 1) 100%
+		),
+		linear-gradient(
+			to right,
+			rgba(20, 20, 20, 1) 0%,
+			rgba(20, 20, 20, 0.75) 20%,
+			rgba(20, 20, 20, 0) 40%,
+			rgba(20, 20, 20, 0) 60%,
+			rgba(20, 20, 20, 0.75) 80%,
+			rgba(20, 20, 20, 1) 100%
+		);
+	pointer-events: none;
+}
+
+.content {
+	@apply absolute inset-0 flex flex-col gap-4 items-center justify-center z-20;
 }
 
 .content_heading {
-	@apply text-center text-h128;
+	@apply text-center text-h128 text-sand;
 }
 
 .quote {
 	@apply text-center text-sand;
 }
 
-.image1 {
-	@apply absolute top-[-250px] left-[0px] w-[50vh] h-[30vh] object-cover opacity-10 -z-10;
-}
-.image2 {
-	@apply absolute top-[200px] left-[50px] w-[50vh] h-[30vh] object-cover opacity-10 -z-10;
-}
-.image3 {
-	@apply absolute top-[0px] left-[600px] w-[50vh] h-[30vh] object-cover opacity-10 -z-10;
+.imageText {
+	@apply absolute bottom-4 right-4 z-10 text-sand text-xs;
 }
 
 @media (max-width: 1000px) {
 	.content_heading {
 		@apply text-h60 !important;
 	}
-	.quote {
-		@apply text-center text-sand;
-	}
-	.image1 {
-		@apply top-[-250px] left-[0px] w-[40vh] h-[20vh];
-	}
-	.image2 {
-		@apply top-[200px] left-[40px] w-[40vh] h-[20vh];
-	}
-	.image3 {
-		@apply top-[20px] left-[400px] w-[40vh] h-[20vh];
-	}
 }
 
 @media (max-width: 768px) {
 	.chapter {
-		@apply h-[125hv];
-	}
-	.image1 {
-		@apply top-[-150px] left-[0px] w-[30vh] h-[15vh];
-	}
-	.image2 {
-		@apply top-[250px] left-[50px] w-[30vh] h-[15vh];
-	}
-	.image3 {
-		@apply top-[80px] left-[200px] w-[30vh] h-[15vh];
+		@apply h-[125vh];
 	}
 }
 
@@ -67,17 +72,5 @@
 	}
 	.content_heading {
 		@apply text-h42 !important;
-	}
-	.quote {
-		@apply text-center text-sand;
-	}
-	.image1 {
-		@apply top-[-150px] left-[10px] w-[20vh] h-[10vh];
-	}
-	.image2 {
-		@apply top-[250px] left-[50px] w-[20vh] h-[10vh];
-	}
-	.image3 {
-		@apply top-[80px] left-[100px] w-[20vh] h-[10vh];
 	}
 }

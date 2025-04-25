@@ -8,6 +8,7 @@ import { CharlotteBlock } from './blocks/CharlotteBlock'
 import { IntroductionBlock } from './blocks/IntroductionBlock'
 import { SofiaBlock } from './blocks/SofiaBlock'
 import styles from './world-war-one.module.scss'
+import poppy from '@/app/assets/images/home/ww1/image32.jpg'
 
 export const WorldWarOneChapter: FC = ({}) => {
 	const { t } = useTranslation('home')
@@ -15,11 +16,10 @@ export const WorldWarOneChapter: FC = ({}) => {
 		<>
 			<section className={styles.ww1_section}>
 				<Chapter
+					bgImage={poppy}
+					imageText="Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)"
 					quote={t('WORLD WAR I.CHAPTER2.QUOTE.CONTENT')}
 					author={t('WORLD WAR I.CHAPTER2.QUOTE.AUTHOR')}
-					img1={img1.src}
-					img2={img2.src}
-					img3={img3.src}
 				>
 					{t('WORLD WAR I.CHAPTER2.TITLE')}
 				</Chapter>

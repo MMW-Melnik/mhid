@@ -4,24 +4,16 @@ import { Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
 import { ContentBlock } from '@/widgets/index'
 import { FC, useMemo } from 'react'
 
-
 export const Sofia: FC = () => {
-  const t = useFormattedTexts()
-  const paragraphs = useMemo(
-    () =>
-      Array.from({ length: 13 }, (_, i) => t[`rawCHAPTER4SofiaText${i + 1}`]),
-    [t]
-  )
+	const t = useFormattedTexts()
+	const paragraphs = useMemo(
+		() =>
+			Array.from({ length: 13 }, (_, i) => t[`rawCHAPTER4SofiaText${i + 1}`]),
+		[t]
+	)
 
-  const {
-    Memoir,
-    Review,
-    Dispatch,
-    Anmelde,
-    Antracg,
-    Report,
-    Police
-  } = worldWarTwoSofiaImages
+	const { Memoir, Review, Dispatch, Anmelde, Antracg, Report, Police } =
+		worldWarTwoSofiaImages
 
    const flow = [
     { type: 'title', text: 'SOFIA' },
@@ -47,31 +39,31 @@ export const Sofia: FC = () => {
     { type: 'p', id: 12 }
   ] as const
 
-  return (
-    <section>
-      <ContentBlock>
-        {flow.map((block, i) => {
-          if (block.type === 'title')
-            return (
-              <Heading key={i} level={3}>
-                {block.text}
-              </Heading>
-            )
+	return (
+		<section>
+			<ContentBlock>
+				{flow.map((block, i) => {
+					if (block.type === 'title')
+						return (
+							<Heading key={i} level={3}>
+								{block.text}
+							</Heading>
+						)
 
-          if (block.type === 'p')
-            return <RenderTextArray key={i} textArray={paragraphs[block.id]} />
+					if (block.type === 'p')
+						return <RenderTextArray key={i} textArray={paragraphs[block.id]} />
 
-          const { alt, caption, src } = block.data
-          return (
-            <ImageWithSource
-              key={i}
-              alt={alt}
-              sourceText={caption}
-              sourceImage={src}
-            />
-          )
-        })}
-      </ContentBlock>
-    </section>
-  )
+					const { alt, caption, src } = block.data
+					return (
+						<ImageWithSource
+							key={i}
+							alt={alt}
+							sourceText={caption}
+							sourceImage={src}
+						/>
+					)
+				})}
+			</ContentBlock>
+		</section>
+	)
 }

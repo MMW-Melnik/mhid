@@ -1,12 +1,9 @@
 .partner_card {
-	@apply flex flex-col w-full h-auto justify-between items-center  p-4  border border-solid border-d-grey transition-colors duration-200 ease-in-out;
-
-	&:hover,
-	&:focus {
-		@apply border-white;
-	}
+  @apply flex flex-col justify-center items-center w-full h-[150px] p-4
+         border border-d-grey/10 bg-l-grey/10
+         transition-colors duration-200 ease-in-out;
 }
 
-.partner_logo {
-	@apply max-w-[90px] h-auto w-full object-cover;
+.partner_card img {
+  @apply max-h-[200px] max-w-[200px] object-contain;  
 }

@@ -1,4 +1,6 @@
 'use client'
+import Bridge from '@/app/assets/images/home/bg.jpg'
+import { Intro } from '@/shared/ui'
 import {
 	AfterWar,
 	InterwarPeriod,
@@ -11,6 +13,12 @@ import {
 export const HomePage = () => {
 	return (
 		<>
+			<Intro
+				imageSrc={Bridge}
+				imageAlt="Roud Breck 2023"
+				text={"Between friendship and politics: little-known aspects of the history of Ukrainian-Luxembourgish relations".toUpperCase()}
+				imageText="Roud Breck 2023"
+			/>
 			<PremonitionOfWarChapter />
 			<WorldWarOneChapter />
 			<InterwarPeriod />

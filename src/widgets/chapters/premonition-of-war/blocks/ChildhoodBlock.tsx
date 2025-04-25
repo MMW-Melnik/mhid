@@ -1,14 +1,9 @@
 import {
 	childhoodCharlotteImages,
-	childhoodSofiaImages,
-	generalImages
+	childhoodSofiaImages
 } from '@/entities/index'
 import { useFormattedTexts } from '@/shared/hooks'
-import {
-	Heading,
-	ImageWithSource,
-	RenderTextArray
-} from '@/shared/ui'
+import { Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
 import { ContentBlock, Quote } from '@/widgets/index'
 import { FC } from 'react'
 import styles from '../premonition-war-chapter.module.scss'
@@ -17,7 +12,6 @@ export const ChildhoodBlock: FC = () => {
 	const texts = useFormattedTexts()
 	const { Couple, House, Rider, Sisters } = childhoodCharlotteImages
 	const { Man, Home } = childhoodSofiaImages
-	const { Field } = generalImages
 
 	return (
 		<div className={styles.childhood_and_youth}>
@@ -25,11 +19,6 @@ export const ChildhoodBlock: FC = () => {
 				{/* <Heading level={3}>Growing up in the Belle Epoque</Heading> */}
 
 				<RenderTextArray textArray={texts.rawChapter1IntroductionText} />
-				<ImageWithSource
-					sourceImage={Field.src}
-					sourceText={Field.caption}
-					alt={Field.alt}
-				/>
 				<Heading level={3}>CHARLOTTE</Heading>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText1} />
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText2} />

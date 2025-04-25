@@ -1,6 +1,6 @@
-// Intro.tsx
-import React, { FC } from 'react'
 import Image, { StaticImageData } from 'next/image'
+import { FC } from 'react'
+import { Heading } from '../heading/Heading'
 import styles from './intro.module.scss'
 
 export interface IIntro {
@@ -25,7 +25,7 @@ export const Intro: FC<IIntro> = ({
 			priority
 		/>
 		<div className={styles.overlay} />
-		<h1 className={styles.mainText}>{text}</h1>
+		<Heading level={3} className={styles.mainText}>{text}</Heading>
 		<span className={styles.imageText}>{imageText}</span>
 	</div>
 )
