@@ -36,6 +36,7 @@ export const Charlotte: FC = () => {
 						<ImageWithSource
 							key={i}
 							sourceImage={src}
+							imageName={alt}
 							alt={alt}
 							sourceText={caption}
 						/>

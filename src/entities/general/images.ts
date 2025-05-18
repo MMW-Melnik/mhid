@@ -13,24 +13,24 @@ export const generalImages: Record<
 		src: Chapter1Field.src,
 		alt: 'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)',
 		caption:
-			'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)'
+			'(Photo from open sources)'
 	},
 	Poppy: {
 		src: Chapter2Poppy.src,
 		alt: 'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)',
 		caption:
-			'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)'
-	},
-	Map: {
-		src: Chapter3Map.src,
-		alt: 'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)',
-		caption:
-			'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)'
+			'(Photo from open sources)'
 	},
 	Spike: {
 		src: Chapter3Spike.src,
 		alt: 'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)',
 		caption:
-			'Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)'
+			'(Photo from open sources)'
+	},
+		Map: {
+		src: Chapter3Map.src,
+		alt: 'Copyright © 1995 by Andrew Gregorovich Toronto-Scranton',
+		caption:
+			'FORUM 1995, http://www.infoukes.com/history/ww2/'
 	}
 }

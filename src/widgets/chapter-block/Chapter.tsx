@@ -24,42 +24,59 @@ export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 	const headingContainerRef = useRef<HTMLDivElement>(null)
 	const { t } = useTranslation('home')
 
-	useLayoutEffect(() => {
-		let ctx: gsap.Context | null = null
+useLayoutEffect(() => {
+  let ctx: gsap.Context | null = null
 
-		;(async () => {
-			const gsapModule = await import('gsap')
-			const { ScrollTrigger } = await import('gsap/ScrollTrigger')
+  ;(async () => {
+    const gsapModule = await import('gsap')
+    const { ScrollTrigger } = await import('gsap/ScrollTrigger')
 
-			const gsap = gsapModule.gsap || gsapModule.default
-			gsap.registerPlugin(ScrollTrigger)
+    const gsap = gsapModule.gsap || gsapModule.default
+    gsap.registerPlugin(ScrollTrigger)
 
-			const headingContainer = headingContainerRef.current
+    const headingContainer = headingContainerRef.current
 
-			if (!headingContainer) return
+    if (!headingContainer) return
 
-			ctx = gsap.context(() => {
-				const tl = gsap.timeline({
-					scrollTrigger: {
-						trigger: headingContainer,
-						start: 'top bottom',
-						end: '+=3000',
-						scrub: true
-					}
-				})
+    ctx = gsap.context(() => {
+      const tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: headingContainer,
+          start: 'top bottom-=20%', // When top of element hits 80% viewport height
+          end: 'bottom top+=20%',   // When bottom of element hits 20% viewport height
+          scrub: true,
+          invalidateOnRefresh: true
+        }
+      })
 
-				tl.fromTo(
-					headingContainer,
-					{ opacity: 0, yPercent: -60 },
-					{ opacity: 1, yPercent: -10, duration: 2 }
-				).to(headingContainer, { opacity: 0, yPercent: 0, duration: 3 })
-			}, headingContainerRef)
-		})()
+      // Animation curve
+      tl.fromTo(
+        headingContainer,
+        { 
+          opacity: 0,
+          yPercent: 20 // Start slightly below
+        },
+        { 
+          opacity: 1,
+          yPercent: 0, // Move to original position
+          ease: 'power2.out',
+          duration: 2
+        }
+      ).to(
+        headingContainer,
+        { 
+          opacity: 0,
+          yPercent: -20, // Move up while fading out
+          ease: 'power2.in',
+          duration: 2
+        },
+        '>-=0.5' // Overlap animations slightly
+      )
+    }, headingContainerRef)
+  })()
 
-		return () => {
-			ctx && ctx.revert()
-		}
-	}, [])
+  return () => ctx?.revert()
+}, [])
 
 	return (
 		<div className={styles.chapter}>

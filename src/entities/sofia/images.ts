@@ -14,10 +14,12 @@ import SofiaImage1 from '@/app/assets/images/home/after-war/sofia-1.png'
 import SofiaImage2 from '@/app/assets/images/home/after-war/sofia-2.png'
 import SofiaImage3 from '@/app/assets/images/home/after-war/sofia-3.png'
 import SofiaImage4 from '@/app/assets/images/home/after-war/sofia-4.png'
+import SofiaImage from '@/app/assets/images/home/after-war/sofia.png'
 
 import Andrey1 from '@/app/assets/images/home/after-war/andrey-1.png'
 import Andrey2 from '@/app/assets/images/home/after-war/andrey-2.png'
 import Andrey3 from '@/app/assets/images/home/after-war/andrey-3.png'
+import Andrey from '@/app/assets/images/home/after-war/andrey.png'
 
 import CemeteryImage from '@/app/assets/images/home/after-war/sofia-cemetery.png'
 import DocImage from '@/app/assets/images/home/after-war/sofia-doc.jpg'
@@ -26,19 +28,25 @@ import ObituaryImage from '@/app/assets/images/home/after-war/sofia-obituary-ima
 
 import { ImageConfig } from '@/shared/types'
 
-export const childhoodSofiaImages: Record<'Man' | 'Home', ImageConfig> = {
+export const sofiaBelleEpoqueImages: Record<'Man' | 'Home', ImageConfig> = {
 	Man: {
 		src: Chapter1ManImage.src,
-		alt: 'Portrait of Stepan Fedak. Painting by Ivan Trush. 1925 (Google.com)',
-		caption:
-			'Portrait of Stepan Fedak. Painting by Ivan Trush. 1925 (Google.com)'
+		alt: 'Portrait of Stepan Fedak. Painting by Ivan Trush. 1925 ',
+		caption: '(Google.com)'
 	},
 	Home: {
 		src: Chapter1HomeImage.src,
-		alt: "The house of Stepan Fedak's family. Lviv, Ukraine (Modern photo from open sources)",
-		caption:
-			"The house of Stepan Fedak's family. Lviv, Ukraine (Modern photo from open sources)"
+		alt: "The house of Stepan Fedak's family. Lviv, Ukraine",
+		caption: '(Modern photo from open sources)'
 	}
+}
+
+export const sofiaWorldWar1Images: Record<string, ImageConfig> = {
+
+}
+
+export const sofiaInterwarPeriodImages: Record<string, ImageConfig> = {
+
 }
 
 export const worldWarTwoSofiaImages: Record<
@@ -46,97 +54,92 @@ export const worldWarTwoSofiaImages: Record<
 	| 'Review'
 	| 'Dispatch'
 	| 'Anmelde'
-	| 'Antracg'
-	| 'Report'
-	| 'Police',
+	| 'Antracg',
 	ImageConfig
 > = {
 	Memoir: {
 		src: MemoirImage.src,
-		alt: 'Image of memoirs of Yevhen Malaniuk',
+		alt: 'From the memoirs of Yevhen Malaniuk',
 		caption:
-			'From the memoirs of Yevhen Malaniuk / Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011, p. 102.'
+			'[From the memoirs of Yevhen Malaniuk / Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011, p. 102.]'
 	},
 
 	Review: {
 		src: ReviewImage.src,
-		alt: "André François-Poncet. Carnets d'un Captif",
+		alt: "",
 		caption:
-			"André François-Poncet. Carnets d'un Captif. Dans les ateliers de l'imprimerie Firmin-Didot, le Mesnil-sur-l'Estrée. 1952, p. 117"
+			"[Source : André François-Poncet. Carnets d'un Captif. Dans les ateliers de l'imprimerie Firmin-Didot, le Mesnil-sur-l'Estrée. 1952, p. 117]"
 	},
 
 	Dispatch: {
 		src: DispatchImage.src,
-		alt: 'A. Melnyk Dispatch Document Image',
+		alt: '',
 		caption:
-			'A. Melnyk Dispatch Document Image. Source https://catalog.archives.gov/id/139373375. P. 75'
+			'[https://catalog.archives.gov/id/139373375. P. 75] '
 	},
 
 	Anmelde: {
 		src: AnmeldeImage.src,
-		alt: 'ANLux, Police des Etrangers Document Image',
+		alt: '',
 		caption:
-			'ANLux, Police des Etrangers, Cote I-108-0454952, № 308119, Declaration of Arrival, 1946'
+			'[ANLux, Police des Etrangers, Cote I-108-0454952, № 308119, Declaration of Arrival, 1946].'
 	},
 
 	Antracg: {
 		src: AntragImage.src,
-		alt: 'ANLux, Police des Etrangers Document Image',
+		alt: '',
 		caption:
-			'ANLux, Police des Etrangers, Cote I-108-0454952, № 308119, Application for residence permit for foreigners, 1946]'
+			'[Source : ANLux, Police des Etrangers, Cote I-108-0454952, No. 308119, Declaration of Arrival, 1946, (extract)]'
 	},
-
-	Report: {
-		src: ReportImage.src,
-		alt: 'Typewritten memo to the Hesperingen local police about a planned farm lease, early 1940s',
-		caption:
-			'Administrative note asking the Hesperingen police to verify the Melnyk family’s plan to lease a farm and prove their means of subsistence (c. 1941).'
-	},
-
-	Police: {
-		src: PoliceImage.src,
-		alt: 'Typewritten German report on the Melnyk family’s sources of income, early 1940s',
-		caption:
-			'ANLux, Police des Etrangers, Cote I-108-0454952,  № 180, Report of the Brigadier of the Esperange commune police to the Luxembourg Attorney General, 1946, (extract)'
-	}
 }
 
 
-export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia4' | 'Andrey1'| 'Andrey2' | 'Andrey3' | 'Doc' | 'Obituary' | 'House' | 'Cemetery', ImageConfig> = {
+export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia4' | 'Andrey1'| 'Andrey2' | 'Andrey3' | "Andrey" | "Sofia" | 'Doc' | 'Obituary' | 'House' | 'Cemetery', ImageConfig> = {
 	Sofia1: {
 		src: SofiaImage1.src,
-		alt: 'Source : ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)',
-		caption: 'Source : ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)'
+		alt: '',
+		caption:' ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)'
 	},
 	Sofia2: {
 		src: SofiaImage2.src,
-		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1959, (extract)',
+		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1959, (extract)'
 	},
 	Sofia3: {
 		src: SofiaImage3.src,
-		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1963, (extract)',
+		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1963, (extract)'
 	},
 	Sofia4: {
 		src: SofiaImage4.src,
-		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1965, (extract)',
+		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1965, (extract)'
 	},
 	Andrey1: {
 		src: Andrey1.src,
-		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)',
+		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1956, (extract)'
 	},
 	Andrey2: {
 		src: Andrey2.src,
-		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1958, (extract)',
+		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1958, (extract)'
 	},
 	Andrey3: {
 		src: Andrey3.src,
-		alt: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1961, (extract)',
+		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1961, (extract)'
+	},
+	Andrey: {
+		src: Andrey.src,
+		alt: '',
+		caption: '[Source : ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1963, (extract)]'
+	},
+
+	Sofia: {
+		src: SofiaImage.src,
+		alt: '',
+		caption: '[Source : ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1970, (extract)]'
 	},
 
 	Doc: {
@@ -153,16 +156,16 @@ export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia
 
 	House: {
 		src: HouseImage.src,
-		alt: "The house of Stepan Fedak's family in Luxembourg. (Modern photo from open sources)",
+		alt: "",
 		caption:
-			"The house of Stepan Fedak's family in Luxembourg.Photo from open sources"
+			"(Photo from open sources)"
 	},
 
 	Cemetery: {
 		src: CemeteryImage.src,
 		alt: "Monument to A. Melnyk at the cemetery of Bonnevoie, Luxembourg",
 		caption:
-			"Monument to A. Melnyk at the cemetery of Bonnevoie, Luxembourg. [Photo from open sources]"
+			"[Photo from open sources]"
 	}
 
 	

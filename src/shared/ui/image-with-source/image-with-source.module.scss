@@ -1,19 +1,27 @@
 .image_with_source {
-	@apply p-3 relative;
+	@apply p-5 relative;
 	width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 1rem;
 }
 
-
 .image {
-	@apply object-cover w-full opacity-50 block;
+	@apply object-cover w-full opacity-90 block;
 	transition: all 0.3s ease-in-out;
 	transform-origin: center;
 }
 
-.text {
-	@apply absolute flex justify-end items-start bottom-8 right-8 left-8 text-sand text-t14;
+.meta {
+	@apply w-full flex flex-col px-4;
+	
+	.name {
+		@apply text-sand text-t14 font-semibold;
+	}
+	
+	.source {
+		@apply text-sand text-t12 italic opacity-75;
+	}
 }

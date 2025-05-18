@@ -1,6 +1,4 @@
-import {
-	childhoodCharlotteImages,
-	childhoodSofiaImages
+import { charlotteBelleEpoqueImages, sofiaBelleEpoqueImages
 } from '@/entities/index'
 import { useFormattedTexts } from '@/shared/hooks'
 import { Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
@@ -10,8 +8,8 @@ import styles from '../premonition-war-chapter.module.scss'
 
 export const ChildhoodBlock: FC = () => {
 	const texts = useFormattedTexts()
-	const { Couple, House, Rider, Sisters } = childhoodCharlotteImages
-	const { Man, Home } = childhoodSofiaImages
+	const { Couple, Sisters, House, Rider } = charlotteBelleEpoqueImages
+	const {Man, Home} = sofiaBelleEpoqueImages
 
 	return (
 		<div className={styles.childhood_and_youth}>
@@ -25,6 +23,7 @@ export const ChildhoodBlock: FC = () => {
 				<ContentBlock>
 					<ImageWithSource
 						sourceImage={Couple.src}
+						imageName={Couple.alt}
 						sourceText={Couple.caption}
 						alt={Couple.alt}
 						width={600}
@@ -33,8 +32,9 @@ export const ChildhoodBlock: FC = () => {
 				</ContentBlock>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText3} />
 				<ImageWithSource
-					sourceImage={Sisters.src}
-					sourceText={Sisters.caption}
+						sourceImage={Sisters.src}
+						imageName={Sisters.alt}
+						sourceText={Sisters.caption}
 					alt={Sisters.alt}
 				/>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText4} />
@@ -43,8 +43,9 @@ export const ChildhoodBlock: FC = () => {
 
 			<ContentBlock>
 				<ImageWithSource
-					sourceImage={House.src}
-					sourceText={House.caption}
+						sourceImage={House.src}
+						imageName={House.alt}
+						sourceText={House.caption}
 					alt={House.alt}
 					width={750}
 					height={750}
@@ -57,8 +58,9 @@ export const ChildhoodBlock: FC = () => {
 
 			<ContentBlock>
 				<ImageWithSource
-					sourceImage={Rider.src}
-					sourceText={Rider.caption}
+						sourceImage={Rider.src}
+						imageName={Rider.alt}
+						sourceText={Rider.caption}
 					alt={Rider.alt}
 					width={600}
 					height={600}
@@ -69,14 +71,9 @@ export const ChildhoodBlock: FC = () => {
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText7} />
 			</ContentBlock>
 
-			{texts.rawChapter1CharlotteText8.map((item, index) => (
-				<Quote
-					key={index}
-					quote={item}
-					author="Paul Weitz. Charlotte von Luxembourg: ein Lebensbild. 1990."
-					cite=""
-				/>
-			))}
+			<ContentBlock>
+				<RenderTextArray textArray={texts.rawChapter1CharlotteText8} />
+			</ContentBlock>
 
 			<ContentBlock>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText9} />
@@ -91,6 +88,7 @@ export const ChildhoodBlock: FC = () => {
 				<ContentBlock>
 					<ImageWithSource
 						sourceImage={Man.src}
+						imageName={Man.alt}
 						sourceText={Man.caption}
 						alt={Man.alt}
 						width={500}
@@ -103,14 +101,9 @@ export const ChildhoodBlock: FC = () => {
 					<RenderTextArray textArray={texts.rawChapter1SofiaText3} />
 				</ContentBlock>
 
-				{texts.rawChapter1SofiaText4.map((item, index) => (
-					<Quote
-						key={index}
-						quote={item}
-						author="Olha Bezhuk. Women's stories of S. Fedak's family "
-						cite=""
-					/>
-				))}
+				<ContentBlock>
+					<RenderTextArray textArray={texts.rawChapter1SofiaText4} />
+				</ContentBlock>
 
 				<ContentBlock>
 					<RenderTextArray textArray={texts.rawChapter1SofiaText5} />
@@ -120,6 +113,7 @@ export const ChildhoodBlock: FC = () => {
 				<ContentBlock>
 					<ImageWithSource
 						sourceImage={Home.src}
+						imageName={Home.alt}
 						sourceText={Home.caption}
 						alt={Home.alt}
 						width={700}

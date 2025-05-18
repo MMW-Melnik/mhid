@@ -12,7 +12,7 @@ export const Sofia: FC = () => {
 		[t]
 	)
 
-	const { Memoir, Review, Dispatch, Anmelde, Antracg, Report, Police } =
+	const { Memoir, Review, Dispatch, Anmelde, Antracg} =
 		worldWarTwoSofiaImages
 
    const flow = [
@@ -32,11 +32,7 @@ export const Sofia: FC = () => {
     { type: 'img', data: Anmelde },
     { type: 'p', id: 9 },
     { type: 'img', data: Antracg },
-    { type: 'p', id: 10 },
-    { type: 'img', data: Report },
-    { type: 'p', id: 11 },
-    { type: 'img', data: Police },
-    { type: 'p', id: 12 }
+    { type: 'p', id: 10 }
   ] as const
 
 	return (
@@ -58,6 +54,7 @@ export const Sofia: FC = () => {
 						<ImageWithSource
 							key={i}
 							alt={alt}
+							imageName={alt}
 							sourceText={caption}
 							sourceImage={src}
 						/>

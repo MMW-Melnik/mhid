@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next'
 export const Charlotte: FC = () => {
 	const texts = useFormattedTexts()
 	const { t } = useTranslation('home')
-	const { Family, Grande } = charlotteWorldWarTwoImages
+	const { Family2, Grande } = charlotteWorldWarTwoImages
 
 	return (
 		<>
@@ -19,9 +19,10 @@ export const Charlotte: FC = () => {
 					<RenderTextArray textArray={texts.rawCHAPTER4CharlotteText2} />
 
 					<ImageWithSource
-						sourceImage={Family.src}
-						alt={Family.alt}
-						sourceText={Family.caption}
+						sourceImage={Family2.src}
+						alt={Family2.alt}
+						imageName={Family2.alt}
+						sourceText={Family2.caption}
 					/>
 
 					<RenderTextArray textArray={texts.rawCHAPTER4CharlotteText3} />
@@ -30,6 +31,7 @@ export const Charlotte: FC = () => {
 					<ImageWithSource
 						className={'max-h-[40vh]'}
 						sourceImage={Grande.src}
+						imageName={Grande.alt}
 						alt={Grande.alt}
 						sourceText={Grande.caption}
 					/>

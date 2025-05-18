@@ -1,5 +1,5 @@
 .chapter {
-	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden mt-96;
+	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden mt-40;
 }
 
 .heading_container {
@@ -17,25 +17,25 @@
 .overlay {
 	@apply absolute inset-0 z-10;
 
-	background-image: linear-gradient(
-			to bottom,
-			rgba(20, 20, 20, 1) 0%,
-			rgba(20, 20, 20, 0.75) 20%,
-			rgba(20, 20, 20, 0) 40%,
-			rgba(20, 20, 20, 0) 60%,
-			rgba(20, 20, 20, 0.75) 80%,
-			rgba(20, 20, 20, 1) 100%
-		),
-		linear-gradient(
-			to right,
-			rgba(20, 20, 20, 1) 0%,
-			rgba(20, 20, 20, 0.75) 20%,
-			rgba(20, 20, 20, 0) 40%,
-			rgba(20, 20, 20, 0) 60%,
-			rgba(20, 20, 20, 0.75) 80%,
-			rgba(20, 20, 20, 1) 100%
-		);
-	pointer-events: none;
+	// background-image: linear-gradient(
+	// 		to bottom,
+	// 		rgba(20, 20, 20, 1) 0%,
+	// 		rgba(20, 20, 20, 0.75) 20%,
+	// 		rgba(20, 20, 20, 0) 40%,
+	// 		rgba(20, 20, 20, 0) 60%,
+	// 		rgba(20, 20, 20, 0.75) 80%,
+	// 		rgba(20, 20, 20, 1) 100%
+	// 	),
+	// 	linear-gradient(
+	// 		to right,
+	// 		rgba(20, 20, 20, 1) 0%,
+	// 		rgba(20, 20, 20, 0.75) 20%,
+	// 		rgba(20, 20, 20, 0) 40%,
+	// 		rgba(20, 20, 20, 0) 60%,
+	// 		rgba(20, 20, 20, 0.75) 80%,
+	// 		rgba(20, 20, 20, 1) 100%
+	// 	);
+	// pointer-events: none;
 }
 
 .content {
@@ -51,7 +51,7 @@
 }
 
 .imageText {
-	@apply absolute bottom-4 right-4 z-10 text-sand text-xs;
+	@apply absolute bottom-4 right-1/3 z-10 text-sand text-xs;
 }
 
 @media (max-width: 1000px) {

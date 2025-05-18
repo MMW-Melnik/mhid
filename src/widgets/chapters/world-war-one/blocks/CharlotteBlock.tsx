@@ -4,11 +4,11 @@ import { ContentBlock } from '@/widgets/content-block'
 import { FC } from 'react'
 import styles from '../world-war-one.module.scss'
 import { ImageWithSource } from '@/shared/ui'
-import { childhoodCharlotteImages } from '@/entities/index'
+import { charlotteWorldWar1Images } from '@/entities/index'
 
 export const CharlotteBlock: FC = ({}) => {
 	const texts = useFormattedTexts()
-	const { Women, Prince } = childhoodCharlotteImages
+	const { Women, Prince } = charlotteWorldWar1Images
 
 	return (
 		<>
@@ -18,12 +18,14 @@ export const CharlotteBlock: FC = ({}) => {
 					<RenderTextArray textArray={texts.rawChapter2CharlotteText1} />
 					<ImageWithSource
 						sourceImage={Women.src}
+						imageName={Women.alt}
 						sourceText={Women.caption}
 						alt={Women.alt}
 					/>
 					<RenderTextArray textArray={texts.rawChapter2CharlotteText2} />
 					<ImageWithSource
 						sourceImage={Prince.src}
+						imageName={Prince.alt}
 						sourceText={Prince.caption}
 						alt={Prince.alt}
 						width={600}

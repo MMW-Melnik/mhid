@@ -9,7 +9,7 @@ import Chapter1SistersImage from '@/app/assets/images/home/premonition-of-war/ch
 import Chapter2PrinceImage from '@/app/assets/images/home/ww1/charlotte/image2.jpg'
 import Chapter2WomenImage from '@/app/assets/images/home/ww1/charlotte/image7.png'
 
-import Family from '@/app/assets/images/home/ww2/charlotte-family-image.jpg'
+import Chapter4FamilyImage from '@/app/assets/images/home/ww2/charlotte-family-image.jpg'
 import Grande from '@/app/assets/images/home/ww2/charlotte-grande-dusche.jpg'
 
 import GrandImage from '@/app/assets/images/home/after-war/charlotte-grand-duche.png'
@@ -18,96 +18,102 @@ import YoungImage from '@/app/assets/images/home/after-war/charlotte-young-photo
 
 import { ImageConfig } from '@/shared/types'
 
-export const childhoodCharlotteImages: Record<
+export const charlotteBelleEpoqueImages: Record<
 	| 'Couple'
-	| 'House'
-	| 'Rider'
 	| 'Sisters'
-	| 'Women'
-	| 'Prince'
-	| 'Princess'
-	| 'Wedding'
-	| 'Baby'
-	| 'Family',
+	| 'House'
+	| 'Rider',
 	ImageConfig
 > = {
 	Couple: {
 		src: Chapter1CoupleImage.src,
-		alt: 'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna',
+		alt: 'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna ',
 		caption:
-			'Crown Prince Wilhelm IV of Luxembourg and his wife, Princess Maria Anna'
-	},
-	House: {
-		src: Chapter1HouseImage.src,
-		alt: "Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). (Photo from open sources)",
-		caption:
-			"Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). (Photo from open sources)"
-	},
-	Rider: {
-		src: Chapter1RiderImage.src,
-		alt: 'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574',
-		caption:
-			'Bibliothèque nationale de Luxembourg, Luxemburgensia online,\nCollection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574'
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : La Famille grand-ducale et S.A.R. le Grand-Duc Guillaume - Carte numéro 12762] '
 	},
 	Sisters: {
 		src: Chapter1SistersImage.src,
 		alt: 'Princess Charlotte (second from right) with her sisters',
-		caption: 'Princess Charlotte (second from right) with her sisters'
+		caption: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : LL.AA.RR. les Princesses de Luxembourg - Carte numéro 12782] '
 	},
+	House: {
+		src: Chapter1HouseImage.src,
+		alt: "Princess Charlotte's home is the Berg Palace (Colmar Berg, Luxembourg). ",
+		caption:
+			"(Photo from open sources)"
+	},
+	Rider: {
+		src: Chapter1RiderImage.src,
+		alt: '',
+		caption:
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 11574]'
+	}
+}
+
+export const charlotteWorldWar1Images: Record<
+	'Women' | 'Prince',
+	ImageConfig
+> = {
 	Women: {
 		src: Chapter2WomenImage.src,
-		alt: 'Duchess Maria Anna of Portugal with her daughters (1918) [Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : LL.AA.RR. les Princesses de Luxembourg - Carte numéro 7194] ',
+		alt: 'Duchess Maria Anna of Portugal with her daughters (1918) ',
 		caption:
-			'Duchess Maria Anna of Portugal with her daughters (1918) [Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : LL.AA.RR. les Princesses de Luxembourg - Carte numéro 7194] '
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : LL.AA.RR. les Princesses de Luxembourg - Carte numéro 7194] '
 	},
 	Prince: {
 		src: Chapter2PrinceImage.src,
-		alt: 'Prince Felix Bourbon-Parma[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. le Prince Félix - Carte numéro 7166] ',
+		alt: 'Prince Felix Bourbon-Parma',
 		caption:
-			'Prince Felix Bourbon-Parma[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. le Prince Félix - Carte numéro 7166] '
-	},
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. le Prince Félix - Carte numéro 7166] '
+	}
+}
+
+export const charlotteInterwarPeriodImages: Record<
+ 'Princess' | 'Wedding' | 'Baby' | 'Family1',
+ ImageConfig
+> = {
 	Princess: {
 		src: Chpter3PrincessImage.src,
-		alt: 'Grand Duchess Charlotte[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 12797] ',
+		alt: 'Grand Duchess Charlotte',
 		caption:
-			'Grand Duchess Charlotte[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 12797] '
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. Charlotte, Princesse de Luxembourg - Carte numéro 12797]  '
 	},
 	Wedding: {
 		src: Chpter3WeddingImage.src,
-		alt: 'Wedding of the Grand Duchess Charlotte and Prince Felix of Luxembourg[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte et S.A.R. le Prince Félix - Carte numéro 6259]',
+		alt: 'Wedding of the Grand Duchess Charlotte and Prince Felix of Luxembourg',
 		caption:
-			'Wedding of the Grand Duchess Charlotte and Prince Felix of Luxembourg[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte et S.A.R. le Prince Félix - Carte numéro 6259] '
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte et S.A.R. le Prince Félix - Carte numéro 6259] '
 	},
 	Baby: {
 		src: Chpter3BabyImage.src,
-		alt: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte -Carte numéro 6202] ',
+		alt: '',
 		caption:
-			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte - [Carte numéro 6202] '
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte -Carte numéro 6202] '
 	},
-	Family: {
+	Family1: {
 		src: Chpter3FamilyImage.src,
-		alt: '[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte - [Carte numéro 6275] ',
+		alt: '',
 		caption:
-			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte - [Carte numéro 6275] '
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte -Carte numéro 6275] '
 	}
 }
 
 export const charlotteWorldWarTwoImages: Record<
-	'Family' | 'Grande',
+	'Family2' | 'Grande',
 	ImageConfig
 > = {
-	Family: {
-		src: Family.src,
-		alt: 'Charlotte with her family',
+	Family2: {
+		src: Chapter4FamilyImage.src,
+		alt: '',
 		caption:
-			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : La Famille grand-ducale et S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 8154'
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : La Famille grand-ducale et S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 8154] '
 	},
 
 	Grande: {
 		src: Grande.src,
-		alt: 'Grande-Duchesse Charlotte Portrait',
+		alt: '',
 		caption:
-			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117'
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3117]'
 	}
 }
 
@@ -117,19 +123,19 @@ export const charlotteAfterWarImages: Record<
 > = {
 	Grand: {
 		src: GrandImage.src,
-		alt: 'Grande-Duchesse Charlotte Portrait',
-		caption: 'Grand Duchess Charlotte. November, 1969 [Photo from open sources]'
+		alt: 'Grand Duchess Charlotte. November, 1969',
+		caption: '[Photo from open sources]'
 	},
 	Young: {
 		src: YoungImage.src,
-		alt: 'Grande-Duchesse Charlotte Portrait',
+		alt: 'Grand Duchess Charlotte',
 		caption:
-			'Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3119'
+			'[Bibliothèque nationale de Luxembourg, Luxemburgensia online, Collection des cartes postales : La Famille grand-ducale - Série : S.A.R. la Grande-Duchesse Charlotte  - Carte numéro 3119] '
 	},
 	Monument: {
 		src: MonumentImage.src,
-		alt: 'Monument to the Grand Duchess Charlotte in Luxembourg City',
+		alt: "A statue of the Grand Duchess of Luxembourg has stood in the middle of Luxembourg City's Place de Clairefontaine since 1990.",
 		caption:
-			"A statue of the Grand Duchess of Luxembourg has stood in the middle of Luxembourg City's Place de Clairefontaine since 1990. [Photo from open sources]"
+			"[Photo from open sources]"
 	}
 }

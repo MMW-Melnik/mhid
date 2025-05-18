@@ -1,6 +1,7 @@
 export interface IImage {
 	sourceImage: string
-	sourceText: string
+	imageName: string
+    sourceText: string
 	alt: string
 	className?: string
 	width?: number

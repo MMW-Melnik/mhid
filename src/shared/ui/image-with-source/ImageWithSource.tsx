@@ -6,6 +6,7 @@ import styles from './image-with-source.module.scss'
 
 export const ImageWithSource: FC<IImage> = ({
 	sourceImage,
+	imageName,
 	sourceText,
 	className,
 	alt,
@@ -33,9 +34,10 @@ export const ImageWithSource: FC<IImage> = ({
 				alt={alt}
 				className={`${styles.image} ${className}`}
 			/>
-			<span className={styles.text}>{sourceText}</span>
+			<div className={styles.meta}>
+				<span className={styles.name}>{imageName}</span>
+				<span className={styles.source}>{sourceText}</span>
+			</div>
 		</Tilt>
 	)
 }
-
-export default ImageWithSource

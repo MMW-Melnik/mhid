@@ -16,14 +16,11 @@ export const SofiaBlock: FC = () => {
 					<RenderTextArray textArray={texts.rawChapter2CharlotteText1} />
 				</ContentBlock>
 
-				{texts.rawChapter2CharlotteText2.map((item, index) => (
-					<Quote
-						key={index}
-						quote={item}
-						author="Zoya Baran, 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century,' Lwów: miasto - spoіeczeсstwo - kultura 9. (2014), p. 117"
-						cite=""
-					/>
-				))}
+
+				<ContentBlock>
+					<RenderTextArray textArray={texts.rawChapter2CharlotteText2} />
+				</ContentBlock>
+
 				<ContentBlock>
 					<RenderTextArray textArray={texts.rawChapter2CharlotteText3} />
 					<RenderTextArray textArray={texts.rawChapter2CharlotteText4} />

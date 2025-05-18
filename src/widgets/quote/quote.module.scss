@@ -1,24 +1,19 @@
 .quote_container {
-	@apply flex flex-col justify-center items-center gap-5 max-w-[980px] w-full mx-auto transition-transform duration-500 ease-in-out my-[5rem];
+  @apply flex flex-col justify-center items-end gap-5 max-w-[980px] w-full mx-auto transition-transform duration-500 ease-in-out my-[5rem];
 }
 
 .quote {
-	@apply text-t16 text-center inline-block italic overflow-hidden;
-}
-
-.quote span {
-	@apply text-d-grey;
-	animation: colorChange 1s forwards;
-	animation-delay: calc(var(--i) * 0.2s);
+  @apply text-t18 text-center inline-block italic overflow-hidden;
 }
 
 .quote_author {
-	@apply flex justify-center text-center text-sand w-full max-w-[750px] ml-auto transition-colors duration-200 ease-in-out;
+  @apply text-right w-full transition-colors duration-200 ease-in-out text-sand;
 
-	&:hover {
-		@apply text-white;
-	}
+  &:hover {
+    @apply text-white;
+  }
 }
+
 
 @keyframes colorChange {
 	to {

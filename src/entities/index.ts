@@ -1,5 +1,5 @@
-export { charlotteWorldWarTwoImages, childhoodCharlotteImages } from './charlotte/images'
+export { charlotteBelleEpoqueImages, charlotteWorldWar1Images, charlotteInterwarPeriodImages } from './charlotte/images'
+export { sofiaBelleEpoqueImages } from './sofia/images'
 export { generalImages } from './general/images'
 export { secondWorldWarIntroductionImages } from './general/introduction'
-export { childhoodSofiaImages } from './sofia/images'
 
