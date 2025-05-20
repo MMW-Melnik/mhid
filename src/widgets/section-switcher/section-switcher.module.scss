@@ -21,4 +21,4 @@
 .container.open .list li { @apply opacity-100 translate-y-0; }
 
 .list li:hover { @apply bg-white/5 text-white; }
-.list li.active { @apply bg-white/10 text-white font-semibold; box-shadow: inset 4px 0 0 #ffffff; }
+.list li.active { @apply bg-white/10 text-white font-semibold;}
