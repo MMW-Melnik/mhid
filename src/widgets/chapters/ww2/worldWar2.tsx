@@ -11,18 +11,20 @@ export const WorldWar2 = () => {
 
 	return (
 		<>
+		<section id='world-war-ii'>
 			<Chapter
 				bgImage={statue}
 				imageText="Monument to migrants leaving their homeland.
-(Sculptor Bruno Catalano from open source)."
+				(Sculptor Bruno Catalano from open source)."
 				quote={t('WORLD WAR TWO.CHAPTER4.QUOTE.CONTENT')}
 				author={t('WORLD WAR TWO.CHAPTER4.QUOTE.AUTHOR')}
-			>
+				>
 				{'The second world war. Life in exile'.toUpperCase()}
 			</Chapter>
 			<Introduction />
 			<Charlotte />
 			<Sofia />
+				</section>
 		</>
 	)
 }

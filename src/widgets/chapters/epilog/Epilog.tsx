@@ -11,17 +11,19 @@ export const LastLife = () => {
 
 	return (
 		<>
+		<section id='epilogue'>
 			<Chapter
 				bgImage={EpilogueImage.src}
 				imageText="Ivan Marchuk. Awakening [Photo from open sources]"
 				quote={t('EPILOGUE.QUOTE.CONTENT')}
 				author={t('EPILOGUE.QUOTE.AUTHOR')}
-			>
+				>
 				{t('EPILOGUE.TITLE')}
 			</Chapter>
 			<ContentBlock>
 				<RenderTextArray textArray={texts.rawChapterEpilogueText1} />
 			</ContentBlock>
+				</section>
 		</>
 	)
 }

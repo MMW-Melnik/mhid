@@ -1,6 +1,4 @@
-import img1 from '@/app/assets/images/home/ww1/other/bomb.jpg'
-import img2 from '@/app/assets/images/home/ww1/other/street3.jpg'
-import img3 from '@/app/assets/images/home/ww1/other/woman.jpg'
+import poppy from '@/app/assets/images/home/ww1/image32.jpg'
 import { Chapter } from '@/widgets/index'
 import { FC } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -8,13 +6,12 @@ import { CharlotteBlock } from './blocks/CharlotteBlock'
 import { IntroductionBlock } from './blocks/IntroductionBlock'
 import { SofiaBlock } from './blocks/SofiaBlock'
 import styles from './world-war-one.module.scss'
-import poppy from '@/app/assets/images/home/ww1/image32.jpg'
 
 export const WorldWarOneChapter: FC = ({}) => {
 	const { t } = useTranslation('home')
 	return (
 		<>
-			<section className={styles.ww1_section}>
+			<section id='world-war-i' className={styles.ww1_section}>
 				<Chapter
 					bgImage={poppy}
 					imageText="Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)"

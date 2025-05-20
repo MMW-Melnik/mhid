@@ -1,14 +1,10 @@
-import img1 from '@/app/assets/images/home/after-war/building.jpg'
-import img2 from '@/app/assets/images/home/after-war/street1.jpg'
-import img3 from '@/app/assets/images/home/after-war/village.jpg'
 
+import spike from '@/app/assets/images/home/INTERWAR-PERIOD/image6.jpg'
 import { charlotteInterwarPeriodImages, generalImages } from '@/entities/index'
 import { useFormattedTexts } from '@/shared/hooks/useTexts'
 import { Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
 import { ContentBlock } from '@/widgets/content-block'
 import { Chapter } from '@/widgets/index'
-import { Quote } from '@/widgets/quote/Quote'
-import spike from '@/app/assets/images/home/INTERWAR-PERIOD/image6.jpg'
 import { useTranslation } from 'react-i18next'
 
 export const InterwarPeriod = () => {
@@ -19,12 +15,13 @@ export const InterwarPeriod = () => {
 
 	return (
 		<>
+		<section id='interwar-period'>
 			<Chapter
 				bgImage={spike}
 				imageText="Vyacheslav Mishchenko, Ukrainian photographer. (Photo from open sources)"
 				quote={t('INTERWAR PERIOD.CHAPTER3.QUOTE.CONTENT')}
 				author={t('INTERWAR PERIOD.CHAPTER3.QUOTE.AUTHOR')}
-			>
+				>
 				{t('INTERWAR PERIOD.CHAPTER3.TITLE')}
 			</Chapter>
 			<ContentBlock>
@@ -34,7 +31,7 @@ export const InterwarPeriod = () => {
 					imageName={Map.alt}
 					sourceText={Map.caption}
 					alt={Map.alt}
-				/>
+					/>
 				<RenderTextArray textArray={texts.rawChapter3IntroductionText2} />
 				<RenderTextArray textArray={texts.rawChapter3IntroductionText3} />
 			</ContentBlock>
@@ -47,27 +44,27 @@ export const InterwarPeriod = () => {
 					imageName={Princess.alt}
 					sourceText={Princess.caption}
 					alt={Princess.alt}
-				/>
+					/>
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText2} />
 				<ImageWithSource
 					sourceImage={Wedding.src}
 					imageName={Wedding.alt}
 					sourceText={Wedding.caption}
 					alt={Wedding.alt}
-				/>
+					/>
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText3} />
 				<ImageWithSource
 					sourceImage={Baby.src}
 					imageName={Baby.alt}
 					sourceText={Baby.caption}
 					alt={Baby.alt}
-				/>
+					/>
 				<ImageWithSource
 					sourceImage={Family1.src}
 					imageName={Family1.alt}
 					sourceText={Family1.caption}
 					alt={Family1.alt}
-				/>
+					/>
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText4} />
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText5} />
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText6} />
@@ -95,7 +92,7 @@ export const InterwarPeriod = () => {
 			<ContentBlock>
 				<RenderTextArray textArray={texts.rawChapter3SofiaText10} /> 
 			</ContentBlock>
-
+					</section>
 			
 		</>
 	)

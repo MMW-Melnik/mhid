@@ -9,6 +9,7 @@ import {
 	WorldWar2,
 	WorldWarOneChapter
 } from '@/widgets/chapters'
+import { SectionSwitcher } from '@/widgets/index'
 
 export const HomePage = () => {
 	return (
@@ -25,6 +26,7 @@ export const HomePage = () => {
 			<WorldWar2 />
 			<AfterWar />
 			<LastLife />
+			<SectionSwitcher />
 		</>
 	)
 }
