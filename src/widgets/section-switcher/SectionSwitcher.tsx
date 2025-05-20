@@ -1,12 +1,11 @@
-// src/widgets/SectionSwitcher/SectionSwitcher.tsx
 import { parseSectionTitles, SectionTitle } from '@/entities/navigation/sections'
-import { useScrollSpy } from '@/shared/hooks/useScrollSpy'
+import { useScrollSpy } from '@/shared/hooks'
 import { FC, useEffect, useState } from 'react'
 import styles from './section-switcher.module.scss'
 
 export const SectionSwitcher: FC = () => {
   const sections: SectionTitle[] = parseSectionTitles()
-  const activeId = useScrollSpy(sections.map(s => s.id))
+  const activeId = useScrollSpy(sections.map(s => s.id), 0.78)
   const target = sections.find(s => s.id === activeId) ?? sections[0]
 
   const [isOpen, setIsOpen] = useState(false)
