@@ -20,8 +20,7 @@ export const HomePage = () => {
 				imageAlt="Roud Breck 2023"
 				text={'Between friendship and politics: little-known aspects of the history of Ukrainian-Luxembourgish relations'.toUpperCase()}
 				imageText="Roud Breck 2023"
-				text={"Between friendship and politics: little-known aspects of the history of Ukrainian-Luxembourgish relations".toUpperCase()}
-				imageText="Roud Breck 2023 "
+
 			/>
 			<PremonitionOfWarChapter />
 			<WorldWarOneChapter />
