@@ -1,4 +1,4 @@
-import AuthorImage from '@/app/assets/images/about/author.jpeg'
+import AuthorImage from 'app/assets/images/about/author.jpg'
 import { useTypography } from '@/app/context'
 import { FormattedText, Heading } from '@/shared/ui'
 import Image from 'next/image'

@@ -46,13 +46,15 @@ export const InterwarPeriod = () => {
 					alt={Princess.alt}
 					/>
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText2} />
+				<RenderTextArray textArray={texts.rawChapter3CharlotteText3} />
 				<ImageWithSource
 					sourceImage={Wedding.src}
 					imageName={Wedding.alt}
 					sourceText={Wedding.caption}
 					alt={Wedding.alt}
 					/>
-				<RenderTextArray textArray={texts.rawChapter3CharlotteText3} />
+				<RenderTextArray textArray={texts.rawChapter3CharlotteText4} />
+				<RenderTextArray textArray={texts.rawChapter3CharlotteText5} />
 				<ImageWithSource
 					sourceImage={Baby.src}
 					imageName={Baby.alt}
@@ -65,8 +67,6 @@ export const InterwarPeriod = () => {
 					sourceText={Family1.caption}
 					alt={Family1.alt}
 					/>
-				<RenderTextArray textArray={texts.rawChapter3CharlotteText4} />
-				<RenderTextArray textArray={texts.rawChapter3CharlotteText5} />
 				<RenderTextArray textArray={texts.rawChapter3CharlotteText6} />
 			</ContentBlock>
 

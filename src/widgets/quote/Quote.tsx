@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { FC, PropsWithChildren, useEffect, useState } from 'react'
 import { IQuote } from './quote.interface'
 import styles from './quote.module.scss'
+import { FormattedText } from '@/shared/ui'
 
 export const Quote: FC<PropsWithChildren<IQuote>> = ({
 	quote,
@@ -22,17 +23,16 @@ export const Quote: FC<PropsWithChildren<IQuote>> = ({
 			cite={cite}
 			key={animationKey}
 		>
-			<p className={styles.quote}>
-				{words.map((word, index) => (
-					<span
-						key={index}
-						className={styles.quote_word}
-						style={{ '--i': index } as React.CSSProperties}
-					>
-						{word}{' '}
-					</span>
-				))}
-			</p>
+			<FormattedText
+				text={
+					words
+						.map(
+							(word, index) =>
+								`<span class="${styles.quote_word}" style="--i:${index}">${word} </span>`
+						)
+						.join('')
+				}
+			/>
 			<Link href={cite} target="_blank">
 				<p className={styles.quote_author}>{author}</p>
 			</Link>

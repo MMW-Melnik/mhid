@@ -9,7 +9,7 @@ export const Introduction: FC = ({}) => {
 	return (
 		<section>
 			<ContentBlock>
-			<ImageWithSource sourceImage={Kestrel.src} alt={Kestrel.alt} sourceText={Kestrel.caption}/>
+			<ImageWithSource sourceImage={Kestrel.src} alt={Kestrel.alt} sourceText={Kestrel.caption} imageName={Kestrel.alt}/>
 			</ContentBlock>
 		</section>
 	)

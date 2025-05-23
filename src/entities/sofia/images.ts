@@ -9,6 +9,8 @@ import ReportImage from '@/app/assets/images/home/ww2/sofia-melnyk-income-report
 import MemoirImage from '@/app/assets/images/home/ww2/sofia-memoirs-of-yevhen-malaniuk.png'
 import Chapter1HomeImage from '@/app/assets/images/home/premonition-of-war/sofia/home.png'
 import Chapter1ManImage from '@/app/assets/images/home/premonition-of-war/sofia/man.png'
+import memo from "@/app/assets/images/home/ww2/sofia-hesperingen-police-memo.png"
+import income from "@/app/assets/images/home/ww2/sofia-melnyk-income-report.jpg"
 
 import SofiaImage1 from '@/app/assets/images/home/after-war/sofia-1.png'
 import SofiaImage2 from '@/app/assets/images/home/after-war/sofia-2.png'
@@ -54,7 +56,9 @@ export const worldWarTwoSofiaImages: Record<
 	| 'Review'
 	| 'Dispatch'
 	| 'Anmelde'
-	| 'Antracg',
+	| 'Antracg'
+	| 'Memo'
+	| 'Income',
 	ImageConfig
 > = {
 	Memoir: {
@@ -90,6 +94,17 @@ export const worldWarTwoSofiaImages: Record<
 		alt: '',
 		caption:
 			'[Source : ANLux, Police des Etrangers, Cote I-108-0454952, No. 308119, Declaration of Arrival, 1946, (extract)]'
+	},
+	Memo: {
+		src: memo.src,
+		alt: '',
+		caption: ''
+	},
+	Income: {
+		src: income.src,
+		alt: '',
+		caption:
+			'[Source : ANLux, Police des Etrangers, Cote I-108-0454952,  № 180, Report of the Brigadier of the Esperange commune police to the Luxembourg Attorney General, 1946, (extract)]'
 	},
 }
 

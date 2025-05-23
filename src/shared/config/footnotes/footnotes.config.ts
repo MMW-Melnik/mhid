@@ -1,6 +1,10 @@
 export const footnotesConfig: Record<string, { source: string; url?: string }> =
 	{
 		// ==================== CHAPTER 1 ====================
+		stefan_nein : {
+			source: "Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from the German by Anthea Bell. Pushkin Press Classics, London, 2009, 474 p.",
+			url: ""
+		},
 		baran_sheparovych_memoirs_2014_p119: {
 			source:
 				"Zoya Baran. 'Olena Sheparovych's Memoirs as a Source for the History of Lviv in the First Third of the Twentieth Century', Lwów: miasto - społeczeństwo - kultura 9, 2014, p. 119",
@@ -15,6 +19,14 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 			source:
 				"Olga Bezhuk. Women's stories of S. Fedak's family. Scientific Bulletin of the Lviv National University of Veterinary Medicine and Biotechnology, Vol. 17, No. 4 (64), 2015, p. 369",
 			url: ''
+		},
+		josaine_weber_großherzogin_2019: {
+			source: "[Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biografie (1912-1919), Éditions Guy Binsfeld, Luxemburg, 2019, S. 94]",
+			url: ""
+		},
+		josaine_weber_großherzogin_1912_1919: {
+			source: "[Josiane Weber. Großherzogin Marie Adelheid von Luxemburg. Eine politische Biographie (1912-1919), S. 75-81, 96-99]",
+			url: ""
 		},
 		history_uni_lu_research: {
 			source: 'https://history.uni.lu/research-luxembourg-4d/',
@@ -72,7 +84,7 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 		},
 		melchers_unvergessene_gestalten_1998: {
 			source:
-				'E.T. Melchers und U.Melchers-Schmol. Unvergessene Gestalten unserer Dynastie. Band II. Charlotte und Felix. Sankt-Paulus-Druckerei, 1998',
+				'E.T. Melchers und U.Melchers-Schmol. Unvergessene Gestalten unserer Dynastie. Band II. Charlotte und Felix. Sankt-Paulus-Druckerei, 1998, p. 51.',
 			url: ''
 		},
 		melchers_unvergessene_gestalten_1998_p56_145: {
@@ -444,5 +456,25 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 			source:
 				'Security and long-term support agreement between Luxembourg and Ukraine, Presidential press release, 21 Mar 2024.',
 			url: 'https://www.president.gov.ua/en/news/ugoda-pro-spivrobitnictvo-u-sferi-bezpeki-ta-dovgostrokovu-p-92057'
-		}
+		},
+		quote1: {
+			source: "[Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from the German by Anthea Bell. Pushkin Press Classics, London, 2009, 474 p.] ",
+			url: ""
+		},
+		quote2: {
+			source: "[Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from the German by Anthea Bell. Pushkin Press Classics, 2009, London, p. 220]",
+			url: ""
+		},
+		quote3: {
+			source: "[William Faulkner. Requiem for a Nun. Penguin Random House, UK, 2015, p. 85]",
+			url: ""
+		},
+		quote4: {
+			source: "[Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from German by Anthea Bell. Pushkin Press Classics, London, 2009, p. 17-18]",
+			url: ""
+		},
+		quote5: {
+			source: "[Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from the German by Anthea Bell. Pushkin Press Classics, London, 2009, p. 20]",
+			url: ""
+		},
 	}

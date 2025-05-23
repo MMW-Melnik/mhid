@@ -13,22 +13,22 @@ export const SofiaBlock: FC = () => {
 			<div className={styles.sofia}>
 				<ContentBlock>
 					<Heading level={3}>SOFIA</Heading>
-					<RenderTextArray textArray={texts.rawChapter2CharlotteText1} />
+					<RenderTextArray textArray={texts.rawChapter2SofiaText1} />
 				</ContentBlock>
 
 
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawChapter2CharlotteText2} />
+					<RenderTextArray textArray={texts.rawChapter2SofiaText2} />
 				</ContentBlock>
 
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawChapter2CharlotteText3} />
-					<RenderTextArray textArray={texts.rawChapter2CharlotteText4} />
+					<RenderTextArray textArray={texts.rawChapter2SofiaText3} />
+					<RenderTextArray textArray={texts.rawChapter2SofiaText4} />
 				</ContentBlock>
 
 				<ContentBlock>
-					<RenderTextArray textArray={texts.rawChapter2CharlotteText5} />
-					<RenderTextArray textArray={texts.rawChapter2CharlotteText6} />
+					<RenderTextArray textArray={texts.rawChapter2SofiaText5} />
+					<RenderTextArray textArray={texts.rawChapter2SofiaText6} />
 				</ContentBlock>
 			</div>
 		</>

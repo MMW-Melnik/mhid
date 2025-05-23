@@ -13,8 +13,7 @@ export const PremonitionOfWarChapter: FC = () => {
 			<section id='growing-up-in-belle-epoque' className={styles.poc_section}>
 				<Chapter
 					bgImage={field}
-					imageText="Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)
-"
+					imageText="Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)"			
 					quote={t('Growing up in the Belle Epoque.CHAPTER1.QUOTE.CONTENT')}
 					author={t('Growing up in the Belle Epoque.CHAPTER1.QUOTE.AUTHOR')}
 				>

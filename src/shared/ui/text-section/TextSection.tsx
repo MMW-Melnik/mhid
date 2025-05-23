@@ -25,8 +25,7 @@ export const TextSection: FC<TextSectionProps> = ({
       <ImageWithSource
         sourceImage={image.src}
         alt={image.alt}
-        sourceText={image.caption}
-      />
+        sourceText={image.caption} imageName={image.alt}      />
     )}
     {quotes?.map(q => (
       <Quote key={q.cite} quote={q.quote} cite={q.cite} author={q.author} />

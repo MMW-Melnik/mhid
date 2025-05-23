@@ -1,10 +1,10 @@
 .author {
 	@apply flex flex-col-reverse justify-end items-end gap-8 w-full;
 	.image_container {
-		@apply relative max-w-[780px] h-auto w-full;
+		@apply flex max-w-[780px] h-auto w-full;
 
 		.image {
-			@apply w-full h-full object-fill;
+			@apply w-auto h-[45vh] object-contain;
 		}
 	}
 

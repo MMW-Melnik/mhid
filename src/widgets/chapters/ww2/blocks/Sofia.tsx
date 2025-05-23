@@ -12,7 +12,7 @@ export const Sofia: FC = () => {
 		[t]
 	)
 
-	const { Memoir, Review, Dispatch, Anmelde, Antracg} =
+	const { Memoir, Review, Dispatch, Anmelde, Antracg, Memo, Income} =
 		worldWarTwoSofiaImages
 
    const flow = [
@@ -32,7 +32,14 @@ export const Sofia: FC = () => {
     { type: 'img', data: Anmelde },
     { type: 'p', id: 9 },
     { type: 'img', data: Antracg },
-    { type: 'p', id: 10 }
+    { type: 'p', id: 10 },
+	{type: 'img', data: Memo},
+	{ type: 'p', id: 11 },
+	{type: 'img', data: Income},
+	{ type: 'p', id: 12 },
+
+
+
   ] as const
 
 	return (
