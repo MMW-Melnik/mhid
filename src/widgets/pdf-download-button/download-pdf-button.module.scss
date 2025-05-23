@@ -1,0 +1,33 @@
+.button {
+	@apply fixed bottom-4 right-4 z-50 flex items-center gap-2
+         w-10 h-10 px-2
+         bg-[#282828] border border-[#282828] rounded-full
+         cursor-pointer;
+	overflow: visible;
+	transition:
+		width 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+		padding 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+		background-color 0.35s ease-in-out,
+		border-color 0.35s ease-in-out;
+}
+
+.button:hover {
+	@apply bg-[#383838] border-[#444];
+	width: 9rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.icon {
+	@apply w-6 h-6 text-white/90 flex-shrink-0;
+}
+
+.label {
+	@apply text-white/90 text-sm font-medium whitespace-nowrap;
+	opacity: 0;
+	transition: opacity 0.35s ease-in-out 0.15s;
+}
+
+.button:hover .label {
+	opacity: 1;
+}

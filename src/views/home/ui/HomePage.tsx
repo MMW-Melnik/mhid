@@ -1,4 +1,5 @@
 'use client'
+
 import Bridge from '@/app/assets/images/home/bg.jpg'
 import { Intro } from '@/shared/ui'
 import {
@@ -9,7 +10,7 @@ import {
 	WorldWar2,
 	WorldWarOneChapter
 } from '@/widgets/chapters'
-import { SectionSwitcher } from '@/widgets/index'
+import { DownloadPdfButton, SectionSwitcher } from '@/widgets/index'
 
 export const HomePage = () => {
 	return (
@@ -17,7 +18,7 @@ export const HomePage = () => {
 			<Intro
 				imageSrc={Bridge}
 				imageAlt="Roud Breck 2023"
-				text={"Between friendship and politics: little-known aspects of the history of Ukrainian-Luxembourgish relations".toUpperCase()}
+				text={'Between friendship and politics: little-known aspects of the history of Ukrainian-Luxembourgish relations'.toUpperCase()}
 				imageText="Roud Breck 2023"
 			/>
 			<PremonitionOfWarChapter />
@@ -26,7 +27,9 @@ export const HomePage = () => {
 			<WorldWar2 />
 			<AfterWar />
 			<LastLife />
+
 			<SectionSwitcher />
+			<DownloadPdfButton label="View PDF" />
 		</>
 	)
 }
