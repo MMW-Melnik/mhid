@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from 'react'
-import styles from './Heading.module.scss'
+import styles from './heading.module.scss'
 import { IHeadingProps } from './heading.interface'
 
 export const Heading: FC<PropsWithChildren<IHeadingProps>> = ({
