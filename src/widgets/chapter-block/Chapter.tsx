@@ -3,7 +3,7 @@ export interface IChapter {
 	quote: string
 	author: string
 	bgImage: string | StaticImageData
-	imageText: string
+	imageText: string | React.ReactNode
 }
 
 // Chapter.tsx
@@ -13,6 +13,7 @@ import { useTranslation } from 'react-i18next'
 import Image, { StaticImageData } from 'next/image'
 import { Quote } from '../quote/Quote'
 import styles from './chapter.module.scss'
+import React from 'react'
 
 export const Chapter: FC<PropsWithChildren<IChapter>> = ({
 	children,

@@ -3,12 +3,15 @@ import { FC } from 'react'
 import { Heading } from '../heading/Heading'
 import styles from './intro.module.scss'
 
+import { ReactNode } from 'react'
+
 export interface IIntro {
-	imageSrc: string | StaticImageData
-	imageAlt?: string
-	text: string
-	imageText: string
+  imageSrc: string | StaticImageData
+  imageAlt?: string
+  text: string
+  imageText: ReactNode 
 }
+
 
 export const Intro: FC<IIntro> = ({
 	imageSrc,
@@ -26,6 +29,6 @@ export const Intro: FC<IIntro> = ({
 		/>
 		<div className={styles.overlay} />
 		<Heading level={3} className={styles.mainText}>{text}</Heading>
-		<span className={styles.imageText}>{imageText}</span>
+<span className={styles.imageText}>{imageText}</span>
 	</div>
 )

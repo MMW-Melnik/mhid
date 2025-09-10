@@ -7,7 +7,7 @@ import styles from '../after-war.module.scss'
 
 export const Sofia: FC = () => {
 	const texts = useFormattedTexts()
-	const { Sofia1, Sofia2, Sofia3, Sofia4, Andrey1, Andrey2, Andrey3, Andrey, Sofia, Doc, Obituary, House, Cemetery} = afterWarSofiaImages
+	const { Sofia1, Sofia2, Sofia3, Sofia4, Andrey1, Andrey2, Andrey3, Diploma, Andrey, Sofia, Doc, Obituary, House, Cemetery} = afterWarSofiaImages
 
 	return (
 		<section>
@@ -38,19 +38,27 @@ export const Sofia: FC = () => {
     />
 			<RenderTextArray textArray={texts.rawCHAPTER5SofiaText3} />
 			<ImageWithSource
+      sourceImage={Diploma.src}
+      imageName={Diploma.alt}
+      alt={Diploma.alt}
+      sourceText={Diploma.caption}
+    />
+    		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText4} />
+		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText4} />
+			<ImageWithSource
       sourceImage={Andrey.src}
       imageName={Andrey.alt}
       alt={Andrey.alt}
       sourceText={Andrey.caption}
     />
-		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText4} />
+      <RenderTextArray textArray={texts.rawCHAPTER5SofiaText5} />
 		<ImageWithSource
       sourceImage={Obituary.src}
       imageName={Obituary.alt}
       alt={Obituary.alt}
       sourceText={Obituary.caption}
     />
-		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText5} />
+      <RenderTextArray textArray={texts.rawCHAPTER5SofiaText6} />
 		<ImageWithSource
       sourceImage={Sofia4.src}
       imageName={Sofia4.alt}
@@ -63,21 +71,22 @@ export const Sofia: FC = () => {
       alt={Sofia.alt}
       sourceText={Sofia.caption}
     />
-				<RenderTextArray textArray={texts.rawCHAPTER5SofiaText6} />
+      <RenderTextArray textArray={texts.rawCHAPTER5SofiaText7} />
 				<ImageWithSource
       sourceImage={House.src}
       imageName={House.alt}
       alt={House.alt}
       sourceText={House.caption}
     />
-		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText7} />
+      <RenderTextArray textArray={texts.rawCHAPTER5SofiaText8} />
 		<ImageWithSource
       sourceImage={Cemetery.src}
       imageName={Cemetery.alt}
       alt={Cemetery.alt}
       sourceText={Cemetery.caption}
     />
-		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText8} />
+        <RenderTextArray textArray={texts.rawCHAPTER5SofiaText9} />
+
 
 	</ContentBlock>
 		</section>

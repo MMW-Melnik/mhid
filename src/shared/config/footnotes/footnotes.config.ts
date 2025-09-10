@@ -356,6 +356,10 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 			source: "AStéphane Bern tourne Secrets d'Histoire au Luxembourg",
 			url: 'https://www.virgule.lu/luxembourg/stephane-bern-tourne-secrets-d-histoire-au-luxembourg/130154.html'
 		},
+		source_add2: {
+			source: '[From the memoirs of Yevhen Malaniuk / Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011, p. 102.',
+			url: '[From the memoirs of Yevhen Malaniuk / Andriy Melnyk. 1890-1964. Memoirs. Documents. Correspondence / Compiled by O. Kucheruk, Y. Cherchenko. - Kyiv: Olena Teliha Publishing House, 2011, p. 102.'
+		},
 		source49: {
 			source: 'La Grande-Duchesse Charlotte de Luxembourg',
 			url: 'https://www.secretsdhistoire.tv/content/la-grande-duchesse-charlotte-de-luxembourg'
@@ -476,5 +480,9 @@ export const footnotesConfig: Record<string, { source: string; url?: string }> =
 		quote5: {
 			source: "[Stefan Zweig. The World of Yesterday: Memoirs of a European. / Translated from the German by Anthea Bell. Pushkin Press Classics, London, 2009, p. 20]",
 			url: ""
+		},
+		source_add1: {
+			source: 'YouTube video',
+			url: 'https://www.youtube.com/watch?v=zOwo5WA4EGQ.'
 		},
 	}

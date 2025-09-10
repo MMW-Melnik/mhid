@@ -434,6 +434,10 @@ export const translationKeys = [
 		key: 'rawCHAPTER5SofiaText8',
 		path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_8'
 	},
+		{
+		key: 'rawCHAPTER5SofiaText9',
+		path: 'AFTER WAR.CHAPTER5.SOFIA.PARAGRAPH_9'
+	},
 
 	// EPILOGUE
 

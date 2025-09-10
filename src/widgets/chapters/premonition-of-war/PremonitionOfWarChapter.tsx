@@ -11,14 +11,24 @@ export const PremonitionOfWarChapter: FC = () => {
 	return (
 		<>
 			<section id='growing-up-in-belle-epoque' className={styles.poc_section}>
-				<Chapter
-					bgImage={field}
-					imageText="Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)"			
-					quote={t('Growing up in the Belle Epoque.CHAPTER1.QUOTE.CONTENT')}
-					author={t('Growing up in the Belle Epoque.CHAPTER1.QUOTE.AUTHOR')}
-				>
-					{t('Growing up in the Belle Epoque.CHAPTER1.TITLE')}
-				</Chapter>
+<Chapter
+  bgImage={field}
+  imageText={
+    <a
+      href="https://www.google.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Mount Dzembronya. Carpathian Mountains. 
+      Vyacheslav Mishchenko, Ukrainian photographer. (Photo from open sources)
+    </a>
+  }
+  quote={t('Growing up in the Belle Epoque.CHAPTER1.QUOTE.CONTENT')}
+  author={t('Growing up in the Belle Epoque.CHAPTER1.QUOTE.AUTHOR')}
+>
+  {t('Growing up in the Belle Epoque.CHAPTER1.TITLE')}
+</Chapter>
+
 				<ChildhoodBlock />
 			</section>
 		</>

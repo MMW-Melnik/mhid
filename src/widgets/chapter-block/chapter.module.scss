@@ -51,7 +51,8 @@
 }
 
 .imageText {
-	@apply absolute bottom-4 right-1/3 z-10 text-sand text-xs;
+  @apply absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 text-sand text-xs text-center leading-relaxed max-w-[80%];
+  white-space: normal; /* allow wrapping */
 }
 
 @media (max-width: 1000px) {

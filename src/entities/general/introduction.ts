@@ -16,6 +16,6 @@ export const afterWarIntroductionImages: Record<'Kestrel', ImageConfig> = {
 		src: KestrelImage.src,
 		alt: 'Image of kestrel.',
 		caption:
-			'Vyacheslav Mishchenko, Ukrainian photographer. [Photo from open sources]'
+			'Common kestrel. Vyacheslav Mishchenko, Ukrainian photographer. [Photo from open sources]'
 	}
 }

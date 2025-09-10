@@ -11,6 +11,8 @@ import Chapter1HomeImage from '@/app/assets/images/home/premonition-of-war/sofia
 import Chapter1ManImage from '@/app/assets/images/home/premonition-of-war/sofia/man.png'
 import memo from "@/app/assets/images/home/ww2/sofia-hesperingen-police-memo.png"
 import income from "@/app/assets/images/home/ww2/sofia-melnyk-income-report.jpg"
+import Antracg_a from '@/app/assets/images/home/ww2/andrii-antrag.png'
+import diploma from "@/app/assets/images/home/after-war/diploma.png"
 
 import SofiaImage1 from '@/app/assets/images/home/after-war/sofia-1.png'
 import SofiaImage2 from '@/app/assets/images/home/after-war/sofia-2.png'
@@ -56,6 +58,7 @@ export const worldWarTwoSofiaImages: Record<
 	| 'Review'
 	| 'Dispatch'
 	| 'Anmelde'
+	| 'Antracg_a'
 	| 'Antracg'
 	| 'Memo'
 	| 'Income',
@@ -89,6 +92,13 @@ export const worldWarTwoSofiaImages: Record<
 			'[ANLux, Police des Etrangers, Cote I-108-0454952, № 308119, Declaration of Arrival, 1946].'
 	},
 
+	Antracg_a: {
+		src: Antracg_a.src,
+		alt: '',
+		caption:
+			'[Source : ANLux, Police des Etrangers, Cote I-108-0454952, № 308119, Application for residence permit for foreigners, 1946].'
+	},
+
 	Antracg: {
 		src: AntragImage.src,
 		alt: '',
@@ -109,7 +119,7 @@ export const worldWarTwoSofiaImages: Record<
 }
 
 
-export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia4' | 'Andrey1'| 'Andrey2' | 'Andrey3' | "Andrey" | "Sofia" | 'Doc' | 'Obituary' | 'House' | 'Cemetery', ImageConfig> = {
+export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia4' | 'Andrey1'| 'Andrey2' | 'Andrey3' | 'Diploma' | "Andrey" | "Sofia" | 'Doc' | 'Obituary' | 'House' | 'Cemetery', ImageConfig> = {
 	Sofia1: {
 		src: SofiaImage1.src,
 		alt: '',
@@ -144,6 +154,11 @@ export const afterWarSofiaImages: Record<'Sofia1' | 'Sofia2' | 'Sofia3' | 'Sofia
 		src: Andrey3.src,
 		alt: '',
 		caption: 'ANLux, Police des Étrangers, Cote I-108-0454952. № 308119. Application for renewal of the foreign card, 1961, (extract)'
+	},
+		Diploma: {
+		src: diploma.src,
+		alt: '',
+		caption: '[Source : photo from open sources]'
 	},
 	Andrey: {
 		src: Andrey.src,
