@@ -6,7 +6,7 @@
 	"homepage": "https://mmw-melnik.github.io/mhid",
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build && next export",
+		"build": "next build",
 		"start": "next start",
 		"lint": "eslint . --ext .js,.jsx,.ts,.tsx",
 		"storybook": "storybook dev -p 6006",
