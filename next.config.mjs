@@ -7,7 +7,10 @@ const nextConfig = {
 		APP_ENV: process.env.REACT_APP_ENV,
 		FORM_ID: process.env.FORM_ID
 	},
-	output: 'export' // ✅ tells Next.js to generate static files in /out
+	output: 'export', // for static export
+	images: {
+		unoptimized: true // ✅ disable Next.js image optimization for Netlify
+	}
 }
 
 export default nextConfig
