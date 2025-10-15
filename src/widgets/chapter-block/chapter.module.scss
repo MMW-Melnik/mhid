@@ -1,5 +1,5 @@
 .chapter {
-	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden ;
+	@apply flex justify-center items-center relative h-[150vh] w-full overflow-hidden;
 }
 
 .heading_container {
@@ -43,7 +43,7 @@
 }
 
 .content_heading {
-	@apply text-center text-h128 text-sand;
+	@apply text-center text-h60 text-sand;
 }
 
 .quote {
@@ -51,8 +51,8 @@
 }
 
 .imageText {
-  @apply absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 text-sand text-xs text-center leading-relaxed max-w-[80%];
-  white-space: normal; /* allow wrapping */
+	@apply absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10 text-sand text-xs text-center leading-relaxed max-w-[80%];
+	white-space: normal; /* allow wrapping */
 }
 
 @media (max-width: 1000px) {

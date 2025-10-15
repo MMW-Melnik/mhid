@@ -4,7 +4,7 @@ import styles from './download-pdf-button.module.scss'
 import { DownloadPdfButtonProps } from './download-pdf-button.interface'
 
 export const DownloadPdfButton: FC<DownloadPdfButtonProps> = ({
-	href = 'https://docs.google.com/document/d/1JSvFc5YhT_DCcW_B0MV3g1gQn3NWu1Il-3xSfWTcAKw/edit?tab=t.0'
+	href = 'https://drive.google.com/file/d/1mtPcbKOBFu3RtmceEJCq8hUh-XqPSe7D/view?usp=sharing'
 }) => (
 	<a
 		href={href}
