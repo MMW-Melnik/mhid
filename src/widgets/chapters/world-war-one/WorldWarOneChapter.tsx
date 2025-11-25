@@ -11,7 +11,7 @@ export const WorldWarOneChapter: FC = ({}) => {
 	const { t } = useTranslation('home')
 	return (
 		<>
-			<section id='world-war-i' className={styles.ww1_section}>
+			<section id="world-war-i" className={styles.ww1_section}>
 				<Chapter
 					bgImage={poppy}
 					imageText="Vyacheslav Mishchenko, Ukrainian photographer.  (Photo from open sources)"

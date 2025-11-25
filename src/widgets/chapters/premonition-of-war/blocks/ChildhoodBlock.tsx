@@ -1,4 +1,6 @@
-import { charlotteBelleEpoqueImages, sofiaBelleEpoqueImages
+import {
+	charlotteBelleEpoqueImages,
+	sofiaBelleEpoqueImages
 } from '@/entities/index'
 import { useFormattedTexts } from '@/shared/hooks'
 import { Heading, ImageWithSource, RenderTextArray } from '@/shared/ui'
@@ -9,7 +11,7 @@ import styles from '../premonition-war-chapter.module.scss'
 export const ChildhoodBlock: FC = () => {
 	const texts = useFormattedTexts()
 	const { Couple, Sisters, House, Rider } = charlotteBelleEpoqueImages
-	const {Man, Home} = sofiaBelleEpoqueImages
+	const { Man, Home } = sofiaBelleEpoqueImages
 
 	return (
 		<div className={styles.childhood_and_youth}>
@@ -32,9 +34,9 @@ export const ChildhoodBlock: FC = () => {
 				</ContentBlock>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText3} />
 				<ImageWithSource
-						sourceImage={Sisters.src}
-						imageName={Sisters.alt}
-						sourceText={Sisters.caption}
+					sourceImage={Sisters.src}
+					imageName={Sisters.alt}
+					sourceText={Sisters.caption}
 					alt={Sisters.alt}
 				/>
 				<RenderTextArray textArray={texts.rawChapter1CharlotteText4} />
@@ -43,9 +45,9 @@ export const ChildhoodBlock: FC = () => {
 
 			<ContentBlock>
 				<ImageWithSource
-						sourceImage={House.src}
-						imageName={House.alt}
-						sourceText={House.caption}
+					sourceImage={House.src}
+					imageName={House.alt}
+					sourceText={House.caption}
 					alt={House.alt}
 					width={750}
 					height={750}
@@ -58,9 +60,9 @@ export const ChildhoodBlock: FC = () => {
 
 			<ContentBlock>
 				<ImageWithSource
-						sourceImage={Rider.src}
-						imageName={Rider.alt}
-						sourceText={Rider.caption}
+					sourceImage={Rider.src}
+					imageName={Rider.alt}
+					sourceText={Rider.caption}
 					alt={Rider.alt}
 					width={600}
 					height={600}
