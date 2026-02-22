@@ -19,7 +19,7 @@ export const aboutTextData = {
 			text: [
 				"Sonja Kmec is associate professor at the Institute of History, Department of Humanities (University of Luxembourg). She has supervised Dr Serdiuk's project, which fits well with her research interest in memory politics and gender studies. Currently, she leads projects on Music and Gender in Luxembourg (mugi.lu), Supraconfessional Cemeteries and the History of Diplomacy and International Relations.",
 
-				"We would also like to thank Marina Lawrent for facilitating the study and Kristina for her valuable partnership."
+				'We would also like to thank Marina Laurent for facilitating the study and Cristina Haneș for her valuable partnership.'
 			]
 		},
 		developers: {
