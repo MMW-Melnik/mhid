@@ -44,7 +44,6 @@ export const Sofia: FC = () => {
       sourceText={Diploma.caption}
     />
     		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText4} />
-		<RenderTextArray textArray={texts.rawCHAPTER5SofiaText4} />
 			<ImageWithSource
       sourceImage={Andrey.src}
       imageName={Andrey.alt}

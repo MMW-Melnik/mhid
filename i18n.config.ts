@@ -39,11 +39,12 @@ i18n
 				header: headerData.ua.header,
 				footer: footerData.ua.footer,
 				form: formMessages.ua,
-				home: homeContentData.ua
+				home: homeContentData.ua,
+				about: aboutTextData.en
 			}
 		},
 		lng: getCookie('i18next') || 'en',
-		fallbackLng: getCookie('i18next') || 'en',
+		fallbackLng: 'en',
 		interpolation: {
 			escapeValue: false
 		},

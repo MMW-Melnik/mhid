@@ -15,9 +15,8 @@ export const footerData = {
 				title: 'Navigation',
 				items: {
 					home: { name: 'Home', link: '/' },
-					about: { name: 'About', link: '/' },
-					contacts: { name: 'Contacts', link: '/' },
-					getStarted: { name: 'Get Started', link: '/' }
+					about: { name: 'About', link: '/about' },
+					contacts: { name: 'Contacts', link: '/contact' }
 				}
 			},
 			papers: {
@@ -111,9 +110,8 @@ export const footerData = {
 				title: 'Навігація',
 				items: {
 					home: { name: 'Головна', link: '/' },
-					about: { name: 'Про нас', link: '/' },
-					contacts: { name: 'Контакти', link: '/' },
-					getStarted: { name: 'Почати', link: '/' }
+					about: { name: 'Про нас', link: '/about' },
+					contacts: { name: 'Контакти', link: '/contact' }
 				}
 			},
 			papers: {

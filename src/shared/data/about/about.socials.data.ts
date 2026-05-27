@@ -1,5 +1,4 @@
 import {
-	BiBookAlt,
 	BiLogoFacebook,
 	BiLogoGithub,
 	BiLogoInstagram,
@@ -7,18 +6,20 @@ import {
 	BiLogoTelegram
 } from 'react-icons/bi'
 
+// Empty `link` values intentionally hide the card (see SocialMediaCard).
+// Fill in the real URLs for Zhanna Satanovska-Serdiuk (FB) and Zhanna Serdiuk (LinkedIn) when available.
 export const zhannaData = [
 	{
-		title: 'Research Paper',
-		alt: 'research paper Icon',
-		link: 'https://example.com/instagram',
-		icon: BiBookAlt
+		title: 'Facebook',
+		alt: 'Facebook icon',
+		link: '',
+		icon: BiLogoFacebook
 	},
 	{
-		title: 'Facebook',
-		alt: 'FaceBook Icon',
-		link: 'https://facebook.com',
-		icon: BiLogoFacebook
+		title: 'LinkedIn',
+		alt: 'LinkedIn icon',
+		link: '',
+		icon: BiLogoLinkedin
 	}
 ]
 

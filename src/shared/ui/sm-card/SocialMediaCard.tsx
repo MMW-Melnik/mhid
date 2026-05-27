@@ -10,6 +10,7 @@ export const SocialMediaCard: FC<ISocialMediaCard> = ({
 	link,
 	className = ''
 }) => {
+	if (!link || !link.trim()) return null
 	return (
 		<Link
 			className={`${styles.sm_card} ${className}`}

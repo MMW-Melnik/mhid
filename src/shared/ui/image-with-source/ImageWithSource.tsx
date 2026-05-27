@@ -34,10 +34,15 @@ export const ImageWithSource: FC<IImage> = ({
 				alt={alt}
 				className={`${styles.image} ${className}`}
 			/>
-			<div className={styles.meta}>
-				<span className={styles.name}>{imageName}</span>
-				<span className={styles.source}>{sourceText}</span>
-			</div>
+			{(() => {
+				const caption = (sourceText || '').trim() || (imageName || '').trim()
+				if (!caption) return null
+				return (
+					<div className={styles.meta}>
+						<span className={styles.source}>{caption}</span>
+					</div>
+				)
+			})()}
 		</Tilt>
 	)
 }

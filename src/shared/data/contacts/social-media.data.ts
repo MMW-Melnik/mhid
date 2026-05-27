@@ -1,36 +1,24 @@
 import {
 	BiLogoFacebook,
-	BiLogoInstagram,
-	BiLogoTelegram,
-	BiLogoWhatsapp,
+	BiLogoLinkedin,
 	BiMessage,
 	BiPhone
 } from 'react-icons/bi'
 
+// Empty `link` values intentionally hide the card (see SocialMediaCard).
+// Fill in the real URLs for Zhanna's Facebook and LinkedIn when available.
 export const socialMediaData = [
-	{
-		title: 'Instagram',
-		alt: 'instagram icon',
-		link: 'https://example.com/instagram',
-		icon: BiLogoInstagram
-	},
 	{
 		title: 'Facebook',
 		alt: 'facebook icon',
-		link: 'https://example.com/facebook',
+		link: '',
 		icon: BiLogoFacebook
 	},
 	{
-		title: 'WhatsApp',
-		alt: 'whatsapp icon',
-		link: 'https://example.com/whatsApp',
-		icon: BiLogoWhatsapp
-	},
-	{
-		title: 'Telegram',
-		alt: 'telegram icon',
-		link: 'https://example.com/telegram',
-		icon: BiLogoTelegram
+		title: 'LinkedIn',
+		alt: 'linkedin icon',
+		link: '',
+		icon: BiLogoLinkedin
 	},
 	{
 		title: 'Phone',
@@ -40,7 +28,7 @@ export const socialMediaData = [
 	},
 	{
 		title: 'Email',
-		alt: 'email icons',
+		alt: 'email icon',
 		link: 'mailto:mhid.cooperation@gmail.com',
 		icon: BiMessage
 	}
